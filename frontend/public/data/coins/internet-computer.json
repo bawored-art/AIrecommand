@@ -1,11 +1,11 @@
 {
-  "rank": 20,
+  "rank": 19,
   "coin_id": "internet-computer",
   "symbol": "icp",
   "name": "Internet Computer",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 20,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -36,38 +36,38 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.95,
-    "base_score": 57.95,
+    "final_score": 58.49,
+    "base_score": 58.49,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.3,
+        "points": 18.33,
         "fg_raw_pct": -15.26,
-        "fg_z": -0.1,
-        "pg_raw_pct": -18.99,
-        "pg_z": -0.63,
-        "vpd": 0.53,
-        "percentile": 91.5,
+        "fg_z": -0.12,
+        "pg_raw_pct": -19.73,
+        "pg_z": -0.4,
+        "vpd": 0.28,
+        "percentile": 91.67,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -15.3%, PG(가격 변화) -19.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -15.3%, PG(가격 변화) -19.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 6.83,
+        "points": 7.39,
         "raw_value": -11.4,
-        "percentile": 27.34,
+        "percentile": 29.55,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -12.2%"
       },
       "developer": {
         "weight": 15,
         "points": 12.26,
-        "raw_value": 16.45,
+        "raw_value": 10.2,
         "percentile": 81.73,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.83배 (둔화), 릴리즈 30일 12건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.83배 (둔화), 릴리즈 30일 11건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -87,9 +87,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.51,
         "raw_value": 0.0,
-        "percentile": 55.56,
+        "percentile": 55.1,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -101,7 +101,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 58.0 (기본 58.0) = VPD +18.3 + 온체인 +6.8 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 58.5 (기본 58.5) = VPD +18.3 + 온체인 +7.4 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -119,19 +119,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -18.99236814030705,
-    "return_90d_pct": -3.4169299251847076,
+    "return_30d_pct": -19.72546888111875,
+    "return_90d_pct": -4.290984857988467,
     "rsi_14": 49.83,
-    "ma_200d_deviation_pct": -16.945857095040274,
-    "high_90d_position_pct": -37.95184931951898
+    "ma_200d_deviation_pct": -17.697478297800092,
+    "high_90d_position_pct": -38.51337104513419
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.21,
-  "market_cap_usd": 1224547495,
+  "price_usd": 2.19,
+  "market_cap_usd": 1214022636,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

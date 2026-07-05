@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 11,
   "coin_id": "theta-token",
   "symbol": "theta",
   "name": "Theta Network",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 12,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,28 +24,28 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 61.23,
-    "base_score": 61.23,
+    "final_score": 61.62,
+    "base_score": 61.62,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.9,
+        "points": 17.55,
         "fg_raw_pct": 60.38,
-        "fg_z": 0.01,
-        "pg_raw_pct": -14.8,
-        "pg_z": -0.51,
-        "vpd": 0.52,
-        "percentile": 89.5,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.09,
+        "pg_raw_pct": -14.72,
+        "pg_z": -0.32,
+        "vpd": 0.23,
+        "percentile": 87.75,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +60.4%, PG(가격 변화) -14.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +60.4%, PG(가격 변화) -14.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 11.52,
+        "points": 12.31,
         "raw_value": -5.98,
-        "percentile": 46.09,
+        "percentile": 49.24,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -5.7%"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.51,
         "raw_value": 0.0,
-        "percentile": 55.56,
+        "percentile": 55.1,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.2 (기본 61.2) = VPD +17.9 + 온체인 +11.5 + 개발자 +11.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.6 (기본 61.6) = VPD +17.6 + 온체인 +12.3 + 개발자 +11.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 67.9,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -14.798865795569426,
-    "return_90d_pct": -10.391849542805879,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -14.718231494937156,
+    "return_90d_pct": -10.307044444721967,
+    "rsi_14": 37.39,
+    "ma_200d_deviation_pct": -32.52409059688487,
+    "high_90d_position_pct": -43.386521375112785
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.139476,
-  "market_cap_usd": 139500216,
+  "price_usd": 0.139608,
+  "market_cap_usd": 139532288,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

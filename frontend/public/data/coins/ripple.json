@@ -4,8 +4,8 @@
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 1,
-  "rank_change": -5,
+  "previous_rank": 6,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,18 +28,18 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.64,
-    "base_score": 65.64,
+    "final_score": 65.66,
+    "base_score": 65.66,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.9,
+        "points": 8.92,
         "fg_raw_pct": -0.96,
-        "fg_z": -0.08,
+        "fg_z": -0.12,
         "pg_raw_pct": -2.34,
-        "pg_z": -0.14,
-        "vpd": 0.06,
-        "percentile": 44.5,
+        "pg_z": -0.13,
+        "vpd": 0.02,
+        "percentile": 44.61,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
@@ -47,9 +47,9 @@
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
+        "points": 23.68,
         "raw_value": 89.39,
-        "percentile": 94.53,
+        "percentile": 94.7,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.4%"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.51,
         "raw_value": 0.0,
-        "percentile": 55.56,
+        "percentile": 55.1,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.6 (기본 65.6) = VPD +8.9 + 온체인 +23.6 + 개발자 +12.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 65.7 (기본 65.7) = VPD +8.9 + 온체인 +23.7 + 개발자 +12.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -123,7 +123,7 @@
     "reasons": []
   },
   "price_usd": 1.14,
-  "market_cap_usd": 70755037830,
+  "market_cap_usd": 70650623710,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
