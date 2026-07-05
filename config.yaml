@@ -1,0 +1,159 @@
+# AI Altcoin Research Agent v2 - 설정 파일
+# 이 파일의 값만 바꿔도 필터 기준, 스코어링 가중치, 스케줄을 조정할 수 있습니다.
+# 코드를 수정하지 않아도 되도록 모든 조정 가능한 값은 여기에 모아둡니다.
+
+app:
+  timezone: "Asia/Seoul"
+  # 실제 실행 스케줄(cron)은 .github/workflows/*.yml 에서 정의됩니다 (Stage 5).
+  # 여기 값은 문서화 및 로컬 실행 시 참고용입니다.
+  schedule_kst: ["07:00", "19:00"]
+
+universe:
+  top_n: 300
+  vs_currency: "usd"
+  per_page: 250   # CoinGecko /coins/markets 1회 요청 최대 개수
+  max_pages: 2    # top_n(300)을 채우기 위해 필요한 페이지 수
+
+filters:
+  min_daily_volume_usd: 2000000
+  exclude_stablecoins: true
+  exclude_wrapped_tokens: true
+  exclude_suspected_scams: true
+
+  stablecoin_symbols: ["usdt", "usdc", "dai", "busd", "tusd", "usdp", "fdusd", "usde", "frax", "gusd", "lusd", "pyusd"]
+  stablecoin_categories: ["stablecoins"]
+
+  wrapped_categories: ["wrapped-tokens"]
+  wrapped_token_patterns: ["\\bwrapped\\b", "\\bstaked\\b", "\\bbridged\\b"]
+
+  scam_heuristics:
+    # 시총/거래량 비율이 이 값을 넘으면 유동성 이상(스캠 의심)으로 간주
+    max_mcap_to_volume_ratio: 5000
+    # 유통량이 0 이하거나 누락된 경우 스캠 의심으로 간주
+    require_positive_supply: true
+
+history:
+  lookback_days: [30, 90]
+  raw_dir: "data/history/raw"
+  latest_output: "data/latest/top300.json"
+
+cache:
+  dir: ".cache"
+  default_ttl_seconds: 86400   # 24시간
+
+http:
+  timeout_seconds: 15
+  max_retries: 4
+  backoff_factor: 1.5
+  retry_on_status: [429, 500, 502, 503, 504]
+
+sources:
+  coingecko:
+    enabled: true
+    base_url: "https://api.coingecko.com/api/v3"
+  defillama:
+    enabled: true
+    base_url: "https://api.llama.fi"
+  github:
+    enabled: true
+    base_url: "https://api.github.com"
+  rss:
+    enabled: true
+    feeds:
+      - name: "CoinDesk"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+      - name: "CoinTelegraph"
+        url: "https://cointelegraph.com/rss"
+  santiment:
+    # 유료 소스. API 키가 없으면 자동으로 mock 클라이언트를 사용한다.
+    enabled: true
+  feargreed:
+    # market.json의 Fear & Greed Index. 무료, API 키 불필요.
+    enabled: true
+    base_url: "https://api.alternative.me"
+
+logging:
+  dir: "logs"
+  retention_days: 30
+  level: "INFO"
+
+# CatalystAnalyzer / NewsAnalyzer / RiskAnalyzer의 배치 분류에 사용.
+# 키가 없거나 enabled: false면 해당 지표는 추정하지 않고 null + 사유로 결측 처리한다.
+llm:
+  enabled: true
+  provider: "anthropic"
+  model: "claude-sonnet-5"
+  api_key_env: "ANTHROPIC_API_KEY"
+  max_retries: 3
+  batch_size: 20        # 한 배치 요청에 포함할 헤드라인 최대 개수
+  max_calls_per_run: null   # 기본 무제한. 스테이지별로 오버라이드 가능(예: explain.max_llm_calls_per_run)
+
+analysis:
+  # 섹터(카테고리) 내 상대 밸류에이션 비교를 위한 최소 동료 표본 수
+  min_sector_peers: 5
+  # 한 실행에서 동시에 진행할 (코인 x analyzer) 비동기 작업 수 상한
+  max_concurrency: 20
+  output_dir: "data/analysis"
+  latest_output: "data/latest/analysis.json"
+
+# Stage 3 점수 모델 v2 — 100점 만점, 전 영역 유니버스 내 백분위 기반 정규화.
+# Technical(RSI/MA/수익률)은 점수에 반영하지 않고 과열 필터에서만 사용한다.
+scoring:
+  weights:
+    onchain_growth: 25
+    vpd: 20
+    developer: 15
+    user_ecosystem: 10
+    catalyst: 10
+    valuation: 10
+    risk: 10
+
+  # VPD의 FG(Fundamental Growth) 산출에 쓰이는 30일 변화율 하위 가중치. 합이 1.0이 되도록 유지.
+  # 코인별로 일부 지표가 결측이면 남은 항목의 가중치를 재정규화해 평균을 낸다.
+  fg_weights:
+    onchain_tvl_growth: 0.35
+    onchain_stablecoin_inflow: 0.15
+    user_fees_growth: 0.25
+    developer_commit_accel: 0.25
+
+  # 카테고리 데이터가 전혀 없는 코인에게 줄 중립 점수 비율 (0.5 = 만점의 절반, 페널티도 보너스도 아님)
+  neutral_score_ratio: 0.5
+
+# 데이터 커버리지 + 소스 신선도 + 소스 간 일관성을 합성한 신뢰도 점수(0~100) 가중치.
+confidence:
+  weights:
+    coverage: 0.4
+    freshness: 0.3
+    consistency: 0.3
+
+# Entry Feasibility Filter (과열 필터). 점수 계산 "이후" 최종 랭킹 단계에서 적용한다.
+overheat_filter:
+  exclude:
+    return_30d_pct_gt: 60    # 30일 수익률이 이 값을 초과하면 Top20 후보에서 제외 (momentum_leaders로 이동)
+    return_90d_pct_gt: 150   # 90일 수익률이 이 값을 초과하면 제외
+  penalty:
+    rsi_gt: 75
+    rsi_penalty: 5
+    ma200_deviation_gt: 80          # 200일 MA 대비 +80% 이상이면 감점
+    ma200_penalty: 5
+    high90d_within_pct: -5          # 90일 고점 대비 -5%(즉 high_90d_position_pct >= -5) 이내면 감점
+    high90d_penalty: 3
+  # 제외 규칙 적용 후 후보가 top_n 미만이면, 하드 제외 대신 아래 감점으로 완화해 재랭킹한다.
+  relaxed_penalty:
+    return_30d_pct_gt_penalty: 15
+    return_90d_pct_gt_penalty: 20
+
+ranking:
+  top_n: 20
+  output_dir: "data/ranking"
+  latest_output: "data/latest/ranking.json"
+
+# Stage4 Reason Generator v2. Top20 각 코인에 LLM 호출 1회(+검증 실패 시 재생성) 기준.
+explain:
+  max_llm_calls_per_run: 60   # Top20 * (1 + 재생성 최대 2회) 여유
+  content_retry_count: 2      # 품질 검증(수치 대조/금지표현) 실패 시 재생성 최대 횟수
+
+# Stage4 정적 JSON 생성기 (python -m pipeline.publish)
+publish:
+  output_dir: "frontend/public/data"
+  history_retention_days: 90

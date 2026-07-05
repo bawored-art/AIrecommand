@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(npm install *)", "Bash(npm run *)",
+      "Bash(pip install *)", "Bash(python -m pytest *)",
+      "Bash(python -m pipeline.*)", "Bash(python -m backend.*)",
+      "Bash(git add *)", "Bash(git commit *)", "Bash(mkdir *)"
+    ],
+    "deny": ["Read(./.env)", "Edit(./.env)"],
+    "ask": ["Bash(git push *)", "Bash(rm *)"]
+  }
+}

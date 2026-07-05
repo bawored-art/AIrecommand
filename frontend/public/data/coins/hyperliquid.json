@@ -1,0 +1,191 @@
+{
+  "rank": 10,
+  "coin_id": "hyperliquid",
+  "symbol": "hype",
+  "name": "Hyperliquid",
+  "badge": null,
+  "previous_rank": 10,
+  "rank_change": 0,
+  "overview": {
+    "one_liner": null,
+    "description_summary": null,
+    "description_source": "CoinGecko",
+    "primary_use_case": null,
+    "categories": [
+      "Decentralized Exchange (DEX)",
+      "Smart Contract Platform",
+      "Exchange-based Tokens",
+      "Decentralized Finance (DeFi)",
+      "Derivatives",
+      "Perpetuals",
+      "Layer 1 (L1)",
+      "Proof of Stake (PoS)",
+      "Hyperliquid Ecosystem",
+      "Governance"
+    ],
+    "chain": "Hyperliquid",
+    "launch_year": null
+  },
+  "score": {
+    "final_score": 42.89,
+    "base_score": 42.89,
+    "breakdown": {
+      "vpd": {
+        "weight": 20,
+        "points": 7.78,
+        "fg_raw_pct": -13.79,
+        "fg_z": 0.56,
+        "pg_raw_pct": 6.08,
+        "pg_z": 0.74,
+        "vpd": -0.18,
+        "percentile": 38.89,
+        "quadrant": "co_movement",
+        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
+        "missing": false,
+        "reason": "FG(펀더멘털 성장) -13.8%, PG(가격 변화) +6.1% → 동반 상승 (펀더멘털·가격 함께 개선)"
+      },
+      "onchain_growth": {
+        "weight": 25,
+        "points": 6.25,
+        "raw_value": 0.46,
+        "percentile": 25.0,
+        "missing": false,
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -13.8%"
+      },
+      "developer": {
+        "weight": 15,
+        "points": 7.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "GitHub 데이터 없음"
+      },
+      "user_ecosystem": {
+        "weight": 10,
+        "points": 5.0,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "수수료 데이터 없음"
+      },
+      "catalyst": {
+        "weight": 10,
+        "points": 5.0,
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
+      },
+      "risk": {
+        "weight": 10,
+        "points": 6.36,
+        "raw_value": 0.0,
+        "percentile": 63.64,
+        "missing": false,
+        "reason": "감지된 리스크 플래그 없음"
+      },
+      "valuation": {
+        "weight": 10,
+        "points": 5.0,
+        "sector_percentile": null,
+        "missing": true,
+        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+      }
+    },
+    "summary": "총점 42.9 (기본 42.9) = VPD +7.8 + 온체인 +6.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +6.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+  },
+  "leading_evidence_summary": null,
+  "detailed_reasons": null,
+  "risk_summary": null,
+  "upcoming_catalysts": {
+    "catalysts": [],
+    "token_unlock_schedule": null,
+    "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
+  },
+  "ai_summary": null,
+  "confidence": {
+    "score": 58.5,
+    "coverage": 0.571,
+    "freshness": 0.688,
+    "consistency": 0.5
+  },
+  "technical_reference": {
+    "return_30d_pct": 6.0758313406532904,
+    "return_90d_pct": 85.14038795505388,
+    "rsi_14": 52.21,
+    "ma_200d_deviation_pct": 67.48193018595792,
+    "high_90d_position_pct": -8.094884274634174
+  },
+  "overheat": {
+    "excluded": false,
+    "penalty": 0.0,
+    "reasons": []
+  },
+  "price_usd": 68.37,
+  "market_cap_usd": 15208142482,
+  "field_status": {
+    "leading_evidence_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "one_liner": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "description_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "primary_use_case": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "detailed_reasons": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "risk_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "ai_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    }
+  },
+  "metric_series": {
+    "tvl_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": null
+        },
+        {
+          "label": "30일 전",
+          "value": null
+        },
+        {
+          "label": "현재",
+          "value": null
+        }
+      ]
+    },
+    "stablecoin_inflow_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 5259968803
+        },
+        {
+          "label": "30일 전",
+          "value": 6998693097
+        },
+        {
+          "label": "현재",
+          "value": 6033566122.54
+        }
+      ]
+    },
+    "fees_24h_usd": null
+  }
+}

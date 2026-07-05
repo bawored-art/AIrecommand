@@ -1,0 +1,2486 @@
+{
+  "date": "2026-07-05",
+  "count": 11,
+  "elapsed_seconds": 4.7,
+  "coins": [
+    {
+      "coin_id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "unavailable",
+              "reason": "defillama_fetch_failed"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "current": 151157,
+              "value_30d_ago": 241628,
+              "value_90d_ago": 148833,
+              "change_30d_pct": -37.44226662472892,
+              "change_90d_pct": 1.5614816606532154
+            }
+          },
+          "evidence": [
+            {
+              "type": "fees_series",
+              "slug": "bitcoin",
+              "source": "defillama"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "commits_30d": 134,
+            "commits_90d": 668,
+            "commit_pace_ratio": 0.602,
+            "contributors_count": 100,
+            "releases_30d": 0,
+            "releases_90d": 2
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "bitcoin/bitcoin",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "catalysts": null,
+            "catalyst_count": null
+          },
+          "evidence": [
+            {
+              "type": "headline",
+              "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/05/barstool-s-portnoy-plans-to-hold-bitcoin-down-to-zero-after-timing-it-wrong-every-time",
+              "published": "Sun, 05 Jul 2026 06:00:22 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin jumps above $63,000, reversing end-June losses",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/04/bitcoin-jumps-above-usd63-000-reversing-end-june-losses",
+              "published": "Sat, 04 Jul 2026 18:07:17 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/business/2026/07/04/bitcoin-experts-split-over-plan-to-freeze-satoshi-s-1-1-million-bitcoin-as-quantum-threat-grows",
+              "published": "Sat, 04 Jul 2026 18:00:00 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Why bitcoin's disconnect from record-high stocks won't last",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/why-bitcoin-s-disconnect-from-record-high-stocks-won-t-last",
+              "published": "Sat, 04 Jul 2026 16:00:00 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin’s next parabolic run may need $1 trillion in fresh capital",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital",
+              "published": "Sat, 04 Jul 2026 06:48:42 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
+              "published": "Fri, 03 Jul 2026 11:45:33 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin, ether traders aren't fully buying the bounce, options markets show",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/daybook-us/2026/07/03/bitcoin-ether-traders-aren-t-fully-buying-the-bounce-options-markets-show",
+              "published": "Fri, 03 Jul 2026 11:27:44 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/memory-and-semiconductor-stocks-lose-momentum-bitcoin-rebounds-in-sign-of-changing-investor-focus",
+              "published": "Fri, 03 Jul 2026 10:41:52 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Live updates: Bitcoin rises above $62,000 as the red hot semiconductor trade starts to fade",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
+              "published": "Fri, 03 Jul 2026 07:05:31 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin ETFs see $221 million inflow, finally ending a painful 10-day selling streak",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/finally-usd221-million-flow-into-bitcoin-etfs-ending-a-painful-10-day-outflow-streak",
+              "published": "Fri, 03 Jul 2026 05:54:51 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/ether-and-solana-extend-gains-as-a-short-squeeze-lifts-bitcoin-toward-usd62-000",
+              "published": "Fri, 03 Jul 2026 05:18:58 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Sat, 04 Jul 2026 13:09:16 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/tim-draper-denies-moving-bitcoin-250k-btc-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Sat, 04 Jul 2026 08:31:02 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin profit and loss ratio falls to 43-month low",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Sat, 04 Jul 2026 05:05:19 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/bitcoin-ether-extend-relief-rallies-as-extreme-fear-meets-renewed-etf-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Sat, 04 Jul 2026 03:54:18 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Crypto Biz: Bitcoin maximalism meets the realities of capital markets",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-maximalism-meets-capital-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 16:03:41 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin price tags $62.3K nine-day high after global stocks hit historic record",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/bitcoin-price-tags-623k-nine-day-high-after-global-stocks-hit-historic-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 15:11:30 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Bitcoin supply metric prints first 'buy' signal since late 2022 as bear market continues",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/bitcoin-supply-metric-prints-first-buy-signal-since-late-2022-as-bear-market-continues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 11:34:04 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Defendant files to dismiss New York lawsuit seeking ownership of 39,069 Bitcoin wallets",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/defendant-dismiss-new-york-lawsuit-bitcoin-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 11:10:24 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Irish authorities seize another 500 Bitcoin, bringing 2026 total to 1,500 BTC",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/irish-authorities-recover-500-bitcoin-criminal-proceeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 08:47:45 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "US spot Bitcoin ETFs top $200M in daily inflows for first time since May",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/spot-bitcoin-etfs-222-million-daily-inflow-reverse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 07:56:40 +0000"
+            }
+          ],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": 22766.85039430562,
+            "fdv_to_mc": 1.0000006483044745,
+            "sector_peer_count": 8,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": 0.0,
+            "categories": [
+              "Smart Contract Platform",
+              "Layer 1 (L1)",
+              "FTX Holdings",
+              "Proof of Work (PoW)",
+              "Bitcoin Ecosystem",
+              "GMCI 30 Index",
+              "GMCI Index",
+              "Coinbase 50 Index"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 1256099613844,
+              "tvl_usd": null,
+              "fees_24h_usd": 151157,
+              "fdv_usd": 1256100428179
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "bitcoin",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "return_30d_pct": -1.7967424619474575,
+            "return_90d_pct": -9.183848779721414,
+            "rsi_14": 47.91,
+            "ma_200d_deviation_pct": -16.145218497277682,
+            "high_90d_position_pct": -23.733033493030742
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 62650
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "bitcoin",
+          "metrics": {
+            "liquidity_ratio": 0.01425701868357082,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": null,
+            "regulatory_issues": null,
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 17908235663,
+              "market_cap_usd": 1256099613844
+            },
+            {
+              "type": "risk_candidate_headline",
+              "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+            },
+            {
+              "type": "risk_candidate_headline",
+              "title": "Defendant files to dismiss New York lawsuit seeking ownership of 39,069 Bitcoin wallets",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/defendant-dismiss-new-york-lawsuit-bitcoin-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: llm_error: no LLM provider configured (missing API key or SDK)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "ethereum",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "current": 154026745638.48,
+              "value_30d_ago": 159042406165,
+              "value_90d_ago": 165464247248,
+              "change_30d_pct": -3.153662376886103,
+              "change_90d_pct": -6.912370375926172
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "ethereum",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "unavailable",
+              "reason": "defillama_fees_fetch_failed"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "ethereum",
+          "metrics": {
+            "commits_30d": 76,
+            "commits_90d": 356,
+            "commit_pace_ratio": 0.64,
+            "contributors_count": 100,
+            "releases_30d": 1,
+            "releases_90d": 2
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "ethereum/go-ethereum",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "ethereum",
+          "metrics": {
+            "catalysts": null,
+            "catalyst_count": null
+          },
+          "evidence": [
+            {
+              "type": "headline",
+              "title": "Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/vitalik-buterin-shares-top-priorities-for-new-lean-ethereum-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Sun, 05 Jul 2026 03:50:36 +0000"
+            }
+          ],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "ethereum",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.0,
+            "sector_peer_count": 9,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Smart Contract Platform",
+              "Layer 1 (L1)",
+              "Ethereum Ecosystem",
+              "FTX Holdings",
+              "Multicoin Capital Portfolio",
+              "Proof of Stake (PoS)",
+              "Alameda Research Portfolio",
+              "Andreessen Horowitz (a16z) Portfolio",
+              "GMCI Layer 1 Index",
+              "GMCI 30 Index",
+              "Delphi Ventures Portfolio",
+              "Galaxy Digital Portfolio",
+              "GMCI Index",
+              "World Liberty Financial Portfolio",
+              "Coinbase 50 Index"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 212649514094,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 212649514094
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "ethereum",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "ethereum",
+          "metrics": {
+            "return_30d_pct": -0.37865555005079404,
+            "return_90d_pct": -16.430755950589546,
+            "rsi_14": 55.58,
+            "ma_200d_deviation_pct": -22.106127860790252,
+            "high_90d_position_pct": -27.200539537378127
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 1762.48
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "ethereum",
+          "metrics": {
+            "liquidity_ratio": 0.03675912369846584,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 7816809793,
+              "market_cap_usd": 212649514094
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "binancecoin",
+      "symbol": "bnb",
+      "name": "BNB",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "unavailable",
+              "reason": "defillama_fetch_failed"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "unavailable",
+              "reason": "defillama_fees_fetch_failed"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "commits_30d": 0,
+            "commits_90d": 0,
+            "commit_pace_ratio": null,
+            "contributors_count": 1,
+            "releases_30d": 0,
+            "releases_90d": 0
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "binance-exchange/binance-official-api-docs",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.0,
+            "sector_peer_count": 9,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Smart Contract Platform",
+              "Exchange-based Tokens",
+              "BNB Chain Ecosystem",
+              "Centralized Exchange (CEX) Token",
+              "Layer 1 (L1)",
+              "Ethereum Ecosystem",
+              "Alleged SEC Securities",
+              "FTX Holdings",
+              "Proof of Stake (PoS)",
+              "GMCI Layer 1 Index",
+              "GMCI 30 Index",
+              "GMCI Index",
+              "Made in China"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 76875071882,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 76875071882
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "return_30d_pct": -5.586344622586651,
+            "return_90d_pct": -5.178765466122226,
+            "rsi_14": 43.86,
+            "ma_200d_deviation_pct": -16.50681216178395,
+            "high_90d_position_pct": -20.581490989172813
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 570.38
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "binancecoin",
+          "metrics": {
+            "liquidity_ratio": 0.0077042533489803024,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": [
+              {
+                "type": "low_liquidity",
+                "severity": "medium",
+                "reason": "24h 거래량/시총 비율이 0.0077로 낮음",
+                "source": "coingecko"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 592265030,
+              "market_cap_usd": 76875071882
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "ripple",
+      "symbol": "xrp",
+      "name": "XRP",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "ripple",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "current": 898399336.91,
+              "value_30d_ago": 752125142,
+              "value_90d_ago": 346426913,
+              "change_30d_pct": 19.448119301136188,
+              "change_90d_pct": 159.33300883872147
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "no_match"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "ripple",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "not_applicable",
+              "reason": "no_matching_defillama_protocol"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "ripple",
+          "metrics": {
+            "commits_30d": 112,
+            "commits_90d": 387,
+            "commit_pace_ratio": 0.868,
+            "contributors_count": 100,
+            "releases_30d": 1,
+            "releases_90d": 2
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "ripple/rippled",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "ripple",
+          "metrics": {
+            "catalysts": null,
+            "catalyst_count": null
+          },
+          "evidence": [
+            {
+              "type": "headline",
+              "title": "XRP climbs 8% as record holder losses signal better risk-reward for buyers",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/04/xrp-climbs-8-as-one-onchain-gauge-signal-shows-favorable-risk-reward-for-buyers",
+              "published": "Sat, 04 Jul 2026 07:08:00 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "XRP bulls test path back toward $1.10 as token zips 4% higher",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/xrp-bulls-test-path-back-toward-usd1-10-as-token-zips-4-higher",
+              "published": "Fri, 03 Jul 2026 05:29:00 +0000"
+            }
+          ],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "ripple",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.6064142233650172,
+            "sector_peer_count": 8,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Smart Contract Platform",
+              "Layer 1 (L1)",
+              "FTX Holdings",
+              "Pantera Capital Portfolio",
+              "Andreessen Horowitz (a16z) Portfolio",
+              "XRP Ledger Ecosystem",
+              "GMCI 30 Index",
+              "Blockchain Capital Portfolio",
+              "GMCI Index",
+              "Made in USA",
+              "Coinbase 50 Index"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 70609265725,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 113427728762
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "ripple",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "ripple",
+          "metrics": {
+            "return_30d_pct": -3.193592012743076,
+            "return_90d_pct": -14.69159597588531,
+            "rsi_14": 52.2,
+            "ma_200d_deviation_pct": -23.55297441430166,
+            "high_90d_position_pct": -23.877817580588815
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 1.13
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "ripple",
+          "metrics": {
+            "liquidity_ratio": 0.024891643723434286,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 1757580686,
+              "market_cap_usd": 70609265725
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "solana",
+      "symbol": "sol",
+      "name": "Solana",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "solana",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "current": 15644315113.52,
+              "value_30d_ago": 15232765344,
+              "value_90d_ago": 15064339080,
+              "change_30d_pct": 2.70174036181884,
+              "change_90d_pct": 3.8499932220059963
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "solana",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "current": 580139,
+              "value_30d_ago": 375655,
+              "value_90d_ago": 508729,
+              "change_30d_pct": 54.43398863318737,
+              "change_90d_pct": 14.036943048263417
+            }
+          },
+          "evidence": [
+            {
+              "type": "fees_series",
+              "slug": "solana",
+              "source": "defillama"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "solana",
+          "metrics": {
+            "commits_30d": 0,
+            "commits_90d": 0,
+            "commit_pace_ratio": null,
+            "contributors_count": 100,
+            "releases_30d": 0,
+            "releases_90d": 0
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "solana-labs/solana",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "solana",
+          "metrics": {
+            "catalysts": null,
+            "catalyst_count": null
+          },
+          "evidence": [
+            {
+              "type": "headline",
+              "title": "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/markets/2026/07/03/ether-and-solana-extend-gains-as-a-short-squeeze-lifts-bitcoin-toward-usd62-000",
+              "published": "Fri, 03 Jul 2026 05:18:58 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "Securitize tokenizes $295 million of its own stock on Solana and Avalanche amid NYSE debut",
+              "source": "CoinDesk",
+              "link": "https://www.coindesk.com/business/2026/07/02/securitize-tokenizes-usd295-million-of-its-own-stock-on-solana-and-avalanche-amid-nyse-debut",
+              "published": "Thu, 02 Jul 2026 19:00:03 +0000"
+            },
+            {
+              "type": "headline",
+              "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 21:36:02 +0000"
+            }
+          ],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "solana",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": 220.55867934531608,
+            "fdv_to_mc": 1.083610024785147,
+            "sector_peer_count": 9,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": 50.0,
+            "categories": [
+              "Smart Contract Platform",
+              "Solana Ecosystem",
+              "Layer 1 (L1)",
+              "FTX Holdings",
+              "Multicoin Capital Portfolio",
+              "Proof of Stake (PoS)",
+              "Alameda Research Portfolio",
+              "Andreessen Horowitz (a16z) Portfolio",
+              "GMCI Layer 1 Index",
+              "GMCI 30 Index",
+              "Delphi Ventures Portfolio",
+              "GMCI Index",
+              "Polychain Capital Portfolio",
+              "Made in USA",
+              "Coinbase 50 Index",
+              "CoinList Launchpad"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 46703462462,
+              "tvl_usd": null,
+              "fees_24h_usd": 580139,
+              "fdv_usd": 50608340116
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "solana",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "solana",
+          "metrics": {
+            "return_30d_pct": 16.845239968358516,
+            "return_90d_pct": -1.7677048580389727,
+            "rsi_14": 64.7,
+            "ma_200d_deviation_pct": -13.900768867191413,
+            "high_90d_position_pct": -17.429450004472933
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 80.36
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "solana",
+          "metrics": {
+            "liquidity_ratio": 0.03872707614497809,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 1808688547,
+              "market_cap_usd": 46703462462
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "tron",
+      "symbol": "trx",
+      "name": "TRON",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "tron",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "current": 89030719959.75,
+              "value_30d_ago": 90023696822,
+              "value_90d_ago": 86245333416,
+              "change_30d_pct": -1.1030172024743337,
+              "change_90d_pct": 3.2296084129153155
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "tron",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "current": 641365,
+              "value_30d_ago": 1054532,
+              "value_90d_ago": 1049805,
+              "change_30d_pct": -39.18012919475179,
+              "change_90d_pct": -38.90627306976057
+            }
+          },
+          "evidence": [
+            {
+              "type": "fees_series",
+              "slug": "tron",
+              "source": "defillama"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "tron",
+          "metrics": {
+            "commits_30d": 0,
+            "commits_90d": 79,
+            "commit_pace_ratio": 0.0,
+            "contributors_count": 100,
+            "releases_30d": 0,
+            "releases_90d": 1
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "tronprotocol/java-tron",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "tron",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "tron",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": 131.55468000237934,
+            "fdv_to_mc": 1.0000333734922902,
+            "sector_peer_count": 8,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": 100.0,
+            "categories": [
+              "Smart Contract Platform",
+              "Layer 1 (L1)",
+              "Alleged SEC Securities",
+              "FTX Holdings",
+              "DWF Labs Portfolio",
+              "Tron Ecosystem",
+              "Proof of Stake (PoS)",
+              "GMCI Layer 1 Index",
+              "GMCI 30 Index",
+              "GMCI Index",
+              "World Liberty Financial Portfolio",
+              "Made in China"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 30796717079,
+              "tvl_usd": null,
+              "fees_24h_usd": 641365,
+              "fdv_usd": 30797744873
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "tron",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "tron",
+          "metrics": {
+            "return_30d_pct": -2.2249152411707773,
+            "return_90d_pct": 1.8025495275579284,
+            "rsi_14": 46.12,
+            "ma_200d_deviation_pct": 4.168486309413202,
+            "high_90d_position_pct": -13.52714163413466
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 0.324677
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "tron",
+          "metrics": {
+            "liquidity_ratio": 0.010513090572916127,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 323768676,
+              "market_cap_usd": 30796717079
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "hyperliquid",
+      "symbol": "hype",
+      "name": "Hyperliquid",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "current": 6033566122.54,
+              "value_30d_ago": 6998693097,
+              "value_90d_ago": 5259968803,
+              "change_30d_pct": -13.79010282467884,
+              "change_90d_pct": 14.707260603880048
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "no_match"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "not_applicable",
+              "reason": "no_matching_defillama_protocol"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "hyperliquid",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "no_repo"
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 4.294562758489548,
+            "sector_peer_count": 9,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Decentralized Exchange (DEX)",
+              "Smart Contract Platform",
+              "Exchange-based Tokens",
+              "Decentralized Finance (DeFi)",
+              "Derivatives",
+              "Perpetuals",
+              "Layer 1 (L1)",
+              "Proof of Stake (PoS)",
+              "Hyperliquid Ecosystem",
+              "Governance"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 15208142482,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 65312322329
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "return_30d_pct": 6.0758313406532904,
+            "return_90d_pct": 85.14038795505388,
+            "rsi_14": 52.21,
+            "ma_200d_deviation_pct": 67.48193018595792,
+            "high_90d_position_pct": -8.094884274634174
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 68.37
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "hyperliquid",
+          "metrics": {
+            "liquidity_ratio": 0.020518724253756632,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 312051682,
+              "market_cap_usd": 15208142482
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "dogecoin",
+      "symbol": "doge",
+      "name": "Dogecoin",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "unavailable",
+              "reason": "defillama_fetch_failed"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "unavailable",
+              "reason": "defillama_fees_fetch_failed"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "commits_30d": 0,
+            "commits_90d": 12,
+            "commit_pace_ratio": 0.0,
+            "contributors_count": 100,
+            "releases_30d": 0,
+            "releases_90d": 0
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "dogecoin/dogecoin",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.1014064313183374,
+            "sector_peer_count": 8,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Smart Contract Platform",
+              "Meme",
+              "Dog-Themed",
+              "Elon Musk-Inspired",
+              "Proof of Work (PoW)",
+              "GMCI Meme Index",
+              "GMCI 30 Index",
+              "GMCI Index",
+              "Coinbase 50 Index",
+              "4chan-Themed"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 11730474631,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 12920020201
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "return_30d_pct": -14.393735232304591,
+            "return_90d_pct": -17.88967559264129,
+            "rsi_14": 34.24,
+            "ma_200d_deviation_pct": -26.465769084127068,
+            "high_90d_position_pct": -34.31773709874549
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 0.075701
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "dogecoin",
+          "metrics": {
+            "liquidity_ratio": 0.0524390873643244,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 615135384,
+              "market_cap_usd": 11730474631
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "rain",
+      "symbol": "rain",
+      "name": "Rain",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "rain",
+          "metrics": {
+            "tvl_growth": {
+              "current": 28864546.60087492,
+              "value_30d_ago": 27443190,
+              "value_90d_ago": 693081,
+              "change_30d_pct": 5.179268885559293,
+              "change_90d_pct": 4064.671459883465
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "not_applicable",
+              "reason": "coin_is_not_an_l1_chain"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": 28864546.60087492,
+              "source": "defillama",
+              "defillama_match": "ok"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "rain",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "current": 0,
+              "value_30d_ago": 2,
+              "value_90d_ago": 0,
+              "change_30d_pct": -100.0,
+              "change_90d_pct": null
+            }
+          },
+          "evidence": [
+            {
+              "type": "fees_series",
+              "slug": "rain",
+              "source": "defillama"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "rain",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "no_repo"
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "rain",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "rain",
+          "metrics": {
+            "mc_to_tvl": 352.10225861271414,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.7373612394371827,
+            "sector_peer_count": 2,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Gambling (GambleFi)",
+              "Decentralized Finance (DeFi)",
+              "Options",
+              "Prediction Markets",
+              "Arbitrum Ecosystem"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 10163272052,
+              "tvl_usd": 28864546.60087492,
+              "fees_24h_usd": 0,
+              "fdv_usd": 17657274929
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "섹터 동료 표본 부족(2/5)으로 백분위 결측"
+            ]
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "rain",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "rain",
+          "metrics": {
+            "return_30d_pct": 8.835484805305192,
+            "return_90d_pct": 132.18364460133373,
+            "rsi_14": 64.46,
+            "ma_200d_deviation_pct": 58.38126741527022,
+            "high_90d_position_pct": -4.082556473636463
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 0.01535685
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "rain",
+          "metrics": {
+            "liquidity_ratio": 0.0036376059610373993,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": [
+              {
+                "type": "low_liquidity",
+                "severity": "medium",
+                "reason": "24h 거래량/시총 비율이 0.0036로 낮음",
+                "source": "coingecko"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 36969979,
+              "market_cap_usd": 10163272052
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "usds",
+      "symbol": "usds",
+      "name": "USDS",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "usds",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "not_applicable",
+              "reason": "coin_is_not_an_l1_chain"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "no_match"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "usds",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "not_applicable",
+              "reason": "no_matching_defillama_protocol"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "usds",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "no_repo"
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "usds",
+          "metrics": {
+            "catalysts": [],
+            "catalyst_count": 0
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없어 촉매 0건으로 판단"
+            ]
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "usds",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.0,
+            "sector_peer_count": 4,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Stablecoins",
+              "USD Stablecoin",
+              "Solana Ecosystem",
+              "Arbitrum Ecosystem",
+              "Ethereum Ecosystem",
+              "Fiat-backed Stablecoin",
+              "Base Native"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 10138304722,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 10138304722
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "섹터 동료 표본 부족(4/5)으로 백분위 결측"
+            ]
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "usds",
+          "metrics": {
+            "headlines_evaluated": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "neutral_count": 0,
+            "net_sentiment_score": null,
+            "items": []
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "ok",
+            "notes": [
+              "이 코인을 언급하는 헤드라인이 없음"
+            ]
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "usds",
+          "metrics": {
+            "return_30d_pct": 0.009881684201901803,
+            "return_90d_pct": -0.01137833804131191,
+            "rsi_14": 49.74,
+            "ma_200d_deviation_pct": -0.00446424688231204,
+            "high_90d_position_pct": -0.10738351802542766
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 0.999697
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "usds",
+          "metrics": {
+            "liquidity_ratio": 0.003317164646572753,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": [
+              {
+                "type": "low_liquidity",
+                "severity": "medium",
+                "reason": "24h 거래량/시총 비율이 0.0033로 낮음",
+                "source": "coingecko"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 33630426,
+              "market_cap_usd": 10138304722
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "coin_id": "zcash",
+      "symbol": "zec",
+      "name": "Zcash",
+      "analyzers": {
+        "onchain_growth": {
+          "analyzer": "onchain_growth",
+          "coin_id": "zcash",
+          "metrics": {
+            "tvl_growth": {
+              "current": null,
+              "value_30d_ago": null,
+              "value_90d_ago": null,
+              "change_30d_pct": null,
+              "change_90d_pct": null
+            },
+            "active_address_growth": null,
+            "transaction_count_growth": null,
+            "new_holder_growth": null,
+            "exchange_net_flow": null,
+            "stablecoin_inflow": {
+              "status": "unavailable",
+              "reason": "defillama_fetch_failed"
+            }
+          },
+          "evidence": [
+            {
+              "type": "tvl_snapshot",
+              "tvl_usd": null,
+              "source": "defillama",
+              "defillama_match": "no_match"
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "active_address_growth/transaction_count_growth/new_holder_growth/exchange_net_flow: 무료 온체인 지표 API(Glassnode·Nansen 등) 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "user_ecosystem": {
+          "analyzer": "user_ecosystem",
+          "coin_id": "zcash",
+          "metrics": {
+            "dau_trend": null,
+            "fees_growth": {
+              "status": "not_applicable",
+              "reason": "no_matching_defillama_protocol"
+            }
+          },
+          "evidence": [],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "dau_trend: DAU를 제공하는 무료 API 미연동으로 항상 결측"
+            ]
+          }
+        },
+        "developer": {
+          "analyzer": "developer",
+          "coin_id": "zcash",
+          "metrics": {
+            "commits_30d": 17,
+            "commits_90d": 339,
+            "commit_pace_ratio": 0.15,
+            "contributors_count": 100,
+            "releases_30d": 0,
+            "releases_90d": 5
+          },
+          "evidence": [
+            {
+              "type": "github_repo",
+              "repo": "zcash/zcash",
+              "source": "github"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "catalyst": {
+          "analyzer": "catalyst",
+          "coin_id": "zcash",
+          "metrics": {
+            "catalysts": null,
+            "catalyst_count": null
+          },
+          "evidence": [
+            {
+              "type": "headline",
+              "title": "Zcash’s Ironwood upgrade faces possible delay over infrastructure readiness",
+              "source": "CoinTelegraph",
+              "link": "https://cointelegraph.com/news/zcash-ironwood-upgrade-possible-delay-infrastructure-readiness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "published": "Fri, 03 Jul 2026 11:21:30 +0000"
+            }
+          ],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "valuation": {
+          "analyzer": "valuation",
+          "coin_id": "zcash",
+          "metrics": {
+            "mc_to_tvl": null,
+            "mc_to_fees_annualized": null,
+            "fdv_to_mc": 1.0000927763156098,
+            "sector_peer_count": 8,
+            "mc_to_tvl_percentile": null,
+            "mc_to_fees_percentile": null,
+            "categories": [
+              "Privacy Coins",
+              "Layer 1 (L1)",
+              "Near Protocol Ecosystem",
+              "Zero Knowledge (ZK)",
+              "Proof of Work (PoW)",
+              "Pantera Capital Portfolio",
+              "Made in USA",
+              "Coinbase 50 Index",
+              "Quantum-Resistant",
+              "Privacy"
+            ]
+          },
+          "evidence": [
+            {
+              "type": "valuation_inputs",
+              "market_cap_usd": 7645722891,
+              "tvl_usd": null,
+              "fees_24h_usd": null,
+              "fdv_usd": 7646432233
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "news": {
+          "analyzer": "news",
+          "coin_id": "zcash",
+          "metrics": {},
+          "evidence": [],
+          "data_quality": {
+            "status": "unavailable",
+            "reason": "llm_error: no LLM provider configured (missing API key or SDK)"
+          }
+        },
+        "technical": {
+          "analyzer": "technical",
+          "coin_id": "zcash",
+          "metrics": {
+            "return_30d_pct": -0.09208009222593753,
+            "return_90d_pct": 86.06328376715719,
+            "rsi_14": 54.15,
+            "ma_200d_deviation_pct": 20.19616776688231,
+            "high_90d_position_pct": -32.07134996071792
+          },
+          "evidence": [
+            {
+              "type": "price_baseline",
+              "current_price_usd": 455.3
+            },
+            {
+              "type": "market_chart",
+              "days_available": 201,
+              "source": "coingecko"
+            }
+          ],
+          "data_quality": {
+            "status": "ok",
+            "notes": []
+          }
+        },
+        "risk": {
+          "analyzer": "risk",
+          "coin_id": "zcash",
+          "metrics": {
+            "liquidity_ratio": 0.02942476482698881,
+            "token_unlock_schedule": null,
+            "whale_concentration": null,
+            "hack_history": [],
+            "regulatory_issues": [],
+            "risk_flags": []
+          },
+          "evidence": [
+            {
+              "type": "liquidity_inputs",
+              "volume_24h_usd": 224973598,
+              "market_cap_usd": 7645722891
+            }
+          ],
+          "data_quality": {
+            "status": "partial",
+            "notes": [
+              "token_unlock_schedule: 무료 언락 일정 API(TokenUnlocks 등) 미연동으로 결측",
+              "whale_concentration: 온체인 홀더 분포 API 미연동으로 결측",
+              "hack_history/regulatory_issues: 위험 키워드에 해당하는 헤드라인 없음 (0건으로 판단)"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+name: Update Data and Deploy
+
+on:
+  schedule:
+    # KST 07:00 / 19:00 목표 실행 시각의 10분 전에 트리거한다 (cron은 UTC 기준, KST = UTC+9).
+    - cron: "50 21 * * *"  # KST 06:50 -> 파이프라인 완료 후 07:00 전후 반영 목표
+    - cron: "50 9 * * *"   # KST 18:50 -> 파이프라인 완료 후 19:00 전후 반영 목표
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 파이프라인의 파일 캐시(.cache/, 24시간~30일 TTL)를 복원해 API 호출을 줄인다.
+      # 30/90일 백필의 진짜 연속성은 data/history/raw/가 담당하며, 이는 아래 "커밋" 단계로 저장소에 축적된다.
+      - name: Restore HTTP response cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: altcoin-cache-${{ github.run_id }}
+          restore-keys: |
+            altcoin-cache-
+
+      - name: Install backend dependencies
+        run: pip install -e ".[dev,llm]"
+
+      - name: Run pipeline (collect -> analyze -> rank -> publish)
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          # Actions가 자동 발급하는 토큰을 그대로 재사용한다 — 별도 Secrets 등록 없이도
+          # 공개 API 레이트리밋을 60/h -> 5000/h로 올려준다.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.run_all
+
+      # 다음 회차의 "이전 스냅샷"(신규진입/순위변동 계산, 백필 로컬 우선조회)이 되도록
+      # 파이프라인 산출물을 저장소에 커밋한다. 이 단계까지 왔다는 것은 위 실행이 성공했다는 뜻이므로
+      # 실패 시에는 여기 도달하지 않아 이전 데이터가 그대로 보존된다.
+      - name: Commit updated data
+        run: |
+          git config user.name "altcoin-research-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data frontend/public/data
+          git diff --cached --quiet || git commit -m "chore: update data $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git push
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: frontend
+        env:
+          VITE_ACCESS_PASSCODE: ${{ secrets.VITE_ACCESS_PASSCODE }}
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

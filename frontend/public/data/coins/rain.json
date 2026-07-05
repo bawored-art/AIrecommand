@@ -1,0 +1,188 @@
+{
+  "rank": 8,
+  "coin_id": "rain",
+  "symbol": "rain",
+  "name": "Rain",
+  "badge": null,
+  "previous_rank": 11,
+  "rank_change": 3,
+  "overview": {
+    "one_liner": null,
+    "description_summary": null,
+    "description_source": "CoinGecko",
+    "primary_use_case": null,
+    "categories": [
+      "Gambling (GambleFi)",
+      "Decentralized Finance (DeFi)",
+      "Options",
+      "Prediction Markets",
+      "Arbitrum Ecosystem"
+    ],
+    "chain": "Arbitrum",
+    "launch_year": null
+  },
+  "score": {
+    "final_score": 43.36,
+    "base_score": 46.36,
+    "breakdown": {
+      "vpd": {
+        "weight": 20,
+        "points": 3.33,
+        "fg_raw_pct": -38.65,
+        "fg_z": -0.08,
+        "pg_raw_pct": 8.84,
+        "pg_z": 1.1,
+        "vpd": -1.18,
+        "percentile": 16.67,
+        "quadrant": "pure_pump",
+        "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
+        "missing": false,
+        "reason": "FG(펀더멘털 성장) -38.6%, PG(가격 변화) +8.8% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
+      },
+      "onchain_growth": {
+        "weight": 25,
+        "points": 22.92,
+        "raw_value": 2034.93,
+        "percentile": 91.67,
+        "missing": false,
+        "reason": "TVL 30일 +5.2%"
+      },
+      "developer": {
+        "weight": 15,
+        "points": 7.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "GitHub 데이터 없음"
+      },
+      "user_ecosystem": {
+        "weight": 10,
+        "points": 1.25,
+        "raw_value": -100.0,
+        "percentile": 12.5,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 -100.0%"
+      },
+      "catalyst": {
+        "weight": 10,
+        "points": 5.0,
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
+      },
+      "risk": {
+        "weight": 10,
+        "points": 1.36,
+        "raw_value": 2.0,
+        "percentile": 13.64,
+        "missing": false,
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0036로 낮음"
+      },
+      "valuation": {
+        "weight": 10,
+        "points": 5.0,
+        "sector_percentile": null,
+        "missing": true,
+        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+      }
+    },
+    "summary": "총점 43.4 (기본 46.4) = VPD +3.3 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +1.2 + 촉매 +5.0 + 리스크 +1.4 + 밸류에이션 +5.0 + 과열필터 -3.0"
+  },
+  "leading_evidence_summary": null,
+  "detailed_reasons": null,
+  "risk_summary": null,
+  "upcoming_catalysts": {
+    "catalysts": [],
+    "token_unlock_schedule": null,
+    "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
+  },
+  "ai_summary": null,
+  "confidence": {
+    "score": 64.2,
+    "coverage": 0.714,
+    "freshness": 0.688,
+    "consistency": 0.5
+  },
+  "technical_reference": {
+    "return_30d_pct": 8.835484805305192,
+    "return_90d_pct": 132.18364460133373,
+    "rsi_14": 64.46,
+    "ma_200d_deviation_pct": 58.38126741527022,
+    "high_90d_position_pct": -4.082556473636463
+  },
+  "overheat": {
+    "excluded": false,
+    "penalty": 3.0,
+    "reasons": [
+      "90일 고점 대비 -4.1% (-5% 이내) (-3)"
+    ]
+  },
+  "price_usd": 0.01535685,
+  "market_cap_usd": 10163272052,
+  "field_status": {
+    "leading_evidence_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "one_liner": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "description_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "primary_use_case": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "detailed_reasons": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "risk_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    },
+    "ai_summary": {
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+    }
+  },
+  "metric_series": {
+    "tvl_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 693081
+        },
+        {
+          "label": "30일 전",
+          "value": 27443190
+        },
+        {
+          "label": "현재",
+          "value": 28864546.60087492
+        }
+      ]
+    },
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 0
+        },
+        {
+          "label": "30일 전",
+          "value": 2
+        },
+        {
+          "label": "현재",
+          "value": 0
+        }
+      ]
+    }
+  }
+}
