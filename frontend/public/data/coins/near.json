@@ -1,81 +1,94 @@
 {
-  "rank": 6,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 1,
-  "rank_change": -5,
+  "rank": 15,
+  "coin_id": "near",
+  "symbol": "near",
+  "name": "NEAR Protocol",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
+      "Artificial Intelligence (AI)",
       "Smart Contract Platform",
       "Layer 1 (L1)",
+      "Near Protocol Ecosystem",
+      "Alleged SEC Securities",
       "FTX Holdings",
+      "Data Availability",
+      "Coinbase Ventures Portfolio",
+      "Multicoin Capital Portfolio",
+      "Proof of Stake (PoS)",
+      "Alameda Research Portfolio",
+      "DragonFly Capital Portfolio",
       "Pantera Capital Portfolio",
       "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
+      "GMCI Layer 1 Index",
       "GMCI 30 Index",
-      "Blockchain Capital Portfolio",
+      "Circle Ventures Portfolio",
       "GMCI Index",
       "Made in USA",
-      "Coinbase 50 Index"
+      "Coinbase 50 Index",
+      "Chain Abstraction",
+      "CoinList Launchpad",
+      "Privacy Infrastructure",
+      "Privacy"
     ],
-    "chain": "XRP 자체 메인넷",
+    "chain": "NEAR Protocol 자체 메인넷",
     "launch_year": null
   },
   "score": {
-    "final_score": 65.64,
-    "base_score": 65.64,
+    "final_score": 59.09,
+    "base_score": 59.09,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.9,
-        "fg_raw_pct": -0.96,
-        "fg_z": -0.08,
-        "pg_raw_pct": -2.34,
-        "pg_z": -0.14,
-        "vpd": 0.06,
-        "percentile": 44.5,
+        "points": 15.1,
+        "fg_raw_pct": -25.72,
+        "fg_z": -0.12,
+        "pg_raw_pct": -11.77,
+        "pg_z": -0.42,
+        "vpd": 0.3,
+        "percentile": 75.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -1.0%, PG(가격 변화) -2.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -25.7%, PG(가격 변화) -11.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
-        "raw_value": 89.39,
-        "percentile": 94.53,
+        "points": 12.7,
+        "raw_value": -5.2,
+        "percentile": 50.78,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.4%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.8%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.55,
-        "raw_value": 18.4,
-        "percentile": 83.65,
+        "points": 9.66,
+        "raw_value": -14.55,
+        "percentile": 64.42,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.87배 (둔화), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.71배 (둔화), 릴리즈 30일 2건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "수수료 데이터 없음"
+        "points": 7.39,
+        "raw_value": 23.37,
+        "percentile": 73.86,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 -36.1%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -87,43 +100,43 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 3.68,
+        "sector_percentile": 36.8,
+        "missing": false,
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 36.8 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.6 (기본 65.6) = VPD +8.9 + 온체인 +23.6 + 개발자 +12.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.1 (기본 59.1) = VPD +15.1 + 온체인 +12.7 + 개발자 +9.7 + 사용자 +7.4 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +3.7 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
-    "consistency": 0.5
+    "score": 96.3,
+    "coverage": 1.0,
+    "freshness": 0.875,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -2.3368981367496513,
-    "return_90d_pct": -13.936654347353322,
-    "rsi_14": 52.44,
-    "ma_200d_deviation_pct": -22.87677882844071,
-    "high_90d_position_pct": -23.20416994855863
+    "return_30d_pct": -11.772443901613693,
+    "return_90d_pct": 56.39735478340988,
+    "rsi_14": 41.35,
+    "ma_200d_deviation_pct": 25.884805345783192,
+    "high_90d_position_pct": -30.93777577187902
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.14,
-  "market_cap_usd": 70755037830,
+  "price_usd": 1.95,
+  "market_cap_usd": 2535136018,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,18 +188,33 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 346426913
+          "value": 121206485
         },
         {
           "label": "30일 전",
-          "value": 752125142
+          "value": 115190936
         },
         {
           "label": "현재",
-          "value": 898399336.91
+          "value": 111983782.43
         }
       ]
     },
-    "fees_24h_usd": null
+    "fees_24h_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 886
+        },
+        {
+          "label": "30일 전",
+          "value": 2535
+        },
+        {
+          "label": "현재",
+          "value": 1620
+        }
+      ]
+    }
   }
 }

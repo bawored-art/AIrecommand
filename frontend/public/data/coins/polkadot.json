@@ -1,11 +1,11 @@
 {
-  "rank": 6,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 1,
-  "rank_change": -5,
+  "rank": 13,
+  "coin_id": "polkadot",
+  "symbol": "dot",
+  "name": "Polkadot",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -13,53 +13,58 @@
     "primary_use_case": null,
     "categories": [
       "Smart Contract Platform",
-      "Layer 1 (L1)",
-      "FTX Holdings",
+      "Polkadot Ecosystem",
+      "BNB Chain Ecosystem",
+      "Arbitrum Ecosystem",
+      "Ethereum Ecosystem",
+      "Optimism Ecosystem",
+      "Base Ecosystem",
+      "Proof of Stake (PoS)",
+      "Layer 0 (L0)",
       "Pantera Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
       "GMCI 30 Index",
-      "Blockchain Capital Portfolio",
       "GMCI Index",
       "Made in USA",
-      "Coinbase 50 Index"
+      "Coinbase 50 Index",
+      "Governance",
+      "Base Native"
     ],
-    "chain": "XRP 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 65.64,
-    "base_score": 65.64,
+    "final_score": 60.29,
+    "base_score": 60.29,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.9,
-        "fg_raw_pct": -0.96,
-        "fg_z": -0.08,
-        "pg_raw_pct": -2.34,
-        "pg_z": -0.14,
-        "vpd": 0.06,
-        "percentile": 44.5,
+        "points": 16.7,
+        "fg_raw_pct": -31.7,
+        "fg_z": -0.13,
+        "pg_raw_pct": -16.19,
+        "pg_z": -0.55,
+        "vpd": 0.42,
+        "percentile": 83.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -1.0%, PG(가격 변화) -2.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -31.7%, PG(가격 변화) -16.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
-        "raw_value": 89.39,
-        "percentile": 94.53,
-        "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.4%"
+        "points": 12.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "TVL 30일 N/A"
       },
       "developer": {
         "weight": 15,
-        "points": 12.55,
-        "raw_value": 18.4,
-        "percentile": 83.65,
+        "points": 10.53,
+        "raw_value": -4.09,
+        "percentile": 70.19,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.87배 (둔화), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.68배 (둔화), 릴리즈 30일 7건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -93,7 +98,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.6 (기본 65.6) = VPD +8.9 + 온체인 +23.6 + 개발자 +12.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.3 (기본 60.3) = VPD +16.7 + 온체인 +12.5 + 개발자 +10.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,25 +110,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
+    "score": 47.1,
+    "coverage": 0.429,
+    "freshness": 0.5,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -2.3368981367496513,
-    "return_90d_pct": -13.936654347353322,
-    "rsi_14": 52.44,
-    "ma_200d_deviation_pct": -22.87677882844071,
-    "high_90d_position_pct": -23.20416994855863
+    "return_30d_pct": -16.189039437861524,
+    "return_90d_pct": -30.187784583088096,
+    "rsi_14": 34.92,
+    "ma_200d_deviation_pct": -38.279753932326905,
+    "high_90d_position_pct": -37.32140042345306
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.14,
-  "market_cap_usd": 70755037830,
+  "price_usd": 0.867979,
+  "market_cap_usd": 1468447827,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,22 +176,7 @@
         }
       ]
     },
-    "stablecoin_inflow_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 346426913
-        },
-        {
-          "label": "30일 전",
-          "value": 752125142
-        },
-        {
-          "label": "현재",
-          "value": 898399336.91
-        }
-      ]
-    },
+    "stablecoin_inflow_usd": null,
     "fees_24h_usd": null
   }
 }
