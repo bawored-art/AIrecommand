@@ -1,11 +1,11 @@
 {
-  "rank": 13,
-  "coin_id": "gala",
-  "symbol": "gala",
-  "name": "GALA",
-  "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "rank": 19,
+  "coin_id": "canton-network",
+  "symbol": "cc",
+  "name": "Canton",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -13,38 +13,29 @@
     "primary_use_case": null,
     "categories": [
       "Smart Contract Platform",
-      "Gaming (GameFi)",
-      "NFT",
-      "Solana Ecosystem",
       "Layer 1 (L1)",
-      "Play To Earn",
-      "Ethereum Ecosystem",
-      "DWF Labs Portfolio",
-      "Gaming Platform",
-      "YZi Labs (Prev. Binance Labs) Portfolio",
-      "GalaChain Ecosystem",
-      "Made in USA"
+      "Privacy Blockchain"
     ],
-    "chain": "Ethereum",
+    "chain": null,
     "launch_year": null
   },
   "score": {
-    "final_score": 61.2,
-    "base_score": 61.2,
+    "final_score": 58.08,
+    "base_score": 58.08,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.92,
-        "fg_raw_pct": -33.3,
-        "fg_z": -0.19,
-        "pg_raw_pct": -8.62,
-        "pg_z": -0.62,
-        "vpd": 0.43,
-        "percentile": 89.6,
+        "points": 17.52,
+        "fg_raw_pct": -5.59,
+        "fg_z": -0.16,
+        "pg_raw_pct": -7.3,
+        "pg_z": -0.58,
+        "vpd": 0.41,
+        "percentile": 87.62,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -8.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -5.6%, PG(가격 변화) -7.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,19 +47,19 @@
       },
       "developer": {
         "weight": 15,
-        "points": 10.33,
-        "raw_value": -16.65,
-        "percentile": 68.87,
-        "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.67배 (둔화), 릴리즈 30일 1건"
-      },
-      "user_ecosystem": {
-        "weight": 10,
-        "points": 5.0,
+        "points": 7.5,
         "raw_value": null,
         "percentile": null,
         "missing": true,
-        "reason": "수수료 데이터 없음"
+        "reason": "GitHub 데이터 없음"
+      },
+      "user_ecosystem": {
+        "weight": 10,
+        "points": 5.11,
+        "raw_value": -9.79,
+        "percentile": 51.14,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 -5.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -80,21 +71,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.45,
-        "raw_value": 0.0,
-        "percentile": 54.48,
+        "points": 0.45,
+        "raw_value": 2.0,
+        "percentile": 4.48,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0018로 낮음"
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 10.0,
+        "sector_percentile": 100.0,
+        "missing": false,
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.2 (기본 61.2) = VPD +17.9 + 온체인 +12.5 + 개발자 +10.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 58.1 (기본 58.1) = VPD +17.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.1 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,25 +97,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.2,
-    "coverage": 0.571,
-    "freshness": 0.812,
+    "score": 66.1,
+    "coverage": 0.714,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -8.616095074990868,
-    "return_90d_pct": -20.412274031368387,
-    "rsi_14": 35.81,
-    "ma_200d_deviation_pct": -42.63008782221052,
-    "high_90d_position_pct": -45.06031462044189
+    "return_30d_pct": -7.297506105980781,
+    "return_90d_pct": -4.732203514217309,
+    "rsi_14": 23.56,
+    "ma_200d_deviation_pct": -7.647074821246679,
+    "high_90d_position_pct": -16.682354008900603
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00227666,
-  "market_cap_usd": 110669662,
+  "price_usd": 0.138492,
+  "market_cap_usd": 5403003864,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -173,6 +164,21 @@
       ]
     },
     "stablecoin_inflow_usd": null,
-    "fees_24h_usd": null
+    "fees_24h_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 2249002
+        },
+        {
+          "label": "30일 전",
+          "value": 2048741
+        },
+        {
+          "label": "현재",
+          "value": 1934210
+        }
+      ]
+    }
   }
 }

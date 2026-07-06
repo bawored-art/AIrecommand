@@ -3,9 +3,9 @@
   "coin_id": "bittorrent",
   "symbol": "btt",
   "name": "BitTorrent",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 15,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,28 +29,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.55,
-    "base_score": 60.55,
+    "final_score": 59.82,
+    "base_score": 59.82,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.18,
+        "points": 11.98,
         "fg_raw_pct": 5.53,
         "fg_z": -0.15,
-        "pg_raw_pct": 2.63,
-        "pg_z": -0.14,
-        "vpd": -0.01,
-        "percentile": 60.89,
+        "pg_raw_pct": 3.4,
+        "pg_z": -0.21,
+        "vpd": 0.05,
+        "percentile": 59.9,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +5.5%, PG(가격 변화) +2.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +5.5%, PG(가격 변화) +3.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.34,
+        "points": 19.89,
         "raw_value": 8.43,
-        "percentile": 81.34,
+        "percentile": 79.55,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +5.5%"
       },
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.53,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 55.31,
+        "percentile": 54.48,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.5 (기본 60.5) = VPD +12.2 + 온체인 +20.3 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.8 (기본 59.8) = VPD +12.0 + 온체인 +19.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,19 +112,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 2.634895267875209,
-    "return_90d_pct": -14.436853021131862,
+    "return_30d_pct": 3.400124207359844,
+    "return_90d_pct": -13.7989082358742,
     "rsi_14": 48.86,
-    "ma_200d_deviation_pct": -20.05434044794652,
-    "high_90d_position_pct": -21.877037193082
+    "ma_200d_deviation_pct": -19.458278727264215,
+    "high_90d_position_pct": -21.294565200275795
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.67978e-07,
-  "market_cap_usd": 264504375,
+  "price_usd": 2.69976e-07,
+  "market_cap_usd": 266591361,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
