@@ -1,11 +1,11 @@
 {
-  "rank": 1,
+  "rank": 7,
   "coin_id": "filecoin",
   "symbol": "fil",
   "name": "Filecoin",
   "badge": null,
   "previous_rank": 1,
-  "rank_change": 0,
+  "rank_change": -6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,46 +31,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 69.65,
-    "base_score": 69.65,
+    "final_score": 66.67,
+    "base_score": 66.67,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.82,
-        "fg_raw_pct": 11.58,
-        "fg_z": -0.11,
-        "pg_raw_pct": -9.32,
-        "pg_z": -0.24,
-        "vpd": 0.13,
-        "percentile": 69.12,
+        "points": 9.6,
+        "fg_raw_pct": 11.44,
+        "fg_z": -0.14,
+        "pg_raw_pct": 5.03,
+        "pg_z": -0.1,
+        "vpd": -0.04,
+        "percentile": 48.02,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +11.6%, PG(가격 변화) -9.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +11.4%, PG(가격 변화) +5.0% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.02,
-        "raw_value": 8.09,
-        "percentile": 84.09,
+        "points": 21.45,
+        "raw_value": 16.79,
+        "percentile": 85.82,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +9.4%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +14.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.84,
-        "raw_value": 37.65,
-        "percentile": 85.58,
+        "points": 13.41,
+        "raw_value": 39.8,
+        "percentile": 89.42,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.25배 (가속), 릴리즈 30일 4건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.30배 (가속), 릴리즈 30일 4건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.2,
-        "raw_value": -1.11,
-        "percentile": 61.96,
+        "points": 5.89,
+        "raw_value": -5.85,
+        "percentile": 58.89,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -0.8%"
+        "reason": "프로토콜 수수료 30일 -8.7%"
       },
       "catalyst": {
         "weight": 10,
@@ -82,21 +82,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.51,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 55.1,
+        "percentile": 55.31,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 5.26,
-        "sector_percentile": 52.6,
+        "points": 5.79,
+        "sector_percentile": 57.9,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 52.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 57.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 69.7 (기본 69.7) = VPD +13.8 + 온체인 +21.0 + 개발자 +12.8 + 사용자 +6.2 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.3 + 과열필터 -0.0"
+    "summary": "총점 66.7 (기본 66.7) = VPD +9.6 + 온체인 +21.4 + 개발자 +13.4 + 사용자 +5.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,25 +108,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 86.2,
+    "score": 84.4,
     "coverage": 1.0,
-    "freshness": 0.875,
+    "freshness": 0.812,
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -9.316426323602823,
-    "return_90d_pct": -6.988050979227968,
-    "rsi_14": 50.04,
-    "ma_200d_deviation_pct": -22.63537689403869,
-    "high_90d_position_pct": -39.033070859594446
+    "return_30d_pct": 5.028293460466671,
+    "return_90d_pct": -10.366268677484811,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.78479,
-  "market_cap_usd": 624071496,
+  "price_usd": 0.768445,
+  "market_cap_usd": 611268617,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -178,11 +178,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 139151
+          "value": 125043
         },
         {
           "label": "30일 전",
-          "value": 135872
+          "value": 129521
         },
         {
           "label": "현재",
@@ -194,15 +194,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1621
+          "value": 1633
         },
         {
           "label": "30일 전",
-          "value": 1611
+          "value": 1735
         },
         {
           "label": "현재",
-          "value": 1598
+          "value": 1584
         }
       ]
     }

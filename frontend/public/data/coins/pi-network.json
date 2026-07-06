@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 11,
   "coin_id": "pi-network",
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": -4,
+  "previous_rank": 13,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.62,
-    "base_score": 60.62,
+    "final_score": 61.8,
+    "base_score": 61.8,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.75,
+        "points": 18.91,
         "fg_raw_pct": 200.0,
-        "fg_z": -0.03,
-        "pg_raw_pct": -11.38,
-        "pg_z": -0.27,
-        "vpd": 0.24,
-        "percentile": 88.73,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "fg_z": 0.06,
+        "pg_raw_pct": -9.95,
+        "pg_z": -0.34,
+        "vpd": 0.39,
+        "percentile": 94.55,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -11.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -9.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.51,
+        "points": 0.53,
         "raw_value": 2.0,
-        "percentile": 5.1,
+        "percentile": 5.31,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0061로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0059로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.6 (기본 60.6) = VPD +17.8 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.8 (기본 61.8) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -97,25 +97,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.2,
+    "score": 60.4,
     "coverage": 0.571,
-    "freshness": 0.812,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.37795849156656,
-    "return_90d_pct": -33.723429792731665,
-    "rsi_14": 19.74,
-    "ma_200d_deviation_pct": -33.395487088062744,
-    "high_90d_position_pct": -41.72822979828014
+    "return_30d_pct": -9.94840177696123,
+    "return_90d_pct": -34.3583591446458,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.11369,
-  "market_cap_usd": 1238268724,
+  "price_usd": 0.111639,
+  "market_cap_usd": 1215913585,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
