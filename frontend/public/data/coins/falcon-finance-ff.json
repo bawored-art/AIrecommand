@@ -1,5 +1,5 @@
 {
-  "rank": 19,
+  "rank": 18,
   "coin_id": "falcon-finance-ff",
   "symbol": "ff",
   "name": "Falcon Finance",
@@ -25,30 +25,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.26,
-    "base_score": 58.26,
+    "final_score": 58.07,
+    "base_score": 58.07,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.7,
-        "fg_raw_pct": 3.79,
-        "fg_z": -0.07,
-        "pg_raw_pct": -32.81,
-        "pg_z": -1.04,
-        "vpd": 0.97,
+        "fg_raw_pct": 6.34,
+        "fg_z": -0.09,
+        "pg_raw_pct": -35.75,
+        "pg_z": -1.54,
+        "vpd": 1.45,
         "percentile": 98.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.8%, PG(가격 변화) -32.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +6.3%, PG(가격 변화) -35.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 5.67,
-        "raw_value": -15.26,
-        "percentile": 22.66,
+        "points": 6.25,
+        "raw_value": -12.94,
+        "percentile": 25.0,
         "missing": false,
-        "reason": "TVL 30일 -7.8%"
+        "reason": "TVL 30일 -3.1%"
       },
       "developer": {
         "weight": 15,
@@ -60,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.71,
-        "raw_value": 15.37,
-        "percentile": 67.05,
+        "points": 6.02,
+        "raw_value": 18.19,
+        "percentile": 60.23,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +20.0%"
+        "reason": "프로토콜 수수료 30일 +19.5%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 55.56,
+        "percentile": 54.76,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 87.5, MC/Fees 백분위 75.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.3 (기본 58.3) = VPD +19.7 + 온체인 +5.7 + 개발자 +7.5 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +8.1 + 과열필터 -0.0"
+    "summary": "총점 58.1 (기본 58.1) = VPD +19.7 + 온체인 +6.2 + 개발자 +7.5 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -102,25 +102,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.9,
+    "score": 71.8,
     "coverage": 0.857,
-    "freshness": 0.688,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -32.80852778440772,
-    "return_90d_pct": -10.947118517917275,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -35.74890715601277,
+    "return_90d_pct": -18.138575493385712,
+    "rsi_14": 31.11,
+    "ma_200d_deviation_pct": -25.766784594874576,
+    "high_90d_position_pct": -46.801512710363156
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.062382,
-  "market_cap_usd": 179345748,
+  "price_usd": 0.058833,
+  "market_cap_usd": 174736295,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -156,15 +156,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1627576578
+          "value": 1628864116
         },
         {
           "label": "30일 전",
-          "value": 1363363328
+          "value": 1297266571
         },
         {
           "label": "현재",
-          "value": 1257426761.4734616
+          "value": 1257333770.0941577
         }
       ]
     },
@@ -173,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 12607
+          "value": 11125
         },
         {
           "label": "30일 전",
-          "value": 11640
+          "value": 10876
         },
         {
           "label": "현재",
-          "value": 13965
+          "value": 13000
         }
       ]
     }

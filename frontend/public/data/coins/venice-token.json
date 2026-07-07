@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 8,
   "coin_id": "venice-token",
   "symbol": "vvv",
   "name": "Venice Token",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": -1,
+  "previous_rank": 10,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,22 +25,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.33,
-    "base_score": 63.33,
+    "final_score": 62.83,
+    "base_score": 62.83,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.11,
-        "fg_raw_pct": 19.68,
-        "fg_z": -0.14,
-        "pg_raw_pct": -32.5,
-        "pg_z": -1.45,
-        "vpd": 1.31,
-        "percentile": 95.54,
+        "points": 19.5,
+        "fg_raw_pct": 17.42,
+        "fg_z": -0.08,
+        "pg_raw_pct": -30.21,
+        "pg_z": -1.35,
+        "vpd": 1.27,
+        "percentile": 97.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +19.7%, PG(가격 변화) -32.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +17.4%, PG(가격 변화) -30.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -60,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.71,
-        "raw_value": 19.68,
-        "percentile": 67.05,
+        "points": 5.79,
+        "raw_value": 17.42,
+        "percentile": 57.95,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +19.7%"
+        "reason": "프로토콜 수수료 30일 +17.4%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.45,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.48,
+        "percentile": 54.76,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 70.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.3 (기본 63.3) = VPD +19.1 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
+    "summary": "총점 62.8 (기본 62.8) = VPD +19.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -32.50242341516843,
-    "return_90d_pct": 75.02448662460588,
-    "rsi_14": 24.32,
-    "ma_200d_deviation_pct": 47.197700200000156,
-    "high_90d_position_pct": -42.654562648364
+    "return_30d_pct": -30.211180641437966,
+    "return_90d_pct": 54.62735617258152,
+    "rsi_14": 26.88,
+    "ma_200d_deviation_pct": 35.18695192852599,
+    "high_90d_position_pct": -47.03611999429085
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 11.91,
-  "market_cap_usd": 562537550,
+  "price_usd": 11.0,
+  "market_cap_usd": 519418515,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -177,11 +177,11 @@
         },
         {
           "label": "30일 전",
-          "value": 2403
+          "value": 2537
         },
         {
           "label": "현재",
-          "value": 2876
+          "value": 2979
         }
       ]
     }
