@@ -4,8 +4,8 @@
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": 1,
+  "previous_rank": 12,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.33,
-    "base_score": 61.33,
+    "final_score": 60.77,
+    "base_score": 60.77,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.3,
+        "points": 17.88,
         "fg_raw_pct": -33.3,
         "fg_z": -0.13,
-        "pg_raw_pct": -10.84,
-        "pg_z": -0.67,
-        "vpd": 0.54,
-        "percentile": 91.5,
+        "pg_raw_pct": -10.51,
+        "pg_z": -0.7,
+        "vpd": 0.57,
+        "percentile": 89.39,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -10.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -10.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,9 +56,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 10.05,
+        "points": 9.86,
         "raw_value": -16.65,
-        "percentile": 66.98,
+        "percentile": 65.74,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.67배 (둔화), 릴리즈 30일 1건"
       },
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.76,
+        "percentile": 55.29,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.3 (기본 61.3) = VPD +18.3 + 온체인 +12.5 + 개발자 +10.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.8 (기본 60.8) = VPD +17.9 + 온체인 +12.5 + 개발자 +9.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,25 +106,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.836057217156112,
-    "return_90d_pct": -28.590665280565077,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -10.505142807513572,
+    "return_90d_pct": -28.325643601351096,
+    "rsi_14": 39.0,
+    "ma_200d_deviation_pct": -43.62221689955143,
+    "high_90d_position_pct": -46.28813572333468
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00221755,
-  "market_cap_usd": 107870259,
+  "price_usd": 0.00222578,
+  "market_cap_usd": 108249342,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

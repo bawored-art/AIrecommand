@@ -1,11 +1,11 @@
 {
-  "rank": 20,
+  "rank": 19,
   "coin_id": "sosovalue",
   "symbol": "soso",
   "name": "SoSoValue",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 20,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,22 +23,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 56.57,
-    "base_score": 56.57,
+    "final_score": 56.35,
+    "base_score": 56.35,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.5,
+        "points": 17.07,
         "fg_raw_pct": -59.1,
         "fg_z": -0.16,
-        "pg_raw_pct": -9.43,
+        "pg_raw_pct": -8.5,
         "pg_z": -0.62,
         "vpd": 0.46,
-        "percentile": 87.5,
+        "percentile": 85.35,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -59.1%, PG(가격 변화) -9.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -59.1%, PG(가격 변화) -8.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -50,9 +50,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 6.09,
+        "points": 6.25,
         "raw_value": -59.1,
-        "percentile": 40.57,
+        "percentile": 41.67,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.41배 (둔화), 릴리즈 30일 0건"
       },
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.76,
+        "percentile": 55.29,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -88,7 +88,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 56.6 (기본 56.6) = VPD +17.5 + 온체인 +12.5 + 개발자 +6.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 56.4 (기본 56.4) = VPD +17.1 + 온체인 +12.5 + 개발자 +6.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -100,25 +100,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -9.425796245029323,
-    "return_90d_pct": -26.255840485118824,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -8.499218950170388,
+    "return_90d_pct": -25.501435135668604,
+    "rsi_14": 54.21,
+    "ma_200d_deviation_pct": -26.47946905078953,
+    "high_90d_position_pct": -29.29087648587483
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.302345,
-  "market_cap_usd": 103402359,
+  "price_usd": 0.305438,
+  "market_cap_usd": 104472256,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

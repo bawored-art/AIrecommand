@@ -1,10 +1,10 @@
 {
-  "rank": 11,
+  "rank": 10,
   "coin_id": "pi-network",
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
-  "previous_rank": 12,
+  "previous_rank": 11,
   "rank_change": 1,
   "overview": {
     "one_liner": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.94,
-    "base_score": 61.94,
+    "final_score": 61.58,
+    "base_score": 61.58,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.1,
+        "points": 18.69,
         "fg_raw_pct": 200.0,
         "fg_z": 0.11,
-        "pg_raw_pct": -11.79,
-        "pg_z": -0.71,
-        "vpd": 0.81,
-        "percentile": 95.5,
+        "pg_raw_pct": -11.99,
+        "pg_z": -0.76,
+        "vpd": 0.86,
+        "percentile": 93.43,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -11.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -12.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -49,7 +49,7 @@
         "weight": 15,
         "points": 14.86,
         "raw_value": 200.0,
-        "percentile": 99.06,
+        "percentile": 99.07,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.48,
+        "points": 0.53,
         "raw_value": 2.0,
-        "percentile": 4.76,
+        "percentile": 5.29,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0063로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0060로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.9 (기본 61.9) = VPD +19.1 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.6 (기본 61.6) = VPD +18.7 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -97,25 +97,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.794720804028879,
-    "return_90d_pct": -34.953162455515866,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -11.988777940211042,
+    "return_90d_pct": -35.096269570267395,
+    "rsi_14": 21.58,
+    "ma_200d_deviation_pct": -34.26263882457006,
+    "high_90d_position_pct": -42.81534761513164
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.111815,
-  "market_cap_usd": 1217866686,
+  "price_usd": 0.111569,
+  "market_cap_usd": 1215417779,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

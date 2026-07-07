@@ -4,8 +4,8 @@
   "symbol": "cc",
   "name": "Canton",
   "badge": null,
-  "previous_rank": 19,
-  "rank_change": 2,
+  "previous_rank": 17,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.76,
-    "base_score": 58.76,
+    "final_score": 58.69,
+    "base_score": 58.69,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.3,
+        "points": 19.09,
         "fg_raw_pct": -7.63,
         "fg_z": -0.11,
-        "pg_raw_pct": -18.49,
-        "pg_z": -0.94,
-        "vpd": 0.83,
-        "percentile": 96.5,
+        "pg_raw_pct": -19.75,
+        "pg_z": -1.06,
+        "vpd": 0.95,
+        "percentile": 95.45,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -7.6%, PG(가격 변화) -18.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -7.6%, PG(가격 변화) -19.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,9 +55,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.98,
+        "points": 4.07,
         "raw_value": -14.49,
-        "percentile": 39.77,
+        "percentile": 40.7,
         "missing": false,
         "reason": "프로토콜 수수료 30일 -7.6%"
       },
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.48,
+        "points": 0.53,
         "raw_value": 2.0,
-        "percentile": 4.76,
+        "percentile": 5.29,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0022로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0019로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.8 (기본 58.8) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +4.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 58.7 (기본 58.7) = VPD +19.1 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +4.1 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -18.49245867597333,
-    "return_90d_pct": -9.348124337388311,
+    "return_30d_pct": -19.745801567906756,
+    "return_90d_pct": -10.742079818765038,
     "rsi_14": 18.58,
-    "ma_200d_deviation_pct": -11.024282842085253,
-    "high_90d_position_pct": -19.60074569002892
+    "ma_200d_deviation_pct": -12.392464004748769,
+    "high_90d_position_pct": -20.837046433116672
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.133641,
-  "market_cap_usd": 5217287905,
+  "price_usd": 0.131586,
+  "market_cap_usd": 5136351500,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
