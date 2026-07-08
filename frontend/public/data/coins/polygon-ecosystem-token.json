@@ -1,11 +1,11 @@
 {
-  "rank": 8,
+  "rank": 10,
   "coin_id": "polygon-ecosystem-token",
   "symbol": "pol",
   "name": "POL (ex-MATIC)",
   "badge": null,
-  "previous_rank": 4,
-  "rank_change": -4,
+  "previous_rank": 8,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,30 +22,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.06,
-    "base_score": 63.06,
+    "final_score": 62.52,
+    "base_score": 62.52,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.1,
-        "fg_raw_pct": 20.65,
+        "points": 10.49,
+        "fg_raw_pct": 21.37,
         "fg_z": -0.13,
-        "pg_raw_pct": -4.38,
-        "pg_z": -0.14,
-        "vpd": 0.01,
-        "percentile": 55.5,
+        "pg_raw_pct": -3.84,
+        "pg_z": -0.11,
+        "vpd": -0.02,
+        "percentile": 52.45,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +20.7%, PG(가격 변화) -4.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +21.4%, PG(가격 변화) -3.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.58,
-        "raw_value": 12.44,
-        "percentile": 82.31,
+        "points": 20.71,
+        "raw_value": 12.94,
+        "percentile": 82.84,
         "missing": false,
-        "reason": "TVL 30일 +25.6%, 스테이블코인 유입 30일 +9.0%"
+        "reason": "TVL 30일 +26.6%, 스테이블코인 유입 30일 +9.1%"
       },
       "developer": {
         "weight": 15,
@@ -73,9 +73,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.55,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.48,
+        "percentile": 54.91,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -87,7 +87,7 @@
         "reason": "MC/TVL 백분위 83.3, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.1 (기본 63.1) = VPD +11.1 + 온체인 +20.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.3 + 과열필터 -0.0"
+    "summary": "총점 62.5 (기본 62.5) = VPD +10.5 + 온체인 +20.7 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,19 +105,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -4.377317129161069,
-    "return_90d_pct": -14.166700221073128,
+    "return_30d_pct": -3.8403865540299247,
+    "return_90d_pct": -13.684737974960937,
     "rsi_14": 58.66,
-    "ma_200d_deviation_pct": -22.895559320877833,
-    "high_90d_position_pct": -27.29342003971546
+    "ma_200d_deviation_pct": -22.46261045941442,
+    "high_90d_position_pct": -26.885165589810256
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.076045,
-  "market_cap_usd": 811843613,
+  "price_usd": 0.076472,
+  "market_cap_usd": 816703945,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -161,7 +161,7 @@
         },
         {
           "label": "현재",
-          "value": 2820196849.7934985
+          "value": 2842263427.1738396
         }
       ]
     },
@@ -177,7 +177,7 @@
         },
         {
           "label": "현재",
-          "value": 3912310813.19
+          "value": 3915323309.41
         }
       ]
     },

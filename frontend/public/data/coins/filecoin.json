@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 7,
   "coin_id": "filecoin",
   "symbol": "fil",
   "name": "Filecoin",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": 3,
+  "previous_rank": 3,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,46 +31,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.31,
-    "base_score": 68.31,
+    "final_score": 64.46,
+    "base_score": 64.46,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 9.5,
-        "fg_raw_pct": 39.64,
-        "fg_z": -0.12,
-        "pg_raw_pct": -1.1,
+        "points": 8.73,
+        "fg_raw_pct": 17.99,
+        "fg_z": -0.13,
+        "pg_raw_pct": -1.81,
         "pg_z": -0.09,
-        "vpd": -0.03,
-        "percentile": 47.5,
+        "vpd": -0.05,
+        "percentile": 43.63,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +39.6%, PG(가격 변화) -1.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +18.0%, PG(가격 변화) -1.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.73,
+        "points": 21.83,
         "raw_value": 23.49,
-        "percentile": 86.92,
+        "percentile": 87.31,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +22.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 13.16,
+        "points": 13.19,
         "raw_value": 42.85,
-        "percentile": 87.74,
+        "percentile": 87.96,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.36배 (가속), 릴리즈 30일 4건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.11,
-        "raw_value": 53.35,
-        "percentile": 81.11,
+        "points": 4.66,
+        "raw_value": -2.65,
+        "percentile": 46.59,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +54.1%"
+        "reason": "프로토콜 수수료 30일 -2.2%"
       },
       "catalyst": {
         "weight": 10,
@@ -82,21 +82,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.55,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.48,
+        "percentile": 54.91,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 5.26,
-        "sector_percentile": 52.6,
+        "points": 5.56,
+        "sector_percentile": 55.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 52.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 55.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 68.3 (기본 68.3) = VPD +9.5 + 온체인 +21.7 + 개발자 +13.2 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.3 + 과열필터 -0.0"
+    "summary": "총점 64.5 (기본 64.5) = VPD +8.7 + 온체인 +21.8 + 개발자 +13.2 + 사용자 +4.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,25 +108,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 96.3,
+    "score": 86.2,
     "coverage": 1.0,
     "freshness": 0.875,
-    "consistency": 1.0
+    "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -1.1029007180838635,
-    "return_90d_pct": -13.680735905272767,
+    "return_30d_pct": -1.8058413989959148,
+    "return_90d_pct": -14.294275864676512,
     "rsi_14": 52.62,
-    "ma_200d_deviation_pct": -24.272083210164496,
-    "high_90d_position_pct": -40.77229741650189
+    "ma_200d_deviation_pct": -24.810342004191956,
+    "high_90d_position_pct": -41.19327600824219
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.762402,
-  "market_cap_usd": 607162261,
+  "price_usd": 0.756983,
+  "market_cap_usd": 603530080,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -202,7 +202,7 @@
         },
         {
           "label": "현재",
-          "value": 2689
+          "value": 1707
         }
       ]
     }

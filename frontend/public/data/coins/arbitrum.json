@@ -1,11 +1,11 @@
 {
-  "rank": 4,
+  "rank": 1,
   "coin_id": "arbitrum",
   "symbol": "arb",
   "name": "Arbitrum",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": 9,
+  "previous_rank": 4,
+  "rank_change": 3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,44 +32,44 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.94,
-    "base_score": 66.94,
+    "final_score": 68.95,
+    "base_score": 68.95,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.9,
-        "fg_raw_pct": 33.08,
+        "points": 13.63,
+        "fg_raw_pct": 33.11,
         "fg_z": -0.12,
-        "pg_raw_pct": -6.29,
-        "pg_z": -0.17,
-        "vpd": 0.04,
-        "percentile": 64.5,
+        "pg_raw_pct": -8.65,
+        "pg_z": -0.18,
+        "vpd": 0.06,
+        "percentile": 68.14,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +33.1%, PG(가격 변화) -6.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +33.1%, PG(가격 변화) -8.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 15.19,
-        "raw_value": -3.29,
-        "percentile": 60.77,
+        "points": 15.86,
+        "raw_value": -3.17,
+        "percentile": 63.43,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.8%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 13.44,
+        "points": 13.47,
         "raw_value": 50.0,
-        "percentile": 89.62,
+        "percentile": 89.81,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.50배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.0,
+        "points": 6.93,
         "raw_value": 32.61,
-        "percentile": 70.0,
+        "percentile": 69.32,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +37.7%"
       },
@@ -83,21 +83,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.55,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.48,
+        "percentile": 54.91,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.86,
-        "sector_percentile": 78.6,
+        "points": 8.57,
+        "sector_percentile": 85.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 78.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.9 (기본 66.9) = VPD +12.9 + 온체인 +15.2 + 개발자 +13.4 + 사용자 +7.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.9 + 과열필터 -0.0"
+    "summary": "총점 69.0 (기본 69.0) = VPD +13.6 + 온체인 +15.9 + 개발자 +13.5 + 사용자 +6.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,19 +115,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -6.291949454329307,
-    "return_90d_pct": -26.219731143213128,
+    "return_30d_pct": -8.652642702316362,
+    "return_90d_pct": -28.078403706676596,
     "rsi_14": 54.77,
-    "ma_200d_deviation_pct": -36.73491635176891,
-    "high_90d_position_pct": -46.19689726729994
+    "ma_200d_deviation_pct": -38.32869036512251,
+    "high_90d_position_pct": -47.55230505352783
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.077604,
-  "market_cap_usd": 493753939,
+  "price_usd": 0.075649,
+  "market_cap_usd": 481485144,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -187,7 +187,7 @@
         },
         {
           "label": "현재",
-          "value": 3916986752.84
+          "value": 3921990772.94
         }
       ]
     },
