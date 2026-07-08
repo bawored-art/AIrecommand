@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 6,
   "coin_id": "pi-network",
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": 1,
+  "previous_rank": 10,
+  "rank_change": 4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.58,
-    "base_score": 61.58,
+    "final_score": 66.81,
+    "base_score": 66.81,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.69,
+        "points": 18.9,
         "fg_raw_pct": 200.0,
-        "fg_z": 0.11,
-        "pg_raw_pct": -11.99,
-        "pg_z": -0.76,
-        "vpd": 0.86,
-        "percentile": 93.43,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.03,
+        "pg_raw_pct": -20.81,
+        "pg_z": -0.38,
+        "vpd": 0.35,
+        "percentile": 94.5,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -12.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -20.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -49,7 +49,7 @@
         "weight": 15,
         "points": 14.86,
         "raw_value": 200.0,
-        "percentile": 99.07,
+        "percentile": 99.06,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.53,
-        "raw_value": 2.0,
-        "percentile": 5.29,
+        "points": 5.55,
+        "raw_value": 0.0,
+        "percentile": 55.48,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0060로 낮음"
+        "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.6 (기본 61.6) = VPD +18.7 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.8 (기본 66.8) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.988777940211042,
-    "return_90d_pct": -35.096269570267395,
-    "rsi_14": 21.58,
-    "ma_200d_deviation_pct": -34.26263882457006,
-    "high_90d_position_pct": -42.81534761513164
+    "return_30d_pct": -20.809739467646875,
+    "return_90d_pct": -38.7618162329709,
+    "rsi_14": 19.07,
+    "ma_200d_deviation_pct": -38.85745704115895,
+    "high_90d_position_pct": -46.9808386559389
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.111569,
-  "market_cap_usd": 1215417779,
+  "price_usd": 0.103442,
+  "market_cap_usd": 1126667040,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

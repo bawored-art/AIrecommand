@@ -1,81 +1,80 @@
 {
-  "rank": 1,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 2,
-  "rank_change": 1,
+  "rank": 11,
+  "coin_id": "eigenlayer",
+  "symbol": "eigen",
+  "name": "EigenCloud (prev. EigenLayer)",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
-      "Layer 1 (L1)",
-      "FTX Holdings",
-      "Pantera Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
-      "GMCI 30 Index",
-      "Blockchain Capital Portfolio",
-      "GMCI Index",
+      "Artificial Intelligence (AI)",
+      "Infrastructure",
+      "Ethereum Ecosystem",
+      "Base Ecosystem",
+      "Data Availability",
+      "Restaking",
+      "Polychain Capital Portfolio",
+      "AI Framework",
       "Made in USA",
-      "Coinbase 50 Index"
+      "x402 Ecosystem"
     ],
-    "chain": "XRP 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 69.1,
-    "base_score": 69.1,
+    "final_score": 61.84,
+    "base_score": 61.84,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.3,
-        "fg_raw_pct": 2.63,
-        "fg_z": -0.14,
-        "pg_raw_pct": -5.87,
-        "pg_z": -0.16,
-        "vpd": 0.02,
-        "percentile": 61.5,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 19.7,
+        "fg_raw_pct": 11542.61,
+        "fg_z": 6.07,
+        "pg_raw_pct": 24.59,
+        "pg_z": 0.29,
+        "vpd": 5.77,
+        "percentile": 98.5,
+        "quadrant": "co_movement",
+        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +2.6%, PG(가격 변화) -5.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +11542.6%, PG(가격 변화) +24.6% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.66,
-        "raw_value": 92.23,
-        "percentile": 94.62,
+        "points": 4.42,
+        "raw_value": -23.14,
+        "percentile": 17.69,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.2%"
+        "reason": "TVL 30일 +0.3%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.59,
-        "raw_value": 21.35,
-        "percentile": 83.96,
-        "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.93배 (둔화), 릴리즈 30일 1건"
-      },
-      "user_ecosystem": {
-        "weight": 10,
-        "points": 5.0,
+        "points": 7.5,
         "raw_value": null,
         "percentile": null,
         "missing": true,
-        "reason": "수수료 데이터 없음"
+        "reason": "GitHub 데이터 없음"
+      },
+      "user_ecosystem": {
+        "weight": 10,
+        "points": 9.67,
+        "raw_value": 14024.51,
+        "percentile": 96.67,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +27701.9%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -87,43 +86,43 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 10.0,
+        "sector_percentile": 100.0,
+        "missing": false,
+        "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 69.1 (기본 69.1) = VPD +12.3 + 온체인 +23.7 + 개발자 +12.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.8 (기본 61.8) = VPD +19.7 + 온체인 +4.4 + 개발자 +7.5 + 사용자 +9.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
-    "consistency": 0.5
+    "score": 84.9,
+    "coverage": 0.857,
+    "freshness": 0.688,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -5.870733714450773,
-    "return_90d_pct": -19.044592507991428,
-    "rsi_14": 53.1,
-    "ma_200d_deviation_pct": -25.89030688401542,
-    "high_90d_position_pct": -26.774502398318617
+    "return_30d_pct": 24.590933319991304,
+    "return_90d_pct": 39.968035577462594,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.087,
-  "market_cap_usd": 67888796194,
+  "price_usd": 0.223284,
+  "market_cap_usd": 165559636,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -159,34 +158,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 8934885411
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 4762937682
         },
         {
           "label": "현재",
-          "value": null
+          "value": 4775482598.908666
         }
       ]
     },
-    "stablecoin_inflow_usd": {
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 341822377
+          "value": 19649
         },
         {
           "label": "30일 전",
-          "value": 760772653
+          "value": 316
         },
         {
           "label": "현재",
-          "value": 906777019.02
+          "value": 87854
         }
       ]
-    },
-    "fees_24h_usd": null
+    }
   }
 }
