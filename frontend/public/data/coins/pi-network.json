@@ -1,10 +1,10 @@
 {
-  "rank": 5,
+  "rank": 4,
   "coin_id": "pi-network",
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
-  "previous_rank": 6,
+  "previous_rank": 5,
   "rank_change": 1,
   "overview": {
     "one_liner": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.77,
-    "base_score": 66.77,
+    "final_score": 66.65,
+    "base_score": 66.65,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.92,
+        "points": 18.88,
         "fg_raw_pct": 200.0,
-        "fg_z": -0.04,
-        "pg_raw_pct": -22.38,
-        "pg_z": -0.38,
-        "vpd": 0.35,
-        "percentile": 94.61,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "fg_z": 0.43,
+        "pg_raw_pct": -23.35,
+        "pg_z": -1.05,
+        "vpd": 1.48,
+        "percentile": 94.39,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -22.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -23.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -49,7 +49,7 @@
         "weight": 15,
         "points": 14.86,
         "raw_value": 200.0,
-        "percentile": 99.07,
+        "percentile": 99.04,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -71,9 +71,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.91,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 66.8 (기본 66.8) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.7 (기본 66.7) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -22.376059463868863,
-    "return_90d_pct": -39.973058513546896,
-    "rsi_14": 19.07,
-    "ma_200d_deviation_pct": -40.066807623067554,
-    "high_90d_position_pct": -48.029515248715036
+    "return_30d_pct": -23.347769981724916,
+    "return_90d_pct": -40.78557114542208,
+    "rsi_14": 16.73,
+    "ma_200d_deviation_pct": -41.24863830911461,
+    "high_90d_position_pct": -49.21863044677986
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.101396,
-  "market_cap_usd": 1104374937,
+  "price_usd": 0.099076,
+  "market_cap_usd": 1079233227,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

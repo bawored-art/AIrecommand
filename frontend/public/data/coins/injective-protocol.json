@@ -1,72 +1,53 @@
 {
-  "rank": 18,
+  "rank": 6,
   "coin_id": "injective-protocol",
   "symbol": "inj",
   "name": "Injective",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": -4,
+  "previous_rank": 18,
+  "rank_change": 12,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": "CoinGecko",
+    "description_source": null,
     "primary_use_case": null,
-    "categories": [
-      "Smart Contract Platform",
-      "Decentralized Finance (DeFi)",
-      "BNB Chain Ecosystem",
-      "Cosmos Ecosystem",
-      "Layer 1 (L1)",
-      "Terra Ecosystem",
-      "Ethereum Ecosystem",
-      "Real World Assets (RWA)",
-      "Binance Launchpad",
-      "Osmosis Ecosystem",
-      "Proof of Stake (PoS)",
-      "Pantera Capital Portfolio",
-      "Secret Ecosystem",
-      "YZi Labs (Prev. Binance Labs) Portfolio",
-      "GMCI Layer 1 Index",
-      "GMCI Index",
-      "Made in USA",
-      "Coinbase 50 Index"
-    ],
-    "chain": "Ethereum",
+    "categories": [],
+    "chain": "Injective 자체 메인넷",
     "launch_year": null
   },
   "score": {
-    "final_score": 59.02,
-    "base_score": 59.02,
+    "final_score": 65.91,
+    "base_score": 65.91,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.0,
-        "fg_raw_pct": -49.75,
-        "fg_z": -0.17,
-        "pg_raw_pct": -13.71,
-        "pg_z": -0.26,
-        "vpd": 0.09,
-        "percentile": 75.0,
+        "points": 17.04,
+        "fg_raw_pct": 32.36,
+        "fg_z": -0.03,
+        "pg_raw_pct": -13.67,
+        "pg_z": -0.61,
+        "vpd": 0.58,
+        "percentile": 85.2,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -49.7%, PG(가격 변화) -13.7% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) -13.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.45,
-        "raw_value": 20.9,
-        "percentile": 85.82,
+        "points": 20.96,
+        "raw_value": 20.04,
+        "percentile": 83.85,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +34.0%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +32.4%"
       },
       "developer": {
         "weight": 15,
-        "points": 2.08,
-        "raw_value": -100.0,
-        "percentile": 13.89,
-        "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.00배 (둔화), 릴리즈 30일 0건"
+        "points": 7.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "GitHub 데이터 없음"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -86,9 +67,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.91,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -100,7 +81,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 59.0 (기본 59.0) = VPD +15.0 + 온체인 +21.4 + 개발자 +2.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 65.9 (기본 65.9) = VPD +17.0 + 온체인 +21.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,25 +93,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
-    "coverage": 0.714,
-    "freshness": 0.812,
+    "score": 56.6,
+    "coverage": 0.571,
+    "freshness": 0.625,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -13.711625594540223,
-    "return_90d_pct": 60.941212426865185,
-    "rsi_14": 60.06,
-    "ma_200d_deviation_pct": 13.23751096730933,
-    "high_90d_position_pct": -33.18306067656675
+    "return_30d_pct": -13.67107255008512,
+    "return_90d_pct": 64.13969330636321,
+    "rsi_14": 64.71,
+    "ma_200d_deviation_pct": 17.79388894370755,
+    "high_90d_position_pct": -30.464598477112286
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 4.67,
-  "market_cap_usd": 466112892,
+  "price_usd": 4.86,
+  "market_cap_usd": 486210283,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -141,8 +122,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "missing",
-      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+      "status": "not_applicable",
+      "reason": "no_coingecko_description"
     },
     "primary_use_case": {
       "status": "missing",
@@ -182,15 +163,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 16076521
+          "value": 16074081
         },
         {
           "label": "30일 전",
-          "value": 12932952
+          "value": 13081368
         },
         {
           "label": "현재",
-          "value": 17330252.26
+          "value": 17314361.94
         }
       ]
     },
