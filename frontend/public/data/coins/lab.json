@@ -3,9 +3,9 @@
   "coin_id": "lab",
   "symbol": "lab",
   "name": "LAB",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 5,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,17 +28,17 @@
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.69,
+        "points": 19.7,
         "fg_raw_pct": 80.53,
-        "fg_z": 0.1,
-        "pg_raw_pct": -91.95,
-        "pg_z": -4.16,
-        "vpd": 4.26,
-        "percentile": 98.47,
+        "fg_z": 0.11,
+        "pg_raw_pct": -91.43,
+        "pg_z": -4.13,
+        "vpd": 4.25,
+        "percentile": 98.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +80.5%, PG(가격 변화) -91.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +80.5%, PG(가격 변화) -91.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -106,19 +106,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -91.94793042458308,
-    "return_90d_pct": 126.42101397279346,
+    "return_30d_pct": -91.43245550865076,
+    "return_90d_pct": 140.9159648732753,
     "rsi_14": 32.06,
-    "ma_200d_deviation_pct": -71.40823109976988,
-    "high_90d_position_pct": -95.2340598049504
+    "ma_200d_deviation_pct": -69.57785202366274,
+    "high_90d_position_pct": -94.92895530996665
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.945473,
-  "market_cap_usd": 295500899,
+  "price_usd": 1.006,
+  "market_cap_usd": 314517095,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

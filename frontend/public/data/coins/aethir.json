@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 16,
   "coin_id": "aethir",
   "symbol": "ath",
   "name": "Aethir",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 17,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,16 +26,16 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.74,
-    "base_score": 58.74,
+    "final_score": 58.96,
+    "base_score": 58.96,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 10.0,
         "fg_raw_pct": null,
         "fg_z": null,
-        "pg_raw_pct": -5.77,
-        "pg_z": -0.25,
+        "pg_raw_pct": -7.33,
+        "pg_z": -0.33,
         "vpd": null,
         "percentile": null,
         "quadrant": "unknown",
@@ -61,9 +61,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.33,
+        "points": 8.56,
         "raw_value": 128.49,
-        "percentile": 83.33,
+        "percentile": 85.56,
         "missing": false,
         "reason": "수수료 데이터 없음"
       },
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.7 (기본 58.7) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 59.0 (기본 59.0) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 58.5,
+    "score": 60.4,
     "coverage": 0.571,
-    "freshness": 0.688,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -5.773375462696348,
-    "return_90d_pct": -29.46075733670138,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -7.328708910220081,
+    "return_90d_pct": -30.625099623352938,
+    "rsi_14": 52.56,
+    "ma_200d_deviation_pct": -36.14577031606752,
+    "high_90d_position_pct": -43.12095017308546
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.004282,
-  "market_cap_usd": 86199794,
+  "price_usd": 0.00421132,
+  "market_cap_usd": 84766271,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

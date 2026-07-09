@@ -1,10 +1,10 @@
 {
-  "rank": 12,
+  "rank": 11,
   "coin_id": "polkadot",
   "symbol": "dot",
   "name": "Polkadot",
   "badge": null,
-  "previous_rank": 13,
+  "previous_rank": 12,
   "rank_change": 1,
   "overview": {
     "one_liner": null,
@@ -33,22 +33,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.81,
-    "base_score": 60.81,
+    "final_score": 61.43,
+    "base_score": 61.43,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.22,
+        "points": 16.5,
         "fg_raw_pct": -13.8,
-        "fg_z": -0.16,
-        "pg_raw_pct": -14.92,
-        "pg_z": -0.67,
-        "vpd": 0.51,
-        "percentile": 81.12,
+        "fg_z": -0.15,
+        "pg_raw_pct": -15.17,
+        "pg_z": -0.69,
+        "vpd": 0.54,
+        "percentile": 82.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -13.8%, PG(가격 변화) -14.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -13.8%, PG(가격 변화) -15.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -60,9 +60,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 11.68,
+        "points": 12.03,
         "raw_value": 13.69,
-        "percentile": 77.88,
+        "percentile": 80.19,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.86배 (둔화), 릴리즈 30일 8건"
       },
@@ -84,9 +84,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -98,7 +98,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.8 (기본 60.8) = VPD +16.2 + 온체인 +12.5 + 개발자 +11.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.4 (기본 61.4) = VPD +16.5 + 온체인 +12.5 + 개발자 +12.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -116,19 +116,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -14.918976376073061,
-    "return_90d_pct": -36.2776034194177,
+    "return_30d_pct": -15.17129690537439,
+    "return_90d_pct": -36.46658173853891,
     "rsi_14": 46.67,
-    "ma_200d_deviation_pct": -40.29662755983263,
-    "high_90d_position_pct": -40.197608973583726
+    "ma_200d_deviation_pct": -40.47368686040904,
+    "high_90d_position_pct": -40.37496192862066
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.828149,
-  "market_cap_usd": 1401704233,
+  "price_usd": 0.825693,
+  "market_cap_usd": 1397549764,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

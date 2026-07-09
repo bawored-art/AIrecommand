@@ -1,11 +1,11 @@
 {
-  "rank": 15,
+  "rank": 19,
   "coin_id": "plasma",
   "symbol": "xpl",
   "name": "Plasma",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": -1,
+  "previous_rank": 15,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,28 +23,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.97,
-    "base_score": 58.97,
+    "final_score": 58.6,
+    "base_score": 58.6,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.08,
+        "points": 19.1,
         "fg_raw_pct": 1178.37,
-        "fg_z": 3.14,
-        "pg_raw_pct": 32.84,
-        "pg_z": 1.5,
-        "vpd": 1.64,
-        "percentile": 95.41,
+        "fg_z": 3.17,
+        "pg_raw_pct": 32.06,
+        "pg_z": 1.45,
+        "vpd": 1.73,
+        "percentile": 95.5,
         "quadrant": "co_movement",
         "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +1178.4%, PG(가격 변화) +32.8% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +1178.4%, PG(가격 변화) +32.1% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 7.5,
+        "points": 7.12,
         "raw_value": -10.94,
-        "percentile": 30.0,
+        "percentile": 28.46,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +7.4%"
       },
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -88,7 +88,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 52.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 59.0 (기본 59.0) = VPD +19.1 + 온체인 +7.5 + 개발자 +7.5 + 사용자 +9.2 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.3 + 과열필터 -0.0"
+    "summary": "총점 58.6 (기본 58.6) = VPD +19.1 + 온체인 +7.1 + 개발자 +7.5 + 사용자 +9.2 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +106,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 32.84091943899328,
-    "return_90d_pct": -24.84943664209097,
+    "return_30d_pct": 32.06329453261315,
+    "return_90d_pct": -25.28935342407656,
     "rsi_14": 42.55,
-    "ma_200d_deviation_pct": -14.177831962159537,
-    "high_90d_position_pct": -34.28816403666321
+    "ma_200d_deviation_pct": -14.680218242438297,
+    "high_90d_position_pct": -34.67282834420381
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.092931,
-  "market_cap_usd": 241621271,
+  "price_usd": 0.092387,
+  "market_cap_usd": 240206205,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

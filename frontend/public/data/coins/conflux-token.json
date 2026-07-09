@@ -24,18 +24,18 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.74,
-    "base_score": 68.74,
+    "final_score": 68.81,
+    "base_score": 68.81,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.02,
+        "points": 16.1,
         "fg_raw_pct": 104.88,
-        "fg_z": 0.17,
+        "fg_z": 0.18,
         "pg_raw_pct": -6.99,
-        "pg_z": -0.31,
-        "vpd": 0.47,
-        "percentile": 80.1,
+        "pg_z": -0.32,
+        "vpd": 0.5,
+        "percentile": 80.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.7 (기본 68.7) = VPD +16.0 + 온체인 +24.8 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 68.8 (기본 68.8) = VPD +16.1 + 온체인 +24.8 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 58.5,
+    "score": 60.4,
     "coverage": 0.571,
-    "freshness": 0.688,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -6.986420458568183,
-    "return_90d_pct": -18.244419282617063,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -6.987737110789757,
+    "return_90d_pct": -18.245576572418276,
+    "rsi_14": 46.68,
+    "ma_200d_deviation_pct": -26.328200143743828,
+    "high_90d_position_pct": -44.71140890576765
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.0423864,
-  "market_cap_usd": 221038294,
+  "price_usd": 0.0423858,
+  "market_cap_usd": 221039397,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

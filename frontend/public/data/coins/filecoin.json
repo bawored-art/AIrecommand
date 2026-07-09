@@ -4,8 +4,8 @@
   "symbol": "fil",
   "name": "Filecoin",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": 6,
+  "previous_rank": 1,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,22 +31,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 82.61,
-    "base_score": 82.61,
+    "final_score": 82.65,
+    "base_score": 82.65,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.49,
+        "points": 19.5,
         "fg_raw_pct": 1190.7,
-        "fg_z": 3.18,
-        "pg_raw_pct": -0.04,
-        "pg_z": 0.01,
-        "vpd": 3.17,
-        "percentile": 97.45,
+        "fg_z": 3.21,
+        "pg_raw_pct": 1.53,
+        "pg_z": 0.07,
+        "vpd": 3.14,
+        "percentile": 97.5,
         "quadrant": "co_movement",
         "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +1190.7%, PG(가격 변화) -0.0% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +1190.7%, PG(가격 변화) +1.5% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,9 +58,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 13.12,
+        "points": 13.16,
         "raw_value": 42.85,
-        "percentile": 87.5,
+        "percentile": 87.74,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.36배 (가속), 릴리즈 30일 4건"
       },
@@ -82,9 +82,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -96,7 +96,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 84.2 (높을수록 저평가)"
       }
     },
-    "summary": "총점 82.6 (기본 82.6) = VPD +19.5 + 온체인 +21.7 + 개발자 +13.1 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.4 + 과열필터 -0.0"
+    "summary": "총점 82.7 (기본 82.7) = VPD +19.5 + 온체인 +21.7 + 개발자 +13.2 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.4 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -114,19 +114,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -0.03899838623889283,
-    "return_90d_pct": -14.60505939920986,
+    "return_30d_pct": 1.5254391807544292,
+    "return_90d_pct": -13.268587665730871,
     "rsi_14": 58.46,
-    "ma_200d_deviation_pct": -23.057575562515073,
-    "high_90d_position_pct": -39.97291197472158
+    "ma_200d_deviation_pct": -21.853389756627994,
+    "high_90d_position_pct": -39.03345928789464
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.772692,
-  "market_cap_usd": 615955474,
+  "price_usd": 0.784785,
+  "market_cap_usd": 625729187,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

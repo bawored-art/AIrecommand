@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 14,
   "coin_id": "story-2",
   "symbol": "data",
   "name": "Data Network",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": -2,
+  "previous_rank": 13,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,28 +24,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 59.71,
-    "base_score": 59.71,
+    "final_score": 59.31,
+    "base_score": 59.31,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.9,
         "fg_raw_pct": 3175.44,
-        "fg_z": 8.67,
-        "pg_raw_pct": -6.99,
-        "pg_z": -0.31,
-        "vpd": 8.98,
-        "percentile": 99.49,
+        "fg_z": 8.74,
+        "pg_raw_pct": -10.04,
+        "pg_z": -0.46,
+        "vpd": 9.2,
+        "percentile": 99.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3175.4%, PG(가격 변화) -7.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +3175.4%, PG(가격 변화) -10.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 6.73,
+        "points": 6.34,
         "raw_value": -13.12,
-        "percentile": 26.92,
+        "percentile": 25.38,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -8.4%"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.4,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 54.03,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 55.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 59.7 (기본 59.7) = VPD +19.9 + 온체인 +6.7 + 개발자 +7.5 + 사용자 +9.7 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.5 + 과열필터 -0.0"
+    "summary": "총점 59.3 (기본 59.3) = VPD +19.9 + 온체인 +6.3 + 개발자 +7.5 + 사용자 +9.7 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 71.8,
+    "score": 73.7,
     "coverage": 0.857,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -6.9891456557096,
-    "return_90d_pct": -43.63997087660884,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -10.040942085572201,
+    "return_90d_pct": -45.48921026784206,
+    "rsi_14": 15.42,
+    "ma_200d_deviation_pct": -70.43121380091176,
+    "high_90d_position_pct": -55.26306174401753
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.28536,
-  "market_cap_usd": 101805978,
+  "price_usd": 0.275997,
+  "market_cap_usd": 98469391,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
