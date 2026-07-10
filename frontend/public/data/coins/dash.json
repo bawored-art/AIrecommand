@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 12,
   "coin_id": "dash",
   "symbol": "dash",
   "name": "Dash",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": -7,
+  "previous_rank": 14,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,22 +24,22 @@
     "launch_year": 2014
   },
   "score": {
-    "final_score": 59.22,
-    "base_score": 59.22,
+    "final_score": 60.26,
+    "base_score": 60.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.73,
+        "points": 12.77,
         "fg_raw_pct": 94.5,
-        "fg_z": -0.08,
-        "pg_raw_pct": -0.04,
-        "pg_z": -0.13,
-        "vpd": 0.05,
-        "percentile": 58.67,
+        "fg_z": -0.07,
+        "pg_raw_pct": -1.6,
+        "pg_z": -0.18,
+        "vpd": 0.11,
+        "percentile": 63.86,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +94.5%, PG(가격 변화) -0.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +94.5%, PG(가격 변화) -1.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,7 +53,7 @@
         "weight": 15,
         "points": 14.58,
         "raw_value": 147.25,
-        "percentile": 97.17,
+        "percentile": 97.22,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.95배 (가속), 릴리즈 30일 4건"
       },
@@ -77,7 +77,7 @@
         "weight": 10,
         "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.11,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 59.2 (기본 59.2) = VPD +11.7 + 온체인 +12.5 + 개발자 +14.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.3 (기본 60.3) = VPD +12.8 + 온체인 +12.5 + 개발자 +14.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -0.04395608554311755,
-    "return_90d_pct": -22.803930516329128,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -1.603996498509965,
+    "return_90d_pct": -24.008749988974397,
+    "rsi_14": 52.44,
+    "ma_200d_deviation_pct": -13.405034777420127,
+    "high_90d_position_pct": -33.179870966335265
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 35.24,
-  "market_cap_usd": 449789371,
+  "price_usd": 34.69,
+  "market_cap_usd": 442596915,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

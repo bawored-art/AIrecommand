@@ -1,11 +1,11 @@
 {
-  "rank": 1,
+  "rank": 5,
   "coin_id": "filecoin",
   "symbol": "fil",
   "name": "Filecoin",
   "badge": null,
   "previous_rank": 1,
-  "rank_change": 0,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,46 +31,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 80.04,
-    "base_score": 80.04,
+    "final_score": 65.4,
+    "base_score": 65.4,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.65,
-        "fg_raw_pct": 1270.35,
-        "fg_z": 0.74,
-        "pg_raw_pct": 5.0,
-        "pg_z": 0.07,
-        "vpd": 0.67,
-        "percentile": 88.27,
-        "quadrant": "co_movement",
-        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
+        "points": 7.23,
+        "fg_raw_pct": 48.84,
+        "fg_z": -0.1,
+        "pg_raw_pct": 4.9,
+        "pg_z": 0.09,
+        "vpd": -0.19,
+        "percentile": 36.14,
+        "quadrant": "pure_pump",
+        "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +1270.3%, PG(가격 변화) +5.0% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +48.8%, PG(가격 변화) +4.9% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.23,
+        "points": 21.34,
         "raw_value": 23.49,
-        "percentile": 84.92,
+        "percentile": 85.38,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +22.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 13.44,
+        "points": 13.47,
         "raw_value": 42.85,
-        "percentile": 89.62,
+        "percentile": 89.81,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.36배 (가속), 릴리즈 30일 4건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.42,
-        "raw_value": 2716.37,
-        "percentile": 94.19,
+        "points": 7.16,
+        "raw_value": 49.49,
+        "percentile": 71.59,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +3253.9%"
+        "reason": "프로토콜 수수료 30일 +78.0%"
       },
       "catalyst": {
         "weight": 10,
@@ -84,19 +84,19 @@
         "weight": 10,
         "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.11,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.89,
-        "sector_percentile": 78.9,
+        "points": 5.79,
+        "sector_percentile": 57.9,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 78.9 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 57.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 80.0 (기본 80.0) = VPD +17.6 + 온체인 +21.2 + 개발자 +13.4 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.9 + 과열필터 -0.0"
+    "summary": "총점 65.4 (기본 65.4) = VPD +7.2 + 온체인 +21.3 + 개발자 +13.5 + 사용자 +7.2 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,25 +108,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 94.4,
+    "score": 96.3,
     "coverage": 1.0,
-    "freshness": 0.812,
+    "freshness": 0.875,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 4.998658493903179,
-    "return_90d_pct": -12.37742628562319,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 4.898487200189326,
+    "return_90d_pct": -12.461020368570606,
+    "rsi_14": 61.76,
+    "ma_200d_deviation_pct": -20.137771372137784,
+    "high_90d_position_pct": -37.847276944790295
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.800818,
-  "market_cap_usd": 638284420,
+  "price_usd": 0.800054,
+  "market_cap_usd": 637855376,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -202,7 +202,7 @@
         },
         {
           "label": "현재",
-          "value": 57084
+          "value": 3030
         }
       ]
     }

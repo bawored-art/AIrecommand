@@ -1,84 +1,84 @@
 {
-  "rank": 12,
+  "rank": 8,
   "coin_id": "near",
   "symbol": "near",
   "name": "NEAR Protocol",
   "badge": null,
-  "previous_rank": 20,
-  "rank_change": 8,
+  "previous_rank": 12,
+  "rank_change": 4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Andreessen Horowitz (a16z) Portfolio",
-      "CoinList Launchpad",
-      "Alleged SEC Securities",
-      "Pantera Capital Portfolio",
-      "Alameda Research Portfolio",
-      "Circle Ventures Portfolio",
-      "FTX Holdings",
-      "Privacy Infrastructure",
-      "GMCI Layer 1 Index",
-      "Proof of Stake (PoS)",
-      "Layer 1 (L1)",
-      "Data Availability",
-      "Smart Contract Platform",
-      "DragonFly Capital Portfolio",
-      "Chain Abstraction",
-      "Coinbase 50 Index",
       "Artificial Intelligence (AI)",
-      "Multicoin Capital Portfolio",
-      "Made in USA",
+      "Smart Contract Platform",
+      "Layer 1 (L1)",
       "Near Protocol Ecosystem",
+      "Alleged SEC Securities",
+      "FTX Holdings",
+      "Data Availability",
+      "Coinbase Ventures Portfolio",
+      "Multicoin Capital Portfolio",
+      "Proof of Stake (PoS)",
+      "Alameda Research Portfolio",
+      "DragonFly Capital Portfolio",
+      "Pantera Capital Portfolio",
+      "Andreessen Horowitz (a16z) Portfolio",
+      "GMCI Layer 1 Index",
       "GMCI 30 Index",
+      "Circle Ventures Portfolio",
       "GMCI Index",
-      "Privacy",
-      "Coinbase Ventures Portfolio"
+      "Made in USA",
+      "Coinbase 50 Index",
+      "Chain Abstraction",
+      "CoinList Launchpad",
+      "Privacy Infrastructure",
+      "Privacy"
     ],
     "chain": "NEAR Protocol 자체 메인넷",
     "launch_year": null
   },
   "score": {
-    "final_score": 60.05,
-    "base_score": 60.05,
+    "final_score": 62.76,
+    "base_score": 62.76,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.61,
+        "points": 16.73,
         "fg_raw_pct": -10.85,
         "fg_z": -0.15,
-        "pg_raw_pct": -10.05,
-        "pg_z": -0.53,
-        "vpd": 0.38,
-        "percentile": 78.06,
+        "pg_raw_pct": -11.9,
+        "pg_z": -0.6,
+        "vpd": 0.45,
+        "percentile": 83.66,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -10.9%, PG(가격 변화) -10.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -10.9%, PG(가격 변화) -11.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 14.09,
+        "points": 14.42,
         "raw_value": -3.97,
-        "percentile": 56.35,
+        "percentile": 57.69,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.4%"
       },
       "developer": {
         "weight": 15,
-        "points": 10.33,
+        "points": 10.97,
         "raw_value": 4.94,
-        "percentile": 68.87,
+        "percentile": 73.15,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.81배 (둔화), 릴리즈 30일 3건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.93,
+        "points": 6.02,
         "raw_value": 25.15,
-        "percentile": 59.3,
+        "percentile": 60.23,
         "missing": false,
         "reason": "프로토콜 수수료 30일 -8.0%"
       },
@@ -94,19 +94,19 @@
         "weight": 10,
         "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.11,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 3.68,
-        "sector_percentile": 36.8,
+        "points": 4.21,
+        "sector_percentile": 42.1,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 36.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 42.1 (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.0 (기본 60.0) = VPD +15.6 + 온체인 +14.1 + 개발자 +10.3 + 사용자 +5.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +3.7 + 과열필터 -0.0"
+    "summary": "총점 62.8 (기본 62.8) = VPD +16.7 + 온체인 +14.4 + 개발자 +11.0 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +4.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -124,19 +124,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -10.046299546249173,
-    "return_90d_pct": 42.50706702092145,
+    "return_30d_pct": -11.901015019522388,
+    "return_90d_pct": 39.56877697925296,
     "rsi_14": 59.19,
-    "ma_200d_deviation_pct": 24.296456203536746,
-    "high_90d_position_pct": -31.291941024330928
+    "ma_200d_deviation_pct": 21.733642673566912,
+    "high_90d_position_pct": -32.708602034138536
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.94,
-  "market_cap_usd": 2529013306,
+  "price_usd": 1.9,
+  "market_cap_usd": 2467850396,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
