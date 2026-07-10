@@ -1,11 +1,11 @@
 {
-  "rank": 9,
+  "rank": 7,
   "coin_id": "polygon-ecosystem-token",
   "symbol": "pol",
   "name": "POL (ex-MATIC)",
   "badge": null,
-  "previous_rank": 10,
-  "rank_change": 1,
+  "previous_rank": 9,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,30 +22,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.33,
-    "base_score": 62.33,
+    "final_score": 61.56,
+    "base_score": 61.56,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.1,
-        "fg_raw_pct": 23.78,
-        "fg_z": -0.05,
-        "pg_raw_pct": -3.13,
-        "pg_z": -0.14,
-        "vpd": 0.1,
-        "percentile": 60.5,
+        "points": 9.49,
+        "fg_raw_pct": 25.71,
+        "fg_z": -0.13,
+        "pg_raw_pct": 1.78,
+        "pg_z": -0.06,
+        "vpd": -0.07,
+        "percentile": 47.45,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +23.8%, PG(가격 변화) -3.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +25.7%, PG(가격 변화) +1.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.19,
-        "raw_value": 14.66,
-        "percentile": 80.77,
+        "points": 20.83,
+        "raw_value": 16.33,
+        "percentile": 83.33,
         "missing": false,
-        "reason": "TVL 30일 +29.3%, 스테이블코인 유입 30일 +10.9%"
+        "reason": "TVL 30일 +30.6%, 스테이블코인 유입 30일 +14.3%"
       },
       "developer": {
         "weight": 15,
@@ -73,21 +73,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.4,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.03,
+        "percentile": 54.11,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.14,
-        "sector_percentile": 71.4,
+        "points": 8.33,
+        "sector_percentile": 83.3,
         "missing": false,
-        "reason": "MC/TVL 백분위 71.4, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 83.3, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.3 (기본 62.3) = VPD +12.1 + 온체인 +20.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.1 + 과열필터 -0.0"
+    "summary": "총점 61.6 (기본 61.6) = VPD +9.5 + 온체인 +20.8 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,19 +105,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -3.1255953793995745,
-    "return_90d_pct": -12.55586355587321,
-    "rsi_14": 66.21,
-    "ma_200d_deviation_pct": -23.198356890717953,
-    "high_90d_position_pct": -27.692113495477688
+    "return_30d_pct": 1.7774060376085778,
+    "return_90d_pct": -9.777918260991514,
+    "rsi_14": 69.32,
+    "ma_200d_deviation_pct": -21.541979332758128,
+    "high_90d_position_pct": -26.24744728047355
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.075628,
-  "market_cap_usd": 807428249,
+  "price_usd": 0.077139,
+  "market_cap_usd": 823512828,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -153,15 +153,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 2569264442
+          "value": 2562722703
         },
         {
           "label": "30일 전",
-          "value": 2214420862
+          "value": 2192526232
         },
         {
           "label": "현재",
-          "value": 2863595465.812769
+          "value": 2863083472.4018946
         }
       ]
     },
@@ -169,15 +169,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 3645997703
+          "value": 3642255802
         },
         {
           "label": "30일 전",
-          "value": 3518431555
+          "value": 3463238357
         },
         {
           "label": "현재",
-          "value": 3901203201.96
+          "value": 3959385589.29
         }
       ]
     },

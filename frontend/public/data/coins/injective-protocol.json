@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 11,
   "coin_id": "injective-protocol",
   "symbol": "inj",
   "name": "Injective",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": -11,
+  "previous_rank": 17,
+  "rank_change": 6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -35,36 +35,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.82,
-    "base_score": 58.82,
+    "final_score": 60.1,
+    "base_score": 60.1,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.1,
-        "fg_raw_pct": -50.37,
-        "fg_z": -0.25,
-        "pg_raw_pct": -13.49,
-        "pg_z": -0.61,
-        "vpd": 0.36,
-        "percentile": 75.5,
+        "points": 16.22,
+        "fg_raw_pct": -48.0,
+        "fg_z": -0.18,
+        "pg_raw_pct": -11.33,
+        "pg_z": -0.58,
+        "vpd": 0.4,
+        "percentile": 81.12,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -50.4%, PG(가격 변화) -13.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -48.0%, PG(가격 변화) -11.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.34,
-        "raw_value": 20.04,
-        "percentile": 85.38,
+        "points": 21.63,
+        "raw_value": 25.79,
+        "percentile": 86.51,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +32.4%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +38.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 1.98,
+        "points": 1.84,
         "raw_value": -100.0,
-        "percentile": 13.21,
+        "percentile": 12.26,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.00배 (둔화), 릴리즈 30일 0건"
       },
@@ -79,16 +79,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.4,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.03,
+        "percentile": 54.11,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -100,37 +100,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 58.8 (기본 58.8) = VPD +15.1 + 온체인 +21.3 + 개발자 +2.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.1 (기본 60.1) = VPD +16.2 + 온체인 +21.6 + 개발자 +1.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
-    "coverage": 0.714,
-    "freshness": 0.812,
+    "score": 52.9,
+    "coverage": 0.571,
+    "freshness": 0.5,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -13.493441012122338,
-    "return_90d_pct": 64.47742930082075,
-    "rsi_14": 64.71,
-    "ma_200d_deviation_pct": 18.036263200793364,
-    "high_90d_position_pct": -30.321521519246264
+    "return_30d_pct": -11.331930245971202,
+    "return_90d_pct": 60.42357601154964,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 4.87,
-  "market_cap_usd": 487193492,
+  "price_usd": 4.9,
+  "market_cap_usd": 490308645,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,15 +182,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 16074081
+          "value": 16060489
         },
         {
           "label": "30일 전",
-          "value": 13081368
+          "value": 13079390
         },
         {
           "label": "현재",
-          "value": 17314361.94
+          "value": 18135632.44
         }
       ]
     },

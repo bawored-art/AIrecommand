@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 9,
   "coin_id": "xdce-crowd-sale",
   "symbol": "xdc",
   "name": "XDC Network",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "previous_rank": 13,
+  "rank_change": 4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,36 +20,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.25,
-    "base_score": 60.25,
+    "final_score": 60.56,
+    "base_score": 60.56,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.9,
-        "fg_raw_pct": -10.15,
-        "fg_z": -0.14,
-        "pg_raw_pct": -13.35,
+        "points": 16.84,
+        "fg_raw_pct": -10.76,
+        "fg_z": -0.15,
+        "pg_raw_pct": -11.9,
         "pg_z": -0.61,
-        "vpd": 0.46,
-        "percentile": 79.5,
+        "vpd": 0.45,
+        "percentile": 84.18,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -10.1%, PG(가격 변화) -13.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -10.8%, PG(가격 변화) -11.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 14.04,
-        "raw_value": -5.62,
-        "percentile": 56.15,
+        "points": 13.69,
+        "raw_value": -4.83,
+        "percentile": 54.76,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -10.1%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -10.8%"
       },
       "developer": {
         "weight": 15,
-        "points": 9.91,
+        "points": 9.62,
         "raw_value": 0.0,
-        "percentile": 66.04,
+        "percentile": 64.15,
         "missing": false,
         "reason": "GitHub 데이터 없음"
       },
@@ -71,9 +71,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.4,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.03,
+        "percentile": 54.11,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.2 (기본 60.2) = VPD +15.9 + 온체인 +14.0 + 개발자 +9.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.6 (기본 60.6) = VPD +16.8 + 온체인 +13.7 + 개발자 +9.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -97,25 +97,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 64.2,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -13.347374163610546,
-    "return_90d_pct": -11.799719915415327,
-    "rsi_14": 35.76,
-    "ma_200d_deviation_pct": -21.31544041010804,
-    "high_90d_position_pct": -21.244881688068848
+    "return_30d_pct": -11.899893760435418,
+    "return_90d_pct": -10.16371198371641,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02712385,
-  "market_cap_usd": 541044863,
+  "price_usd": 0.02777079,
+  "market_cap_usd": 553936664,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -167,15 +167,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 80056713
+          "value": 78864492
         },
         {
           "label": "30일 전",
-          "value": 88120935
+          "value": 89338276
         },
         {
           "label": "현재",
-          "value": 79178510.15
+          "value": 79725266.79
         }
       ]
     },

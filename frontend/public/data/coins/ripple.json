@@ -1,11 +1,11 @@
 {
-  "rank": 2,
+  "rank": 3,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
   "previous_rank": 2,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,36 +28,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 69.84,
-    "base_score": 69.84,
+    "final_score": 68.4,
+    "base_score": 68.4,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.9,
-        "fg_raw_pct": 3.83,
-        "fg_z": -0.1,
-        "pg_raw_pct": -6.46,
-        "pg_z": -0.29,
-        "vpd": 0.19,
-        "percentile": 64.5,
+        "points": 12.35,
+        "fg_raw_pct": 3.94,
+        "fg_z": -0.14,
+        "pg_raw_pct": -2.4,
+        "pg_z": -0.22,
+        "vpd": 0.08,
+        "percentile": 61.73,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.8%, PG(가격 변화) -6.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +3.9%, PG(가격 변화) -2.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.66,
-        "raw_value": 93.56,
-        "percentile": 94.62,
+        "points": 23.61,
+        "raw_value": 94.53,
+        "percentile": 94.44,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.7%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +20.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.88,
+        "points": 12.03,
         "raw_value": 22.15,
-        "percentile": 85.85,
+        "percentile": 80.19,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.94배 (둔화), 릴리즈 30일 1건"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.4,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 54.03,
+        "percentile": 54.11,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 69.8 (기본 69.8) = VPD +12.9 + 온체인 +23.7 + 개발자 +12.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 68.4 (기본 68.4) = VPD +12.3 + 온체인 +23.6 + 개발자 +12.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -6.459448121695524,
-    "return_90d_pct": -18.7519878629724,
-    "rsi_14": 61.26,
-    "ma_200d_deviation_pct": -25.33854768833226,
-    "high_90d_position_pct": -26.437678582303516
+    "return_30d_pct": -2.3972211429595873,
+    "return_90d_pct": -18.147309361104398,
+    "rsi_14": 64.18,
+    "ma_200d_deviation_pct": -23.903381031019862,
+    "high_90d_position_pct": -25.22511284464918
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.092,
-  "market_cap_usd": 68214420136,
+  "price_usd": 1.11,
+  "market_cap_usd": 69609816989,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,15 +175,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 341436328
+          "value": 340918888
         },
         {
           "label": "30일 전",
-          "value": 762773653
+          "value": 764353530
         },
         {
           "label": "현재",
-          "value": 913059465.55
+          "value": 917273620.66
         }
       ]
     },
