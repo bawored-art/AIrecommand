@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 14,
   "coin_id": "near",
   "symbol": "near",
   "name": "NEAR Protocol",
   "badge": null,
-  "previous_rank": 8,
-  "rank_change": -10,
+  "previous_rank": 18,
+  "rank_change": 4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -41,18 +41,18 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.63,
-    "base_score": 57.63,
+    "final_score": 57.68,
+    "base_score": 57.68,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.04,
+        "points": 14.18,
         "fg_raw_pct": -15.81,
         "fg_z": -0.1,
         "pg_raw_pct": -3.03,
-        "pg_z": -0.33,
-        "vpd": 0.22,
-        "percentile": 70.2,
+        "pg_z": -0.34,
+        "vpd": 0.24,
+        "percentile": 70.92,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
@@ -60,25 +60,25 @@
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 12.7,
+        "points": 12.5,
         "raw_value": -4.6,
-        "percentile": 50.78,
+        "percentile": 50.0,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -3.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 10.61,
+        "points": 10.7,
         "raw_value": 5.19,
-        "percentile": 70.75,
+        "percentile": 71.3,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.82배 (둔화), 릴리즈 30일 3건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.34,
+        "points": 5.49,
         "raw_value": 8.36,
-        "percentile": 53.41,
+        "percentile": 54.88,
         "missing": false,
         "reason": "프로토콜 수수료 30일 -21.0%"
       },
@@ -92,21 +92,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.69,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 56.94,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 4.44,
-        "sector_percentile": 44.4,
+        "points": 4.12,
+        "sector_percentile": 41.2,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 44.4 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 41.2 (높을수록 저평가)"
       }
     },
-    "summary": "총점 57.6 (기본 57.6) = VPD +14.0 + 온체인 +12.7 + 개발자 +10.6 + 사용자 +5.3 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.4 + 과열필터 -0.0"
+    "summary": "총점 57.7 (기본 57.7) = VPD +14.2 + 온체인 +12.5 + 개발자 +10.7 + 사용자 +5.5 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +4.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -136,7 +136,7 @@
     "reasons": []
   },
   "price_usd": 1.91,
-  "market_cap_usd": 2482471311,
+  "market_cap_usd": 2486778922,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

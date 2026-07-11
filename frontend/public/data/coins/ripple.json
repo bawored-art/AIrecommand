@@ -1,11 +1,11 @@
 {
-  "rank": 1,
+  "rank": 4,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 2,
-  "rank_change": 1,
+  "previous_rank": 1,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,18 +28,18 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.26,
-    "base_score": 68.26,
+    "final_score": 63.6,
+    "base_score": 63.6,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.82,
+        "points": 11.94,
         "fg_raw_pct": 7.25,
         "fg_z": -0.09,
         "pg_raw_pct": 1.2,
-        "pg_z": -0.17,
-        "vpd": 0.08,
-        "percentile": 59.09,
+        "pg_z": -0.19,
+        "vpd": 0.09,
+        "percentile": 59.69,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
@@ -47,17 +47,17 @@
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
+        "points": 23.61,
         "raw_value": 94.78,
-        "percentile": 94.53,
+        "percentile": 94.44,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.31,
+        "points": 12.36,
         "raw_value": 24.9,
-        "percentile": 82.08,
+        "percentile": 82.41,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.00배 (둔화), 릴리즈 30일 1건"
       },
@@ -79,11 +79,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
-        "raw_value": 0.0,
-        "percentile": 55.0,
+        "points": 0.69,
+        "raw_value": 2.0,
+        "percentile": 6.94,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0100로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.3 (기본 68.3) = VPD +11.8 + 온체인 +23.6 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.6 (기본 63.6) = VPD +11.9 + 온체인 +23.6 + 개발자 +12.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -123,7 +123,7 @@
     "reasons": []
   },
   "price_usd": 1.11,
-  "market_cap_usd": 69129959020,
+  "market_cap_usd": 69430038794,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

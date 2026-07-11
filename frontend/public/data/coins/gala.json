@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 9,
   "coin_id": "gala",
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 17,
-  "rank_change": 3,
+  "previous_rank": 14,
+  "rank_change": 5,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.86,
-    "base_score": 58.86,
+    "final_score": 59.17,
+    "base_score": 59.17,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.08,
+        "points": 18.06,
         "fg_raw_pct": -33.3,
         "fg_z": -0.11,
-        "pg_raw_pct": -14.63,
-        "pg_z": -0.76,
-        "vpd": 0.65,
-        "percentile": 90.4,
+        "pg_raw_pct": -15.48,
+        "pg_z": -0.81,
+        "vpd": 0.69,
+        "percentile": 90.31,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -14.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -15.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,9 +56,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 7.78,
+        "points": 7.92,
         "raw_value": -16.65,
-        "percentile": 51.89,
+        "percentile": 52.78,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.67배 (둔화), 릴리즈 30일 1건"
       },
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.69,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 56.94,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 58.9 (기본 58.9) = VPD +18.1 + 온체인 +12.5 + 개발자 +7.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.2 (기본 59.2) = VPD +18.1 + 온체인 +12.5 + 개발자 +7.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,19 +112,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -14.628126368164192,
-    "return_90d_pct": -28.759947800846565,
+    "return_30d_pct": -15.477318452079924,
+    "return_90d_pct": -29.46857097861767,
     "rsi_14": 44.35,
-    "ma_200d_deviation_pct": -44.152098852921384,
-    "high_90d_position_pct": -47.88879165405166
+    "ma_200d_deviation_pct": -44.7076166545094,
+    "high_90d_position_pct": -48.407140657395544
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00215945,
-  "market_cap_usd": 105205456,
+  "price_usd": 0.00213797,
+  "market_cap_usd": 104163067,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

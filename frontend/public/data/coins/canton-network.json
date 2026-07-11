@@ -1,11 +1,11 @@
 {
-  "rank": 19,
+  "rank": 18,
   "coin_id": "canton-network",
   "symbol": "cc",
   "name": "Canton",
-  "badge": null,
-  "previous_rank": 17,
-  "rank_change": -2,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.07,
-    "base_score": 57.07,
+    "final_score": 57.25,
+    "base_score": 57.25,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.3,
-        "fg_raw_pct": -12.02,
-        "fg_z": -0.15,
-        "pg_raw_pct": -21.75,
-        "pg_z": -0.4,
-        "vpd": 0.25,
-        "percentile": 91.5,
+        "points": 18.27,
+        "fg_raw_pct": -19.07,
+        "fg_z": -0.11,
+        "pg_raw_pct": -16.98,
+        "pg_z": -0.86,
+        "vpd": 0.76,
+        "percentile": 91.33,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -12.0%, PG(가격 변화) -21.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -19.1%, PG(가격 변화) -17.0% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,11 +55,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.22,
-        "raw_value": -19.66,
-        "percentile": 32.22,
+        "points": 3.29,
+        "raw_value": -22.55,
+        "percentile": 32.93,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -12.0%"
+        "reason": "프로토콜 수수료 30일 -19.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.55,
+        "points": 0.69,
         "raw_value": 2.0,
-        "percentile": 5.48,
+        "percentile": 6.94,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0028로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0018로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 57.1 (기본 57.1) = VPD +18.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +3.2 + 촉매 +5.0 + 리스크 +0.6 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 57.2 (기본 57.2) = VPD +18.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +3.3 + 촉매 +5.0 + 리스크 +0.7 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -21.750412260670366,
-    "return_90d_pct": -9.074900973330555,
-    "rsi_14": 15.63,
-    "ma_200d_deviation_pct": -14.813759165944418,
-    "high_90d_position_pct": -22.965529172311076
+    "return_30d_pct": -16.979372352239803,
+    "return_90d_pct": -7.8213966982360175,
+    "rsi_14": 24.86,
+    "ma_200d_deviation_pct": -10.539895330312042,
+    "high_90d_position_pct": -18.771130738827946
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.128048,
-  "market_cap_usd": 4996371887,
+  "price_usd": 0.13502,
+  "market_cap_usd": 5271767693,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -168,15 +168,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 2460000
+          "value": 2400341
         },
         {
           "label": "30일 전",
-          "value": 2032919
+          "value": 2194066
         },
         {
           "label": "현재",
-          "value": 1788517
+          "value": 1775560
         }
       ]
     }
