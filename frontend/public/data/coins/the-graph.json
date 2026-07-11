@@ -4,8 +4,8 @@
   "symbol": "grt",
   "name": "The Graph",
   "badge": null,
-  "previous_rank": 10,
-  "rank_change": -1,
+  "previous_rank": 11,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -34,22 +34,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.29,
-    "base_score": 60.29,
+    "final_score": 60.09,
+    "base_score": 60.09,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.35,
-        "fg_raw_pct": -7.2,
-        "fg_z": -0.14,
-        "pg_raw_pct": -9.16,
-        "pg_z": -0.49,
-        "vpd": 0.35,
-        "percentile": 76.73,
+        "points": 15.45,
+        "fg_raw_pct": 19.67,
+        "fg_z": -0.09,
+        "pg_raw_pct": -5.37,
+        "pg_z": -0.42,
+        "vpd": 0.33,
+        "percentile": 77.27,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -7.2%, PG(가격 변화) -9.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +19.7%, PG(가격 변화) -5.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -61,19 +61,19 @@
       },
       "developer": {
         "weight": 15,
-        "points": 5.42,
+        "points": 5.52,
         "raw_value": -54.85,
-        "percentile": 36.11,
+        "percentile": 36.79,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.90배 (둔화), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.75,
-        "raw_value": 181.54,
-        "percentile": 87.5,
+        "points": 8.98,
+        "raw_value": 167.02,
+        "percentile": 89.77,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -4.7%"
+        "reason": "프로토콜 수수료 30일 +49.0%"
       },
       "catalyst": {
         "weight": 10,
@@ -85,21 +85,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 54.07,
+        "percentile": 55.0,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.86,
-        "sector_percentile": 78.6,
+        "points": 7.14,
+        "sector_percentile": 71.4,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 78.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 71.4 (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.3 (기본 60.3) = VPD +15.3 + 온체인 +12.5 + 개발자 +5.4 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.9 + 과열필터 -0.0"
+    "summary": "총점 60.1 (기본 60.1) = VPD +15.4 + 온체인 +12.5 + 개발자 +5.5 + 사용자 +9.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,25 +111,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 90.5,
+    "score": 75.5,
     "coverage": 0.857,
     "freshness": 0.875,
-    "consistency": 1.0
+    "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -9.15923081433201,
-    "return_90d_pct": -27.183215382337846,
-    "rsi_14": 49.34,
-    "ma_200d_deviation_pct": -34.23773613781087,
-    "high_90d_position_pct": -38.46112668002834
+    "return_30d_pct": -5.368667858178526,
+    "return_90d_pct": -27.070554639598065,
+    "rsi_14": 50.21,
+    "ma_200d_deviation_pct": -34.326802684118285,
+    "high_90d_position_pct": -38.76151586815242
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.01778013,
-  "market_cap_usd": 191959526,
+  "price_usd": 0.01769334,
+  "market_cap_usd": 191082197,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,15 +182,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 152
+          "value": 120
         },
         {
           "label": "30일 전",
-          "value": 746
+          "value": 310
         },
         {
           "label": "현재",
-          "value": 711
+          "value": 462
         }
       ]
     }

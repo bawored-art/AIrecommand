@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 12,
   "coin_id": "world-liberty-financial",
   "symbol": "wlfi",
   "name": "World Liberty Financial",
-  "badge": null,
-  "previous_rank": 18,
-  "rank_change": 0,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,22 +23,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.88,
-    "base_score": 58.88,
+    "final_score": 59.04,
+    "base_score": 59.04,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.18,
-        "fg_raw_pct": 1.55,
-        "fg_z": -0.16,
-        "pg_raw_pct": 2.64,
-        "pg_z": -0.23,
-        "vpd": 0.07,
-        "percentile": 60.89,
+        "points": 13.43,
+        "fg_raw_pct": 2.09,
+        "fg_z": -0.09,
+        "pg_raw_pct": -1.45,
+        "pg_z": -0.27,
+        "vpd": 0.17,
+        "percentile": 67.17,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +1.6%, PG(가격 변화) +2.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +2.1%, PG(가격 변화) -1.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,11 +58,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.25,
-        "raw_value": 4.31,
-        "percentile": 62.5,
+        "points": 5.11,
+        "raw_value": 5.91,
+        "percentile": 51.14,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +1.6%"
+        "reason": "프로토콜 수수료 30일 +2.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.45,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 54.48,
+        "percentile": 55.0,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -88,7 +88,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.9 (기본 58.9) = VPD +12.2 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.2 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 59.0 (기본 59.0) = VPD +13.4 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +106,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 2.64281701504877,
-    "return_90d_pct": -40.891086064274276,
-    "rsi_14": 46.2,
-    "ma_200d_deviation_pct": -41.335348263884235,
-    "high_90d_position_pct": -35.79747185570497
+    "return_30d_pct": -1.449803514737592,
+    "return_90d_pct": -27.295135570665717,
+    "rsi_14": 52.06,
+    "ma_200d_deviation_pct": -40.096803048005995,
+    "high_90d_position_pct": -29.44611309605959
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.058032,
-  "market_cap_usd": 1843770706,
+  "price_usd": 0.058124,
+  "market_cap_usd": 1846846570,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,15 +171,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 369938
+          "value": 348390
         },
         {
           "label": "30일 전",
-          "value": 390013
+          "value": 374440
         },
         {
           "label": "현재",
-          "value": 396061
+          "value": 382275
         }
       ]
     }

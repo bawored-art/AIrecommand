@@ -1,65 +1,59 @@
 {
-  "rank": 1,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 2,
-  "rank_change": 1,
+  "rank": 9,
+  "coin_id": "vechain",
+  "symbol": "vet",
+  "name": "VeChain",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
+      "Internet of Things (IOT)",
       "Smart Contract Platform",
       "Layer 1 (L1)",
-      "FTX Holdings",
-      "Pantera Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
-      "GMCI 30 Index",
-      "Blockchain Capital Portfolio",
-      "GMCI Index",
-      "Made in USA",
-      "Coinbase 50 Index"
+      "VeChain Ecosystem",
+      "Made in China"
     ],
-    "chain": "XRP 자체 메인넷",
-    "launch_year": null
+    "chain": "Vechain",
+    "launch_year": 2017
   },
   "score": {
-    "final_score": 68.26,
-    "base_score": 68.26,
+    "final_score": 61.01,
+    "base_score": 61.01,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.82,
-        "fg_raw_pct": 7.25,
-        "fg_z": -0.09,
-        "pg_raw_pct": 1.2,
-        "pg_z": -0.17,
-        "vpd": 0.08,
-        "percentile": 59.09,
+        "points": 10.61,
+        "fg_raw_pct": 31.25,
+        "fg_z": -0.08,
+        "pg_raw_pct": 2.87,
+        "pg_z": -0.11,
+        "vpd": 0.03,
+        "percentile": 53.03,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +7.3%, PG(가격 변화) +1.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +31.3%, PG(가격 변화) +2.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
-        "raw_value": 94.78,
-        "percentile": 94.53,
+        "points": 16.6,
+        "raw_value": 0.0,
+        "percentile": 66.41,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.7%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.31,
-        "raw_value": 24.9,
-        "percentile": 82.08,
+        "points": 13.3,
+        "raw_value": 50.0,
+        "percentile": 88.68,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.00배 (둔화), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.50배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -72,10 +66,10 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -93,37 +87,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.3 (기본 68.3) = VPD +11.8 + 온체인 +23.6 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.0 (기본 61.0) = VPD +10.6 + 온체인 +16.6 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
-    "consistency": 0.5
+    "score": 81.1,
+    "coverage": 0.714,
+    "freshness": 0.75,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 1.1960213237848687,
-    "return_90d_pct": -18.10101553152043,
-    "rsi_14": 62.76,
-    "ma_200d_deviation_pct": -23.699770510681763,
-    "high_90d_position_pct": -25.22511284464918
+    "return_30d_pct": 2.873546061339201,
+    "return_90d_pct": -31.181598937413433,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.11,
-  "market_cap_usd": 69129959020,
+  "price_usd": 0.00482559,
+  "market_cap_usd": 414923504,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,15 +169,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 340918888
+          "value": 9843
         },
         {
           "label": "30일 전",
-          "value": 768811192
+          "value": 9843
         },
         {
           "label": "현재",
-          "value": 920074271.85
+          "value": 9843.14
         }
       ]
     },
