@@ -1,11 +1,11 @@
 {
-  "rank": 11,
+  "rank": 9,
   "coin_id": "the-graph",
   "symbol": "grt",
   "name": "The Graph",
-  "badge": null,
-  "previous_rank": 11,
-  "rank_change": 0,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -34,22 +34,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.09,
-    "base_score": 60.09,
+    "final_score": 61.45,
+    "base_score": 61.45,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.45,
-        "fg_raw_pct": 19.67,
-        "fg_z": -0.09,
-        "pg_raw_pct": -5.37,
-        "pg_z": -0.42,
-        "vpd": 0.33,
-        "percentile": 77.27,
+        "points": 15.3,
+        "fg_raw_pct": -42.52,
+        "fg_z": -0.11,
+        "pg_raw_pct": -10.85,
+        "pg_z": -0.45,
+        "vpd": 0.34,
+        "percentile": 76.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +19.7%, PG(가격 변화) -5.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -42.5%, PG(가격 변화) -10.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -62,18 +62,18 @@
       "developer": {
         "weight": 15,
         "points": 5.52,
-        "raw_value": -54.85,
+        "raw_value": -62.9,
         "percentile": 36.79,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.90배 (둔화), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.74배 (둔화), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.98,
-        "raw_value": 167.02,
-        "percentile": 89.77,
+        "points": 8.95,
+        "raw_value": 140.28,
+        "percentile": 89.53,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +49.0%"
+        "reason": "프로토콜 수수료 30일 -59.2%"
       },
       "catalyst": {
         "weight": 10,
@@ -85,21 +85,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.61,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 56.1,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.14,
-        "sector_percentile": 71.4,
+        "points": 8.57,
+        "sector_percentile": 85.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 71.4 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.1 (기본 60.1) = VPD +15.4 + 온체인 +12.5 + 개발자 +5.5 + 사용자 +9.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
+    "summary": "총점 61.5 (기본 61.5) = VPD +15.3 + 온체인 +12.5 + 개발자 +5.5 + 사용자 +8.9 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,25 +111,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 75.5,
+    "score": 88.7,
     "coverage": 0.857,
-    "freshness": 0.875,
-    "consistency": 0.5
+    "freshness": 0.812,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -5.368667858178526,
-    "return_90d_pct": -27.070554639598065,
-    "rsi_14": 50.21,
-    "ma_200d_deviation_pct": -34.326802684118285,
-    "high_90d_position_pct": -38.76151586815242
+    "return_30d_pct": -10.853598569727433,
+    "return_90d_pct": -25.622997336290005,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.01769334,
-  "market_cap_usd": 191082197,
+  "price_usd": 0.01753958,
+  "market_cap_usd": 189419090,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,15 +182,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 120
+          "value": 470
         },
         {
           "label": "30일 전",
-          "value": 310
+          "value": 5070
         },
         {
           "label": "현재",
-          "value": 462
+          "value": 2067
         }
       ]
     }

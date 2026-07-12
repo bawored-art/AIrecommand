@@ -4,8 +4,8 @@
   "symbol": "lab",
   "name": "LAB",
   "badge": null,
-  "previous_rank": 4,
-  "rank_change": 2,
+  "previous_rank": 2,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,22 +23,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.06,
-    "base_score": 65.06,
+    "final_score": 66.07,
+    "base_score": 66.07,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.69,
-        "fg_raw_pct": 33.6,
+        "points": 19.7,
+        "fg_raw_pct": 33.27,
         "fg_z": -0.08,
-        "pg_raw_pct": -89.45,
-        "pg_z": -3.55,
-        "vpd": 3.47,
-        "percentile": 98.47,
+        "pg_raw_pct": -94.49,
+        "pg_z": -3.65,
+        "vpd": 3.57,
+        "percentile": 98.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +33.6%, PG(가격 변화) -89.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +33.3%, PG(가격 변화) -94.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,11 +58,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.68,
-        "raw_value": 76.44,
-        "percentile": 76.83,
+        "points": 8.26,
+        "raw_value": 96.93,
+        "percentile": 82.56,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +33.6%"
+        "reason": "프로토콜 수수료 30일 +33.3%"
       },
       "catalyst": {
         "weight": 10,
@@ -74,21 +74,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.69,
+        "points": 5.61,
         "raw_value": 0.0,
-        "percentile": 56.94,
+        "percentile": 56.1,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.0,
-        "sector_percentile": 70.0,
+        "points": 7.5,
+        "sector_percentile": 75.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 70.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 75.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.1 (기본 65.1) = VPD +19.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.7 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +7.0 + 과열필터 -0.0"
+    "summary": "총점 66.1 (기본 66.1) = VPD +19.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.3 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +7.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -100,25 +100,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 52.9,
+    "score": 51.0,
     "coverage": 0.571,
-    "freshness": 0.5,
+    "freshness": 0.438,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -89.45391152983223,
-    "return_90d_pct": 89.90362700711401,
-    "rsi_14": 31.51,
-    "ma_200d_deviation_pct": -75.31516661972817,
-    "high_90d_position_pct": -95.87596534463054
+    "return_30d_pct": -94.48914164679839,
+    "return_90d_pct": -11.285748195450411,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.818131,
-  "market_cap_usd": 263259101,
+  "price_usd": 0.472575,
+  "market_cap_usd": 152407114,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,15 +171,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 4691
+          "value": 4003
         },
         {
           "label": "30일 전",
-          "value": 7699
+          "value": 7828
         },
         {
           "label": "현재",
-          "value": 10286
+          "value": 10432
         }
       ]
     }
