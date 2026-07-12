@@ -1,11 +1,11 @@
 {
-  "rank": 19,
+  "rank": 14,
   "coin_id": "gala",
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": -10,
+  "previous_rank": 19,
+  "rank_change": 5,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.06,
-    "base_score": 58.06,
+    "final_score": 59.9,
+    "base_score": 59.9,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.3,
+        "points": 18.51,
         "fg_raw_pct": -100.0,
         "fg_z": -0.13,
-        "pg_raw_pct": -22.64,
-        "pg_z": -0.9,
-        "vpd": 0.77,
-        "percentile": 91.5,
+        "pg_raw_pct": -23.17,
+        "pg_z": -0.91,
+        "vpd": 0.78,
+        "percentile": 92.57,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -100.0%, PG(가격 변화) -22.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -100.0%, PG(가격 변화) -23.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,9 +56,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 6.65,
-        "raw_value": -50.0,
-        "percentile": 44.34,
+        "points": 8.35,
+        "raw_value": -25.0,
+        "percentile": 55.66,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.00배 (둔화), 릴리즈 30일 1건"
       },
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.61,
+        "points": 5.54,
         "raw_value": 0.0,
-        "percentile": 56.1,
+        "percentile": 55.37,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 58.1 (기본 58.1) = VPD +18.3 + 온체인 +12.5 + 개발자 +6.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.9 (기본 59.9) = VPD +18.5 + 온체인 +12.5 + 개발자 +8.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,25 +106,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -22.640901983510155,
-    "return_90d_pct": -27.509286232265,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -23.169428850943852,
+    "return_90d_pct": -28.00455170003877,
+    "rsi_14": 39.8,
+    "ma_200d_deviation_pct": -45.988378566518904,
+    "high_90d_position_pct": -49.87121114309732
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00209159,
-  "market_cap_usd": 101944678,
+  "price_usd": 0.0020773,
+  "market_cap_usd": 101251399,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

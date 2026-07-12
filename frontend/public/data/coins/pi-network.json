@@ -4,8 +4,8 @@
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
-  "previous_rank": 5,
-  "rank_change": -3,
+  "previous_rank": 8,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.73,
-    "base_score": 61.73,
+    "final_score": 61.67,
+    "base_score": 61.67,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.9,
+        "points": 18.91,
         "fg_raw_pct": 200.0,
         "fg_z": -0.03,
-        "pg_raw_pct": -23.56,
-        "pg_z": -0.94,
-        "vpd": 0.91,
-        "percentile": 94.5,
+        "pg_raw_pct": -23.66,
+        "pg_z": -0.93,
+        "vpd": 0.9,
+        "percentile": 94.55,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -23.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -23.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,11 +71,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.61,
+        "points": 0.54,
         "raw_value": 2.0,
-        "percentile": 6.1,
+        "percentile": 5.37,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0066로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0063로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.7 (기본 61.7) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.7 (기본 61.7) = VPD +18.9 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -23.556123733790884,
-    "return_90d_pct": -41.82051566907101,
+    "return_30d_pct": -23.663096550856995,
+    "return_90d_pct": -41.90192995152655,
     "rsi_14": 12.18,
-    "ma_200d_deviation_pct": -41.82353345220022,
-    "high_90d_position_pct": -50.18683674382489
+    "ma_200d_deviation_pct": -41.90494351167835,
+    "high_90d_position_pct": -50.2565434968149
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.097187,
-  "market_cap_usd": 1062619228,
+  "price_usd": 0.097051,
+  "market_cap_usd": 1061767931,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

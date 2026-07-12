@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 11,
   "coin_id": "avalanche-2",
   "symbol": "avax",
   "name": "Avalanche",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 14,
+  "rank_change": 3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,46 +32,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 59.15,
-    "base_score": 59.15,
+    "final_score": 60.89,
+    "base_score": 60.89,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.5,
-        "fg_raw_pct": 3.66,
+        "points": 10.99,
+        "fg_raw_pct": 13.34,
         "fg_z": -0.09,
-        "pg_raw_pct": -3.88,
-        "pg_z": -0.18,
-        "vpd": 0.09,
-        "percentile": 57.5,
+        "pg_raw_pct": -2.98,
+        "pg_z": -0.14,
+        "vpd": 0.05,
+        "percentile": 54.95,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.7%, PG(가격 변화) -3.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +13.3%, PG(가격 변화) -3.0% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.68,
+        "points": 21.73,
         "raw_value": 31.74,
-        "percentile": 86.72,
+        "percentile": 86.92,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +34.9%"
       },
       "developer": {
         "weight": 15,
-        "points": 9.76,
+        "points": 10.05,
         "raw_value": -8.0,
-        "percentile": 65.09,
+        "percentile": 66.98,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.92배 (둔화), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 2.44,
-        "raw_value": -40.93,
-        "percentile": 24.42,
+        "points": 3.37,
+        "raw_value": -25.55,
+        "percentile": 33.72,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -3.4%"
+        "reason": "프로토콜 수수료 30일 +21.7%"
       },
       "catalyst": {
         "weight": 10,
@@ -83,21 +83,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.61,
+        "points": 5.54,
         "raw_value": 0.0,
-        "percentile": 56.1,
+        "percentile": 55.37,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 3.16,
-        "sector_percentile": 31.6,
+        "points": 4.21,
+        "sector_percentile": 42.1,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 31.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 42.1 (높을수록 저평가)"
       }
     },
-    "summary": "총점 59.1 (기본 59.1) = VPD +11.5 + 온체인 +21.7 + 개발자 +9.8 + 사용자 +2.4 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +3.2 + 과열필터 -0.0"
+    "summary": "총점 60.9 (기본 60.9) = VPD +11.0 + 온체인 +21.7 + 개발자 +10.1 + 사용자 +3.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,19 +115,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -3.8823405603726586,
-    "return_90d_pct": -29.385729204995325,
+    "return_30d_pct": -2.9784127286520183,
+    "return_90d_pct": -28.721645153631638,
     "rsi_14": 48.17,
-    "ma_200d_deviation_pct": -32.41491084527358,
-    "high_90d_position_pct": -37.773786062604
+    "ma_200d_deviation_pct": -31.779314395542603,
+    "high_90d_position_pct": -37.18858655849056
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 6.38,
-  "market_cap_usd": 2753091409,
+  "price_usd": 6.44,
+  "market_cap_usd": 2780258351,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -203,7 +203,7 @@
         },
         {
           "label": "현재",
-          "value": 1352
+          "value": 1704
         }
       ]
     }

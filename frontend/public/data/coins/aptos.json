@@ -3,9 +3,9 @@
   "coin_id": "aptos",
   "symbol": "apt",
   "name": "Aptos",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 16,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,28 +32,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.53,
-    "base_score": 58.53,
+    "final_score": 58.52,
+    "base_score": 58.52,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.1,
-        "fg_raw_pct": -23.16,
+        "points": 11.78,
+        "fg_raw_pct": -24.17,
         "fg_z": -0.1,
-        "pg_raw_pct": -3.94,
+        "pg_raw_pct": -4.22,
         "pg_z": -0.19,
         "vpd": 0.08,
-        "percentile": 55.5,
+        "percentile": 58.91,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -23.2%, PG(가격 변화) -3.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -24.2%, PG(가격 변화) -4.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.34,
+        "points": 19.42,
         "raw_value": 6.53,
-        "percentile": 77.34,
+        "percentile": 77.69,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -3.1%"
       },
@@ -67,11 +67,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.14,
-        "raw_value": -27.01,
-        "percentile": 31.4,
+        "points": 2.44,
+        "raw_value": -28.82,
+        "percentile": 24.42,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -35.2%"
+        "reason": "프로토콜 수수료 30일 -36.8%"
       },
       "catalyst": {
         "weight": 10,
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.61,
+        "points": 5.54,
         "raw_value": 0.0,
-        "percentile": 56.1,
+        "percentile": 55.37,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 68.4 (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.5 (기본 58.5) = VPD +11.1 + 온체인 +19.3 + 개발자 +7.5 + 사용자 +3.1 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +6.8 + 과열필터 -0.0"
+    "summary": "총점 58.5 (기본 58.5) = VPD +11.8 + 온체인 +19.4 + 개발자 +7.5 + 사용자 +2.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,19 +115,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -3.9445032661407744,
-    "return_90d_pct": -23.302243689644676,
+    "return_30d_pct": -4.215978216317,
+    "return_90d_pct": -23.519009208339273,
     "rsi_14": 67.44,
-    "ma_200d_deviation_pct": -40.31934545004532,
-    "high_90d_position_pct": -46.34339327366542
+    "ma_200d_deviation_pct": -40.48801672104321,
+    "high_90d_position_pct": -46.49503919850005
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.62203,
-  "market_cap_usd": 518255404,
+  "price_usd": 0.620272,
+  "market_cap_usd": 516934790,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -203,7 +203,7 @@
         },
         {
           "label": "현재",
-          "value": 3060
+          "value": 2984
         }
       ]
     }
