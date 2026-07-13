@@ -1,41 +1,44 @@
 {
-  "rank": 2,
-  "coin_id": "pi-network",
-  "symbol": "pi",
-  "name": "Pi Network",
-  "badge": null,
-  "previous_rank": 3,
-  "rank_change": 1,
+  "rank": 16,
+  "coin_id": "monero",
+  "symbol": "xmr",
+  "name": "Monero",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": "CoinGecko",
+    "description_source": null,
     "primary_use_case": null,
     "categories": [
+      "Smart Contract Platform",
+      "Privacy Coins",
       "Layer 1 (L1)",
-      "Made in USA",
-      "Mobile Mining"
+      "Proof of Work (PoW)",
+      "Galaxy Digital Portfolio",
+      "Privacy"
     ],
     "chain": null,
-    "launch_year": null
+    "launch_year": 2014
   },
   "score": {
-    "final_score": 66.94,
-    "base_score": 66.94,
+    "final_score": 58.53,
+    "base_score": 58.53,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.3,
-        "fg_raw_pct": 200.0,
-        "fg_z": -0.02,
-        "pg_raw_pct": -36.3,
-        "pg_z": -1.52,
-        "vpd": 1.5,
-        "percentile": 96.5,
+        "points": 14.3,
+        "fg_raw_pct": -38.7,
+        "fg_z": -0.11,
+        "pg_raw_pct": -8.7,
+        "pg_z": -0.35,
+        "vpd": 0.23,
+        "percentile": 71.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -36.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -38.7%, PG(가격 변화) -8.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -47,11 +50,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.73,
-        "raw_value": 200.0,
-        "percentile": 98.18,
+        "points": 11.32,
+        "raw_value": 5.65,
+        "percentile": 75.45,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.61배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -85,7 +88,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 66.9 (기본 66.9) = VPD +19.3 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 58.5 (기본 58.5) = VPD +14.3 + 온체인 +12.5 + 개발자 +11.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +106,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -36.30169752442549,
-    "return_90d_pct": -51.71660082556121,
-    "rsi_14": 9.37,
-    "ma_200d_deviation_pct": -51.5543154342058,
-    "high_90d_position_pct": -58.68080961551898
+    "return_30d_pct": -8.697294529888921,
+    "return_90d_pct": -7.550689145989602,
+    "rsi_14": 57.25,
+    "ma_200d_deviation_pct": -15.083368857804375,
+    "high_90d_position_pct": -22.91891559692262
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.080615,
-  "market_cap_usd": 883180564,
+  "price_usd": 320.52,
+  "market_cap_usd": 6018722492,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -126,8 +129,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "missing",
-      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+      "status": "not_applicable",
+      "reason": "no_coingecko_description"
     },
     "primary_use_case": {
       "status": "missing",
