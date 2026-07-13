@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 6,
   "coin_id": "filecoin",
   "symbol": "fil",
   "name": "Filecoin",
   "badge": null,
-  "previous_rank": 15,
-  "rank_change": 8,
+  "previous_rank": 7,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,46 +31,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.41,
-    "base_score": 62.41,
+    "final_score": 63.5,
+    "base_score": 63.5,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 7.03,
-        "fg_raw_pct": 8.88,
+        "points": 6.97,
+        "fg_raw_pct": 13.56,
         "fg_z": -0.09,
-        "pg_raw_pct": 3.26,
-        "pg_z": 0.1,
-        "vpd": -0.19,
-        "percentile": 35.15,
+        "pg_raw_pct": 2.03,
+        "pg_z": 0.08,
+        "vpd": -0.18,
+        "percentile": 34.85,
         "quadrant": "pure_pump",
         "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +8.9%, PG(가격 변화) +3.3% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
+        "reason": "FG(펀더멘털 성장) +13.6%, PG(가격 변화) +2.0% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.19,
-        "raw_value": 7.85,
-        "percentile": 80.77,
+        "points": 20.04,
+        "raw_value": 7.92,
+        "percentile": 80.16,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -9.2%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -9.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 13.16,
+        "points": 13.19,
         "raw_value": 34.65,
-        "percentile": 87.74,
+        "percentile": 87.96,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.19배 (가속), 릴리즈 30일 4건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.7,
-        "raw_value": -4.08,
-        "percentile": 56.98,
+        "points": 7.02,
+        "raw_value": 19.05,
+        "percentile": 70.24,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +9.3%"
+        "reason": "프로토콜 수수료 30일 +21.4%"
       },
       "catalyst": {
         "weight": 10,
@@ -82,9 +82,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.54,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.37,
+        "percentile": 54.9,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -96,7 +96,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 57.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.4 (기본 62.4) = VPD +7.0 + 온체인 +20.2 + 개발자 +13.2 + 사용자 +5.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.8 + 과열필터 -0.0"
+    "summary": "총점 63.5 (기본 63.5) = VPD +7.0 + 온체인 +20.0 + 개발자 +13.2 + 사용자 +7.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -114,19 +114,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 3.258530866547613,
-    "return_90d_pct": -8.98729950358388,
-    "rsi_14": 65.49,
-    "ma_200d_deviation_pct": -21.648626094375924,
-    "high_90d_position_pct": -39.338297817879656
+    "return_30d_pct": 2.0278415485504713,
+    "return_90d_pct": -17.02799893312449,
+    "rsi_14": 57.36,
+    "ma_200d_deviation_pct": -23.346199671406097,
+    "high_90d_position_pct": -40.791019660570804
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.780861,
-  "market_cap_usd": 622656876,
+  "price_usd": 0.762161,
+  "market_cap_usd": 607938410,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,7 +182,7 @@
         },
         {
           "label": "30일 전",
-          "value": 163593
+          "value": 163341
         },
         {
           "label": "현재",
@@ -194,11 +194,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 2250
+          "value": 1591
         },
         {
           "label": "30일 전",
-          "value": 1699
+          "value": 1530
         },
         {
           "label": "현재",
