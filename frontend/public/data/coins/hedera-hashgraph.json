@@ -1,11 +1,11 @@
 {
-  "rank": 12,
-  "coin_id": "monad",
-  "symbol": "mon",
-  "name": "Monad",
-  "badge": null,
-  "previous_rank": 10,
-  "rank_change": -2,
+  "rank": 17,
+  "coin_id": "hedera-hashgraph",
+  "symbol": "hbar",
+  "name": "Hedera",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -14,42 +14,42 @@
     "categories": [
       "Smart Contract Platform",
       "Layer 1 (L1)",
-      "Animoca Brands Portfolio",
-      "Parallelized EVM",
-      "eGirl Capital Portfolio",
-      "Paradigm Portfolio",
-      "Coinbase Ventures Portfolio",
-      "Galaxy Digital Portfolio",
-      "Monad Ecosystem"
+      "Hedera Ecosystem",
+      "GMCI Layer 1 Index",
+      "GMCI 30 Index",
+      "GMCI Index",
+      "Outlier Ventures Portfolio",
+      "Made in USA",
+      "Directed Acyclic Graph (DAG)"
     ],
-    "chain": "Monad 자체 메인넷",
+    "chain": "Hedera 자체 메인넷",
     "launch_year": null
   },
   "score": {
-    "final_score": 60.95,
-    "base_score": 60.95,
+    "final_score": 57.86,
+    "base_score": 57.86,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 5.78,
-        "fg_raw_pct": 82.97,
-        "fg_z": -0.08,
-        "pg_raw_pct": 2.68,
-        "pg_z": 0.23,
-        "vpd": -0.31,
-        "percentile": 28.92,
-        "quadrant": "pure_pump",
-        "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
+        "points": 16.18,
+        "fg_raw_pct": -11.64,
+        "fg_z": -0.1,
+        "pg_raw_pct": -15.6,
+        "pg_z": -0.57,
+        "vpd": 0.47,
+        "percentile": 80.88,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +83.0%, PG(가격 변화) +2.7% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
+        "reason": "FG(펀더멘털 성장) -11.6%, PG(가격 변화) -15.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.96,
-        "raw_value": 23.01,
-        "percentile": 83.85,
+        "points": 13.27,
+        "raw_value": -5.93,
+        "percentile": 53.08,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +27.5%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.5%"
       },
       "developer": {
         "weight": 15,
@@ -61,19 +61,19 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.79,
-        "raw_value": 66.32,
-        "percentile": 77.91,
+        "points": 7.33,
+        "raw_value": 34.1,
+        "percentile": 73.26,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +116.2%"
+        "reason": "프로토콜 수수료 30일 -18.9%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
@@ -85,43 +85,43 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 8.5,
-        "sector_percentile": 85.0,
+        "points": 3.16,
+        "sector_percentile": 31.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 31.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.0 (기본 61.0) = VPD +5.8 + 온체인 +21.0 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.5 + 과열필터 -0.0"
+    "summary": "총점 57.9 (기본 57.9) = VPD +16.2 + 온체인 +13.3 + 개발자 +7.5 + 사용자 +7.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +3.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 84.9,
-    "coverage": 0.857,
-    "freshness": 0.688,
-    "consistency": 1.0
+    "score": 60.4,
+    "coverage": 0.714,
+    "freshness": 0.562,
+    "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 2.683544898522512,
-    "return_90d_pct": -35.321004005366675,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -15.603975857568381,
+    "return_90d_pct": -22.324459798065543,
+    "rsi_14": 42.78,
+    "ma_200d_deviation_pct": -28.74854754732241,
+    "high_90d_position_pct": -33.334057195175276
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02231298,
-  "market_cap_usd": 263715993,
+  "price_usd": 0.066066,
+  "market_cap_usd": 2891726332,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -173,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 449582091
+          "value": 47563138
         },
         {
           "label": "30일 전",
-          "value": 417632402
+          "value": 41485558
         },
         {
           "label": "현재",
-          "value": 532669667.56
+          "value": 41687027.99
         }
       ]
     },
@@ -189,15 +189,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 7362
+          "value": 543
         },
         {
           "label": "30일 전",
-          "value": 3964
+          "value": 1253
         },
         {
           "label": "현재",
-          "value": 8571
+          "value": 1016
         }
       ]
     }
