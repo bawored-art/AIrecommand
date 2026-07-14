@@ -1,11 +1,11 @@
 {
-  "rank": 2,
+  "rank": 3,
   "coin_id": "pi-network",
   "symbol": "pi",
   "name": "Pi Network",
   "badge": null,
   "previous_rank": 2,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.96,
-    "base_score": 66.96,
+    "final_score": 66.99,
+    "base_score": 66.99,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.31,
+        "points": 19.32,
         "fg_raw_pct": 200.0,
         "fg_z": -0.05,
-        "pg_raw_pct": -45.61,
-        "pg_z": -1.89,
-        "vpd": 1.84,
-        "percentile": 96.57,
+        "pg_raw_pct": -40.14,
+        "pg_z": -1.69,
+        "vpd": 1.64,
+        "percentile": 96.6,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -45.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) -40.1% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,9 +71,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.21,
+        "percentile": 54.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -45.60936486249522,
-    "return_90d_pct": -56.35619455272995,
+    "return_30d_pct": -40.139572176350676,
+    "return_90d_pct": -51.9671564908011,
     "rsi_14": 8.45,
-    "ma_200d_deviation_pct": -56.210471146825036,
-    "high_90d_position_pct": -62.8042715846705
+    "ma_200d_deviation_pct": -51.80677841469783,
+    "high_90d_position_pct": -59.063684207309684
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.07257,
-  "market_cap_usd": 795370731,
+  "price_usd": 0.079868,
+  "market_cap_usd": 876542366,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -4,8 +4,8 @@
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": 7,
+  "previous_rank": 6,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.4,
-    "base_score": 64.4,
+    "final_score": 64.43,
+    "base_score": 64.43,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.53,
+        "points": 18.54,
         "fg_raw_pct": -33.3,
         "fg_z": -0.1,
-        "pg_raw_pct": -23.69,
-        "pg_z": -0.93,
-        "vpd": 0.82,
-        "percentile": 92.65,
+        "pg_raw_pct": -22.79,
+        "pg_z": -0.94,
+        "vpd": 0.84,
+        "percentile": 92.72,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -23.7% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -22.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.21,
+        "percentile": 54.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -112,19 +112,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -23.689314093173834,
-    "return_90d_pct": -31.312940685827,
+    "return_30d_pct": -22.78595801092953,
+    "return_90d_pct": -30.499832114391882,
     "rsi_14": 38.95,
-    "ma_200d_deviation_pct": -46.5971384794015,
-    "high_90d_position_pct": -50.95327675342973
+    "ma_200d_deviation_pct": -45.96496227510443,
+    "high_90d_position_pct": -50.37266795359481
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00203246,
-  "market_cap_usd": 99158237,
+  "price_usd": 0.00205652,
+  "market_cap_usd": 100312663,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

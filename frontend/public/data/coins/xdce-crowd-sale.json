@@ -1,11 +1,11 @@
 {
-  "rank": 4,
+  "rank": 5,
   "coin_id": "xdce-crowd-sale",
   "symbol": "xdc",
   "name": "XDC Network",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": 2,
+  "previous_rank": 4,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -20,22 +20,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.0,
-    "base_score": 65.0,
+    "final_score": 65.66,
+    "base_score": 65.66,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.8,
+        "points": 15.44,
         "fg_raw_pct": 0.84,
         "fg_z": -0.1,
-        "pg_raw_pct": -12.0,
-        "pg_z": -0.42,
-        "vpd": 0.32,
-        "percentile": 74.02,
+        "pg_raw_pct": -10.79,
+        "pg_z": -0.43,
+        "vpd": 0.33,
+        "percentile": 77.18,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +0.8%, PG(가격 변화) -12.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +0.8%, PG(가격 변화) -10.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,9 +71,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.21,
+        "percentile": 54.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -85,7 +85,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.0 (기본 65.0) = VPD +14.8 + 온체인 +19.4 + 개발자 +10.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 65.7 (기본 65.7) = VPD +15.4 + 온체인 +19.4 + 개발자 +10.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,19 +103,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.998370928851324,
-    "return_90d_pct": -12.548736886126017,
+    "return_30d_pct": -10.786531392771517,
+    "return_90d_pct": -11.344476246407304,
     "rsi_14": 38.48,
-    "ma_200d_deviation_pct": -20.88829238745348,
-    "high_90d_position_pct": -22.06783134982965
+    "ma_200d_deviation_pct": -19.798872838479458,
+    "high_90d_position_pct": -20.994654817763855
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02684042,
-  "market_cap_usd": 535511690,
+  "price_usd": 0.02721003,
+  "market_cap_usd": 542755305,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

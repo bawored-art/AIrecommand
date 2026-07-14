@@ -1,11 +1,11 @@
 {
-  "rank": 8,
+  "rank": 9,
   "coin_id": "story-2",
   "symbol": "data",
   "name": "Data Network",
   "badge": null,
   "previous_rank": 8,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,22 +24,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.62,
-    "base_score": 63.62,
+    "final_score": 63.73,
+    "base_score": 63.73,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.9,
         "fg_raw_pct": 46209.96,
-        "fg_z": 10.1,
-        "pg_raw_pct": -10.58,
-        "pg_z": -0.35,
-        "vpd": 10.45,
+        "fg_z": 10.15,
+        "pg_raw_pct": -8.27,
+        "pg_z": -0.32,
+        "vpd": 10.46,
         "percentile": 99.51,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +46210.0%, PG(가격 변화) -10.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +46210.0%, PG(가격 변화) -8.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,67 +59,67 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.88,
+        "points": 9.89,
         "raw_value": 222020.0,
-        "percentile": 98.84,
+        "percentile": 98.86,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +73940.0%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.21,
+        "percentile": 54.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.42,
-        "sector_percentile": 84.2,
+        "points": 8.5,
+        "sector_percentile": 85.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 84.2 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.6 (기본 63.6) = VPD +19.9 + 온체인 +7.5 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.4 + 과열필터 -0.0"
+    "summary": "총점 63.7 (기본 63.7) = VPD +19.9 + 온체인 +7.5 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
-    "coverage": 0.714,
-    "freshness": 0.562,
+    "score": 73.7,
+    "coverage": 0.857,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.580419037649364,
-    "return_90d_pct": -46.08723931822846,
+    "return_30d_pct": -8.270131251453162,
+    "return_90d_pct": -44.69432301082977,
     "rsi_14": 33.73,
-    "ma_200d_deviation_pct": -70.16512477865658,
-    "high_90d_position_pct": -56.30320686439435
+    "ma_200d_deviation_pct": -69.39429643116546,
+    "high_90d_position_pct": -55.17423526342434
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.26958,
-  "market_cap_usd": 96224745,
+  "price_usd": 0.276545,
+  "market_cap_usd": 98714431,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -4,8 +4,8 @@
   "symbol": "mon",
   "name": "Monad",
   "badge": null,
-  "previous_rank": 10,
-  "rank_change": -2,
+  "previous_rank": 12,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.95,
-    "base_score": 60.95,
+    "final_score": 60.47,
+    "base_score": 60.47,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 5.78,
+        "points": 5.73,
         "fg_raw_pct": 82.97,
         "fg_z": -0.08,
-        "pg_raw_pct": 2.68,
-        "pg_z": 0.23,
-        "vpd": -0.31,
-        "percentile": 28.92,
+        "pg_raw_pct": 5.36,
+        "pg_z": 0.27,
+        "vpd": -0.35,
+        "percentile": 28.64,
         "quadrant": "pure_pump",
         "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +83.0%, PG(가격 변화) +2.7% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
+        "reason": "FG(펀더멘털 성장) +83.0%, PG(가격 변화) +5.4% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -61,9 +61,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.79,
+        "points": 7.84,
         "raw_value": 66.32,
-        "percentile": 77.91,
+        "percentile": 78.41,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +116.2%"
       },
@@ -77,21 +77,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.21,
+        "percentile": 54.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.5,
-        "sector_percentile": 85.0,
+        "points": 8.0,
+        "sector_percentile": 80.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 80.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.0 (기본 61.0) = VPD +5.8 + 온체인 +21.0 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.5 + 과열필터 -0.0"
+    "summary": "총점 60.5 (기본 60.5) = VPD +5.7 + 온체인 +21.0 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 84.9,
+    "score": 86.8,
     "coverage": 0.857,
-    "freshness": 0.688,
+    "freshness": 0.75,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 2.683544898522512,
-    "return_90d_pct": -35.321004005366675,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 5.36119802236368,
+    "return_90d_pct": -33.634386000085556,
+    "rsi_14": 70.58,
+    "ma_200d_deviation_pct": -5.1317208327282104,
+    "high_90d_position_pct": -35.50170578152772
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02231298,
-  "market_cap_usd": 263715993,
+  "price_usd": 0.02289483,
+  "market_cap_usd": 270713900,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
