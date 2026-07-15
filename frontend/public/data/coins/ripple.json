@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.18,
-    "base_score": 68.18,
+    "final_score": 67.55,
+    "base_score": 67.55,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.63,
+        "points": 10.67,
         "fg_raw_pct": 10.35,
         "fg_z": -0.09,
-        "pg_raw_pct": -6.35,
-        "pg_z": -0.21,
-        "vpd": 0.12,
-        "percentile": 58.17,
+        "pg_raw_pct": -4.67,
+        "pg_z": -0.14,
+        "vpd": 0.04,
+        "percentile": 53.37,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +10.4%, PG(가격 변화) -6.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +10.4%, PG(가격 변화) -4.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,9 +55,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.41,
+        "points": 12.72,
         "raw_value": 26.05,
-        "percentile": 82.73,
+        "percentile": 84.82,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.02배 (가속), 릴리즈 30일 1건"
       },
@@ -72,16 +72,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.65,
+        "percentile": 54.78,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.2 (기본 68.2) = VPD +11.6 + 온체인 +23.7 + 개발자 +12.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 67.5 (기본 67.5) = VPD +10.7 + 온체인 +23.7 + 개발자 +12.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
+    "score": 82.9,
+    "coverage": 0.714,
+    "freshness": 0.812,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -6.353555294338771,
-    "return_90d_pct": -20.25393296446724,
+    "return_30d_pct": -4.666231966308857,
+    "return_90d_pct": -18.81706689175495,
     "rsi_14": 60.51,
-    "ma_200d_deviation_pct": -22.892515646159755,
-    "high_90d_position_pct": -25.22511284464918
+    "ma_200d_deviation_pct": -21.50319160374823,
+    "high_90d_position_pct": -23.877817580588815
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.11,
-  "market_cap_usd": 69339513378,
+  "price_usd": 1.13,
+  "market_cap_usd": 70279830312,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
