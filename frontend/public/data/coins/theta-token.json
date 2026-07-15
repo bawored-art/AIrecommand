@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 16,
   "coin_id": "theta-token",
   "symbol": "theta",
   "name": "Theta Network",
   "badge": null,
-  "previous_rank": 19,
-  "rank_change": 1,
+  "previous_rank": 18,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,36 +24,36 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 57.39,
-    "base_score": 57.39,
+    "final_score": 59.14,
+    "base_score": 59.14,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.63,
+        "points": 16.06,
         "fg_raw_pct": 60.14,
         "fg_z": -0.08,
-        "pg_raw_pct": -10.95,
-        "pg_z": -0.43,
-        "vpd": 0.35,
-        "percentile": 78.16,
+        "pg_raw_pct": -12.11,
+        "pg_z": -0.48,
+        "vpd": 0.4,
+        "percentile": 80.29,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +60.1%, PG(가격 변화) -11.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +60.1%, PG(가격 변화) -12.1% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 10.96,
+        "points": 13.07,
         "raw_value": -6.78,
-        "percentile": 43.85,
+        "percentile": 52.27,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -6.3%"
       },
       "developer": {
         "weight": 15,
-        "points": 10.36,
+        "points": 9.55,
         "raw_value": 0.0,
-        "percentile": 69.09,
+        "percentile": 63.64,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 2.00배 (가속), 릴리즈 30일 0건"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.46,
         "raw_value": 0.0,
-        "percentile": 54.42,
+        "percentile": 54.65,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 57.4 (기본 57.4) = VPD +15.6 + 온체인 +11.0 + 개발자 +10.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.1 (기본 59.1) = VPD +16.1 + 온체인 +13.1 + 개발자 +9.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
+    "score": 66.1,
     "coverage": 0.714,
-    "freshness": 0.812,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.954501785093882,
-    "return_90d_pct": -18.093365671553315,
-    "rsi_14": 66.04,
-    "ma_200d_deviation_pct": -28.347220277637962,
-    "high_90d_position_pct": -41.64036328274872
+    "return_30d_pct": -12.111417134495946,
+    "return_90d_pct": -20.80594499792814,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.143914,
-  "market_cap_usd": 143914415,
+  "price_usd": 0.144609,
+  "market_cap_usd": 144606151,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
