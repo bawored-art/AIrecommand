@@ -1,11 +1,11 @@
 {
-  "rank": 6,
+  "rank": 4,
   "coin_id": "gala",
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 5,
-  "rank_change": -1,
+  "previous_rank": 6,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.72,
-    "base_score": 64.72,
+    "final_score": 64.69,
+    "base_score": 64.69,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 18.75,
         "fg_raw_pct": -33.3,
         "fg_z": -0.1,
-        "pg_raw_pct": -25.62,
-        "pg_z": -1.11,
-        "vpd": 1.01,
+        "pg_raw_pct": -26.64,
+        "pg_z": -1.17,
+        "vpd": 1.07,
         "percentile": 93.75,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -25.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -33.3%, PG(가격 변화) -26.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 54.78,
+        "percentile": 54.52,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -112,19 +112,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -25.624521637621,
-    "return_90d_pct": -34.60818012674881,
-    "rsi_14": 33.55,
-    "ma_200d_deviation_pct": -46.314577285964134,
-    "high_90d_position_pct": -50.96679050770685
+    "return_30d_pct": -26.64318092109986,
+    "return_90d_pct": -41.450868285452245,
+    "rsi_14": 31.87,
+    "ma_200d_deviation_pct": -46.56231841934265,
+    "high_90d_position_pct": -51.46342097739108
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.0020319,
-  "market_cap_usd": 99156462,
+  "price_usd": 0.00201132,
+  "market_cap_usd": 98193385,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

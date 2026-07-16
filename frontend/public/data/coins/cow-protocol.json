@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 15,
   "coin_id": "cow-protocol",
   "symbol": "cow",
   "name": "CoW Protocol",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "previous_rank": 13,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -30,22 +30,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.67,
-    "base_score": 60.67,
+    "final_score": 59.69,
+    "base_score": 59.69,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.4,
-        "fg_raw_pct": -16.07,
-        "fg_z": -0.1,
-        "pg_raw_pct": -6.08,
-        "pg_z": -0.2,
-        "vpd": 0.1,
-        "percentile": 62.02,
+        "points": 11.63,
+        "fg_raw_pct": 58.89,
+        "fg_z": -0.07,
+        "pg_raw_pct": -6.58,
+        "pg_z": -0.19,
+        "vpd": 0.11,
+        "percentile": 58.17,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -16.1%, PG(가격 변화) -6.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +58.9%, PG(가격 변화) -6.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -65,11 +65,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.79,
-        "raw_value": 51.85,
-        "percentile": 77.91,
+        "points": 7.61,
+        "raw_value": 27.25,
+        "percentile": 76.14,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -16.1%"
+        "reason": "프로토콜 수수료 30일 +58.9%"
       },
       "catalyst": {
         "weight": 10,
@@ -81,9 +81,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 54.78,
+        "percentile": 54.52,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -95,7 +95,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.7 (기본 60.7) = VPD +12.4 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 59.7 (기본 59.7) = VPD +11.6 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -107,25 +107,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.8,
+    "score": 67.9,
     "coverage": 0.714,
-    "freshness": 0.875,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -6.078391933633716,
-    "return_90d_pct": -30.50168710928711,
-    "rsi_14": 53.62,
-    "ma_200d_deviation_pct": -22.346808262013283,
-    "high_90d_position_pct": -24.359968393735137
+    "return_30d_pct": -6.578494061148953,
+    "return_90d_pct": -24.72023388866084,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.147876,
-  "market_cap_usd": 85588981,
+  "price_usd": 0.147909,
+  "market_cap_usd": 85525144,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -178,11 +178,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 37928
+          "value": 87182
         },
         {
           "label": "30일 전",
-          "value": 99318
+          "value": 52461
         },
         {
           "label": "현재",
