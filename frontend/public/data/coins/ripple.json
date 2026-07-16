@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 9,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 2,
-  "rank_change": -5,
+  "previous_rank": 7,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,18 +28,18 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.13,
-    "base_score": 64.13,
+    "final_score": 63.3,
+    "base_score": 63.3,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.94,
+        "points": 13.37,
         "fg_raw_pct": 11.07,
         "fg_z": -0.09,
         "pg_raw_pct": -10.31,
-        "pg_z": -0.37,
-        "vpd": 0.28,
-        "percentile": 69.71,
+        "pg_z": -0.36,
+        "vpd": 0.27,
+        "percentile": 66.83,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
@@ -55,9 +55,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 6.03,
+        "points": 5.86,
         "raw_value": -47.8,
-        "percentile": 40.18,
+        "percentile": 39.09,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.04배 (가속), 릴리즈 30일 0건"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.45,
+        "points": 5.36,
         "raw_value": 0.0,
-        "percentile": 54.52,
+        "percentile": 53.59,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.1 (기본 64.1) = VPD +13.9 + 온체인 +23.7 + 개발자 +6.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.3 (기본 63.3) = VPD +13.4 + 온체인 +23.7 + 개발자 +5.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -123,7 +123,7 @@
     "reasons": []
   },
   "price_usd": 1.11,
-  "market_cap_usd": 69554710682,
+  "market_cap_usd": 69185317651,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

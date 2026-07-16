@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 12,
   "coin_id": "dash",
   "symbol": "dash",
   "name": "Dash",
   "badge": null,
   "previous_rank": 14,
-  "rank_change": 0,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,22 +24,22 @@
     "launch_year": 2014
   },
   "score": {
-    "final_score": 60.38,
-    "base_score": 60.38,
+    "final_score": 61.43,
+    "base_score": 61.43,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.37,
+        "points": 14.52,
         "fg_raw_pct": -14.3,
         "fg_z": -0.1,
-        "pg_raw_pct": -10.28,
-        "pg_z": -0.37,
-        "vpd": 0.27,
-        "percentile": 66.83,
+        "pg_raw_pct": -11.33,
+        "pg_z": -0.41,
+        "vpd": 0.31,
+        "percentile": 72.6,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -14.3%, PG(가격 변화) -10.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -14.3%, PG(가격 변화) -11.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -51,9 +51,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.06,
+        "points": 14.05,
         "raw_value": 55.35,
-        "percentile": 93.75,
+        "percentile": 93.64,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.86배 (둔화), 릴리즈 30일 3건"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.45,
+        "points": 5.36,
         "raw_value": 0.0,
-        "percentile": 54.52,
+        "percentile": 53.59,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.4 (기본 60.4) = VPD +13.4 + 온체인 +12.5 + 개발자 +14.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.4 (기본 61.4) = VPD +14.5 + 온체인 +12.5 + 개발자 +14.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.281127928823294,
-    "return_90d_pct": -7.439494905256054,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -11.327412151227684,
+    "return_90d_pct": -8.518917705194754,
+    "rsi_14": 46.82,
+    "ma_200d_deviation_pct": -14.978775119911445,
+    "high_90d_position_pct": -34.70157468315841
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 34.3,
-  "market_cap_usd": 437904935,
+  "price_usd": 33.9,
+  "market_cap_usd": 432684472,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
