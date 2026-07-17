@@ -1,8 +1,8 @@
 {
-  "rank": 4,
-  "coin_id": "hyperliquid",
-  "symbol": "hype",
-  "name": "Hyperliquid",
+  "rank": 1,
+  "coin_id": "virtual-protocol",
+  "symbol": "virtual",
+  "name": "Virtuals Protocol",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
@@ -12,45 +12,48 @@
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Decentralized Exchange (DEX)",
-      "Smart Contract Platform",
-      "Exchange-based Tokens",
-      "Decentralized Finance (DeFi)",
-      "Derivatives",
-      "Perpetuals",
-      "Layer 1 (L1)",
-      "Proof of Stake (PoS)",
-      "Hyperliquid Ecosystem",
-      "Governance"
+      "Artificial Intelligence (AI)",
+      "Solana Ecosystem",
+      "Launchpad",
+      "Ethereum Ecosystem",
+      "Base Ecosystem",
+      "AI Agents",
+      "Virtuals Protocol Ecosystem",
+      "AI Agent Launchpad",
+      "Binance Alpha Spotlight",
+      "AI Framework",
+      "Robotics",
+      "Base Native",
+      "Robinhood Ecosystem"
     ],
-    "chain": "Hyperliquid",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 65.63,
-    "base_score": 65.63,
+    "final_score": 68.78,
+    "base_score": 68.78,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.64,
-        "fg_raw_pct": -2.36,
-        "fg_z": -0.11,
-        "pg_raw_pct": -19.23,
-        "pg_z": -0.82,
-        "vpd": 0.71,
-        "percentile": 88.19,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 18.75,
+        "fg_raw_pct": 2925.29,
+        "fg_z": 1.15,
+        "pg_raw_pct": -0.86,
+        "pg_z": 0.19,
+        "vpd": 0.96,
+        "percentile": 93.75,
+        "quadrant": "co_movement",
+        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.4%, PG(가격 변화) -19.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +2925.3%, PG(가격 변화) -0.9% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.11,
-        "raw_value": 9.28,
-        "percentile": 80.43,
-        "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.4%"
+        "points": 12.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "TVL 30일 N/A"
       },
       "developer": {
         "weight": 15,
@@ -62,19 +65,19 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "수수료 데이터 없음"
+        "points": 9.65,
+        "raw_value": 2137.05,
+        "percentile": 96.51,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +2925.3%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -86,32 +89,32 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 10.0,
+        "sector_percentile": 100.0,
+        "missing": false,
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.6 (기본 65.6) = VPD +17.6 + 온체인 +20.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 68.8 (기본 68.8) = VPD +18.8 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.7 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 43.4,
-    "coverage": 0.429,
-    "freshness": 0.375,
+    "score": 64.2,
+    "coverage": 0.714,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -19.23051585648413,
-    "return_90d_pct": 32.921604505305055,
+    "return_30d_pct": -0.858715300357993,
+    "return_90d_pct": -17.09668794829095,
     "rsi_14": null,
     "ma_200d_deviation_pct": null,
     "high_90d_position_pct": null
@@ -121,8 +124,8 @@
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 59.22,
-  "market_cap_usd": 13173743280,
+  "price_usd": 0.619548,
+  "market_cap_usd": 407364317,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -162,30 +165,30 @@
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 0
         },
         {
           "label": "현재",
-          "value": null
+          "value": 0
         }
       ]
     },
-    "stablecoin_inflow_usd": {
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 5233656932
+          "value": 14383
         },
         {
           "label": "30일 전",
-          "value": 6481509357
+          "value": 6888
         },
         {
           "label": "현재",
-          "value": 6328288570
+          "value": 208382
         }
       ]
-    },
-    "fees_24h_usd": null
+    }
   }
 }

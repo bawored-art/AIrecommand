@@ -4,8 +4,8 @@
   "symbol": "xlm",
   "name": "Stellar",
   "badge": null,
-  "previous_rank": 3,
-  "rank_change": -3,
+  "previous_rank": 6,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,38 +24,38 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.78,
-    "base_score": 63.78,
+    "final_score": 64.78,
+    "base_score": 64.78,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.94,
-        "fg_raw_pct": -51.3,
-        "fg_z": -0.11,
-        "pg_raw_pct": -11.17,
-        "pg_z": -0.4,
-        "vpd": 0.29,
-        "percentile": 69.71,
+        "points": 15.42,
+        "fg_raw_pct": -43.46,
+        "fg_z": -0.12,
+        "pg_raw_pct": -15.31,
+        "pg_z": -0.6,
+        "vpd": 0.48,
+        "percentile": 77.08,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -51.3%, PG(가격 변화) -11.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -43.5%, PG(가격 변화) -15.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.34,
-        "raw_value": 56.88,
-        "percentile": 93.38,
+        "points": 23.01,
+        "raw_value": 57.35,
+        "percentile": 92.03,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +5.2%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.9%"
       },
       "developer": {
         "weight": 15,
-        "points": 6.14,
-        "raw_value": -42.6,
-        "percentile": 40.91,
+        "points": 5.97,
+        "raw_value": -36.25,
+        "percentile": 39.81,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.15배 (둔화), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.28배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -68,16 +68,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.36,
+        "points": 5.38,
         "raw_value": 0.0,
-        "percentile": 53.59,
+        "percentile": 53.83,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,37 +89,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 63.8 (기본 63.8) = VPD +13.9 + 온체인 +23.3 + 개발자 +6.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 64.8 (기본 64.8) = VPD +15.4 + 온체인 +23.0 + 개발자 +6.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
-    "coverage": 0.714,
-    "freshness": 0.812,
+    "score": 52.9,
+    "coverage": 0.571,
+    "freshness": 0.5,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.171020525968324,
-    "return_90d_pct": 12.0590300861076,
-    "rsi_14": 40.71,
-    "ma_200d_deviation_pct": 4.805619891017321,
-    "high_90d_position_pct": -27.703094744088464
+    "return_30d_pct": -15.313092423851101,
+    "return_90d_pct": 5.180405206476099,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.189584,
-  "market_cap_usd": 6480289342,
+  "price_usd": 0.183383,
+  "market_cap_usd": 6267727175,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,15 +171,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 377224753
+          "value": 374967807
         },
         {
           "label": "30일 전",
-          "value": 747932008
+          "value": 749547507
         },
         {
           "label": "현재",
-          "value": 786747632.12
+          "value": 786539031.12
         }
       ]
     },

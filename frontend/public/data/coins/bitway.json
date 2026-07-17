@@ -1,8 +1,8 @@
 {
-  "rank": 4,
-  "coin_id": "hyperliquid",
-  "symbol": "hype",
-  "name": "Hyperliquid",
+  "rank": 3,
+  "coin_id": "bitway",
+  "symbol": "btw",
+  "name": "Bitway",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
@@ -12,45 +12,40 @@
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Decentralized Exchange (DEX)",
-      "Smart Contract Platform",
-      "Exchange-based Tokens",
       "Decentralized Finance (DeFi)",
-      "Derivatives",
-      "Perpetuals",
-      "Layer 1 (L1)",
-      "Proof of Stake (PoS)",
-      "Hyperliquid Ecosystem",
+      "Yield Farming",
+      "Ethereum Ecosystem",
+      "Binance Alpha Spotlight",
       "Governance"
     ],
-    "chain": "Hyperliquid",
+    "chain": "BNB Chain",
     "launch_year": null
   },
   "score": {
-    "final_score": 65.63,
-    "base_score": 65.63,
+    "final_score": 66.93,
+    "base_score": 66.93,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.64,
-        "fg_raw_pct": -2.36,
-        "fg_z": -0.11,
-        "pg_raw_pct": -19.23,
-        "pg_z": -0.82,
-        "vpd": 0.71,
-        "percentile": 88.19,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
-        "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.4%, PG(가격 변화) -19.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "points": 10.0,
+        "fg_raw_pct": 17.95,
+        "fg_z": -0.1,
+        "pg_raw_pct": null,
+        "pg_z": null,
+        "vpd": null,
+        "percentile": null,
+        "quadrant": "unknown",
+        "quadrant_label": "판단 불가 (FG 또는 PG 데이터 부족)",
+        "missing": true,
+        "reason": "FG 또는 PG 계산 불가로 VPD 결측"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.11,
-        "raw_value": 9.28,
-        "percentile": 80.43,
+        "points": 24.09,
+        "raw_value": 207.43,
+        "percentile": 96.38,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -2.4%"
+        "reason": "TVL 30일 +24.3%"
       },
       "developer": {
         "weight": 15,
@@ -62,19 +57,19 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "수수료 데이터 없음"
+        "points": 8.26,
+        "raw_value": 98.37,
+        "percentile": 82.56,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +9.1%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -86,32 +81,32 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 6.7,
+        "sector_percentile": 66.95,
+        "missing": false,
+        "reason": "MC/TVL 백분위 62.5, MC/Fees 백분위 71.4 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.6 (기본 65.6) = VPD +17.6 + 온체인 +20.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.9 (기본 66.9) = VPD +10.0 + 온체인 +24.1 + 개발자 +7.5 + 사용자 +8.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +6.7 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 43.4,
-    "coverage": 0.429,
-    "freshness": 0.375,
-    "consistency": 0.5
+    "score": 81.1,
+    "coverage": 0.714,
+    "freshness": 0.75,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -19.23051585648413,
-    "return_90d_pct": 32.921604505305055,
+    "return_30d_pct": null,
+    "return_90d_pct": null,
     "rsi_14": null,
     "ma_200d_deviation_pct": null,
     "high_90d_position_pct": null
@@ -121,8 +116,8 @@
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 59.22,
-  "market_cap_usd": 13173743280,
+  "price_usd": 0.058915,
+  "market_cap_usd": 129615063,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -158,34 +153,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 15470853
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 61060828
         },
         {
           "label": "현재",
-          "value": null
+          "value": 75895115.28211898
         }
       ]
     },
-    "stablecoin_inflow_usd": {
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 5233656932
+          "value": 5914
         },
         {
           "label": "30일 전",
-          "value": 6481509357
+          "value": 15598
         },
         {
           "label": "현재",
-          "value": 6328288570
+          "value": 17013
         }
       ]
-    },
-    "fees_24h_usd": null
+    }
   }
 }
