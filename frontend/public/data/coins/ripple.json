@@ -1,10 +1,10 @@
 {
-  "rank": 11,
+  "rank": 13,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 9,
+  "previous_rank": 11,
   "rank_change": -2,
   "overview": {
     "one_liner": null,
@@ -28,38 +28,38 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.91,
-    "base_score": 62.91,
+    "final_score": 62.93,
+    "base_score": 62.93,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.47,
-        "fg_raw_pct": 14.83,
-        "fg_z": -0.1,
-        "pg_raw_pct": -10.97,
-        "pg_z": -0.36,
-        "vpd": 0.27,
-        "percentile": 67.36,
+        "points": 8.28,
+        "fg_raw_pct": -9.42,
+        "fg_z": -0.09,
+        "pg_raw_pct": 1.16,
+        "pg_z": -0.07,
+        "vpd": -0.02,
+        "percentile": 41.4,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +14.8%, PG(가격 변화) -11.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -9.4%, PG(가격 변화) +1.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.37,
-        "raw_value": 93.88,
-        "percentile": 93.48,
+        "points": 23.63,
+        "raw_value": 59.35,
+        "percentile": 94.53,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +23.5%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -4.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 5.69,
-        "raw_value": -45.2,
-        "percentile": 37.96,
+        "points": 10.37,
+        "raw_value": -6.3,
+        "percentile": 69.15,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.10배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.87배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -72,16 +72,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.38,
+        "points": 5.65,
         "raw_value": 0.0,
-        "percentile": 53.83,
+        "percentile": 56.47,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.9 (기본 62.9) = VPD +13.5 + 온체인 +23.4 + 개발자 +5.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 62.9 (기본 62.9) = VPD +8.3 + 온체인 +23.6 + 개발자 +10.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 81.1,
-    "coverage": 0.714,
-    "freshness": 0.75,
+    "score": 69.7,
+    "coverage": 0.571,
+    "freshness": 0.562,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -10.97099096315226,
-    "return_90d_pct": -26.684997972098095,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 1.1550332179166174,
+    "return_90d_pct": -23.762787699494815,
+    "rsi_14": 42.77,
+    "ma_200d_deviation_pct": -22.06915132102949,
+    "high_90d_position_pct": -28.29993388448106
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.083,
-  "market_cap_usd": 67671402988,
+  "price_usd": 1.063,
+  "market_cap_usd": 66444170860,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,15 +175,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 360213145
+          "value": 382820461
         },
         {
           "label": "30일 전",
-          "value": 770463134
+          "value": 889504198
         },
         {
           "label": "현재",
-          "value": 951803173.96
+          "value": 852938888.29
         }
       ]
     },
