@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 13,
   "coin_id": "dogecoin",
   "symbol": "doge",
   "name": "Dogecoin",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 14,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,18 +27,18 @@
     "launch_year": 2013
   },
   "score": {
-    "final_score": 60.82,
-    "base_score": 60.82,
+    "final_score": 61.3,
+    "base_score": 61.3,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.38,
+        "points": 15.54,
         "fg_raw_pct": 12.5,
-        "fg_z": 0.3,
-        "pg_raw_pct": -2.93,
+        "fg_z": 0.27,
+        "pg_raw_pct": -2.92,
         "pg_z": -0.12,
-        "vpd": 0.42,
-        "percentile": 76.88,
+        "vpd": 0.39,
+        "percentile": 77.72,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
@@ -54,9 +54,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.29,
+        "points": 12.5,
         "raw_value": 12.5,
-        "percentile": 81.91,
+        "percentile": 83.33,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.12배 (가속), 릴리즈 30일 0건"
       },
@@ -78,9 +78,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.65,
+        "points": 5.76,
         "raw_value": 0.0,
-        "percentile": 56.47,
+        "percentile": 57.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,7 +92,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.8 (기본 60.8) = VPD +15.4 + 온체인 +12.5 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.3 (기본 61.3) = VPD +15.5 + 온체인 +12.5 + 개발자 +12.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,19 +110,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -2.9308307794634816,
-    "return_90d_pct": -35.4691012591004,
+    "return_30d_pct": -2.9225122286690337,
+    "return_90d_pct": -35.46357114523111,
     "rsi_14": 42.26,
-    "ma_200d_deviation_pct": -26.154766629174787,
-    "high_90d_position_pct": -39.288515680866546
+    "ma_200d_deviation_pct": -26.148438303408163,
+    "high_90d_position_pct": -39.28331287991368
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.070014,
-  "market_cap_usd": 10873469875,
+  "price_usd": 0.07002,
+  "market_cap_usd": 10874964720,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

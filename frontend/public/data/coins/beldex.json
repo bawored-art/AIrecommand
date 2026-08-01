@@ -1,5 +1,5 @@
 {
-  "rank": 18,
+  "rank": 20,
   "coin_id": "beldex",
   "symbol": "bdx",
   "name": "Beldex",
@@ -37,17 +37,17 @@
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.0,
-        "fg_raw_pct": null,
-        "fg_z": null,
-        "pg_raw_pct": 17.58,
-        "pg_z": 0.73,
-        "vpd": null,
-        "percentile": null,
-        "quadrant": "unknown",
-        "quadrant_label": "판단 불가 (FG 또는 PG 데이터 부족)",
-        "missing": true,
-        "reason": "FG 또는 PG 계산 불가로 VPD 결측"
+        "points": 17.28,
+        "fg_raw_pct": 25.0,
+        "fg_z": 0.49,
+        "pg_raw_pct": -3.95,
+        "pg_z": -0.13,
+        "vpd": 0.63,
+        "percentile": 86.41,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "missing": false,
+        "reason": "FG(펀더멘털 성장) +25.0%, PG(가격 변화) -4.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,11 +59,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.72,
-        "raw_value": 200.0,
-        "percentile": 98.15,
+        "points": 7.17,
+        "raw_value": -37.5,
+        "percentile": 47.78,
         "missing": false,
-        "reason": "GitHub 데이터 없음"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.25배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.76,
         "raw_value": 0.0,
-        "percentile": 54.9,
+        "percentile": 57.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 57.7 (기본 57.7) = VPD +10.0 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 57.7 (기본 57.7) = VPD +17.3 + 온체인 +12.5 + 개발자 +7.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,25 +109,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 56.5,
-    "coverage": 0.429,
+    "score": 62.2,
+    "coverage": 0.571,
     "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 17.575278385231297,
-    "return_90d_pct": 9.905579824748049,
-    "rsi_14": 48.45,
-    "ma_200d_deviation_pct": 7.501197221852881,
-    "high_90d_position_pct": -6.068888887291466
+    "return_30d_pct": -3.9539091848313492,
+    "return_90d_pct": -2.9430013392348746,
+    "rsi_14": 53.82,
+    "ma_200d_deviation_pct": 1.5633835853726477,
+    "high_90d_position_pct": -11.80652637791723
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.088335,
-  "market_cap_usd": 693076562,
+  "price_usd": 0.083527,
+  "market_cap_usd": 657342938,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
