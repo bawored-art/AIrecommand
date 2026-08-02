@@ -1,62 +1,51 @@
 {
-  "rank": 19,
-  "coin_id": "solana",
-  "symbol": "sol",
-  "name": "Solana",
-  "badge": null,
-  "previous_rank": 19,
-  "rank_change": 0,
+  "rank": 15,
+  "coin_id": "mx-token",
+  "symbol": "mx",
+  "name": "MX",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
-      "Solana Ecosystem",
-      "Layer 1 (L1)",
-      "FTX Holdings",
-      "Multicoin Capital Portfolio",
-      "Proof of Stake (PoS)",
-      "Alameda Research Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "GMCI Layer 1 Index",
-      "GMCI 30 Index",
-      "Delphi Ventures Portfolio",
-      "GMCI Index",
-      "Polychain Capital Portfolio",
-      "Made in USA",
-      "Coinbase 50 Index",
-      "CoinList Launchpad"
+      "Exchange-based Tokens",
+      "Centralized Exchange (CEX) Token",
+      "Ethereum Ecosystem",
+      "Morph L2 Ecosystem",
+      "Made in China"
     ],
-    "chain": "Solana 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 58.16,
-    "base_score": 58.16,
+    "final_score": 60.04,
+    "base_score": 60.04,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.54,
-        "fg_raw_pct": -15.7,
-        "fg_z": -0.05,
-        "pg_raw_pct": -9.27,
-        "pg_z": -0.17,
-        "vpd": 0.12,
-        "percentile": 52.72,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 14.46,
+        "fg_raw_pct": -0.2,
+        "fg_z": 0.19,
+        "pg_raw_pct": -2.36,
+        "pg_z": -0.08,
+        "vpd": 0.28,
+        "percentile": 72.28,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -15.7%, PG(가격 변화) -9.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -0.2%, PG(가격 변화) -2.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.54,
-        "raw_value": 3.62,
-        "percentile": 70.16,
+        "points": 13.51,
+        "raw_value": -1.86,
+        "percentile": 54.03,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +1.1%"
+        "reason": "TVL 30일 -0.2%"
       },
       "developer": {
         "weight": 15,
@@ -68,19 +57,19 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.13,
-        "raw_value": -17.55,
-        "percentile": 51.32,
-        "missing": false,
-        "reason": "프로토콜 수수료 30일 -25.8%"
-      },
-      "catalyst": {
-        "weight": 10,
         "points": 5.0,
         "raw_value": null,
         "percentile": null,
         "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "reason": "수수료 데이터 없음"
+      },
+      "catalyst": {
+        "weight": 10,
+        "points": 5.0,
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
@@ -92,19 +81,19 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 6.88,
-        "sector_percentile": 68.8,
+        "points": 9.0,
+        "sector_percentile": 90.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 68.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 90.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.2 (기본 58.2) = VPD +10.5 + 온체인 +17.5 + 개발자 +7.5 + 사용자 +5.1 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +6.9 + 과열필터 -0.0"
+    "summary": "총점 60.0 (기본 60.0) = VPD +14.5 + 온체인 +13.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +9.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
@@ -116,19 +105,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -9.265297746343217,
-    "return_90d_pct": -12.752209498480024,
-    "rsi_14": 41.26,
-    "ma_200d_deviation_pct": -14.844912879809124,
-    "high_90d_position_pct": -24.783356941937782
+    "return_30d_pct": -2.3624879693176353,
+    "return_90d_pct": -8.757389754456984,
+    "rsi_14": 19.78,
+    "ma_200d_deviation_pct": -15.489281800778922,
+    "high_90d_position_pct": -10.622446151876085
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 73.15,
-  "market_cap_usd": 42517191902,
+  "price_usd": 1.61,
+  "market_cap_usd": 147989493,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -164,49 +153,19 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 4845086223
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 4684002644
         },
         {
           "label": "현재",
-          "value": null
+          "value": 4674733491.479529
         }
       ]
     },
-    "stablecoin_inflow_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 15293599714
-        },
-        {
-          "label": "30일 전",
-          "value": 16051730724
-        },
-        {
-          "label": "현재",
-          "value": 16230191854.05
-        }
-      ]
-    },
-    "fees_24h_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 468367
-        },
-        {
-          "label": "30일 전",
-          "value": 572461
-        },
-        {
-          "label": "현재",
-          "value": 424805
-        }
-      ]
-    }
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": null
   }
 }
