@@ -1,5 +1,5 @@
 {
-  "rank": 17,
+  "rank": 18,
   "coin_id": "bittorrent",
   "symbol": "btt",
   "name": "BitTorrent",
@@ -29,30 +29,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.36,
-    "base_score": 57.36,
+    "final_score": 57.44,
+    "base_score": 57.44,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.12,
-        "fg_raw_pct": -1.91,
-        "fg_z": -0.1,
-        "pg_raw_pct": 1.64,
-        "pg_z": -0.17,
-        "vpd": 0.07,
-        "percentile": 55.61,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 13.22,
+        "fg_raw_pct": -1.35,
+        "fg_z": 0.15,
+        "pg_raw_pct": -0.83,
+        "pg_z": -0.07,
+        "vpd": 0.22,
+        "percentile": 66.11,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -1.9%, PG(가격 변화) +1.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -1.4%, PG(가격 변화) -0.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.05,
-        "raw_value": 3.71,
-        "percentile": 72.22,
+        "points": 16.19,
+        "raw_value": 0.9,
+        "percentile": 64.75,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -1.9%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -1.4%"
       },
       "developer": {
         "weight": 15,
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.69,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 56.94,
+        "percentile": 55.26,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 57.4 (기본 57.4) = VPD +11.1 + 온체인 +18.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 57.4 (기본 57.4) = VPD +13.2 + 온체인 +16.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,19 +112,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 1.6370290167918955,
-    "return_90d_pct": -17.92791886843676,
-    "rsi_14": 59.77,
-    "ma_200d_deviation_pct": -19.20241924283373,
-    "high_90d_position_pct": -21.78374838542535
+    "return_30d_pct": -0.8294817189915211,
+    "return_90d_pct": -18.427073040525276,
+    "rsi_14": 34.24,
+    "ma_200d_deviation_pct": -17.13065924968418,
+    "high_90d_position_pct": -23.397359158242118
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.68298e-07,
-  "market_cap_usd": 265011135,
+  "price_usd": 2.63238e-07,
+  "market_cap_usd": 259791844,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -176,11 +176,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 303910
+          "value": 322090
         },
         {
           "label": "30일 전",
-          "value": 338752
+          "value": 336836
         },
         {
           "label": "현재",

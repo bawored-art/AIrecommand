@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 6,
   "coin_id": "apecoin",
   "symbol": "ape",
   "name": "ApeCoin",
   "badge": null,
   "previous_rank": 7,
-  "rank_change": 0,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,30 +38,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 67.36,
-    "base_score": 67.36,
+    "final_score": 67.7,
+    "base_score": 67.7,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.93,
-        "fg_raw_pct": 59.45,
-        "fg_z": 1.1,
-        "pg_raw_pct": -5.23,
-        "pg_z": -0.15,
-        "vpd": 1.25,
-        "percentile": 89.67,
+        "points": 18.56,
+        "fg_raw_pct": 57.69,
+        "fg_z": 1.08,
+        "pg_raw_pct": -7.06,
+        "pg_z": -0.16,
+        "vpd": 1.23,
+        "percentile": 92.78,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +59.5%, PG(가격 변화) -5.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +57.7%, PG(가격 변화) -7.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.17,
-        "raw_value": 33.78,
-        "percentile": 84.68,
+        "points": 21.11,
+        "raw_value": 32.43,
+        "percentile": 84.43,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +59.5%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +57.7%"
       },
       "developer": {
         "weight": 15,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.76,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 57.61,
+        "percentile": 55.26,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 67.4 (기본 67.4) = VPD +17.9 + 온체인 +21.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 67.7 (기본 67.7) = VPD +18.6 + 온체인 +21.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,25 +115,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 56.6,
+    "score": 54.7,
     "coverage": 0.571,
-    "freshness": 0.625,
+    "freshness": 0.562,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -5.226886420999762,
-    "return_90d_pct": -25.30474586172997,
-    "rsi_14": 41.59,
-    "ma_200d_deviation_pct": -15.697966929948691,
-    "high_90d_position_pct": -21.282080942810655
+    "return_30d_pct": -7.056855825927934,
+    "return_90d_pct": -21.277990729945863,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.132323,
-  "market_cap_usd": 132322721,
+  "price_usd": 0.130793,
+  "market_cap_usd": 130710000,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -185,7 +185,7 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 342589
+          "value": 341699
         },
         {
           "label": "30일 전",
@@ -193,7 +193,7 @@
         },
         {
           "label": "현재",
-          "value": 370335.82
+          "value": 366238.68
         }
       ]
     },

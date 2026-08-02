@@ -1,73 +1,89 @@
 {
-  "rank": 12,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 11,
-  "rank_change": -1,
+  "rank": 20,
+  "coin_id": "aave",
+  "symbol": "aave",
+  "name": "Aave",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
-      "Layer 1 (L1)",
-      "FTX Holdings",
-      "Pantera Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
-      "GMCI 30 Index",
+      "Decentralized Finance (DeFi)",
+      "Yield Farming",
+      "BNB Chain Ecosystem",
+      "Lending/Borrowing Protocols",
+      "Solana Ecosystem",
+      "Avalanche Ecosystem",
+      "Polygon Ecosystem",
+      "Near Protocol Ecosystem",
+      "Fantom Ecosystem",
+      "Harmony Ecosystem",
+      "Arbitrum Ecosystem",
+      "Ethereum Ecosystem",
+      "Optimism Ecosystem",
+      "Base Ecosystem",
+      "Index Coop Defi Index",
+      "Stablecoin Issuer",
+      "Energi Ecosystem",
+      "Sora Ecosystem",
+      "Huobi ECO Chain Ecosystem",
+      "GMCI DeFi Index",
       "Blockchain Capital Portfolio",
       "GMCI Index",
-      "Made in USA",
-      "Coinbase 50 Index"
+      "World Liberty Financial Portfolio",
+      "Coinbase 50 Index",
+      "Hydration Ecosystem",
+      "Governance",
+      "Base Native"
     ],
-    "chain": "XRP 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 63.54,
-    "base_score": 63.54,
+    "final_score": 57.0,
+    "base_score": 57.0,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.11,
-        "fg_raw_pct": -16.95,
-        "fg_z": -0.09,
-        "pg_raw_pct": -0.36,
-        "pg_z": -0.06,
-        "vpd": -0.03,
-        "percentile": 40.56,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 17.89,
+        "fg_raw_pct": 28.71,
+        "fg_z": 0.62,
+        "pg_raw_pct": 7.25,
+        "pg_z": 0.05,
+        "vpd": 0.57,
+        "percentile": 89.44,
+        "quadrant": "co_movement",
+        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -17.0%, PG(가격 변화) -0.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +28.7%, PG(가격 변화) +7.3% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.98,
-        "raw_value": 61.61,
-        "percentile": 95.9,
+        "points": 8.81,
+        "raw_value": -7.08,
+        "percentile": 35.25,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -3.5%"
+        "reason": "TVL 30일 +3.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 10.92,
-        "raw_value": -12.5,
-        "percentile": 72.83,
-        "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.75배 (둔화), 릴리즈 30일 1건"
-      },
-      "user_ecosystem": {
-        "weight": 10,
-        "points": 5.0,
+        "points": 7.5,
         "raw_value": null,
         "percentile": null,
         "missing": true,
-        "reason": "수수료 데이터 없음"
+        "reason": "GitHub 데이터 없음"
+      },
+      "user_ecosystem": {
+        "weight": 10,
+        "points": 7.5,
+        "raw_value": 15.62,
+        "percentile": 75.0,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +64.7%"
       },
       "catalyst": {
         "weight": 10,
@@ -87,13 +103,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 4.77,
+        "sector_percentile": 47.650000000000006,
+        "missing": false,
+        "reason": "MC/TVL 백분위 28.6, MC/Fees 백분위 66.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.5 (기본 63.5) = VPD +8.1 + 온체인 +24.0 + 개발자 +10.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 57.0 (기본 57.0) = VPD +17.9 + 온체인 +8.8 + 개발자 +7.5 + 사용자 +7.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,25 +121,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
+    "score": 77.3,
+    "coverage": 0.714,
+    "freshness": 0.625,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -0.36329746686019754,
-    "return_90d_pct": -22.01483515181595,
-    "rsi_14": 46.98,
-    "ma_200d_deviation_pct": -20.29343057037857,
-    "high_90d_position_pct": -26.950920410999984
+    "return_30d_pct": 7.250553455694171,
+    "return_90d_pct": 0.03639423522464995,
+    "rsi_14": 52.83,
+    "ma_200d_deviation_pct": -10.248804994704733,
+    "high_90d_position_pct": -9.433544069403805
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.083,
-  "market_cap_usd": 67744187215,
+  "price_usd": 92.39,
+  "market_cap_usd": 1425793260,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -159,34 +175,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 131678143
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 105942799
         },
         {
           "label": "현재",
-          "value": null
+          "value": 109102211.10080303
         }
       ]
     },
-    "stablecoin_inflow_usd": {
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 377916132
+          "value": 8476
         },
         {
           "label": "30일 전",
-          "value": 888500833
+          "value": 3422
         },
         {
           "label": "현재",
-          "value": 856989393.29
+          "value": 5637
         }
       ]
-    },
-    "fees_24h_usd": null
+    }
   }
 }

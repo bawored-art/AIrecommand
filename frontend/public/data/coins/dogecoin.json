@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 17,
   "coin_id": "dogecoin",
   "symbol": "doge",
   "name": "Dogecoin",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "previous_rank": 13,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,22 +27,22 @@
     "launch_year": 2013
   },
   "score": {
-    "final_score": 61.3,
-    "base_score": 61.3,
+    "final_score": 58.04,
+    "base_score": 58.04,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.54,
-        "fg_raw_pct": 12.5,
-        "fg_z": 0.27,
-        "pg_raw_pct": -2.92,
-        "pg_z": -0.12,
-        "vpd": 0.39,
-        "percentile": 77.72,
+        "points": 12.78,
+        "fg_raw_pct": -6.3,
+        "fg_z": 0.07,
+        "pg_raw_pct": -5.14,
+        "pg_z": -0.13,
+        "vpd": 0.2,
+        "percentile": 63.89,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +12.5%, PG(가격 변화) -2.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) -6.3%, PG(가격 변화) -5.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -54,11 +54,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.5,
-        "raw_value": 12.5,
-        "percentile": 83.33,
+        "points": 12.23,
+        "raw_value": -6.3,
+        "percentile": 81.52,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.12배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.94배 (둔화), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -78,9 +78,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.76,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 57.61,
+        "percentile": 55.26,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,7 +92,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.3 (기본 61.3) = VPD +15.5 + 온체인 +12.5 + 개발자 +12.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 58.0 (기본 58.0) = VPD +12.8 + 온체인 +12.5 + 개발자 +12.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,19 +110,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -2.9225122286690337,
-    "return_90d_pct": -35.46357114523111,
-    "rsi_14": 42.26,
-    "ma_200d_deviation_pct": -26.148438303408163,
-    "high_90d_position_pct": -39.28331287991368
+    "return_30d_pct": -5.144785258180011,
+    "return_90d_pct": -35.00272712088876,
+    "rsi_14": 44.21,
+    "ma_200d_deviation_pct": -25.55665261166587,
+    "high_90d_position_pct": -39.04745257004988
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.07002,
-  "market_cap_usd": 10874964720,
+  "price_usd": 0.070292,
+  "market_cap_usd": 10918769194,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

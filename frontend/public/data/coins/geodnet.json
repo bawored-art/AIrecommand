@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 14,
   "coin_id": "geodnet",
   "symbol": "geod",
   "name": "Geodnet",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 12,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,22 +24,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.3,
-    "base_score": 62.3,
+    "final_score": 60.03,
+    "base_score": 60.03,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.46,
-        "fg_raw_pct": 16.04,
-        "fg_z": 0.33,
-        "pg_raw_pct": 7.34,
-        "pg_z": -0.0,
-        "vpd": 0.34,
-        "percentile": 72.28,
+        "points": 16.33,
+        "fg_raw_pct": 4.02,
+        "fg_z": 0.23,
+        "pg_raw_pct": -8.12,
+        "pg_z": -0.17,
+        "vpd": 0.41,
+        "percentile": 81.67,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +16.0%, PG(가격 변화) +7.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +4.0%, PG(가격 변화) -8.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,11 +59,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.08,
-        "raw_value": 186.49,
-        "percentile": 80.77,
+        "points": 4.08,
+        "raw_value": -18.39,
+        "percentile": 40.79,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +16.0%"
+        "reason": "프로토콜 수수료 30일 +4.0%"
       },
       "catalyst": {
         "weight": 10,
@@ -75,21 +75,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.76,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 57.61,
+        "percentile": 55.26,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 9.0,
-        "sector_percentile": 90.0,
+        "points": 9.09,
+        "sector_percentile": 90.9,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 90.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 90.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.3 (기본 62.3) = VPD +14.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +9.0 + 과열필터 -0.0"
+    "summary": "총점 60.0 (기본 60.0) = VPD +16.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +4.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
+    "score": 66.1,
     "coverage": 0.714,
-    "freshness": 0.812,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 7.340315049049149,
-    "return_90d_pct": 81.35142557597044,
-    "rsi_14": 60.18,
-    "ma_200d_deviation_pct": 45.26183544240364,
-    "high_90d_position_pct": -5.445705594628231
+    "return_30d_pct": -8.12160689561061,
+    "return_90d_pct": 63.653827857368405,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.228914,
-  "market_cap_usd": 103990202,
+  "price_usd": 0.208351,
+  "market_cap_usd": 94645621,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -172,15 +172,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 7159
+          "value": 52697
         },
         {
           "label": "30일 전",
-          "value": 28191
+          "value": 29989
         },
         {
           "label": "현재",
-          "value": 32713
+          "value": 31195
         }
       ]
     }
