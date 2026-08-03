@@ -4,8 +4,8 @@
   "symbol": "avax",
   "name": "Avalanche",
   "badge": null,
-  "previous_rank": 1,
-  "rank_change": -1,
+  "previous_rank": 2,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,22 +32,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 76.35,
-    "base_score": 76.35,
+    "final_score": 75.51,
+    "base_score": 75.51,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.35,
-        "fg_raw_pct": 31.59,
-        "fg_z": 0.79,
-        "pg_raw_pct": -7.26,
+        "points": 18.37,
+        "fg_raw_pct": 27.07,
+        "fg_z": 0.86,
+        "pg_raw_pct": -6.11,
         "pg_z": -0.1,
-        "vpd": 0.89,
-        "percentile": 91.76,
+        "vpd": 0.96,
+        "percentile": 91.85,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +31.6%, PG(가격 변화) -7.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +27.1%, PG(가격 변화) -6.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,75 +59,75 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.51,
+        "points": 14.52,
         "raw_value": 97.35,
-        "percentile": 96.74,
+        "percentile": 96.81,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.95배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.03,
-        "raw_value": 38.95,
-        "percentile": 90.28,
+        "points": 8.75,
+        "raw_value": 29.83,
+        "percentile": 87.5,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +79.1%"
+        "reason": "프로토콜 수수료 30일 +67.4%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.52,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 55.24,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 4.38,
-        "sector_percentile": 43.8,
+        "points": 3.75,
+        "sector_percentile": 37.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 43.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 37.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 76.3 (기본 76.3) = VPD +18.4 + 온체인 +19.6 + 개발자 +14.5 + 사용자 +9.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.4 + 과열필터 -0.0"
+    "summary": "총점 75.5 (기본 75.5) = VPD +18.4 + 온체인 +19.6 + 개발자 +14.5 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +3.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 86.2,
-    "coverage": 1.0,
-    "freshness": 0.875,
+    "score": 73.0,
+    "coverage": 0.857,
+    "freshness": 0.625,
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -7.260380088679379,
-    "return_90d_pct": -29.796047976795936,
+    "return_30d_pct": -6.108335120836898,
+    "return_90d_pct": -28.923949193899002,
     "rsi_14": 49.44,
-    "ma_200d_deviation_pct": -26.171078699854146,
-    "high_90d_position_pct": -37.03400293793326
+    "ma_200d_deviation_pct": -25.253949242709485,
+    "high_90d_position_pct": -36.251816639025606
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 6.44,
-  "market_cap_usd": 2778291086,
+  "price_usd": 6.52,
+  "market_cap_usd": 2817136101,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -187,7 +187,7 @@
         },
         {
           "label": "현재",
-          "value": 1581651313.48
+          "value": 1581711065.54
         }
       ]
     },
@@ -203,7 +203,7 @@
         },
         {
           "label": "현재",
-          "value": 2880
+          "value": 2691
         }
       ]
     }
