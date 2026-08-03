@@ -1,11 +1,11 @@
 {
-  "rank": 6,
+  "rank": 4,
   "coin_id": "vechain",
   "symbol": "vet",
   "name": "VeChain",
   "badge": null,
-  "previous_rank": 5,
-  "rank_change": -1,
+  "previous_rank": 6,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,28 +22,28 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 69.55,
-    "base_score": 69.55,
+    "final_score": 70.52,
+    "base_score": 70.52,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.02,
+        "points": 19.23,
         "fg_raw_pct": 78.13,
-        "fg_z": 1.44,
-        "pg_raw_pct": 1.2,
-        "pg_z": -0.04,
-        "vpd": 1.47,
-        "percentile": 95.11,
+        "fg_z": 1.6,
+        "pg_raw_pct": -2.22,
+        "pg_z": -0.03,
+        "vpd": 1.63,
+        "percentile": 96.15,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +78.1%, PG(가격 변화) +1.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +78.1%, PG(가격 변화) -2.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 15.12,
+        "points": 15.93,
         "raw_value": 0.0,
-        "percentile": 60.48,
+        "percentile": 63.71,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.0%"
       },
@@ -73,9 +73,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.57,
+        "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 55.7,
+        "percentile": 55.24,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -87,7 +87,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 69.5 (기본 69.5) = VPD +19.0 + 온체인 +15.1 + 개발자 +14.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 70.5 (기본 70.5) = VPD +19.2 + 온체인 +15.9 + 개발자 +14.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,19 +105,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 1.2020469910898472,
-    "return_90d_pct": -34.7944939663755,
-    "rsi_14": 50.96,
-    "ma_200d_deviation_pct": -36.609387484634524,
-    "high_90d_position_pct": -40.97100500750071
+    "return_30d_pct": -2.219685032675048,
+    "return_90d_pct": -35.03175849097503,
+    "rsi_14": 50.0,
+    "ma_200d_deviation_pct": -37.2323174599063,
+    "high_90d_position_pct": -41.55233632527708
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00469932,
-  "market_cap_usd": 403934580,
+  "price_usd": 0.00465304,
+  "market_cap_usd": 400149587,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

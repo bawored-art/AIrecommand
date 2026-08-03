@@ -1,8 +1,8 @@
 {
-  "rank": 11,
-  "coin_id": "zama",
-  "symbol": "zama",
-  "name": "Zama",
+  "rank": 20,
+  "coin_id": "bitcoin-cash",
+  "symbol": "bch",
+  "name": "Bitcoin Cash",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
@@ -12,44 +12,40 @@
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "BNB Chain Ecosystem",
-      "Solana Ecosystem",
-      "Ethereum Ecosystem",
-      "Cross-chain Communication",
-      "Binance Wallet IDO",
-      "CoinList Launchpad",
-      "Privacy Infrastructure",
-      "Zama Gateway Mainnet Ecosystem",
-      "Privacy"
+      "Smart Contract Platform",
+      "Layer 1 (L1)",
+      "Bitcoin Fork",
+      "Proof of Work (PoW)",
+      "Coinbase 50 Index"
     ],
-    "chain": "Ethereum",
+    "chain": "Bitcoin Cash 자체 메인넷",
     "launch_year": null
   },
   "score": {
-    "final_score": 64.33,
-    "base_score": 64.33,
+    "final_score": 58.82,
+    "base_score": 58.82,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.42,
-        "fg_raw_pct": 38.65,
-        "fg_z": 0.92,
-        "pg_raw_pct": 55.88,
-        "pg_z": 0.72,
-        "vpd": 0.2,
-        "percentile": 62.09,
-        "quadrant": "co_movement",
-        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
+        "points": 15.27,
+        "fg_raw_pct": 0.0,
+        "fg_z": 0.25,
+        "pg_raw_pct": -8.4,
+        "pg_z": -0.11,
+        "vpd": 0.36,
+        "percentile": 76.37,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +38.6%, PG(가격 변화) +55.9% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +0.0%, PG(가격 변화) -8.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.18,
-        "raw_value": 52.38,
-        "percentile": 92.74,
+        "points": 15.53,
+        "raw_value": 0.0,
+        "percentile": 62.1,
         "missing": false,
-        "reason": "TVL 30일 +38.6%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.0%"
       },
       "developer": {
         "weight": 15,
@@ -85,13 +81,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.71,
-        "sector_percentile": 57.1,
-        "missing": false,
-        "reason": "MC/TVL 백분위 57.1, MC/Fees 백분위 None (높을수록 저평가)"
+        "points": 5.0,
+        "sector_percentile": null,
+        "missing": true,
+        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.3 (기본 64.3) = VPD +12.4 + 온체인 +23.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.7 + 과열필터 -0.0"
+    "summary": "총점 58.8 (기본 58.8) = VPD +15.3 + 온체인 +15.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +99,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.3,
-    "coverage": 0.714,
-    "freshness": 0.625,
+    "score": 62.2,
+    "coverage": 0.571,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 55.87623013722316,
-    "return_90d_pct": 77.93591404023508,
-    "rsi_14": 72.6,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": -14.820627641130848
+    "return_30d_pct": -8.401667063679916,
+    "return_90d_pct": -52.71900615772673,
+    "rsi_14": 45.79,
+    "ma_200d_deviation_pct": -46.41210574884683,
+    "high_90d_position_pct": -54.9259130517233
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.051695,
-  "market_cap_usd": 113624156,
+  "price_usd": 210.0,
+  "market_cap_usd": 4214343396,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -157,19 +153,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 27749480
+          "value": null
         },
         {
           "label": "30일 전",
-          "value": 33245640
+          "value": null
         },
         {
           "label": "현재",
-          "value": 46093750.98237614
+          "value": null
         }
       ]
     },
-    "stablecoin_inflow_usd": null,
+    "stablecoin_inflow_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 73760084
+        },
+        {
+          "label": "30일 전",
+          "value": 73760084.06
+        },
+        {
+          "label": "현재",
+          "value": 73760084.06
+        }
+      ]
+    },
     "fees_24h_usd": null
   }
 }

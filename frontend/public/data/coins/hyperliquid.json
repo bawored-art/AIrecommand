@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 9,
   "coin_id": "hyperliquid",
   "symbol": "hype",
   "name": "Hyperliquid",
   "badge": null,
-  "previous_rank": 8,
-  "rank_change": -2,
+  "previous_rank": 10,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,30 +27,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.15,
-    "base_score": 66.15,
+    "final_score": 65.85,
+    "base_score": 65.85,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.72,
-        "fg_raw_pct": 4.45,
-        "fg_z": 0.27,
-        "pg_raw_pct": -22.98,
-        "pg_z": -0.35,
-        "vpd": 0.61,
-        "percentile": 88.59,
+        "points": 17.47,
+        "fg_raw_pct": 3.58,
+        "fg_z": 0.31,
+        "pg_raw_pct": -25.49,
+        "pg_z": -0.33,
+        "vpd": 0.64,
+        "percentile": 87.36,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +4.5%, PG(가격 변화) -23.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +3.6%, PG(가격 변화) -25.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 20.36,
-        "raw_value": 12.82,
+        "raw_value": 12.31,
         "percentile": 81.45,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.5%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +3.6%"
       },
       "developer": {
         "weight": 15,
@@ -71,16 +71,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.57,
+        "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 55.7,
+        "percentile": 55.24,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,37 +92,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 66.2 (기본 66.2) = VPD +17.7 + 온체인 +20.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 65.8 (기본 65.8) = VPD +17.5 + 온체인 +20.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 45.3,
-    "coverage": 0.429,
-    "freshness": 0.438,
+    "score": 58.5,
+    "coverage": 0.571,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -22.98217439494223,
-    "return_90d_pct": 24.0794844586099,
-    "rsi_14": 27.35,
-    "ma_200d_deviation_pct": 12.283054777557266,
-    "high_90d_position_pct": -30.875344916023028
+    "return_30d_pct": -25.490953892829673,
+    "return_90d_pct": 25.955838071972774,
+    "rsi_14": 29.47,
+    "ma_200d_deviation_pct": 14.759827379193297,
+    "high_90d_position_pct": -29.345206919989366
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 51.5,
-  "market_cap_usd": 11456145798,
+  "price_usd": 52.64,
+  "market_cap_usd": 11707910582,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -174,15 +174,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 5142544233
+          "value": 5160026577
         },
         {
           "label": "30일 전",
-          "value": 5966948494
+          "value": 6029383642
         },
         {
           "label": "현재",
-          "value": 6232485467.55
+          "value": 6245345478.71
         }
       ]
     },
