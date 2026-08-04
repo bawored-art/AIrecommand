@@ -1,19 +1,18 @@
 {
   "date": "2026-08-04",
-  "generated_at_kst": "2026-08-04T02:26:56.213353+09:00",
-  "count": 6,
+  "generated_at_kst": "2026-08-04T16:52:26.221046+09:00",
+  "count": 7,
   "items": [
     {
       "coin_id": "bitway",
       "symbol": "btw",
       "name": "Bitway",
-      "base_score": 63.5,
+      "base_score": 52.75,
       "excluded_reasons": [
-        "30일 수익률 +68.1% > 60% (제외)",
-        "90일 수익률 +515.8% > 150% (제외)"
+        "90일 수익률 +660.6% > 150% (제외)"
       ],
-      "return_30d_pct": 68.09107456912344,
-      "return_90d_pct": 515.8131419867149
+      "return_30d_pct": 58.70708748615726,
+      "return_90d_pct": 660.639507781171
     },
     {
       "coin_id": "audiera",
@@ -21,33 +20,10 @@
       "name": "Audiera",
       "base_score": 50.56,
       "excluded_reasons": [
-        "90일 수익률 +402.2% > 150% (제외)"
+        "90일 수익률 +417.4% > 150% (제외)"
       ],
-      "return_30d_pct": 5.049729714359764,
-      "return_90d_pct": 402.21735672030644
-    },
-    {
-      "coin_id": "talus",
-      "symbol": "us",
-      "name": "Talus",
-      "base_score": 50.56,
-      "excluded_reasons": [
-        "30일 수익률 +209.9% > 60% (제외)",
-        "90일 수익률 +865.8% > 150% (제외)"
-      ],
-      "return_30d_pct": 209.89124916693987,
-      "return_90d_pct": 865.7630762036761
-    },
-    {
-      "coin_id": "unibase",
-      "symbol": "ub",
-      "name": "Unibase",
-      "base_score": 50.56,
-      "excluded_reasons": [
-        "30일 수익률 +88.6% > 60% (제외)"
-      ],
-      "return_30d_pct": 88.55882499501497,
-      "return_90d_pct": 58.91027950612473
+      "return_30d_pct": -3.436426116838491,
+      "return_90d_pct": 417.3737902606697
     },
     {
       "coin_id": "velvet",
@@ -55,10 +31,33 @@
       "name": "Velvet",
       "base_score": 50.56,
       "excluded_reasons": [
-        "90일 수익률 +320.8% > 150% (제외)"
+        "90일 수익률 +343.3% > 150% (제외)"
       ],
-      "return_30d_pct": -8.934664605329093,
-      "return_90d_pct": 320.8392969564214
+      "return_30d_pct": -11.729425482120234,
+      "return_90d_pct": 343.3213768914645
+    },
+    {
+      "coin_id": "talus",
+      "symbol": "us",
+      "name": "Talus",
+      "base_score": 50.56,
+      "excluded_reasons": [
+        "30일 수익률 +179.5% > 60% (제외)",
+        "90일 수익률 +910.1% > 150% (제외)"
+      ],
+      "return_30d_pct": 179.4952827897822,
+      "return_90d_pct": 910.0792496116535
+    },
+    {
+      "coin_id": "meta-2-2",
+      "symbol": "meta",
+      "name": "MetaDAO",
+      "base_score": 50.56,
+      "excluded_reasons": [
+        "30일 수익률 +83.1% > 60% (제외)"
+      ],
+      "return_30d_pct": 83.13410232276122,
+      "return_90d_pct": 117.2755545471633
     },
     {
       "coin_id": "akedo",
@@ -66,11 +65,22 @@
       "name": "Akedo",
       "base_score": 50.56,
       "excluded_reasons": [
-        "30일 수익률 +956.8% > 60% (제외)",
-        "90일 수익률 +1262.9% > 150% (제외)"
+        "30일 수익률 +1221.4% > 60% (제외)",
+        "90일 수익률 +1127.4% > 150% (제외)"
       ],
-      "return_30d_pct": 956.7503942269935,
-      "return_90d_pct": 1262.867657905853
+      "return_30d_pct": 1221.3651818716478,
+      "return_90d_pct": 1127.350006150379
+    },
+    {
+      "coin_id": "unibase",
+      "symbol": "ub",
+      "name": "Unibase",
+      "base_score": 45.56,
+      "excluded_reasons": [
+        "30일 수익률 +100.2% > 60% (제외)"
+      ],
+      "return_30d_pct": 100.15677585233806,
+      "return_90d_pct": 46.689631737920394
     }
   ]
 }
