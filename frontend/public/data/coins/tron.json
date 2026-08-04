@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 13,
   "coin_id": "tron",
   "symbol": "trx",
   "name": "TRON",
   "badge": null,
-  "previous_rank": 15,
-  "rank_change": 3,
+  "previous_rank": 12,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,102 +29,102 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 65.04,
-    "base_score": 65.04,
+    "final_score": 64.93,
+    "base_score": 64.93,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.92,
+        "points": 9.16,
         "fg_raw_pct": 11.71,
-        "fg_z": -0.09,
-        "pg_raw_pct": 0.03,
-        "pg_z": -0.03,
-        "vpd": -0.06,
-        "percentile": 44.62,
+        "fg_z": -0.07,
+        "pg_raw_pct": 0.3,
+        "pg_z": -0.02,
+        "vpd": -0.05,
+        "percentile": 45.79,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +11.7%, PG(가격 변화) +0.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +11.7%, PG(가격 변화) +0.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.66,
+        "points": 17.77,
         "raw_value": 2.45,
-        "percentile": 70.63,
+        "percentile": 71.09,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +2.5%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.09,
+        "points": 11.72,
         "raw_value": 3.25,
-        "percentile": 80.61,
+        "percentile": 78.12,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.56배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.24,
+        "points": 7.12,
         "raw_value": 31.32,
-        "percentile": 72.37,
+        "percentile": 71.25,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +72.5%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.58,
+        "percentile": 54.87,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.57,
-        "sector_percentile": 85.7,
+        "points": 8.67,
+        "sector_percentile": 86.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 86.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.0 (기본 65.0) = VPD +8.9 + 온체인 +17.7 + 개발자 +12.1 + 사용자 +7.2 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 64.9 (기본 64.9) = VPD +9.2 + 온체인 +17.8 + 개발자 +11.7 + 사용자 +7.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.7 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 73.0,
-    "coverage": 0.857,
-    "freshness": 0.625,
+    "score": 86.2,
+    "coverage": 1.0,
+    "freshness": 0.875,
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 0.03405953119488164,
-    "return_90d_pct": -4.566730498264416,
+    "return_30d_pct": 0.3037988541400492,
+    "return_90d_pct": -4.309397089798528,
     "rsi_14": 49.26,
-    "ma_200d_deviation_pct": 3.5264583856604146,
-    "high_90d_position_pct": -12.293368326548636
+    "ma_200d_deviation_pct": 3.8056148741877127,
+    "high_90d_position_pct": -12.056869602451366
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.328948,
-  "market_cap_usd": 31215562508,
+  "price_usd": 0.329835,
+  "market_cap_usd": 31295659846,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -4,8 +4,8 @@
   "symbol": "bat",
   "name": "Basic Attention",
   "badge": null,
-  "previous_rank": 19,
-  "rank_change": -1,
+  "previous_rank": 20,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 60.32,
-    "base_score": 60.32,
+    "final_score": 59.26,
+    "base_score": 59.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.31,
+        "points": 16.74,
         "fg_raw_pct": -11.7,
-        "fg_z": -0.16,
-        "pg_raw_pct": -23.72,
+        "fg_z": -0.15,
+        "pg_raw_pct": -23.88,
         "pg_z": -0.29,
-        "vpd": 0.13,
-        "percentile": 86.56,
+        "vpd": 0.14,
+        "percentile": 83.68,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -11.7%, PG(가격 변화) -23.7% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -11.7%, PG(가격 변화) -23.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,9 +53,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 9.95,
+        "points": 9.53,
         "raw_value": -11.7,
-        "percentile": 66.33,
+        "percentile": 63.54,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.88배 (둔화), 릴리즈 30일 0건"
       },
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.58,
+        "percentile": 54.87,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.3 (기본 60.3) = VPD +17.3 + 온체인 +12.5 + 개발자 +9.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.3 (기본 59.3) = VPD +16.7 + 온체인 +12.5 + 개발자 +9.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -23.71998842927394,
-    "return_90d_pct": -36.99138734540916,
+    "return_30d_pct": -23.879664448944173,
+    "return_90d_pct": -37.123282507279974,
     "rsi_14": 14.01,
-    "ma_200d_deviation_pct": -36.963370929666404,
-    "high_90d_position_pct": -44.96913442285908
+    "ma_200d_deviation_pct": -37.09532473795925,
+    "high_90d_position_pct": -45.08432986388517
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.065925,
-  "market_cap_usd": 98611205,
+  "price_usd": 0.065787,
+  "market_cap_usd": 98082653,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
