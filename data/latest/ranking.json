@@ -1,55 +1,55 @@
 {
   "date": "2026-08-04",
-  "universe_count": 195,
+  "universe_count": 194,
   "top_n": 20,
   "relaxed_mode": false,
   "candidate_count": 187,
-  "momentum_leader_count": 8,
+  "momentum_leader_count": 7,
   "top20": [
     {
       "coin_id": "avalanche-2",
       "symbol": "avax",
       "name": "Avalanche",
-      "base_score": 75.13,
-      "final_score": 75.13,
+      "base_score": 74.59,
+      "final_score": 74.59,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 17.16,
-          "fg_raw_pct": 62.75,
-          "fg_z": 0.09,
-          "pg_raw_pct": -2.61,
+          "points": 17.1,
+          "fg_raw_pct": 69.18,
+          "fg_z": 0.13,
+          "pg_raw_pct": -2.76,
           "pg_z": -0.06,
-          "vpd": 0.15,
-          "percentile": 85.79,
+          "vpd": 0.19,
+          "percentile": 85.48,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +62.8%, PG(가격 변화) -2.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+          "reason": "FG(펀더멘털 성장) +69.2%, PG(가격 변화) -2.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 20.12,
+          "points": 20.04,
           "raw_value": 9.53,
-          "percentile": 80.47,
+          "percentile": 80.16,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +15.9%"
         },
         "developer": {
           "weight": 15,
-          "points": 14.53,
-          "raw_value": 100.25,
-          "percentile": 96.88,
+          "points": 14.22,
+          "raw_value": 102.95,
+          "percentile": 94.79,
           "missing": false,
-          "reason": "커밋 페이스(30일/90일 평균 대비) 1.00배 (가속), 릴리즈 30일 1건"
+          "reason": "커밋 페이스(30일/90일 평균 대비) 1.06배 (가속), 릴리즈 30일 1건"
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 8.12,
-          "raw_value": 68.86,
-          "percentile": 81.25,
+          "points": 8.03,
+          "raw_value": 76.42,
+          "percentile": 80.26,
           "missing": false,
-          "reason": "프로토콜 수수료 30일 +153.1%"
+          "reason": "프로토콜 수수료 30일 +164.4%"
         },
         "catalyst": {
           "weight": 10,
@@ -63,7 +63,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -88,138 +88,44 @@
         "consistency": 1.0
       },
       "technical": {
-        "return_30d_pct": -2.6124818577648723,
-        "return_90d_pct": -28.648529173518757,
-        "rsi_14": 54.83,
-        "ma_200d_deviation_pct": -22.45594682528558,
-        "high_90d_position_pct": -34.3941241791199
+        "return_30d_pct": -2.757619738751807,
+        "return_90d_pct": -28.754865195614848,
+        "rsi_14": 52.83,
+        "ma_200d_deviation_pct": -22.56654053349231,
+        "high_90d_position_pct": -34.49189746648336
       },
       "context": {
-        "price_usd": 6.71,
-        "market_cap_usd": 2898896028
+        "price_usd": 6.7,
+        "market_cap_usd": 2894582137
       },
-      "summary": "총점 75.1 (기본 75.1) = VPD +17.2 + 온체인 +20.1 + 개발자 +14.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.7 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "monad",
-      "symbol": "mon",
-      "name": "Monad",
-      "base_score": 71.35,
-      "final_score": 71.35,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 15.89,
-          "fg_raw_pct": 61.44,
-          "fg_z": 0.09,
-          "pg_raw_pct": -0.45,
-          "pg_z": -0.03,
-          "vpd": 0.12,
-          "percentile": 79.47,
-          "quadrant": "leading_opportunity",
-          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +61.4%, PG(가격 변화) -0.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 22.07,
-          "raw_value": 39.15,
-          "percentile": 88.28,
-          "missing": false,
-          "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +31.1%"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 7.62,
-          "raw_value": 56.54,
-          "percentile": 76.25,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +79.7%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 7.78,
-          "sector_percentile": 77.8,
-          "missing": false,
-          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 77.8 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 86.8,
-        "coverage": 0.857,
-        "freshness": 0.75,
-        "consistency": 1.0
-      },
-      "technical": {
-        "return_30d_pct": -0.44514186895535707,
-        "return_90d_pct": -34.48194929530341,
-        "rsi_14": 39.7,
-        "ma_200d_deviation_pct": -13.665393112487894,
-        "high_90d_position_pct": -42.1113296695754
-      },
-      "context": {
-        "price_usd": 0.02051742,
-        "market_cap_usd": 242630351
-      },
-      "summary": "총점 71.3 (기본 71.3) = VPD +15.9 + 온체인 +22.1 + 개발자 +7.5 + 사용자 +7.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.8 + 과열필터 -0.0"
+      "summary": "총점 74.6 (기본 74.6) = VPD +17.1 + 온체인 +20.0 + 개발자 +14.2 + 사용자 +8.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.7 + 과열필터 -0.0"
     },
     {
       "coin_id": "conflux-token",
       "symbol": "cfx",
       "name": "Conflux",
-      "base_score": 71.24,
-      "final_score": 71.24,
+      "base_score": 71.22,
+      "final_score": 71.22,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 18.84,
+          "points": 18.82,
           "fg_raw_pct": 93.61,
-          "fg_z": 0.19,
-          "pg_raw_pct": -11.59,
-          "pg_z": -0.15,
-          "vpd": 0.35,
-          "percentile": 94.21,
+          "fg_z": 0.21,
+          "pg_raw_pct": -11.81,
+          "pg_z": -0.16,
+          "vpd": 0.36,
+          "percentile": 94.09,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +93.6%, PG(가격 변화) -11.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+          "reason": "FG(펀더멘털 성장) +93.6%, PG(가격 변화) -11.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
           "points": 24.41,
           "raw_value": 193.25,
-          "percentile": 97.66,
+          "percentile": 97.62,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +93.6%"
         },
@@ -251,7 +157,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -276,62 +182,62 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -11.58744872495514,
-        "return_90d_pct": -39.26242175974617,
-        "rsi_14": 26.63,
-        "ma_200d_deviation_pct": -41.810866158555655,
-        "high_90d_position_pct": -48.50123378590634
+        "return_30d_pct": -11.810575134199631,
+        "return_90d_pct": -39.4157049479758,
+        "rsi_14": 26.45,
+        "ma_200d_deviation_pct": -41.957320986281836,
+        "high_90d_position_pct": -48.63120102042404
       },
       "context": {
-        "price_usd": 0.039458,
-        "market_cap_usd": 206361823
+        "price_usd": 0.03935842,
+        "market_cap_usd": 205809407
       },
       "summary": "총점 71.2 (기본 71.2) = VPD +18.8 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
-      "coin_id": "the-graph",
-      "symbol": "grt",
-      "name": "The Graph",
-      "base_score": 69.84,
-      "final_score": 69.84,
+      "coin_id": "monad",
+      "symbol": "mon",
+      "name": "Monad",
+      "base_score": 70.88,
+      "final_score": 70.88,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 19.89,
-          "fg_raw_pct": 2781.26,
-          "fg_z": 8.96,
-          "pg_raw_pct": -20.67,
-          "pg_z": -0.25,
-          "vpd": 9.22,
-          "percentile": 99.47,
+          "points": 15.59,
+          "fg_raw_pct": 61.44,
+          "fg_z": 0.1,
+          "pg_raw_pct": 0.25,
+          "pg_z": -0.03,
+          "vpd": 0.13,
+          "percentile": 77.96,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +2781.3%, PG(가격 변화) -20.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+          "reason": "FG(펀더멘털 성장) +61.4%, PG(가격 변화) +0.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 12.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "TVL 30일 N/A"
+          "points": 22.02,
+          "raw_value": 39.15,
+          "percentile": 88.1,
+          "missing": false,
+          "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +31.1%"
         },
         "developer": {
           "weight": 15,
-          "points": 10.16,
-          "raw_value": -8.55,
-          "percentile": 67.71,
-          "missing": false,
-          "reason": "커밋 페이스(30일/90일 평균 대비) 0.33배 (둔화), 릴리즈 30일 1건"
+          "points": 7.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "GitHub 데이터 없음"
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 9.88,
-          "raw_value": 3053.43,
-          "percentile": 98.75,
+          "points": 7.5,
+          "raw_value": 56.54,
+          "percentile": 75.0,
           "missing": false,
-          "reason": "프로토콜 수수료 30일 +5629.6%"
+          "reason": "프로토콜 수수료 30일 +79.7%"
         },
         "catalyst": {
           "weight": 10,
@@ -345,7 +251,101 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
+          "missing": false,
+          "reason": "감지된 리스크 플래그 없음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 7.78,
+          "sector_percentile": 77.8,
+          "missing": false,
+          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 77.8 (높을수록 저평가)"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 86.8,
+        "coverage": 0.857,
+        "freshness": 0.75,
+        "consistency": 1.0
+      },
+      "technical": {
+        "return_30d_pct": 0.24692903543860048,
+        "return_90d_pct": -34.02649049141819,
+        "rsi_14": 38.77,
+        "ma_200d_deviation_pct": -13.060913541156216,
+        "high_90d_position_pct": -41.70890767649691
+      },
+      "context": {
+        "price_usd": 0.02066005,
+        "market_cap_usd": 244314971
+      },
+      "summary": "총점 70.9 (기본 70.9) = VPD +15.6 + 온체인 +22.0 + 개발자 +7.5 + 사용자 +7.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.8 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "the-graph",
+      "symbol": "grt",
+      "name": "The Graph",
+      "base_score": 69.2,
+      "final_score": 69.2,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 19.89,
+          "fg_raw_pct": 2833.12,
+          "fg_z": 9.26,
+          "pg_raw_pct": -20.54,
+          "pg_z": -0.25,
+          "vpd": 9.5,
+          "percentile": 99.46,
+          "quadrant": "leading_opportunity",
+          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) +2833.1%, PG(가격 변화) -20.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 12.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "TVL 30일 N/A"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 9.53,
+          "raw_value": -8.55,
+          "percentile": 63.54,
+          "missing": false,
+          "reason": "커밋 페이스(30일/90일 평균 대비) 0.33배 (둔화), 릴리즈 30일 1건"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 9.87,
+          "raw_value": 3110.51,
+          "percentile": 98.68,
+          "missing": false,
+          "reason": "프로토콜 수수료 30일 +5733.3%"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": 0,
+          "percentile": 50.0,
+          "missing": false,
+          "reason": "향후 촉매 없음"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 5.49,
+          "raw_value": 0.0,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -370,128 +370,34 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -20.673939690172872,
-        "return_90d_pct": -43.07467538542672,
-        "rsi_14": 26.22,
-        "ma_200d_deviation_pct": -45.187561671891196,
-        "high_90d_position_pct": -49.26350343928082
+        "return_30d_pct": -20.541037684585365,
+        "return_90d_pct": -42.97930332509185,
+        "rsi_14": 26.48,
+        "ma_200d_deviation_pct": -45.09615970447758,
+        "high_90d_position_pct": -49.178500073135226
       },
       "context": {
-        "price_usd": 0.01467122,
-        "market_cap_usd": 158439403
+        "price_usd": 0.0146958,
+        "market_cap_usd": 158898956
       },
-      "summary": "총점 69.8 (기본 69.8) = VPD +19.9 + 온체인 +12.5 + 개발자 +10.2 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.9 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "collector-crypt",
-      "symbol": "cards",
-      "name": "Collector Crypt",
-      "base_score": 69.34,
-      "final_score": 69.34,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 19.47,
-          "fg_raw_pct": 513.98,
-          "fg_z": 1.57,
-          "pg_raw_pct": -20.77,
-          "pg_z": -0.26,
-          "vpd": 1.82,
-          "percentile": 97.37,
-          "quadrant": "leading_opportunity",
-          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +514.0%, PG(가격 변화) -20.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 12.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "TVL 30일 N/A"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 9.38,
-          "raw_value": 280.27,
-          "percentile": 93.75,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +514.0%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 10.0,
-          "sector_percentile": 100.0,
-          "missing": false,
-          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 66.1,
-        "coverage": 0.714,
-        "freshness": 0.75,
-        "consistency": 0.5
-      },
-      "technical": {
-        "return_30d_pct": -20.77127853455316,
-        "return_90d_pct": -3.3373202817022127,
-        "rsi_14": 55.01,
-        "ma_200d_deviation_pct": 53.89305635281841,
-        "high_90d_position_pct": -47.28238902377308
-      },
-      "context": {
-        "price_usd": 0.167967,
-        "market_cap_usd": 335870413
-      },
-      "summary": "총점 69.3 (기본 69.3) = VPD +19.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+      "summary": "총점 69.2 (기본 69.2) = VPD +19.9 + 온체인 +12.5 + 개발자 +9.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.9 + 과열필터 -0.0"
     },
     {
       "coin_id": "vechain",
       "symbol": "vet",
       "name": "VeChain",
-      "base_score": 69.33,
-      "final_score": 69.33,
+      "base_score": 68.4,
+      "final_score": 68.4,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 17.79,
+          "points": 17.31,
           "fg_raw_pct": 78.13,
-          "fg_z": 0.14,
-          "pg_raw_pct": -1.17,
+          "fg_z": 0.16,
+          "pg_raw_pct": -1.19,
           "pg_z": -0.04,
-          "vpd": 0.18,
-          "percentile": 88.95,
+          "vpd": 0.2,
+          "percentile": 86.56,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
@@ -499,17 +405,17 @@
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 16.21,
+          "points": 16.07,
           "raw_value": 0.0,
-          "percentile": 64.84,
+          "percentile": 64.29,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.0%"
         },
         "developer": {
           "weight": 15,
-          "points": 14.84,
+          "points": 14.53,
           "raw_value": 162.5,
-          "percentile": 98.96,
+          "percentile": 96.88,
           "missing": false,
           "reason": "커밋 페이스(30일/90일 평균 대비) 2.25배 (가속), 릴리즈 30일 2건"
         },
@@ -533,7 +439,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -558,44 +464,44 @@
         "consistency": 1.0
       },
       "technical": {
-        "return_30d_pct": -1.1700555427522752,
-        "return_90d_pct": -37.811700904880404,
+        "return_30d_pct": -1.1882385526324173,
+        "return_90d_pct": -37.82314248225946,
         "rsi_14": 38.63,
-        "ma_200d_deviation_pct": -36.2553100839655,
-        "high_90d_position_pct": -41.28465762212638
+        "ma_200d_deviation_pct": -36.267038010485294,
+        "high_90d_position_pct": -41.2954602352052
       },
       "context": {
-        "price_usd": 0.00467435,
-        "market_cap_usd": 401553184
+        "price_usd": 0.00467349,
+        "market_cap_usd": 401940715
       },
-      "summary": "총점 69.3 (기본 69.3) = VPD +17.8 + 온체인 +16.2 + 개발자 +14.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 68.4 (기본 68.4) = VPD +17.3 + 온체인 +16.1 + 개발자 +14.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "stable-2",
       "symbol": "stable",
       "name": "​​Stable",
-      "base_score": 68.87,
-      "final_score": 68.87,
+      "base_score": 68.37,
+      "final_score": 68.37,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 18.42,
+          "points": 17.96,
           "fg_raw_pct": 68.26,
-          "fg_z": 0.11,
-          "pg_raw_pct": -6.24,
-          "pg_z": -0.1,
-          "vpd": 0.21,
-          "percentile": 92.11,
+          "fg_z": 0.13,
+          "pg_raw_pct": -7.24,
+          "pg_z": -0.11,
+          "vpd": 0.23,
+          "percentile": 89.78,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +68.3%, PG(가격 변화) -6.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+          "reason": "FG(펀더멘털 성장) +68.3%, PG(가격 변화) -7.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 22.46,
+          "points": 22.42,
           "raw_value": 41.74,
-          "percentile": 89.84,
+          "percentile": 89.68,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +68.3%"
         },
@@ -627,7 +533,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -652,52 +558,52 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -6.23741266017446,
-        "return_90d_pct": -5.32670582865473,
+        "return_30d_pct": -7.244840733777981,
+        "return_90d_pct": -6.34391895251044,
         "rsi_14": 30.13,
-        "ma_200d_deviation_pct": 3.4993052621052954,
-        "high_90d_position_pct": -21.960589794814666
+        "ma_200d_deviation_pct": 2.387261442947399,
+        "high_90d_position_pct": -22.799080870185957
       },
       "context": {
-        "price_usd": 0.03190017,
-        "market_cap_usd": 800696185
+        "price_usd": 0.03155742,
+        "market_cap_usd": 792957787
       },
-      "summary": "총점 68.9 (기본 68.9) = VPD +18.4 + 온체인 +22.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 68.4 (기본 68.4) = VPD +18.0 + 온체인 +22.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "stellar",
       "symbol": "xlm",
       "name": "Stellar",
-      "base_score": 68.83,
-      "final_score": 68.83,
+      "base_score": 67.58,
+      "final_score": 67.58,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 17.37,
+          "points": 16.45,
           "fg_raw_pct": 19.18,
-          "fg_z": -0.05,
-          "pg_raw_pct": -16.09,
+          "fg_z": -0.04,
+          "pg_raw_pct": -15.64,
           "pg_z": -0.2,
           "vpd": 0.16,
-          "percentile": 86.84,
+          "percentile": 82.26,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +19.2%, PG(가격 변화) -16.1% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) +19.2%, PG(가격 변화) -15.6% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 23.63,
+          "points": 23.61,
           "raw_value": 62.66,
-          "percentile": 94.53,
+          "percentile": 94.44,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +8.0%"
         },
         "developer": {
           "weight": 15,
-          "points": 7.34,
+          "points": 7.03,
           "raw_value": -37.05,
-          "percentile": 48.96,
+          "percentile": 46.88,
           "missing": false,
           "reason": "커밋 페이스(30일/90일 평균 대비) 1.26배 (가속), 릴리즈 30일 0건"
         },
@@ -721,7 +627,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -746,44 +652,44 @@
         "consistency": 1.0
       },
       "technical": {
-        "return_30d_pct": -16.0917198718108,
-        "return_90d_pct": 5.661639432813335,
-        "rsi_14": 25.38,
-        "ma_200d_deviation_pct": -4.466402669763568,
-        "high_90d_position_pct": -35.03460726546985
+        "return_30d_pct": -15.643554517675708,
+        "return_90d_pct": 6.225992390382682,
+        "rsi_14": 24.4,
+        "ma_200d_deviation_pct": -3.9519980655355944,
+        "high_90d_position_pct": -34.687618408149504
       },
       "context": {
-        "price_usd": 0.168878,
-        "market_cap_usd": 5791994065
+        "price_usd": 0.16978,
+        "market_cap_usd": 5821059601
       },
-      "summary": "총점 68.8 (기본 68.8) = VPD +17.4 + 온체인 +23.6 + 개발자 +7.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 67.6 (기본 67.6) = VPD +16.4 + 온체인 +23.6 + 개발자 +7.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "apecoin",
       "symbol": "ape",
       "name": "ApeCoin",
-      "base_score": 67.88,
-      "final_score": 67.88,
+      "base_score": 67.36,
+      "final_score": 67.36,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 18.21,
+          "points": 17.74,
           "fg_raw_pct": 63.41,
-          "fg_z": 0.1,
-          "pg_raw_pct": -7.29,
-          "pg_z": -0.11,
-          "vpd": 0.2,
-          "percentile": 91.05,
+          "fg_z": 0.11,
+          "pg_raw_pct": -8.3,
+          "pg_z": -0.12,
+          "vpd": 0.23,
+          "percentile": 88.71,
           "quadrant": "leading_opportunity",
           "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +63.4%, PG(가격 변화) -7.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+          "reason": "FG(펀더멘털 성장) +63.4%, PG(가격 변화) -8.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 21.68,
+          "points": 21.63,
           "raw_value": 37.41,
-          "percentile": 86.72,
+          "percentile": 86.51,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +63.4%"
         },
@@ -815,7 +721,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -840,44 +746,232 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -7.287809940536303,
-        "return_90d_pct": -17.099614306836386,
-        "rsi_14": 33.71,
-        "ma_200d_deviation_pct": -14.635264725314384,
-        "high_90d_position_pct": -21.34632929916727
+        "return_30d_pct": -8.301077078424782,
+        "return_90d_pct": -18.005646582498162,
+        "rsi_14": 30.76,
+        "ma_200d_deviation_pct": -15.560888373216338,
+        "high_90d_position_pct": -22.205948511531247
       },
       "context": {
-        "price_usd": 0.132215,
-        "market_cap_usd": 132214243
+        "price_usd": 0.13077,
+        "market_cap_usd": 130686141
       },
-      "summary": "총점 67.9 (기본 67.9) = VPD +18.2 + 온체인 +21.7 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 67.4 (기본 67.4) = VPD +17.7 + 온체인 +21.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "virtual-protocol",
+      "symbol": "virtual",
+      "name": "Virtuals Protocol",
+      "base_score": 64.96,
+      "final_score": 64.96,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 19.25,
+          "fg_raw_pct": 227.71,
+          "fg_z": 0.65,
+          "pg_raw_pct": -1.84,
+          "pg_z": -0.05,
+          "vpd": 0.7,
+          "percentile": 96.24,
+          "quadrant": "leading_opportunity",
+          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) +227.7%, PG(가격 변화) -1.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 12.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "TVL 30일 N/A"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 7.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "GitHub 데이터 없음"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 8.55,
+          "raw_value": 124.08,
+          "percentile": 85.53,
+          "missing": false,
+          "reason": "프로토콜 수수료 30일 +227.7%"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": 0,
+          "percentile": 50.0,
+          "missing": false,
+          "reason": "향후 촉매 없음"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 5.49,
+          "raw_value": 0.0,
+          "percentile": 54.9,
+          "missing": false,
+          "reason": "감지된 리스크 플래그 없음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 6.67,
+          "sector_percentile": 66.7,
+          "missing": false,
+          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 66.7 (높을수록 저평가)"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 66.1,
+        "coverage": 0.714,
+        "freshness": 0.75,
+        "consistency": 0.5
+      },
+      "technical": {
+        "return_30d_pct": -1.8425660897512612,
+        "return_90d_pct": -30.564423056955935,
+        "rsi_14": 22.66,
+        "ma_200d_deviation_pct": -17.01723115133543,
+        "high_90d_position_pct": -40.20463398441571
+      },
+      "context": {
+        "price_usd": 0.558292,
+        "market_cap_usd": 367199819
+      },
+      "summary": "총점 65.0 (기본 65.0) = VPD +19.2 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.7 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "solana",
+      "symbol": "sol",
+      "name": "Solana",
+      "base_score": 64.69,
+      "final_score": 64.69,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 14.3,
+          "fg_raw_pct": 15.34,
+          "fg_z": -0.05,
+          "pg_raw_pct": -8.97,
+          "pg_z": -0.13,
+          "vpd": 0.08,
+          "percentile": 71.51,
+          "quadrant": "stagnation",
+          "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) +15.3%, PG(가격 변화) -9.0% → 침체 (펀더멘털·가격 모두 부진)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 18.45,
+          "raw_value": 5.45,
+          "percentile": 73.81,
+          "missing": false,
+          "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.5%"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 7.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "GitHub 데이터 없음"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 6.45,
+          "raw_value": 20.09,
+          "percentile": 64.47,
+          "missing": false,
+          "reason": "프로토콜 수수료 30일 +21.9%"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "LLM 미가용으로 촉매 분석 결측"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 5.49,
+          "raw_value": 0.0,
+          "percentile": 54.9,
+          "missing": false,
+          "reason": "감지된 리스크 플래그 없음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 7.5,
+          "sector_percentile": 75.0,
+          "missing": false,
+          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 75.0 (높을수록 저평가)"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 77.3,
+        "coverage": 0.714,
+        "freshness": 0.625,
+        "consistency": 1.0
+      },
+      "technical": {
+        "return_30d_pct": -8.965686877382863,
+        "return_90d_pct": -14.234268767837163,
+        "rsi_14": 36.82,
+        "ma_200d_deviation_pct": -13.12571366470722,
+        "high_90d_position_pct": -23.888777591828237
+      },
+      "context": {
+        "price_usd": 74.02,
+        "market_cap_usd": 43029110642
+      },
+      "summary": "총점 64.7 (기본 64.7) = VPD +14.3 + 온체인 +18.4 + 개발자 +7.5 + 사용자 +6.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.5 + 과열필터 -0.0"
     },
     {
       "coin_id": "hyperliquid",
       "symbol": "hype",
       "name": "Hyperliquid",
-      "base_score": 65.45,
-      "final_score": 65.45,
+      "base_score": 64.67,
+      "final_score": 64.67,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 16.95,
+          "points": 16.24,
           "fg_raw_pct": 3.4,
-          "fg_z": -0.1,
-          "pg_raw_pct": -20.27,
+          "fg_z": -0.09,
+          "pg_raw_pct": -20.57,
           "pg_z": -0.25,
-          "vpd": 0.15,
-          "percentile": 84.74,
+          "vpd": 0.16,
+          "percentile": 81.18,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +3.4%, PG(가격 변화) -20.3% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) +3.4%, PG(가격 변화) -20.6% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 20.51,
+          "points": 20.44,
           "raw_value": 11.16,
-          "percentile": 82.03,
+          "percentile": 81.75,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +3.4%"
         },
@@ -909,7 +1003,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -934,248 +1028,60 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -20.26812743260776,
-        "return_90d_pct": 26.498295445256097,
-        "rsi_14": 34.79,
-        "ma_200d_deviation_pct": 19.813504606409474,
-        "high_90d_position_pct": -25.761462666121037
+        "return_30d_pct": -20.570851953293932,
+        "return_90d_pct": 26.018009022484378,
+        "rsi_14": 35.53,
+        "ma_200d_deviation_pct": 19.355678344418212,
+        "high_90d_position_pct": -26.043330191706186
       },
       "context": {
-        "price_usd": 55.31,
-        "market_cap_usd": 12302365250
+        "price_usd": 55.1,
+        "market_cap_usd": 12254974422
       },
-      "summary": "총점 65.5 (기본 65.5) = VPD +16.9 + 온체인 +20.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "venice-token",
-      "symbol": "vvv",
-      "name": "Venice Token",
-      "base_score": 65.33,
-      "final_score": 65.33,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 19.05,
-          "fg_raw_pct": 205.38,
-          "fg_z": 0.56,
-          "pg_raw_pct": 2.02,
-          "pg_z": -0.01,
-          "vpd": 0.57,
-          "percentile": 95.26,
-          "quadrant": "leading_opportunity",
-          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +205.4%, PG(가격 변화) +2.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 12.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "TVL 30일 N/A"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 9.12,
-          "raw_value": 206.43,
-          "percentile": 91.25,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +205.4%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 6.67,
-          "sector_percentile": 66.7,
-          "missing": false,
-          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 66.7 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 66.1,
-        "coverage": 0.714,
-        "freshness": 0.75,
-        "consistency": 0.5
-      },
-      "technical": {
-        "return_30d_pct": 2.0168067226890773,
-        "return_90d_pct": 18.11191052260474,
-        "rsi_14": 45.4,
-        "ma_200d_deviation_pct": 27.572754578008624,
-        "high_90d_position_pct": -41.65260276065154
-      },
-      "context": {
-        "price_usd": 12.14,
-        "market_cap_usd": 577748635
-      },
-      "summary": "총점 65.3 (기본 65.3) = VPD +19.1 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.7 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "virtual-protocol",
-      "symbol": "virtual",
-      "name": "Virtuals Protocol",
-      "base_score": 65.04,
-      "final_score": 65.04,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 19.26,
-          "fg_raw_pct": 227.71,
-          "fg_z": 0.63,
-          "pg_raw_pct": -2.37,
-          "pg_z": -0.05,
-          "vpd": 0.69,
-          "percentile": 96.32,
-          "quadrant": "leading_opportunity",
-          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +227.7%, PG(가격 변화) -2.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 12.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "TVL 30일 N/A"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 8.62,
-          "raw_value": 124.08,
-          "percentile": 86.25,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +227.7%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 6.67,
-          "sector_percentile": 66.7,
-          "missing": false,
-          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 66.7 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 66.1,
-        "coverage": 0.714,
-        "freshness": 0.75,
-        "consistency": 0.5
-      },
-      "technical": {
-        "return_30d_pct": -2.3724796579297163,
-        "return_90d_pct": -30.939278560718,
-        "rsi_14": 22.66,
-        "ma_200d_deviation_pct": -17.46522264200675,
-        "high_90d_position_pct": -40.52744576242967
-      },
-      "context": {
-        "price_usd": 0.555278,
-        "market_cap_usd": 365268832
-      },
-      "summary": "총점 65.0 (기본 65.0) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.7 + 과열필터 -0.0"
+      "summary": "총점 64.7 (기본 64.7) = VPD +16.2 + 온체인 +20.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "tron",
       "symbol": "trx",
       "name": "TRON",
-      "base_score": 64.93,
-      "final_score": 64.93,
+      "base_score": 64.57,
+      "final_score": 64.57,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 9.16,
+          "points": 10.0,
           "fg_raw_pct": 11.71,
-          "fg_z": -0.07,
-          "pg_raw_pct": 0.3,
-          "pg_z": -0.02,
-          "vpd": -0.05,
-          "percentile": 45.79,
+          "fg_z": -0.06,
+          "pg_raw_pct": -0.54,
+          "pg_z": -0.04,
+          "vpd": -0.02,
+          "percentile": 50.0,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +11.7%, PG(가격 변화) +0.3% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) +11.7%, PG(가격 변화) -0.5% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 17.77,
+          "points": 17.66,
           "raw_value": 2.45,
-          "percentile": 71.09,
+          "percentile": 70.63,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +2.5%"
         },
         "developer": {
           "weight": 15,
-          "points": 11.72,
+          "points": 10.78,
           "raw_value": 3.25,
-          "percentile": 78.12,
+          "percentile": 71.88,
           "missing": false,
           "reason": "커밋 페이스(30일/90일 평균 대비) 0.56배 (둔화), 릴리즈 30일 1건"
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 7.12,
+          "points": 6.97,
           "raw_value": 31.32,
-          "percentile": 71.25,
+          "percentile": 69.74,
           "missing": false,
           "reason": "프로토콜 수수료 30일 +72.5%"
         },
@@ -1191,7 +1097,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1216,44 +1122,232 @@
         "consistency": 0.667
       },
       "technical": {
-        "return_30d_pct": 0.3037988541400492,
-        "return_90d_pct": -4.309397089798528,
-        "rsi_14": 49.26,
-        "ma_200d_deviation_pct": 3.8056148741877127,
-        "high_90d_position_pct": -12.056869602451366
+        "return_30d_pct": -0.5355253074480935,
+        "return_90d_pct": -5.110118856840094,
+        "rsi_14": 45.27,
+        "ma_200d_deviation_pct": 2.940289170249284,
+        "high_90d_position_pct": -12.792761911931052
       },
       "context": {
-        "price_usd": 0.329835,
-        "market_cap_usd": 31295659846
+        "price_usd": 0.327075,
+        "market_cap_usd": 31035113751
       },
-      "summary": "총점 64.9 (기본 64.9) = VPD +9.2 + 온체인 +17.8 + 개발자 +11.7 + 사용자 +7.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.7 + 과열필터 -0.0"
+      "summary": "총점 64.6 (기본 64.6) = VPD +10.0 + 온체인 +17.7 + 개발자 +10.8 + 사용자 +7.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.7 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "gala",
+      "symbol": "gala",
+      "name": "GALA",
+      "base_score": 64.35,
+      "final_score": 64.35,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 18.39,
+          "fg_raw_pct": 25.0,
+          "fg_z": -0.02,
+          "pg_raw_pct": -21.86,
+          "pg_z": -0.26,
+          "vpd": 0.24,
+          "percentile": 91.94,
+          "quadrant": "stagnation",
+          "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) +25.0%, PG(가격 변화) -21.9% → 침체 (펀더멘털·가격 모두 부진)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 12.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "TVL 30일 N/A"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 12.97,
+          "raw_value": 37.5,
+          "percentile": 86.46,
+          "missing": false,
+          "reason": "커밋 페이스(30일/90일 평균 대비) 1.25배 (가속), 릴리즈 30일 2건"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "수수료 데이터 없음"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "LLM 미가용으로 촉매 분석 결측"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 5.49,
+          "raw_value": 0.0,
+          "percentile": 54.9,
+          "missing": false,
+          "reason": "감지된 리스크 플래그 없음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 5.0,
+          "sector_percentile": null,
+          "missing": true,
+          "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 49.0,
+        "coverage": 0.429,
+        "freshness": 0.562,
+        "consistency": 0.5
+      },
+      "technical": {
+        "return_30d_pct": -21.864467644170233,
+        "return_90d_pct": -48.210364204327085,
+        "rsi_14": 26.05,
+        "ma_200d_deviation_pct": -55.0625262900255,
+        "high_90d_position_pct": -56.66015913831697
+      },
+      "context": {
+        "price_usd": 0.00180597,
+        "market_cap_usd": 88862601
+      },
+      "summary": "총점 64.3 (기본 64.3) = VPD +18.4 + 온체인 +12.5 + 개발자 +13.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "venice-token",
+      "symbol": "vvv",
+      "name": "Venice Token",
+      "base_score": 64.34,
+      "final_score": 64.34,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 19.03,
+          "fg_raw_pct": 154.95,
+          "fg_z": 0.41,
+          "pg_raw_pct": -0.84,
+          "pg_z": -0.04,
+          "vpd": 0.45,
+          "percentile": 95.16,
+          "quadrant": "leading_opportunity",
+          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) +155.0%, PG(가격 변화) -0.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 12.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "TVL 30일 N/A"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 7.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "GitHub 데이터 없음"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 8.82,
+          "raw_value": 155.83,
+          "percentile": 88.16,
+          "missing": false,
+          "reason": "프로토콜 수수료 30일 +155.0%"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": 0,
+          "percentile": 50.0,
+          "missing": false,
+          "reason": "향후 촉매 없음"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 5.49,
+          "raw_value": 0.0,
+          "percentile": 54.9,
+          "missing": false,
+          "reason": "감지된 리스크 플래그 없음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 6.0,
+          "sector_percentile": 60.0,
+          "missing": false,
+          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 60.0 (높을수록 저평가)"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 66.1,
+        "coverage": 0.714,
+        "freshness": 0.75,
+        "consistency": 0.5
+      },
+      "technical": {
+        "return_30d_pct": -0.8403361344537785,
+        "return_90d_pct": 14.803998695777262,
+        "rsi_14": 45.4,
+        "ma_200d_deviation_pct": 23.99987677269372,
+        "high_90d_position_pct": -43.286714380204955
+      },
+      "context": {
+        "price_usd": 11.8,
+        "market_cap_usd": 561648085
+      },
+      "summary": "총점 64.3 (기본 64.3) = VPD +19.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "sonic-3",
       "symbol": "s",
       "name": "Sonic",
-      "base_score": 64.74,
-      "final_score": 64.74,
+      "base_score": 64.13,
+      "final_score": 64.13,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 17.58,
+          "points": 16.88,
           "fg_raw_pct": 26.04,
-          "fg_z": -0.03,
-          "pg_raw_pct": -15.91,
+          "fg_z": -0.01,
+          "pg_raw_pct": -15.67,
           "pg_z": -0.2,
           "vpd": 0.18,
-          "percentile": 87.89,
+          "percentile": 84.41,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +26.0%, PG(가격 변화) -15.9% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) +26.0%, PG(가격 변화) -15.7% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 21.29,
+          "points": 21.23,
           "raw_value": 37.34,
-          "percentile": 85.16,
+          "percentile": 84.92,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +62.2%"
         },
@@ -1267,9 +1361,9 @@
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 2.88,
+          "points": 3.03,
           "raw_value": -25.47,
-          "percentile": 28.75,
+          "percentile": 30.26,
           "missing": false,
           "reason": "프로토콜 수수료 30일 +4.3%"
         },
@@ -1285,7 +1379,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1310,38 +1404,38 @@
         "consistency": 1.0
       },
       "technical": {
-        "return_30d_pct": -15.909940549063423,
-        "return_90d_pct": -50.48272197356203,
-        "rsi_14": 32.87,
-        "ma_200d_deviation_pct": -72.31079702866381,
-        "high_90d_position_pct": -59.26621649985948
+        "return_30d_pct": -15.667299735086173,
+        "return_90d_pct": -50.33984048763226,
+        "rsi_14": 31.84,
+        "ma_200d_deviation_pct": -72.23072303759483,
+        "high_90d_position_pct": -59.148679677440974
       },
       "context": {
-        "price_usd": 0.02242602,
-        "market_cap_usd": 87131629
+        "price_usd": 0.02249073,
+        "market_cap_usd": 87401468
       },
-      "summary": "총점 64.7 (기본 64.7) = VPD +17.6 + 온체인 +21.3 + 개발자 +7.5 + 사용자 +2.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 64.1 (기본 64.1) = VPD +16.9 + 온체인 +21.2 + 개발자 +7.5 + 사용자 +3.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
-      "coin_id": "jupiter-exchange-solana",
-      "symbol": "jup",
-      "name": "Jupiter",
-      "base_score": 64.23,
-      "final_score": 64.23,
+      "coin_id": "collector-crypt",
+      "symbol": "cards",
+      "name": "Collector Crypt",
+      "base_score": 64.03,
+      "final_score": 64.03,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 16.53,
-          "fg_raw_pct": -3.46,
-          "fg_z": -0.12,
-          "pg_raw_pct": -21.25,
+          "points": 19.46,
+          "fg_raw_pct": 320.29,
+          "fg_z": 0.96,
+          "pg_raw_pct": -21.92,
           "pg_z": -0.26,
-          "vpd": 0.14,
-          "percentile": 82.63,
-          "quadrant": "stagnation",
-          "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+          "vpd": 1.22,
+          "percentile": 97.31,
+          "quadrant": "leading_opportunity",
+          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) -21.2% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) +320.3%, PG(가격 변화) -21.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
         },
         "onchain_growth": {
           "weight": 25,
@@ -1361,9 +1455,103 @@
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 7.88,
+          "points": 9.08,
+          "raw_value": 160.3,
+          "percentile": 90.79,
+          "missing": false,
+          "reason": "프로토콜 수수료 30일 +320.3%"
+        },
+        "catalyst": {
+          "weight": 10,
+          "points": 5.0,
+          "raw_value": 0,
+          "percentile": 50.0,
+          "missing": false,
+          "reason": "향후 촉매 없음"
+        },
+        "risk": {
+          "weight": 10,
+          "points": 0.49,
+          "raw_value": 2.0,
+          "percentile": 4.9,
+          "missing": false,
+          "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0091로 낮음"
+        },
+        "valuation": {
+          "weight": 10,
+          "points": 10.0,
+          "sector_percentile": 100.0,
+          "missing": false,
+          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
+        }
+      },
+      "overheat": {
+        "excluded": false,
+        "penalty": 0.0,
+        "reasons": []
+      },
+      "overheat_relaxed_mode": false,
+      "confidence": {
+        "score": 66.1,
+        "coverage": 0.714,
+        "freshness": 0.75,
+        "consistency": 0.5
+      },
+      "technical": {
+        "return_30d_pct": -21.923622545817796,
+        "return_90d_pct": -4.743232910681724,
+        "rsi_14": 55.01,
+        "ma_200d_deviation_pct": 51.65475515871519,
+        "high_90d_position_pct": -48.049141562158134
+      },
+      "context": {
+        "price_usd": 0.165524,
+        "market_cap_usd": 331936072
+      },
+      "summary": "총점 64.0 (기본 64.0) = VPD +19.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.1 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    },
+    {
+      "coin_id": "jupiter-exchange-solana",
+      "symbol": "jup",
+      "name": "Jupiter",
+      "base_score": 63.39,
+      "final_score": 63.39,
+      "breakdown": {
+        "vpd": {
+          "weight": 20,
+          "points": 15.81,
+          "fg_raw_pct": -3.46,
+          "fg_z": -0.11,
+          "pg_raw_pct": -20.71,
+          "pg_z": -0.25,
+          "vpd": 0.14,
+          "percentile": 79.03,
+          "quadrant": "stagnation",
+          "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+          "missing": false,
+          "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) -20.7% → 침체 (펀더멘털·가격 모두 부진)"
+        },
+        "onchain_growth": {
+          "weight": 25,
+          "points": 12.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "TVL 30일 N/A"
+        },
+        "developer": {
+          "weight": 15,
+          "points": 7.5,
+          "raw_value": null,
+          "percentile": null,
+          "missing": true,
+          "reason": "GitHub 데이터 없음"
+        },
+        "user_ecosystem": {
+          "weight": 10,
+          "points": 7.76,
           "raw_value": 68.25,
-          "percentile": 78.75,
+          "percentile": 77.63,
           "missing": false,
           "reason": "프로토콜 수수료 30일 -3.5%"
         },
@@ -1379,7 +1567,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1404,148 +1592,54 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -21.247755049315998,
-        "return_90d_pct": -1.3620310002332974,
+        "return_30d_pct": -20.711050366067596,
+        "return_90d_pct": -0.6898030536974618,
         "rsi_14": 40.82,
-        "ma_200d_deviation_pct": -0.42965315579357594,
-        "high_90d_position_pct": -28.768410847396108
+        "ma_200d_deviation_pct": 0.24892904205257102,
+        "high_90d_position_pct": -28.282960210181013
       },
       "context": {
-        "price_usd": 0.188992,
-        "market_cap_usd": 627576577
+        "price_usd": 0.19028,
+        "market_cap_usd": 631816054
       },
-      "summary": "총점 64.2 (기본 64.2) = VPD +16.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.3 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "solana",
-      "symbol": "sol",
-      "name": "Solana",
-      "base_score": 64.04,
-      "final_score": 64.04,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 14.0,
-          "fg_raw_pct": 15.34,
-          "fg_z": -0.06,
-          "pg_raw_pct": -9.2,
-          "pg_z": -0.13,
-          "vpd": 0.07,
-          "percentile": 70.0,
-          "quadrant": "stagnation",
-          "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +15.3%, PG(가격 변화) -9.2% → 침체 (펀더멘털·가격 모두 부진)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 18.55,
-          "raw_value": 5.45,
-          "percentile": 74.22,
-          "missing": false,
-          "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.5%"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 6.62,
-          "raw_value": 20.09,
-          "percentile": 66.25,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +21.9%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "LLM 미가용으로 촉매 분석 결측"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 6.88,
-          "sector_percentile": 68.8,
-          "missing": false,
-          "reason": "MC/TVL 백분위 None, MC/Fees 백분위 68.8 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 77.3,
-        "coverage": 0.714,
-        "freshness": 0.625,
-        "consistency": 1.0
-      },
-      "technical": {
-        "return_30d_pct": -9.199360472266639,
-        "return_90d_pct": -14.454418577808937,
-        "rsi_14": 35.26,
-        "ma_200d_deviation_pct": -13.346812613864333,
-        "high_90d_position_pct": -24.084145495875152
-      },
-      "context": {
-        "price_usd": 73.83,
-        "market_cap_usd": 42924481097
-      },
-      "summary": "총점 64.0 (기본 64.0) = VPD +14.0 + 온체인 +18.6 + 개발자 +7.5 + 사용자 +6.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.9 + 과열필터 -0.0"
+      "summary": "총점 63.4 (기본 63.4) = VPD +15.8 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.3 + 과열필터 -0.0"
     },
     {
       "coin_id": "ripple",
       "symbol": "xrp",
       "name": "XRP",
-      "base_score": 62.46,
-      "final_score": 62.46,
+      "base_score": 62.43,
+      "final_score": 62.43,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 8.11,
-          "fg_raw_pct": -12.1,
-          "fg_z": -0.15,
-          "pg_raw_pct": -5.61,
+          "points": 8.71,
+          "fg_raw_pct": -10.17,
+          "fg_z": -0.13,
+          "pg_raw_pct": -5.7,
           "pg_z": -0.09,
-          "vpd": -0.06,
-          "percentile": 40.53,
+          "vpd": -0.04,
+          "percentile": 43.55,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) -12.1%, PG(가격 변화) -5.6% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) -10.2%, PG(가격 변화) -5.7% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 24.02,
+          "points": 24.01,
           "raw_value": 77.81,
-          "percentile": 96.09,
+          "percentile": 96.03,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.9%"
         },
         "developer": {
           "weight": 15,
-          "points": 9.84,
-          "raw_value": -11.15,
-          "percentile": 65.62,
+          "points": 9.22,
+          "raw_value": -9.6,
+          "percentile": 61.46,
           "missing": false,
-          "reason": "커밋 페이스(30일/90일 평균 대비) 0.78배 (둔화), 릴리즈 30일 1건"
+          "reason": "커밋 페이스(30일/90일 평균 대비) 0.81배 (둔화), 릴리즈 30일 1건"
         },
         "user_ecosystem": {
           "weight": 10,
@@ -1567,7 +1661,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1592,154 +1686,60 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -5.614035087719285,
-        "return_90d_pct": -23.87708962673013,
-        "rsi_14": 32.89,
-        "ma_200d_deviation_pct": -20.219021651881246,
-        "high_90d_position_pct": -27.423075126718356
+        "return_30d_pct": -5.701754385964907,
+        "return_90d_pct": -23.947835825961796,
+        "rsi_14": 32.61,
+        "ma_200d_deviation_pct": -20.292927390432826,
+        "high_90d_position_pct": -27.49052580039242
       },
       "context": {
-        "price_usd": 1.076,
-        "market_cap_usd": 67258734121
+        "price_usd": 1.075,
+        "market_cap_usd": 67219411152
       },
-      "summary": "총점 62.5 (기본 62.5) = VPD +8.1 + 온체인 +24.0 + 개발자 +9.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "eigenlayer",
-      "symbol": "eigen",
-      "name": "EigenCloud (prev. EigenLayer)",
-      "base_score": 61.39,
-      "final_score": 61.39,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 19.68,
-          "fg_raw_pct": 858.87,
-          "fg_z": 2.69,
-          "pg_raw_pct": -20.3,
-          "pg_z": -0.25,
-          "vpd": 2.94,
-          "percentile": 98.42,
-          "quadrant": "leading_opportunity",
-          "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
-          "missing": false,
-          "reason": "FG(펀더멘털 성장) +858.9%, PG(가격 변화) -20.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 4.1,
-          "raw_value": -16.07,
-          "percentile": 16.41,
-          "missing": false,
-          "reason": "TVL 30일 +4.3%"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 9.62,
-          "raw_value": 987.64,
-          "percentile": 96.25,
-          "missing": false,
-          "reason": "프로토콜 수수료 30일 +2055.2%"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 10.0,
-          "sector_percentile": 100.0,
-          "missing": false,
-          "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
-        }
-      },
-      "overheat": {
-        "excluded": false,
-        "penalty": 0.0,
-        "reasons": []
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 86.8,
-        "coverage": 0.857,
-        "freshness": 0.75,
-        "consistency": 1.0
-      },
-      "technical": {
-        "return_30d_pct": -20.303706018052868,
-        "return_90d_pct": 0.0914046684684661,
-        "rsi_14": 29.52,
-        "ma_200d_deviation_pct": -33.34137443973662,
-        "high_90d_position_pct": -34.612642946188544
-      },
-      "context": {
-        "price_usd": 0.186208,
-        "market_cap_usd": 138083010
-      },
-      "summary": "총점 61.4 (기본 61.4) = VPD +19.7 + 온체인 +4.1 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+      "summary": "총점 62.4 (기본 62.4) = VPD +8.7 + 온체인 +24.0 + 개발자 +9.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
     {
       "coin_id": "near",
       "symbol": "near",
       "name": "NEAR Protocol",
-      "base_score": 60.46,
-      "final_score": 60.46,
+      "base_score": 61.05,
+      "final_score": 61.05,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 11.89,
-          "fg_raw_pct": -17.45,
-          "fg_z": -0.17,
-          "pg_raw_pct": -12.18,
-          "pg_z": -0.16,
-          "vpd": -0.01,
-          "percentile": 59.47,
+          "points": 11.94,
+          "fg_raw_pct": -15.99,
+          "fg_z": -0.15,
+          "pg_raw_pct": -11.68,
+          "pg_z": -0.15,
+          "vpd": 0.0,
+          "percentile": 59.68,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) -17.5%, PG(가격 변화) -12.2% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) -16.0%, PG(가격 변화) -11.7% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 19.73,
+          "points": 19.64,
           "raw_value": 9.1,
-          "percentile": 78.91,
+          "percentile": 78.57,
           "missing": false,
           "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +12.6%"
         },
         "developer": {
           "weight": 15,
-          "points": 10.47,
-          "raw_value": -6.58,
-          "percentile": 69.79,
+          "points": 11.09,
+          "raw_value": 3.65,
+          "percentile": 73.96,
           "missing": false,
-          "reason": "커밋 페이스(30일/90일 평균 대비) 0.54배 (둔화), 릴리즈 30일 4건"
+          "reason": "커밋 페이스(30일/90일 평균 대비) 0.57배 (둔화), 릴리즈 30일 5건"
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 5.38,
+          "points": 5.39,
           "raw_value": 0.8,
-          "percentile": 53.75,
+          "percentile": 53.95,
           "missing": false,
           "reason": "프로토콜 수수료 30일 -6.5%"
         },
@@ -1755,7 +1755,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1780,38 +1780,38 @@
         "consistency": 0.667
       },
       "technical": {
-        "return_30d_pct": -12.182741116751268,
-        "return_90d_pct": 33.4222653129465,
-        "rsi_14": 34.69,
-        "ma_200d_deviation_pct": 9.210079277247829,
-        "high_90d_position_pct": -38.62380779511469
+        "return_30d_pct": -11.675126903553299,
+        "return_90d_pct": 34.19349228007336,
+        "rsi_14": 33.36,
+        "ma_200d_deviation_pct": 9.84555342078513,
+        "high_90d_position_pct": -38.269032117629806
       },
       "context": {
-        "price_usd": 1.73,
-        "market_cap_usd": 2249325113
+        "price_usd": 1.74,
+        "market_cap_usd": 2264116347
       },
-      "summary": "총점 60.5 (기본 60.5) = VPD +11.9 + 온체인 +19.7 + 개발자 +10.5 + 사용자 +5.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +2.5 + 과열필터 -0.0"
+      "summary": "총점 61.0 (기본 61.0) = VPD +11.9 + 온체인 +19.6 + 개발자 +11.1 + 사용자 +5.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +2.5 + 과열필터 -0.0"
     },
     {
       "coin_id": "basic-attention-token",
       "symbol": "bat",
       "name": "Basic Attention",
-      "base_score": 59.26,
-      "final_score": 59.26,
+      "base_score": 59.82,
+      "final_score": 59.82,
       "breakdown": {
         "vpd": {
           "weight": 20,
-          "points": 16.74,
-          "fg_raw_pct": -11.7,
-          "fg_z": -0.15,
-          "pg_raw_pct": -23.88,
-          "pg_z": -0.29,
-          "vpd": 0.14,
-          "percentile": 83.68,
+          "points": 16.67,
+          "fg_raw_pct": -3.7,
+          "fg_z": -0.11,
+          "pg_raw_pct": -23.95,
+          "pg_z": -0.28,
+          "vpd": 0.17,
+          "percentile": 83.33,
           "quadrant": "stagnation",
           "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) -11.7%, PG(가격 변화) -23.9% → 침체 (펀더멘털·가격 모두 부진)"
+          "reason": "FG(펀더멘털 성장) -3.7%, PG(가격 변화) -24.0% → 침체 (펀더멘털·가격 모두 부진)"
         },
         "onchain_growth": {
           "weight": 25,
@@ -1823,11 +1823,11 @@
         },
         "developer": {
           "weight": 15,
-          "points": 9.53,
-          "raw_value": -11.7,
-          "percentile": 63.54,
+          "points": 10.16,
+          "raw_value": -3.7,
+          "percentile": 67.71,
           "missing": false,
-          "reason": "커밋 페이스(30일/90일 평균 대비) 0.88배 (둔화), 릴리즈 30일 0건"
+          "reason": "커밋 페이스(30일/90일 평균 대비) 0.96배 (둔화), 릴리즈 30일 0건"
         },
         "user_ecosystem": {
           "weight": 10,
@@ -1849,7 +1849,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1874,17 +1874,17 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -23.879664448944173,
-        "return_90d_pct": -37.123282507279974,
-        "rsi_14": 14.01,
-        "ma_200d_deviation_pct": -37.09532473795925,
-        "high_90d_position_pct": -45.08432986388517
+        "return_30d_pct": -23.953717095747756,
+        "return_90d_pct": -37.18445127800267,
+        "rsi_14": 12.88,
+        "ma_200d_deviation_pct": -37.155405239384756,
+        "high_90d_position_pct": -45.137753836534955
       },
       "context": {
-        "price_usd": 0.065787,
-        "market_cap_usd": 98082653
+        "price_usd": 0.065723,
+        "market_cap_usd": 98304468
       },
-      "summary": "총점 59.3 (기본 59.3) = VPD +16.7 + 온체인 +12.5 + 개발자 +9.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+      "summary": "총점 59.8 (기본 59.8) = VPD +16.7 + 온체인 +12.5 + 개발자 +10.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     }
   ],
   "momentum_leaders": [
@@ -1892,30 +1892,30 @@
       "coin_id": "bitway",
       "symbol": "btw",
       "name": "Bitway",
-      "base_score": 52.96,
-      "final_score": 52.96,
+      "base_score": 52.73,
+      "final_score": 52.73,
       "breakdown": {
         "vpd": {
           "weight": 20,
           "points": 0.11,
-          "fg_raw_pct": 16.63,
-          "fg_z": -0.06,
-          "pg_raw_pct": 73.48,
-          "pg_z": 0.78,
-          "vpd": -0.83,
-          "percentile": 0.53,
+          "fg_raw_pct": 17.7,
+          "fg_z": -0.04,
+          "pg_raw_pct": 86.61,
+          "pg_z": 0.87,
+          "vpd": -0.92,
+          "percentile": 0.54,
           "quadrant": "pure_pump",
           "quadrant_label": "순수 펌핑 (가격만 상승, 펀더멘털 부진)",
           "missing": false,
-          "reason": "FG(펀더멘털 성장) +16.6%, PG(가격 변화) +73.5% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
+          "reason": "FG(펀더멘털 성장) +17.7%, PG(가격 변화) +86.6% → 순수 펌핑 (가격만 상승, 펀더멘털 부진)"
         },
         "onchain_growth": {
           "weight": 25,
-          "points": 22.85,
-          "raw_value": 46.87,
-          "percentile": 91.41,
+          "points": 22.82,
+          "raw_value": 48.99,
+          "percentile": 91.27,
           "missing": false,
-          "reason": "TVL 30일 +27.8%"
+          "reason": "TVL 30일 +29.6%"
         },
         "developer": {
           "weight": 15,
@@ -1927,9 +1927,9 @@
         },
         "user_ecosystem": {
           "weight": 10,
-          "points": 6.38,
+          "points": 6.18,
           "raw_value": 18.7,
-          "percentile": 63.75,
+          "percentile": 61.84,
           "missing": false,
           "reason": "프로토콜 수수료 30일 +1.0%"
         },
@@ -1945,7 +1945,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -1961,8 +1961,8 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "30일 수익률 +73.5% > 60% (제외)",
-          "90일 수익률 +731.5% > 150% (제외)"
+          "30일 수익률 +86.6% > 60% (제외)",
+          "90일 수익률 +794.4% > 150% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -1973,17 +1973,17 @@
         "consistency": 1.0
       },
       "technical": {
-        "return_30d_pct": 73.48283499446289,
-        "return_90d_pct": 731.455609883711,
-        "rsi_14": 68.07,
+        "return_30d_pct": 86.60575858250277,
+        "return_90d_pct": 794.3501806099694,
+        "rsi_14": 72.94,
         "ma_200d_deviation_pct": null,
-        "high_90d_position_pct": -5.270532836242543
+        "high_90d_position_pct": -0.7048591188428234
       },
       "context": {
-        "price_usd": 0.125324,
-        "market_cap_usd": 276091546
+        "price_usd": 0.134804,
+        "market_cap_usd": 297082825
       },
-      "summary": "총점 53.0 (기본 53.0) = VPD +0.1 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +6.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.6 + 과열필터 -0.0"
+      "summary": "총점 52.7 (기본 52.7) = VPD +0.1 + 온체인 +22.8 + 개발자 +7.5 + 사용자 +6.2 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.6 + 과열필터 -0.0"
     },
     {
       "coin_id": "audiera",
@@ -1997,8 +1997,8 @@
           "points": 10.0,
           "fg_raw_pct": null,
           "fg_z": null,
-          "pg_raw_pct": -15.81,
-          "pg_z": -0.2,
+          "pg_raw_pct": -12.03,
+          "pg_z": -0.16,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2042,7 +2042,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2058,7 +2058,7 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "90일 수익률 +351.1% > 150% (제외)"
+          "90일 수익률 +371.3% > 150% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -2069,111 +2069,15 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -15.807560137457044,
-        "return_90d_pct": 351.09102709560176,
+        "return_30d_pct": -12.027491408934711,
+        "return_90d_pct": 371.3440936182614,
         "rsi_14": 49.52,
-        "ma_200d_deviation_pct": 91.38405099550896,
-        "high_90d_position_pct": -71.16970217454484
+        "ma_200d_deviation_pct": 99.9768043055114,
+        "high_90d_position_pct": -69.87528063952439
       },
       "context": {
-        "price_usd": 2.45,
-        "market_cap_usd": 758530123
-      },
-      "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
-    },
-    {
-      "coin_id": "unibase",
-      "symbol": "ub",
-      "name": "Unibase",
-      "base_score": 50.49,
-      "final_score": 50.49,
-      "breakdown": {
-        "vpd": {
-          "weight": 20,
-          "points": 10.0,
-          "fg_raw_pct": null,
-          "fg_z": null,
-          "pg_raw_pct": 62.18,
-          "pg_z": 0.65,
-          "vpd": null,
-          "percentile": null,
-          "quadrant": "unknown",
-          "quadrant_label": "판단 불가 (FG 또는 PG 데이터 부족)",
-          "missing": true,
-          "reason": "FG 또는 PG 계산 불가로 VPD 결측"
-        },
-        "onchain_growth": {
-          "weight": 25,
-          "points": 12.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "TVL 30일 N/A"
-        },
-        "developer": {
-          "weight": 15,
-          "points": 7.5,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "GitHub 데이터 없음"
-        },
-        "user_ecosystem": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": null,
-          "percentile": null,
-          "missing": true,
-          "reason": "수수료 데이터 없음"
-        },
-        "catalyst": {
-          "weight": 10,
-          "points": 5.0,
-          "raw_value": 0,
-          "percentile": 50.0,
-          "missing": false,
-          "reason": "향후 촉매 없음"
-        },
-        "risk": {
-          "weight": 10,
-          "points": 5.49,
-          "raw_value": 0.0,
-          "percentile": 54.87,
-          "missing": false,
-          "reason": "감지된 리스크 플래그 없음"
-        },
-        "valuation": {
-          "weight": 10,
-          "points": 5.0,
-          "sector_percentile": null,
-          "missing": true,
-          "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
-        }
-      },
-      "overheat": {
-        "excluded": true,
-        "penalty": 0.0,
-        "reasons": [
-          "30일 수익률 +62.2% > 60% (제외)"
-        ]
-      },
-      "overheat_relaxed_mode": false,
-      "confidence": {
-        "score": 48.9,
-        "coverage": 0.286,
-        "freshness": 0.75,
-        "consistency": 0.5
-      },
-      "technical": {
-        "return_30d_pct": 62.17834820961977,
-        "return_90d_pct": 18.856241930494967,
-        "rsi_14": 61.39,
-        "ma_200d_deviation_pct": 99.158421518093,
-        "high_90d_position_pct": -33.090916867756
-      },
-      "context": {
-        "price_usd": 0.155169,
-        "market_cap_usd": 389917563
+        "price_usd": 2.56,
+        "market_cap_usd": 790677590
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
@@ -2189,8 +2093,8 @@
           "points": 10.0,
           "fg_raw_pct": null,
           "fg_z": null,
-          "pg_raw_pct": -6.67,
-          "pg_z": -0.1,
+          "pg_raw_pct": -8.05,
+          "pg_z": -0.12,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2234,7 +2138,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2250,7 +2154,7 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "90일 수익률 +368.7% > 150% (제외)"
+          "90일 수익률 +361.8% > 150% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -2261,15 +2165,15 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": -6.669784335600977,
-        "return_90d_pct": 368.73241666211067,
-        "rsi_14": 33.37,
-        "ma_200d_deviation_pct": 85.92621380488644,
-        "high_90d_position_pct": -76.35611920329374
+        "return_30d_pct": -8.054490701517452,
+        "return_90d_pct": 361.77800477478206,
+        "rsi_14": 36.14,
+        "ma_200d_deviation_pct": 83.11378833634572,
+        "high_90d_position_pct": -76.70691483813827
       },
       "context": {
-        "price_usd": 0.445047,
-        "market_cap_usd": 187348545
+        "price_usd": 0.438444,
+        "market_cap_usd": 184836905
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
@@ -2285,8 +2189,8 @@
           "points": 10.0,
           "fg_raw_pct": null,
           "fg_z": null,
-          "pg_raw_pct": 210.92,
-          "pg_z": 2.28,
+          "pg_raw_pct": 195.05,
+          "pg_z": 2.01,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2330,7 +2234,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2346,8 +2250,8 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "30일 수익률 +210.9% > 60% (제외)",
-          "90일 수익률 +1023.7% > 150% (제외)"
+          "30일 수익률 +195.1% > 60% (제외)",
+          "90일 수익률 +966.3% > 150% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -2358,15 +2262,15 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": 210.92155450321178,
-        "return_90d_pct": 1023.6519175778168,
-        "rsi_14": 61.93,
-        "ma_200d_deviation_pct": 383.77953449062835,
-        "high_90d_position_pct": -4.0493456796248255
+        "return_30d_pct": 195.05356233740906,
+        "return_90d_pct": 966.3059421477673,
+        "rsi_14": 67.15,
+        "ma_200d_deviation_pct": 358.53424416415174,
+        "high_90d_position_pct": -8.946221463910902
       },
       "context": {
-        "price_usd": 0.055295,
-        "market_cap_usd": 160896500
+        "price_usd": 0.052473,
+        "market_cap_usd": 152766462
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
@@ -2383,7 +2287,7 @@
           "fg_raw_pct": null,
           "fg_z": null,
           "pg_raw_pct": 76.27,
-          "pg_z": 0.81,
+          "pg_z": 0.77,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2427,7 +2331,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2456,13 +2360,13 @@
       "technical": {
         "return_30d_pct": 76.26657348565766,
         "return_90d_pct": 109.12772125164467,
-        "rsi_14": 63.39,
-        "ma_200d_deviation_pct": 74.89617348285383,
+        "rsi_14": 61.51,
+        "ma_200d_deviation_pct": 74.99833743780438,
         "high_90d_position_pct": -7.072981127438832
       },
       "context": {
         "price_usd": 6.16,
-        "market_cap_usd": 139656832
+        "market_cap_usd": 139734339
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
@@ -2478,8 +2382,8 @@
           "points": 10.0,
           "fg_raw_pct": null,
           "fg_z": null,
-          "pg_raw_pct": 1222.86,
-          "pg_z": 13.35,
+          "pg_raw_pct": 1282.3,
+          "pg_z": 13.39,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2523,7 +2427,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2539,8 +2443,8 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "30일 수익률 +1222.9% > 60% (제외)",
-          "90일 수익률 +1128.7% > 150% (제외)"
+          "30일 수익률 +1282.3% > 60% (제외)",
+          "90일 수익률 +1183.9% > 150% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -2551,15 +2455,15 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": 1222.8574919785865,
-        "return_90d_pct": 1128.736138344611,
-        "rsi_14": 67.23,
-        "ma_200d_deviation_pct": 587.328335698757,
-        "high_90d_position_pct": -31.760538685789324
+        "return_30d_pct": 1282.2995732704562,
+        "return_90d_pct": 1183.948913616795,
+        "rsi_14": 68.91,
+        "ma_200d_deviation_pct": 617.1818463572745,
+        "high_90d_position_pct": -28.694225321463335
       },
       "context": {
-        "price_usd": 0.00412199,
-        "market_cap_usd": 93915915
+        "price_usd": 0.00430721,
+        "market_cap_usd": 98091980
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     },
@@ -2575,8 +2479,8 @@
           "points": 10.0,
           "fg_raw_pct": null,
           "fg_z": null,
-          "pg_raw_pct": 63.66,
-          "pg_z": 0.67,
+          "pg_raw_pct": 67.76,
+          "pg_z": 0.68,
           "vpd": null,
           "percentile": null,
           "quadrant": "unknown",
@@ -2620,7 +2524,7 @@
           "weight": 10,
           "points": 5.49,
           "raw_value": 0.0,
-          "percentile": 54.87,
+          "percentile": 54.9,
           "missing": false,
           "reason": "감지된 리스크 플래그 없음"
         },
@@ -2636,7 +2540,7 @@
         "excluded": true,
         "penalty": 0.0,
         "reasons": [
-          "30일 수익률 +63.7% > 60% (제외)"
+          "30일 수익률 +67.8% > 60% (제외)"
         ]
       },
       "overheat_relaxed_mode": false,
@@ -2647,15 +2551,15 @@
         "consistency": 0.5
       },
       "technical": {
-        "return_30d_pct": 63.66386014809461,
-        "return_90d_pct": 4.3339095474561145,
+        "return_30d_pct": 67.7606187415056,
+        "return_90d_pct": 6.945548061517413,
         "rsi_14": 82.4,
-        "ma_200d_deviation_pct": 34.42415704334419,
-        "high_90d_position_pct": -0.34529019105594255
+        "ma_200d_deviation_pct": 37.789000815396456,
+        "high_90d_position_pct": 2.149220743821474
       },
       "context": {
-        "price_usd": 0.527095,
-        "market_cap_usd": 84523390
+        "price_usd": 0.540289,
+        "market_cap_usd": 86854269
       },
       "summary": "총점 50.5 (기본 50.5) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
     }

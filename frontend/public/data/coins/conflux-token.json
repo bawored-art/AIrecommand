@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 2,
   "coin_id": "conflux-token",
   "symbol": "cfx",
   "name": "Conflux",
   "badge": null,
-  "previous_rank": 2,
-  "rank_change": -1,
+  "previous_rank": 3,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,28 +24,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 71.24,
-    "base_score": 71.24,
+    "final_score": 71.22,
+    "base_score": 71.22,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.84,
+        "points": 18.82,
         "fg_raw_pct": 93.61,
-        "fg_z": 0.19,
-        "pg_raw_pct": -11.59,
-        "pg_z": -0.15,
-        "vpd": 0.35,
-        "percentile": 94.21,
+        "fg_z": 0.21,
+        "pg_raw_pct": -11.81,
+        "pg_z": -0.16,
+        "vpd": 0.36,
+        "percentile": 94.09,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +93.6%, PG(가격 변화) -11.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +93.6%, PG(가격 변화) -11.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 24.41,
         "raw_value": 193.25,
-        "percentile": 97.66,
+        "percentile": 97.62,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +93.6%"
       },
@@ -77,7 +77,7 @@
         "weight": 10,
         "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 54.87,
+        "percentile": 54.9,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -107,19 +107,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.58744872495514,
-    "return_90d_pct": -39.26242175974617,
-    "rsi_14": 26.63,
-    "ma_200d_deviation_pct": -41.810866158555655,
-    "high_90d_position_pct": -48.50123378590634
+    "return_30d_pct": -11.810575134199631,
+    "return_90d_pct": -39.4157049479758,
+    "rsi_14": 26.45,
+    "ma_200d_deviation_pct": -41.957320986281836,
+    "high_90d_position_pct": -48.63120102042404
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.039458,
-  "market_cap_usd": 206361823,
+  "price_usd": 0.03935842,
+  "market_cap_usd": 205809407,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

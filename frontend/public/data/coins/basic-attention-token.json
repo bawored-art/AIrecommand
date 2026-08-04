@@ -26,22 +26,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 59.26,
-    "base_score": 59.26,
+    "final_score": 59.82,
+    "base_score": 59.82,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.74,
-        "fg_raw_pct": -11.7,
-        "fg_z": -0.15,
-        "pg_raw_pct": -23.88,
-        "pg_z": -0.29,
-        "vpd": 0.14,
-        "percentile": 83.68,
+        "points": 16.67,
+        "fg_raw_pct": -3.7,
+        "fg_z": -0.11,
+        "pg_raw_pct": -23.95,
+        "pg_z": -0.28,
+        "vpd": 0.17,
+        "percentile": 83.33,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -11.7%, PG(가격 변화) -23.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -3.7%, PG(가격 변화) -24.0% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,11 +53,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 9.53,
-        "raw_value": -11.7,
-        "percentile": 63.54,
+        "points": 10.16,
+        "raw_value": -3.7,
+        "percentile": 67.71,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.88배 (둔화), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.96배 (둔화), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -79,7 +79,7 @@
         "weight": 10,
         "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 54.87,
+        "percentile": 54.9,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 59.3 (기본 59.3) = VPD +16.7 + 온체인 +12.5 + 개발자 +9.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 59.8 (기본 59.8) = VPD +16.7 + 온체인 +12.5 + 개발자 +10.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -23.879664448944173,
-    "return_90d_pct": -37.123282507279974,
-    "rsi_14": 14.01,
-    "ma_200d_deviation_pct": -37.09532473795925,
-    "high_90d_position_pct": -45.08432986388517
+    "return_30d_pct": -23.953717095747756,
+    "return_90d_pct": -37.18445127800267,
+    "rsi_14": 12.88,
+    "ma_200d_deviation_pct": -37.155405239384756,
+    "high_90d_position_pct": -45.137753836534955
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.065787,
-  "market_cap_usd": 98082653,
+  "price_usd": 0.065723,
+  "market_cap_usd": 98304468,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

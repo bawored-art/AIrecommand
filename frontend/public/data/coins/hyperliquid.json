@@ -1,10 +1,10 @@
 {
-  "rank": 10,
+  "rank": 11,
   "coin_id": "hyperliquid",
   "symbol": "hype",
   "name": "Hyperliquid",
   "badge": null,
-  "previous_rank": 9,
+  "previous_rank": 10,
   "rank_change": -1,
   "overview": {
     "one_liner": null,
@@ -27,28 +27,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.45,
-    "base_score": 65.45,
+    "final_score": 64.67,
+    "base_score": 64.67,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.95,
+        "points": 16.24,
         "fg_raw_pct": 3.4,
-        "fg_z": -0.1,
-        "pg_raw_pct": -20.27,
+        "fg_z": -0.09,
+        "pg_raw_pct": -20.57,
         "pg_z": -0.25,
-        "vpd": 0.15,
-        "percentile": 84.74,
+        "vpd": 0.16,
+        "percentile": 81.18,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.4%, PG(가격 변화) -20.3% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +3.4%, PG(가격 변화) -20.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.51,
+        "points": 20.44,
         "raw_value": 11.16,
-        "percentile": 82.03,
+        "percentile": 81.75,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +3.4%"
       },
@@ -80,7 +80,7 @@
         "weight": 10,
         "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 54.87,
+        "percentile": 54.9,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,7 +92,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.5 (기본 65.5) = VPD +16.9 + 온체인 +20.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 64.7 (기본 64.7) = VPD +16.2 + 온체인 +20.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,19 +110,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -20.26812743260776,
-    "return_90d_pct": 26.498295445256097,
-    "rsi_14": 34.79,
-    "ma_200d_deviation_pct": 19.813504606409474,
-    "high_90d_position_pct": -25.761462666121037
+    "return_30d_pct": -20.570851953293932,
+    "return_90d_pct": 26.018009022484378,
+    "rsi_14": 35.53,
+    "ma_200d_deviation_pct": 19.355678344418212,
+    "high_90d_position_pct": -26.043330191706186
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 55.31,
-  "market_cap_usd": 12302365250,
+  "price_usd": 55.1,
+  "market_cap_usd": 12254974422,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

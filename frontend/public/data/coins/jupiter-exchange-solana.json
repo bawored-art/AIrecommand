@@ -1,11 +1,11 @@
 {
-  "rank": 15,
+  "rank": 17,
   "coin_id": "jupiter-exchange-solana",
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": -1,
+  "previous_rank": 15,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.23,
-    "base_score": 64.23,
+    "final_score": 63.39,
+    "base_score": 63.39,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.53,
+        "points": 15.81,
         "fg_raw_pct": -3.46,
-        "fg_z": -0.12,
-        "pg_raw_pct": -21.25,
-        "pg_z": -0.26,
+        "fg_z": -0.11,
+        "pg_raw_pct": -20.71,
+        "pg_z": -0.25,
         "vpd": 0.14,
-        "percentile": 82.63,
+        "percentile": 79.03,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) -21.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) -20.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -63,9 +63,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.88,
+        "points": 7.76,
         "raw_value": 68.25,
-        "percentile": 78.75,
+        "percentile": 77.63,
         "missing": false,
         "reason": "프로토콜 수수료 30일 -3.5%"
       },
@@ -81,7 +81,7 @@
         "weight": 10,
         "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 54.87,
+        "percentile": 54.9,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 93.3 (높을수록 저평가)"
       }
     },
-    "summary": "총점 64.2 (기본 64.2) = VPD +16.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.3 + 과열필터 -0.0"
+    "summary": "총점 63.4 (기본 63.4) = VPD +15.8 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -21.247755049315998,
-    "return_90d_pct": -1.3620310002332974,
+    "return_30d_pct": -20.711050366067596,
+    "return_90d_pct": -0.6898030536974618,
     "rsi_14": 40.82,
-    "ma_200d_deviation_pct": -0.42965315579357594,
-    "high_90d_position_pct": -28.768410847396108
+    "ma_200d_deviation_pct": 0.24892904205257102,
+    "high_90d_position_pct": -28.282960210181013
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.188992,
-  "market_cap_usd": 627576577,
+  "price_usd": 0.19028,
+  "market_cap_usd": 631816054,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
