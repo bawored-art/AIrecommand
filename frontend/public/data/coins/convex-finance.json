@@ -1,53 +1,54 @@
 {
-  "rank": 1,
-  "coin_id": "conflux-token",
-  "symbol": "cfx",
-  "name": "Conflux",
-  "badge": null,
-  "previous_rank": 2,
-  "rank_change": 1,
+  "rank": 18,
+  "coin_id": "convex-finance",
+  "symbol": "cvx",
+  "name": "Convex Finance",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
-      "DWF Labs Portfolio",
-      "Proof of Work (PoW)",
-      "GMCI Layer 1 Index",
-      "Sequoia Capital Portfolio",
-      "GMCI Index",
-      "Made in China"
+      "Decentralized Finance (DeFi)",
+      "Yield Farming",
+      "Yield Aggregator",
+      "Ethereum Ecosystem",
+      "Metagovernance",
+      "Curve Ecosystem",
+      "Yield Optimizer",
+      "Governance"
     ],
-    "chain": "Conflux 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 71.23,
-    "base_score": 71.23,
+    "final_score": 61.68,
+    "base_score": 61.68,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.8,
-        "fg_raw_pct": 68.95,
-        "fg_z": 0.03,
-        "pg_raw_pct": -14.11,
-        "pg_z": -0.18,
-        "vpd": 0.21,
-        "percentile": 94.02,
+        "points": 19.67,
+        "fg_raw_pct": 1174.46,
+        "fg_z": 2.24,
+        "pg_raw_pct": 10.16,
+        "pg_z": -0.0,
+        "vpd": 2.25,
+        "percentile": 98.37,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +69.0%, PG(가격 변화) -14.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +1174.5%, PG(가격 변화) +10.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 24.41,
-        "raw_value": 178.7,
-        "percentile": 97.66,
+        "points": 4.88,
+        "raw_value": -16.41,
+        "percentile": 19.53,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +69.0%"
+        "reason": "TVL 30일 -6.0%"
       },
       "developer": {
         "weight": 15,
@@ -59,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "수수료 데이터 없음"
+        "points": 9.61,
+        "raw_value": 2086.75,
+        "percentile": 96.05,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +2827.0%"
       },
       "catalyst": {
         "weight": 10,
@@ -83,13 +84,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 5.0,
-        "sector_percentile": null,
-        "missing": true,
-        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
+        "points": 9.5,
+        "sector_percentile": 95.0,
+        "missing": false,
+        "reason": "MC/TVL 백분위 90.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 71.2 (기본 71.2) = VPD +18.8 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.7 (기본 61.7) = VPD +19.7 + 온체인 +4.9 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,25 +102,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
-    "coverage": 0.571,
-    "freshness": 0.75,
+    "score": 73.7,
+    "coverage": 0.857,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -14.110295417439897,
-    "return_90d_pct": -38.915911925752425,
-    "rsi_14": 19.51,
-    "ma_200d_deviation_pct": -42.71789386207206,
-    "high_90d_position_pct": -49.45849898129705
+    "return_30d_pct": 10.156249999999991,
+    "return_90d_pct": -22.41201254913463,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.03872455,
-  "market_cap_usd": 202409883,
+  "price_usd": 1.41,
+  "market_cap_usd": 141091027,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -155,34 +156,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 622885398
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 484381563.45692724
         },
         {
           "label": "현재",
-          "value": null
+          "value": 455554471.48237884
         }
       ]
     },
-    "stablecoin_inflow_usd": {
+    "stablecoin_inflow_usd": null,
+    "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 4323224
+          "value": 18439
         },
         {
           "label": "30일 전",
-          "value": 9939883
+          "value": 9112
         },
         {
           "label": "현재",
-          "value": 16793587.38
+          "value": 266712
         }
       ]
-    },
-    "fees_24h_usd": null
+    }
   }
 }

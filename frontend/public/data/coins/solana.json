@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 8,
   "coin_id": "solana",
   "symbol": "sol",
   "name": "Solana",
   "badge": null,
-  "previous_rank": 16,
-  "rank_change": 6,
+  "previous_rank": 10,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -33,30 +33,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.69,
-    "base_score": 64.69,
+    "final_score": 64.78,
+    "base_score": 64.78,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.3,
-        "fg_raw_pct": 15.34,
-        "fg_z": -0.05,
-        "pg_raw_pct": -8.97,
-        "pg_z": -0.13,
-        "vpd": 0.08,
-        "percentile": 71.51,
+        "points": 12.93,
+        "fg_raw_pct": 2.26,
+        "fg_z": -0.1,
+        "pg_raw_pct": -9.63,
+        "pg_z": -0.15,
+        "vpd": 0.04,
+        "percentile": 64.67,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +15.3%, PG(가격 변화) -9.0% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +2.3%, PG(가격 변화) -9.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.45,
-        "raw_value": 5.45,
-        "percentile": 73.81,
+        "points": 19.73,
+        "raw_value": 7.15,
+        "percentile": 78.91,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.5%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.9%"
       },
       "developer": {
         "weight": 15,
@@ -69,66 +69,66 @@
       "user_ecosystem": {
         "weight": 10,
         "points": 6.45,
-        "raw_value": 20.09,
+        "raw_value": 7.78,
         "percentile": 64.47,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +21.9%"
+        "reason": "프로토콜 수수료 30일 +0.7%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 54.9,
+        "percentile": 55.21,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.5,
-        "sector_percentile": 75.0,
+        "points": 7.65,
+        "sector_percentile": 76.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 75.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 76.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 64.7 (기본 64.7) = VPD +14.3 + 온체인 +18.4 + 개발자 +7.5 + 사용자 +6.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.5 + 과열필터 -0.0"
+    "summary": "총점 64.8 (기본 64.8) = VPD +12.9 + 온체인 +19.7 + 개발자 +7.5 + 사용자 +6.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.7 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 77.3,
-    "coverage": 0.714,
-    "freshness": 0.625,
+    "score": 90.5,
+    "coverage": 0.857,
+    "freshness": 0.875,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -8.965686877382863,
-    "return_90d_pct": -14.234268767837163,
-    "rsi_14": 36.82,
-    "ma_200d_deviation_pct": -13.12571366470722,
-    "high_90d_position_pct": -23.888777591828237
+    "return_30d_pct": -9.63353352126486,
+    "return_90d_pct": -17.31101410763237,
+    "rsi_14": 35.96,
+    "ma_200d_deviation_pct": -13.107765805244616,
+    "high_90d_position_pct": -24.186970708531412
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 74.02,
-  "market_cap_usd": 43029110642,
+  "price_usd": 73.73,
+  "market_cap_usd": 42862441840,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -180,15 +180,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 15353197715
+          "value": 15065504660
         },
         {
           "label": "30일 전",
-          "value": 15644315114
+          "value": 15700534068
         },
         {
           "label": "현재",
-          "value": 16341767690.67
+          "value": 16475223883.87
         }
       ]
     },
@@ -196,15 +196,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 519645
+          "value": 534360
         },
         {
           "label": "30일 전",
-          "value": 504444
+          "value": 610030
         },
         {
           "label": "현재",
-          "value": 614784
+          "value": 613997
         }
       ]
     }
