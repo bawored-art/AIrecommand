@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 11,
   "coin_id": "tron",
   "symbol": "trx",
   "name": "TRON",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": -9,
+  "previous_rank": 18,
+  "rank_change": 7,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,44 +29,44 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 61.9,
-    "base_score": 61.9,
+    "final_score": 65.64,
+    "base_score": 65.64,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 9.67,
+        "points": 7.98,
         "fg_raw_pct": -8.18,
-        "fg_z": 0.01,
-        "pg_raw_pct": -0.58,
-        "pg_z": -0.09,
-        "vpd": 0.1,
-        "percentile": 48.33,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.1,
+        "pg_raw_pct": -0.39,
+        "pg_z": -0.08,
+        "vpd": -0.02,
+        "percentile": 39.89,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -8.2%, PG(가격 변화) -0.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) -8.2%, PG(가격 변화) -0.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.94,
+        "points": 18.24,
         "raw_value": 2.36,
-        "percentile": 71.77,
+        "percentile": 72.95,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +2.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.55,
+        "points": 12.23,
         "raw_value": 33.35,
-        "percentile": 83.7,
+        "percentile": 81.52,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.67배 (둔화), 릴리즈 30일 2건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.64,
+        "points": 8.14,
         "raw_value": 18.15,
-        "percentile": 76.39,
+        "percentile": 81.43,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +10.4%"
       },
@@ -80,11 +80,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.53,
-        "raw_value": 2.0,
-        "percentile": 5.3,
+        "points": 5.48,
+        "raw_value": 0.0,
+        "percentile": 54.82,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0099로 낮음"
+        "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
@@ -94,7 +94,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.9 (기본 61.9) = VPD +9.7 + 온체인 +17.9 + 개발자 +12.6 + 사용자 +7.6 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 65.6 (기본 65.6) = VPD +8.0 + 온체인 +18.2 + 개발자 +12.2 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,19 +112,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -0.5848148948276544,
-    "return_90d_pct": -6.7021080845337035,
-    "rsi_14": 42.03,
-    "ma_200d_deviation_pct": 2.7771517710092755,
-    "high_90d_position_pct": -12.88501507826438
+    "return_30d_pct": -0.3949478321989044,
+    "return_90d_pct": -6.523924071007961,
+    "rsi_14": 43.27,
+    "ma_200d_deviation_pct": 2.9725899405308844,
+    "high_90d_position_pct": -12.718639425686359
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.326729,
-  "market_cap_usd": 31005472178,
+  "price_usd": 0.327353,
+  "market_cap_usd": 31061328956,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

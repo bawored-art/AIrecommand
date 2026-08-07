@@ -1,11 +1,11 @@
 {
-  "rank": 4,
+  "rank": 10,
   "coin_id": "conflux-token",
   "symbol": "cfx",
   "name": "Conflux",
   "badge": null,
   "previous_rank": 4,
-  "rank_change": 0,
+  "rank_change": -6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,28 +24,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 70.09,
-    "base_score": 70.09,
+    "final_score": 65.97,
+    "base_score": 65.97,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.67,
+        "points": 13.6,
         "fg_raw_pct": 45.3,
-        "fg_z": 1.08,
-        "pg_raw_pct": -4.27,
-        "pg_z": -0.11,
-        "vpd": 1.2,
-        "percentile": 88.33,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.05,
+        "pg_raw_pct": -3.04,
+        "pg_z": -0.1,
+        "vpd": 0.05,
+        "percentile": 67.98,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +45.3%, PG(가격 변화) -4.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +45.3%, PG(가격 변화) -3.0% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 24.39,
         "raw_value": 144.36,
-        "percentile": 97.58,
+        "percentile": 97.54,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +45.3%"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.53,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 55.3,
+        "percentile": 54.82,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 70.1 (기본 70.1) = VPD +17.7 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.0 (기본 66.0) = VPD +13.6 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -107,19 +107,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -4.27273120689008,
-    "return_90d_pct": -40.27024700787331,
+    "return_30d_pct": -3.0386060700393496,
+    "return_90d_pct": -39.50020529964508,
     "rsi_14": 36.61,
-    "ma_200d_deviation_pct": -40.212969405758,
-    "high_90d_position_pct": -47.74462296523696
+    "ma_200d_deviation_pct": -39.442189269186,
+    "high_90d_position_pct": -47.07094162921565
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.04003771,
-  "market_cap_usd": 209374458,
+  "price_usd": 0.04055388,
+  "market_cap_usd": 212088847,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

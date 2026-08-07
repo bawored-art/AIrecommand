@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 19,
   "coin_id": "avalanche-2",
   "symbol": "avax",
   "name": "Avalanche",
   "badge": null,
-  "previous_rank": 1,
-  "rank_change": -2,
+  "previous_rank": 3,
+  "rank_change": -16,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,46 +32,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 72.02,
-    "base_score": 72.02,
+    "final_score": 59.76,
+    "base_score": 59.76,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.56,
-        "fg_raw_pct": 10.37,
-        "fg_z": 0.38,
-        "pg_raw_pct": 0.78,
-        "pg_z": -0.08,
-        "vpd": 0.46,
-        "percentile": 82.78,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "points": 8.2,
+        "fg_raw_pct": -1.69,
+        "fg_z": -0.1,
+        "pg_raw_pct": 0.47,
+        "pg_z": -0.07,
+        "vpd": -0.02,
+        "percentile": 41.01,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +10.4%, PG(가격 변화) +0.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) -1.7%, PG(가격 변화) +0.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.96,
+        "points": 20.29,
         "raw_value": 12.0,
-        "percentile": 79.84,
+        "percentile": 81.15,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +22.1%"
       },
       "developer": {
         "weight": 15,
         "points": 13.86,
-        "raw_value": 105.5,
+        "raw_value": 106.75,
         "percentile": 92.39,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.11배 (가속), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.14배 (가속), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.36,
-        "raw_value": 9.36,
-        "percentile": 73.61,
+        "points": 4.43,
+        "raw_value": -26.7,
+        "percentile": 44.29,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +2.7%"
+        "reason": "프로토콜 수수료 30일 -31.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -83,21 +83,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.53,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 55.3,
+        "percentile": 54.82,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 3.75,
-        "sector_percentile": 37.5,
+        "points": 2.5,
+        "sector_percentile": 25.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 37.5 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 25.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 72.0 (기본 72.0) = VPD +16.6 + 온체인 +20.0 + 개발자 +13.9 + 사용자 +7.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +3.8 + 과열필터 -0.0"
+    "summary": "총점 59.8 (기본 59.8) = VPD +8.2 + 온체인 +20.3 + 개발자 +13.9 + 사용자 +4.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +2.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,25 +109,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 96.3,
+    "score": 86.2,
     "coverage": 1.0,
     "freshness": 0.875,
-    "consistency": 1.0
+    "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 0.7812499999999972,
-    "return_90d_pct": -34.90025757258036,
-    "rsi_14": 52.57,
-    "ma_200d_deviation_pct": -24.595299729857604,
-    "high_90d_position_pct": -36.9362296505698
+    "return_30d_pct": 0.46874999999999,
+    "return_90d_pct": -35.10211723902197,
+    "rsi_14": 52.85,
+    "ma_200d_deviation_pct": -24.82964160225139,
+    "high_90d_position_pct": -37.13177622529672
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 6.45,
-  "market_cap_usd": 2783969413,
+  "price_usd": 6.43,
+  "market_cap_usd": 2777335425,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -203,7 +203,7 @@
         },
         {
           "label": "현재",
-          "value": 2305
+          "value": 1545
         }
       ]
     }
