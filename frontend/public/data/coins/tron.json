@@ -1,11 +1,11 @@
 {
-  "rank": 9,
+  "rank": 18,
   "coin_id": "tron",
   "symbol": "trx",
   "name": "TRON",
   "badge": null,
-  "previous_rank": 5,
-  "rank_change": -4,
+  "previous_rank": 9,
+  "rank_change": -9,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,62 +29,62 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 67.02,
-    "base_score": 67.02,
+    "final_score": 61.9,
+    "base_score": 61.9,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.11,
-        "fg_raw_pct": -5.4,
-        "fg_z": 0.08,
-        "pg_raw_pct": -0.57,
-        "pg_z": -0.08,
-        "vpd": 0.17,
-        "percentile": 50.56,
+        "points": 9.67,
+        "fg_raw_pct": -8.18,
+        "fg_z": 0.01,
+        "pg_raw_pct": -0.58,
+        "pg_z": -0.09,
+        "vpd": 0.1,
+        "percentile": 48.33,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -5.4%, PG(가격 변화) -0.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) -8.2%, PG(가격 변화) -0.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 17.94,
-        "raw_value": 2.58,
+        "raw_value": 2.36,
         "percentile": 71.77,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +2.9%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +2.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.61,
+        "points": 12.55,
         "raw_value": 33.35,
-        "percentile": 84.04,
+        "percentile": 83.7,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.67배 (둔화), 릴리즈 30일 2건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.29,
-        "raw_value": 25.75,
-        "percentile": 72.86,
+        "points": 7.64,
+        "raw_value": 18.15,
+        "percentile": 76.39,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +17.5%"
+        "reason": "프로토콜 수수료 30일 +10.4%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
-        "raw_value": 0.0,
-        "percentile": 55.03,
+        "points": 0.53,
+        "raw_value": 2.0,
+        "percentile": 5.3,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0099로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -94,37 +94,37 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 67.0 (기본 67.0) = VPD +10.1 + 온체인 +17.9 + 개발자 +12.6 + 사용자 +7.3 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 61.9 (기본 61.9) = VPD +9.7 + 온체인 +17.9 + 개발자 +12.6 + 사용자 +7.6 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 73.0,
-    "coverage": 0.857,
-    "freshness": 0.625,
+    "score": 86.2,
+    "coverage": 1.0,
+    "freshness": 0.875,
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -0.5656456240814723,
-    "return_90d_pct": -6.684118352398884,
+    "return_30d_pct": -0.5848148948276544,
+    "return_90d_pct": -6.7021080845337035,
     "rsi_14": 42.03,
-    "ma_200d_deviation_pct": 2.7969692973432623,
-    "high_90d_position_pct": -12.868217536417554
+    "ma_200d_deviation_pct": 2.7771517710092755,
+    "high_90d_position_pct": -12.88501507826438
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.326792,
-  "market_cap_usd": 31011090442,
+  "price_usd": 0.326729,
+  "market_cap_usd": 31005472178,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -184,7 +184,7 @@
         },
         {
           "label": "현재",
-          "value": 91668197752.81
+          "value": 91475151641.7
         }
       ]
     },
@@ -200,7 +200,7 @@
         },
         {
           "label": "현재",
-          "value": 1093756
+          "value": 1027705
         }
       ]
     }

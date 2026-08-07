@@ -4,8 +4,8 @@
   "symbol": "hype",
   "name": "Hyperliquid",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": -3,
+  "previous_rank": 17,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,30 +27,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.26,
-    "base_score": 63.26,
+    "final_score": 63.7,
+    "base_score": 63.7,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 16.11,
-        "fg_raw_pct": 3.9,
-        "fg_z": 0.27,
-        "pg_raw_pct": -17.39,
-        "pg_z": -0.2,
-        "vpd": 0.47,
+        "fg_raw_pct": 4.18,
+        "fg_z": 0.26,
+        "pg_raw_pct": -15.88,
+        "pg_z": -0.19,
+        "vpd": 0.45,
         "percentile": 80.56,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.9%, PG(가격 변화) -17.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +4.2%, PG(가격 변화) -15.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.15,
-        "raw_value": 9.7,
-        "percentile": 76.61,
+        "points": 19.56,
+        "raw_value": 9.99,
+        "percentile": 78.23,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +3.9%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +4.2%"
       },
       "developer": {
         "weight": 15,
@@ -78,9 +78,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 55.03,
+        "percentile": 55.3,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,7 +92,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 63.3 (기본 63.3) = VPD +16.1 + 온체인 +19.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.7 (기본 63.7) = VPD +16.1 + 온체인 +19.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,19 +110,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -17.391950096539436,
-    "return_90d_pct": 28.594961075209085,
+    "return_30d_pct": -15.877023615030444,
+    "return_90d_pct": 30.953228969792217,
     "rsi_14": 45.67,
-    "ma_200d_deviation_pct": 19.25353791711256,
-    "high_90d_position_pct": -25.345372509304877
+    "ma_200d_deviation_pct": 21.44049600189241,
+    "high_90d_position_pct": -23.97630167074843
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 55.62,
-  "market_cap_usd": 12371159804,
+  "price_usd": 56.64,
+  "market_cap_usd": 12601022979,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,7 +182,7 @@
         },
         {
           "label": "현재",
-          "value": 6247561317.3
+          "value": 6264365837.11
         }
       ]
     },
