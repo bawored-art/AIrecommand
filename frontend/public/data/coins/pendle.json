@@ -1,67 +1,89 @@
 {
-  "rank": 13,
-  "coin_id": "ethereum-name-service",
-  "symbol": "ens",
-  "name": "Ethereum Name Service",
-  "badge": null,
-  "previous_rank": 17,
-  "rank_change": 4,
+  "rank": 7,
+  "coin_id": "pendle",
+  "symbol": "pendle",
+  "name": "Pendle",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "NFT",
+      "Decentralized Exchange (DEX)",
+      "Exchange-based Tokens",
+      "Decentralized Finance (DeFi)",
+      "Yield Farming",
+      "Automated Market Maker (AMM)",
+      "BNB Chain Ecosystem",
+      "Derivatives",
+      "Arbitrum Ecosystem",
       "Ethereum Ecosystem",
-      "Decentralized Identifier (DID)",
-      "Name Service",
-      "Governance"
+      "Optimism Ecosystem",
+      "Fixed Interest",
+      "LSDFi",
+      "Base Ecosystem",
+      "Restaking",
+      "LRTfi",
+      "Liquid Restaking Governance Tokens",
+      "Berachain Ecosystem",
+      "Yield Tokenization Protocol",
+      "YZi Labs (Prev. Binance Labs) Portfolio",
+      "GMCI DeFi Index",
+      "Sonic Ecosystem",
+      "Liquid Staking",
+      "GMCI Index",
+      "BTCfi Protocol",
+      "HyperEVM Ecosystem",
+      "Monad Ecosystem",
+      "Base Native"
     ],
     "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 66.08,
-    "base_score": 66.08,
+    "final_score": 67.68,
+    "base_score": 67.68,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.44,
-        "fg_raw_pct": 96.45,
-        "fg_z": 2.17,
-        "pg_raw_pct": 4.48,
-        "pg_z": -0.05,
-        "vpd": 2.22,
-        "percentile": 97.22,
+        "points": 18.11,
+        "fg_raw_pct": 48.51,
+        "fg_z": 1.19,
+        "pg_raw_pct": -9.93,
+        "pg_z": -0.15,
+        "vpd": 1.33,
+        "percentile": 90.56,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +96.5%, PG(가격 변화) +4.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +48.5%, PG(가격 변화) -9.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 12.5,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "TVL 30일 N/A"
+        "points": 11.49,
+        "raw_value": -4.99,
+        "percentile": 45.97,
+        "missing": false,
+        "reason": "TVL 30일 +16.7%"
       },
       "developer": {
         "weight": 15,
-        "points": 7.5,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "GitHub 데이터 없음"
+        "points": 11.97,
+        "raw_value": 25.0,
+        "percentile": 79.79,
+        "missing": false,
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.25배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.0,
-        "raw_value": 68.21,
-        "percentile": 90.0,
+        "points": 7.0,
+        "raw_value": 10.33,
+        "percentile": 70.0,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +96.5%"
+        "reason": "프로토콜 수수료 30일 +116.5%"
       },
       "catalyst": {
         "weight": 10,
@@ -81,13 +103,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 7.14,
-        "sector_percentile": 71.4,
+        "points": 8.61,
+        "sector_percentile": 86.05,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 71.4 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 87.5, MC/Fees 백분위 84.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.1 (기본 66.1) = VPD +19.4 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
+    "summary": "총점 67.7 (기본 67.7) = VPD +18.1 + 온체인 +11.5 + 개발자 +12.0 + 사용자 +7.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -99,25 +121,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
-    "coverage": 0.714,
-    "freshness": 0.75,
-    "consistency": 0.5
+    "score": 94.4,
+    "coverage": 1.0,
+    "freshness": 0.812,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 4.477611940298523,
-    "return_90d_pct": -39.88072777166311,
-    "rsi_14": 43.43,
-    "ma_200d_deviation_pct": -34.58648883484764,
-    "high_90d_position_pct": -43.052441046999725
+    "return_30d_pct": -9.933774834437079,
+    "return_90d_pct": -34.322894626973586,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 4.2,
-  "market_cap_usd": 172262197,
+  "price_usd": 1.36,
+  "market_cap_usd": 233375154,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -153,15 +175,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 1606787424
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 1008508581.6016083
         },
         {
           "label": "현재",
-          "value": null
+          "value": 1177419252.1819777
         }
       ]
     },
@@ -170,15 +192,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 6055
+          "value": 238190
         },
         {
           "label": "30일 전",
-          "value": 4314
+          "value": 4582
         },
         {
           "label": "현재",
-          "value": 8475
+          "value": 9920
         }
       ]
     }
