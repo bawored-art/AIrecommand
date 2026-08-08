@@ -1,11 +1,11 @@
 {
-  "rank": 20,
+  "rank": 18,
   "coin_id": "tron",
   "symbol": "trx",
   "name": "TRON",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": -9,
+  "previous_rank": 20,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,18 +29,18 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 59.77,
-    "base_score": 59.77,
+    "final_score": 60.99,
+    "base_score": 60.99,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.9,
+        "points": 9.22,
         "fg_raw_pct": -11.71,
-        "fg_z": -0.08,
-        "pg_raw_pct": -0.97,
-        "pg_z": -0.08,
-        "vpd": 0.0,
-        "percentile": 44.51,
+        "fg_z": -0.04,
+        "pg_raw_pct": -1.0,
+        "pg_z": -0.09,
+        "vpd": 0.05,
+        "percentile": 46.11,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
@@ -48,9 +48,9 @@
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.54,
+        "points": 17.83,
         "raw_value": 1.55,
-        "percentile": 70.16,
+        "percentile": 71.31,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +1.2%"
       },
@@ -64,9 +64,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.97,
+        "points": 7.5,
         "raw_value": 20.58,
-        "percentile": 69.74,
+        "percentile": 75.0,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +2.1%"
       },
@@ -80,11 +80,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.56,
+        "points": 0.64,
         "raw_value": 2.0,
-        "percentile": 5.58,
+        "percentile": 6.42,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0090로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0075로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -94,7 +94,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 85.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 59.8 (기본 59.8) = VPD +8.9 + 온체인 +17.5 + 개발자 +12.2 + 사용자 +7.0 + 촉매 +5.0 + 리스크 +0.6 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 61.0 (기본 61.0) = VPD +9.2 + 온체인 +17.8 + 개발자 +12.2 + 사용자 +7.5 + 촉매 +5.0 + 리스크 +0.6 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -112,19 +112,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": -0.9724273014916318,
-    "return_90d_pct": -6.1349882271966685,
-    "rsi_14": 43.27,
-    "ma_200d_deviation_pct": 3.3720828097713484,
-    "high_90d_position_pct": -12.380022312266359
+    "return_30d_pct": -0.9983426246798117,
+    "return_90d_pct": -6.159552518230646,
+    "rsi_14": 46.29,
+    "ma_200d_deviation_pct": 3.3428682815677435,
+    "high_90d_position_pct": -12.402952290025501
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.328623,
-  "market_cap_usd": 31184208526,
+  "price_usd": 0.328537,
+  "market_cap_usd": 31177727133,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

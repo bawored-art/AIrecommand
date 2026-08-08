@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 20,
   "coin_id": "bitcoin",
   "symbol": "btc",
   "name": "Bitcoin",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 17,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,22 +25,22 @@
     "launch_year": 2009
   },
   "score": {
-    "final_score": 62.66,
-    "base_score": 62.66,
+    "final_score": 58.58,
+    "base_score": 58.58,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.93,
-        "fg_raw_pct": 12.03,
-        "fg_z": 0.29,
+        "points": 15.89,
+        "fg_raw_pct": 12.13,
+        "fg_z": 0.34,
         "pg_raw_pct": 3.51,
-        "pg_z": -0.05,
-        "vpd": 0.34,
-        "percentile": 79.67,
+        "pg_z": -0.06,
+        "vpd": 0.4,
+        "percentile": 79.44,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +12.0%, PG(가격 변화) +3.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +12.1%, PG(가격 변화) +3.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,16 +53,16 @@
       "developer": {
         "weight": 15,
         "points": 12.88,
-        "raw_value": 40.05,
+        "raw_value": 40.15,
         "percentile": 85.87,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.80배 (둔화), 릴리즈 30일 2건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.29,
+        "points": 8.55,
         "raw_value": 44.74,
-        "percentile": 82.89,
+        "percentile": 85.53,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +44.0%"
       },
@@ -76,21 +76,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
-        "raw_value": 0.0,
-        "percentile": 55.58,
+        "points": 0.64,
+        "raw_value": 2.0,
+        "percentile": 6.42,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0096로 낮음"
       },
       "valuation": {
         "weight": 10,
-        "points": 2.5,
-        "sector_percentile": 25.0,
+        "points": 3.12,
+        "sector_percentile": 31.2,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 25.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 31.2 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.7 (기본 62.7) = VPD +15.9 + 온체인 +12.5 + 개발자 +12.9 + 사용자 +8.3 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +2.5 + 과열필터 -0.0"
+    "summary": "총점 58.6 (기본 58.6) = VPD +15.9 + 온체인 +12.5 + 개발자 +12.9 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +0.6 + 밸류에이션 +3.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 3.506787330316742,
-    "return_90d_pct": -19.475839780699875,
-    "rsi_14": 54.49,
-    "ma_200d_deviation_pct": -7.657519903880337,
-    "high_90d_position_pct": -20.79213582347862
+    "return_30d_pct": 3.511567140398955,
+    "return_90d_pct": -19.472121278727155,
+    "rsi_14": 54.94,
+    "ma_200d_deviation_pct": -7.6539590665455615,
+    "high_90d_position_pct": -20.788478106361257
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 64965,
-  "market_cap_usd": 1303681081648,
+  "price_usd": 64968,
+  "market_cap_usd": 1303634662545,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
