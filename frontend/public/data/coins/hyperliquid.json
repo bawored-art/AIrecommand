@@ -1,11 +1,11 @@
 {
-  "rank": 11,
+  "rank": 14,
   "coin_id": "hyperliquid",
   "symbol": "hype",
   "name": "Hyperliquid",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": 3,
+  "previous_rank": 11,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,22 +27,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.3,
-    "base_score": 64.3,
+    "final_score": 63.64,
+    "base_score": 63.64,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.25,
+        "points": 15.62,
         "fg_raw_pct": 3.03,
-        "fg_z": 0.36,
-        "pg_raw_pct": -19.51,
-        "pg_z": -0.21,
-        "vpd": 0.56,
-        "percentile": 81.25,
+        "fg_z": 0.31,
+        "pg_raw_pct": -19.68,
+        "pg_z": -0.2,
+        "vpd": 0.52,
+        "percentile": 78.09,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +3.0%, PG(가격 변화) -19.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +3.0%, PG(가격 변화) -19.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,16 +71,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.67,
+        "points": 5.64,
         "raw_value": 0.0,
-        "percentile": 56.68,
+        "percentile": 56.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,37 +92,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.3 (기본 64.3) = VPD +16.2 + 온체인 +19.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.6 (기본 63.6) = VPD +15.6 + 온체인 +19.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 58.5,
-    "coverage": 0.571,
-    "freshness": 0.688,
+    "score": 45.3,
+    "coverage": 0.429,
+    "freshness": 0.438,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -19.51327433628318,
-    "return_90d_pct": 26.998263354892178,
+    "return_30d_pct": -19.675516224188787,
+    "return_90d_pct": 26.74226538954422,
     "rsi_14": 37.7,
-    "ma_200d_deviation_pct": 16.189582183959576,
-    "high_90d_position_pct": -26.754710137230614
+    "ma_200d_deviation_pct": 15.955371921173514,
+    "high_90d_position_pct": -26.90235503158474
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 54.57,
-  "market_cap_usd": 12138684234,
+  "price_usd": 54.46,
+  "market_cap_usd": 12114493074,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

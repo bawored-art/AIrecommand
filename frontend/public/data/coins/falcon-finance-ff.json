@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 16,
   "coin_id": "falcon-finance-ff",
   "symbol": "ff",
   "name": "Falcon Finance",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 14,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,22 +25,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.76,
-    "base_score": 62.76,
+    "final_score": 62.29,
+    "base_score": 62.29,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.75,
-        "fg_raw_pct": 55.29,
-        "fg_z": 1.33,
-        "pg_raw_pct": 9.44,
-        "pg_z": -0.04,
-        "vpd": 1.37,
-        "percentile": 93.75,
+        "points": 18.31,
+        "fg_raw_pct": 42.63,
+        "fg_z": 1.05,
+        "pg_raw_pct": 7.99,
+        "pg_z": -0.06,
+        "vpd": 1.12,
+        "percentile": 91.57,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +55.3%, PG(가격 변화) +9.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +42.6%, PG(가격 변화) +8.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -61,10 +61,10 @@
       "user_ecosystem": {
         "weight": 10,
         "points": 9.6,
-        "raw_value": 138.71,
+        "raw_value": 107.56,
         "percentile": 95.95,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +133.0%"
+        "reason": "프로토콜 수수료 30일 +102.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.67,
+        "points": 5.64,
         "raw_value": 0.0,
-        "percentile": 56.68,
+        "percentile": 56.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 90.0, MC/Fees 백분위 75.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.8 (기본 62.8) = VPD +18.8 + 온체인 +8.0 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +8.2 + 과열필터 -0.0"
+    "summary": "총점 62.3 (기본 62.3) = VPD +18.3 + 온체인 +8.0 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +8.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 9.439507860560493,
-    "return_90d_pct": -2.1118863834906154,
+    "return_30d_pct": 7.9870129870129825,
+    "return_90d_pct": -3.411069703927086,
     "rsi_14": 58.68,
-    "ma_200d_deviation_pct": -14.225325838653166,
-    "high_90d_position_pct": -41.87056201413966
+    "ma_200d_deviation_pct": -15.363738071448513,
+    "high_90d_position_pct": -42.64206320532043
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.064044,
-  "market_cap_usd": 190209515,
+  "price_usd": 0.063194,
+  "market_cap_usd": 187681874,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -164,7 +164,7 @@
         },
         {
           "label": "현재",
-          "value": 1255539575.6749215
+          "value": 1255627442.4736137
         }
       ]
     },
@@ -181,7 +181,7 @@
         },
         {
           "label": "현재",
-          "value": 13719
+          "value": 11929
         }
       ]
     }

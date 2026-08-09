@@ -1,62 +1,52 @@
 {
-  "rank": 3,
-  "coin_id": "solana",
-  "symbol": "sol",
-  "name": "Solana",
-  "badge": null,
-  "previous_rank": 3,
-  "rank_change": 0,
+  "rank": 20,
+  "coin_id": "tether-gold",
+  "symbol": "xaut",
+  "name": "Tether Gold",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
-      "Solana Ecosystem",
-      "Layer 1 (L1)",
-      "FTX Holdings",
-      "Multicoin Capital Portfolio",
-      "Proof of Stake (PoS)",
-      "Alameda Research Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "GMCI Layer 1 Index",
-      "GMCI 30 Index",
-      "Delphi Ventures Portfolio",
-      "GMCI Index",
-      "Polychain Capital Portfolio",
-      "Made in USA",
-      "Coinbase 50 Index",
-      "CoinList Launchpad"
+      "Tokenized Assets",
+      "Tokenized Gold",
+      "Ethereum Ecosystem",
+      "Real World Assets (RWA)",
+      "Tokenized Commodities",
+      "Tether Ecosystem"
     ],
-    "chain": "Solana 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 69.92,
-    "base_score": 69.92,
+    "final_score": 60.26,
+    "base_score": 60.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.19,
-        "fg_raw_pct": 15.35,
-        "fg_z": 0.54,
-        "pg_raw_pct": -0.77,
-        "pg_z": -0.11,
-        "vpd": 0.65,
-        "percentile": 85.96,
+        "points": 15.39,
+        "fg_raw_pct": 5.89,
+        "fg_z": 0.37,
+        "pg_raw_pct": 5.57,
+        "pg_z": -0.07,
+        "vpd": 0.44,
+        "percentile": 76.97,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +15.3%, PG(가격 변화) -0.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +5.9%, PG(가격 변화) +5.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.47,
-        "raw_value": 8.1,
-        "percentile": 77.87,
+        "points": 15.37,
+        "raw_value": -0.69,
+        "percentile": 61.48,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +5.4%"
+        "reason": "TVL 30일 +5.9%"
       },
       "developer": {
         "weight": 15,
@@ -68,11 +58,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.24,
-        "raw_value": 7.54,
-        "percentile": 82.43,
-        "missing": false,
-        "reason": "프로토콜 수수료 30일 +21.3%"
+        "points": 5.0,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "수수료 데이터 없음"
       },
       "catalyst": {
         "weight": 10,
@@ -92,13 +82,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 6.88,
-        "sector_percentile": 68.8,
+        "points": 6.36,
+        "sector_percentile": 63.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 68.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 63.6, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 69.9 (기본 69.9) = VPD +17.2 + 온체인 +19.5 + 개발자 +7.5 + 사용자 +8.2 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +6.9 + 과열필터 -0.0"
+    "summary": "총점 60.3 (기본 60.3) = VPD +15.4 + 온체인 +15.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +6.4 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,25 +100,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 90.5,
-    "coverage": 0.857,
-    "freshness": 0.875,
-    "consistency": 1.0
+    "score": 66.1,
+    "coverage": 0.714,
+    "freshness": 0.75,
+    "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -0.7688364941055977,
-    "return_90d_pct": -19.677168314964362,
-    "rsi_14": 49.71,
-    "ma_200d_deviation_pct": -7.505147408737776,
-    "high_90d_position_pct": -17.866152201769513
+    "return_30d_pct": 5.573930673962437,
+    "return_90d_pct": -7.793843950929336,
+    "rsi_14": 71.44,
+    "ma_200d_deviation_pct": -5.420834820286474,
+    "high_90d_position_pct": -8.24722952945175
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 77.44,
-  "market_cap_usd": 45080949255,
+  "price_usd": 4321.88,
+  "market_cap_usd": 2647368924,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -164,47 +154,32 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 3336394411
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 2922106997.9544954
         },
         {
           "label": "현재",
-          "value": null
+          "value": 3094076640.3626223
         }
       ]
     },
-    "stablecoin_inflow_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 14608000115
-        },
-        {
-          "label": "30일 전",
-          "value": 15344285101
-        },
-        {
-          "label": "현재",
-          "value": 16179540902.86
-        }
-      ]
-    },
+    "stablecoin_inflow_usd": null,
     "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 638221
+          "value": 0
         },
         {
           "label": "30일 전",
-          "value": 493600
+          "value": 0
         },
         {
           "label": "현재",
-          "value": 598670
+          "value": 0
         }
       ]
     }

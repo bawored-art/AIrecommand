@@ -3,9 +3,9 @@
   "coin_id": "litecoin",
   "symbol": "ltc",
   "name": "Litecoin",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 13,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": 2011
   },
   "score": {
-    "final_score": 62.77,
-    "base_score": 62.77,
+    "final_score": 63.71,
+    "base_score": 63.71,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.61,
-        "fg_raw_pct": 20.45,
-        "fg_z": 0.68,
-        "pg_raw_pct": 3.25,
-        "pg_z": -0.07,
-        "vpd": 0.75,
-        "percentile": 88.07,
+        "points": 17.42,
+        "fg_raw_pct": 23.05,
+        "fg_z": 0.69,
+        "pg_raw_pct": 3.07,
+        "pg_z": -0.09,
+        "vpd": 0.77,
+        "percentile": 87.08,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +20.5%, PG(가격 변화) +3.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +23.1%, PG(가격 변화) +3.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,17 +55,17 @@
         "weight": 15,
         "points": 14.83,
         "raw_value": 200.0,
-        "percentile": 98.86,
+        "percentile": 98.89,
         "missing": false,
         "reason": "GitHub 데이터 없음"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.16,
-        "raw_value": -7.0,
-        "percentile": 71.62,
+        "points": 7.7,
+        "raw_value": -4.99,
+        "percentile": 77.03,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +20.5%"
+        "reason": "프로토콜 수수료 30일 +23.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -77,21 +77,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.67,
+        "points": 5.64,
         "raw_value": 0.0,
-        "percentile": 56.68,
+        "percentile": 56.42,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 0.0,
-        "sector_percentile": 0.0,
+        "points": 0.62,
+        "sector_percentile": 6.2,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 0.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 6.2 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.8 (기본 62.8) = VPD +17.6 + 온체인 +12.5 + 개발자 +14.8 + 사용자 +7.2 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +0.0 + 과열필터 -0.0"
+    "summary": "총점 63.7 (기본 63.7) = VPD +17.4 + 온체인 +12.5 + 개발자 +14.8 + 사용자 +7.7 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +0.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 3.2460264159390997,
-    "return_90d_pct": -23.612559080733046,
+    "return_30d_pct": 3.0669353033355664,
+    "return_90d_pct": -23.745061146508007,
     "rsi_14": 38.52,
-    "ma_200d_deviation_pct": -11.384299881342228,
-    "high_90d_position_pct": -20.728029443421423
+    "ma_200d_deviation_pct": -11.538013151279186,
+    "high_90d_position_pct": -20.86553502981618
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 46.12,
-  "market_cap_usd": 3573233165,
+  "price_usd": 46.04,
+  "market_cap_usd": 3567433589,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -182,7 +182,7 @@
         },
         {
           "label": "현재",
-          "value": 371
+          "value": 379
         }
       ]
     }
