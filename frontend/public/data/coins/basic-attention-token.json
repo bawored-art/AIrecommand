@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 16,
   "coin_id": "basic-attention-token",
   "symbol": "bat",
   "name": "Basic Attention",
   "badge": null,
-  "previous_rank": 19,
-  "rank_change": 2,
+  "previous_rank": 17,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 61.06,
-    "base_score": 61.06,
+    "final_score": 61.86,
+    "base_score": 61.86,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.0,
-        "fg_raw_pct": 6.7,
-        "fg_z": 0.25,
-        "pg_raw_pct": -20.61,
+        "points": 16.93,
+        "fg_raw_pct": 4.9,
+        "fg_z": 0.39,
+        "pg_raw_pct": -21.5,
         "pg_z": -0.22,
-        "vpd": 0.48,
-        "percentile": 85.0,
+        "vpd": 0.61,
+        "percentile": 84.66,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +6.7%, PG(가격 변화) -20.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +4.9%, PG(가격 변화) -21.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,11 +53,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 10.92,
-        "raw_value": 6.7,
-        "percentile": 72.83,
+        "points": 11.76,
+        "raw_value": 4.9,
+        "percentile": 78.41,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.07배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.05배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.64,
+        "points": 5.67,
         "raw_value": 0.0,
-        "percentile": 56.42,
+        "percentile": 56.68,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.1 (기본 61.1) = VPD +17.0 + 온체인 +12.5 + 개발자 +10.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 61.9 (기본 61.9) = VPD +16.9 + 온체인 +12.5 + 개발자 +11.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.7 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,8 +109,8 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -20.607702272994935,
-    "return_90d_pct": -38.02899673680684,
+    "return_30d_pct": -21.499814436815736,
+    "return_90d_pct": -39.77781033710912,
     "rsi_14": null,
     "ma_200d_deviation_pct": null,
     "high_90d_position_pct": null
@@ -120,8 +120,8 @@
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.067412,
-  "market_cap_usd": 101064434,
+  "price_usd": 0.067686,
+  "market_cap_usd": 101239882,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
