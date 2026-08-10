@@ -1,10 +1,10 @@
 {
-  "rank": 3,
+  "rank": 4,
   "coin_id": "conflux-token",
   "symbol": "cfx",
   "name": "Conflux",
   "badge": null,
-  "previous_rank": 2,
+  "previous_rank": 3,
   "rank_change": -1,
   "overview": {
     "one_liner": null,
@@ -24,28 +24,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 71.0,
-    "base_score": 71.0,
+    "final_score": 69.86,
+    "base_score": 69.86,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.52,
+        "points": 17.47,
         "fg_raw_pct": 37.71,
-        "fg_z": 0.51,
-        "pg_raw_pct": -3.39,
+        "fg_z": 0.33,
+        "pg_raw_pct": -4.41,
         "pg_z": -0.11,
-        "vpd": 0.62,
-        "percentile": 92.61,
+        "vpd": 0.44,
+        "percentile": 87.36,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +37.7%, PG(가격 변화) -3.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +37.7%, PG(가격 변화) -4.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 24.38,
+        "points": 24.39,
         "raw_value": 143.09,
-        "percentile": 97.5,
+        "percentile": 97.54,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +37.7%"
       },
@@ -75,9 +75,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.6,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 55.96,
+        "percentile": 54.95,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -89,7 +89,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 71.0 (기본 71.0) = VPD +18.5 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 69.9 (기본 69.9) = VPD +17.5 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -107,19 +107,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -3.388182510122306,
-    "return_90d_pct": -35.84741446680511,
+    "return_30d_pct": -4.409174751955574,
+    "return_90d_pct": -36.525378030939486,
     "rsi_14": 47.33,
-    "ma_200d_deviation_pct": -36.082519920558184,
-    "high_90d_position_pct": -44.94954433071122
+    "ma_200d_deviation_pct": -36.75799889377469,
+    "high_90d_position_pct": -45.53131672261989
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.04217928,
-  "market_cap_usd": 220572297,
+  "price_usd": 0.04173353,
+  "market_cap_usd": 218282010,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

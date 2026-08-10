@@ -1,11 +1,11 @@
 {
-  "rank": 2,
+  "rank": 3,
   "coin_id": "solana",
   "symbol": "sol",
   "name": "Solana",
   "badge": null,
-  "previous_rank": 3,
-  "rank_change": 1,
+  "previous_rank": 2,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -33,28 +33,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 71.95,
-    "base_score": 71.95,
+    "final_score": 69.87,
+    "base_score": 69.87,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.98,
+        "points": 18.13,
         "fg_raw_pct": 55.53,
-        "fg_z": 0.71,
-        "pg_raw_pct": -2.08,
+        "fg_z": 0.48,
+        "pg_raw_pct": -2.63,
         "pg_z": -0.1,
-        "vpd": 0.82,
-        "percentile": 94.89,
+        "vpd": 0.58,
+        "percentile": 90.66,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +55.5%, PG(가격 변화) -2.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +55.5%, PG(가격 변화) -2.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.96,
+        "points": 18.65,
         "raw_value": 5.34,
-        "percentile": 75.83,
+        "percentile": 74.59,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +5.4%"
       },
@@ -68,67 +68,67 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.03,
+        "points": 8.03,
         "raw_value": 47.48,
-        "percentile": 90.28,
+        "percentile": 80.26,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +85.6%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.6,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 55.96,
+        "percentile": 54.95,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 6.88,
-        "sector_percentile": 68.8,
+        "points": 7.06,
+        "sector_percentile": 70.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 68.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 70.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 72.0 (기본 72.0) = VPD +19.0 + 온체인 +19.0 + 개발자 +7.5 + 사용자 +9.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +6.9 + 과열필터 -0.0"
+    "summary": "총점 69.9 (기본 69.9) = VPD +18.1 + 온체인 +18.6 + 개발자 +7.5 + 사용자 +8.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 88.7,
-    "coverage": 0.857,
-    "freshness": 0.812,
+    "score": 77.3,
+    "coverage": 0.714,
+    "freshness": 0.625,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -2.0801429300663545,
-    "return_90d_pct": -21.102214328843285,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -2.62889229198571,
+    "return_90d_pct": -21.544362743265257,
+    "rsi_14": 59.06,
+    "ma_200d_deviation_pct": -8.579689899118689,
+    "high_90d_position_pct": -17.173131207320704
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 76.73,
-  "market_cap_usd": 44671584887,
+  "price_usd": 76.3,
+  "market_cap_usd": 44423474591,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
