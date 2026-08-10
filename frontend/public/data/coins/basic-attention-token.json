@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 16,
   "coin_id": "basic-attention-token",
   "symbol": "bat",
   "name": "Basic Attention",
   "badge": null,
-  "previous_rank": 16,
-  "rank_change": -1,
+  "previous_rank": 17,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 61.49,
-    "base_score": 61.49,
+    "final_score": 63.0,
+    "base_score": 63.0,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.52,
-        "fg_raw_pct": 4.9,
-        "fg_z": 0.35,
-        "pg_raw_pct": -20.89,
-        "pg_z": -0.21,
-        "vpd": 0.56,
-        "percentile": 82.58,
+        "points": 18.07,
+        "fg_raw_pct": 9.1,
+        "fg_z": 0.19,
+        "pg_raw_pct": -23.37,
+        "pg_z": -0.23,
+        "vpd": 0.43,
+        "percentile": 90.34,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +4.9%, PG(가격 변화) -20.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +9.1%, PG(가격 변화) -23.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -54,10 +54,10 @@
       "developer": {
         "weight": 15,
         "points": 11.83,
-        "raw_value": 4.9,
+        "raw_value": 9.1,
         "percentile": 78.89,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.05배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.09배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.64,
+        "points": 5.6,
         "raw_value": 0.0,
-        "percentile": 56.42,
+        "percentile": 55.96,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.5 (기본 61.5) = VPD +16.5 + 온체인 +12.5 + 개발자 +11.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.0 (기본 63.0) = VPD +18.1 + 온체인 +12.5 + 개발자 +11.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 58.5,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -20.893254778251983,
-    "return_90d_pct": -39.312482127528234,
-    "rsi_14": 25.54,
-    "ma_200d_deviation_pct": -32.67286499370404,
-    "high_90d_position_pct": -43.0625663989199
+    "return_30d_pct": -23.373651895968912,
+    "return_90d_pct": -40.39148379833068,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.068209,
-  "market_cap_usd": 102042332,
+  "price_usd": 0.066645,
+  "market_cap_usd": 99683095,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
