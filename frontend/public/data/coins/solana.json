@@ -1,11 +1,11 @@
 {
-  "rank": 5,
+  "rank": 4,
   "coin_id": "solana",
   "symbol": "sol",
   "name": "Solana",
   "badge": null,
-  "previous_rank": 3,
-  "rank_change": -2,
+  "previous_rank": 5,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -33,28 +33,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 69.0,
-    "base_score": 69.0,
+    "final_score": 68.56,
+    "base_score": 68.56,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.77,
+        "points": 17.5,
         "fg_raw_pct": 64.37,
-        "fg_z": 0.25,
-        "pg_raw_pct": -1.61,
-        "pg_z": -0.08,
-        "vpd": 0.33,
-        "percentile": 88.83,
+        "fg_z": 0.43,
+        "pg_raw_pct": -0.96,
+        "pg_z": -0.06,
+        "vpd": 0.49,
+        "percentile": 87.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +64.4%, PG(가격 변화) -1.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +64.4%, PG(가격 변화) -1.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.45,
+        "points": 18.35,
         "raw_value": 3.67,
-        "percentile": 73.81,
+        "percentile": 73.39,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +5.1%"
       },
@@ -68,9 +68,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.76,
+        "points": 7.7,
         "raw_value": 60.87,
-        "percentile": 77.63,
+        "percentile": 77.03,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +99.9%"
       },
@@ -84,9 +84,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 54.61,
+        "percentile": 54.48,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -98,7 +98,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 70.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 69.0 (기본 69.0) = VPD +17.8 + 온체인 +18.4 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
+    "summary": "총점 68.6 (기본 68.6) = VPD +17.5 + 온체인 +18.4 + 개발자 +7.5 + 사용자 +7.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -116,19 +116,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -1.608509534310558,
-    "return_90d_pct": -19.55252640113918,
+    "return_30d_pct": -0.9599169801530796,
+    "return_90d_pct": -19.02222004913614,
     "rsi_14": 58.48,
-    "ma_200d_deviation_pct": -8.835552887200745,
-    "high_90d_position_pct": -17.66162519102589
+    "ma_200d_deviation_pct": -8.234600697927183,
+    "high_90d_position_pct": -17.11885409802013
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 75.85,
-  "market_cap_usd": 44183686090,
+  "price_usd": 76.35,
+  "market_cap_usd": 44469460595,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

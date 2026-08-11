@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 13,
   "coin_id": "sonic-3",
   "symbol": "s",
   "name": "Sonic",
   "badge": null,
-  "previous_rank": 18,
-  "rank_change": 4,
+  "previous_rank": 14,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -21,28 +21,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.04,
-    "base_score": 64.04,
+    "final_score": 63.95,
+    "base_score": 63.95,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.7,
+        "points": 16.85,
         "fg_raw_pct": 24.49,
-        "fg_z": 0.02,
-        "pg_raw_pct": -8.39,
+        "fg_z": 0.09,
+        "pg_raw_pct": -10.36,
         "pg_z": -0.13,
-        "vpd": 0.16,
-        "percentile": 83.51,
+        "vpd": 0.21,
+        "percentile": 84.24,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +24.5%, PG(가격 변화) -8.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +24.5%, PG(가격 변화) -10.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.83,
+        "points": 20.77,
         "raw_value": 19.0,
-        "percentile": 83.33,
+        "percentile": 83.06,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +21.5%"
       },
@@ -56,9 +56,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.29,
+        "points": 3.38,
         "raw_value": -8.5,
-        "percentile": 32.89,
+        "percentile": 33.78,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +26.3%"
       },
@@ -72,21 +72,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 54.61,
+        "percentile": 54.48,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 5.26,
-        "sector_percentile": 52.6,
+        "points": 5.0,
+        "sector_percentile": 50.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 52.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 50.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 64.0 (기본 64.0) = VPD +16.7 + 온체인 +20.8 + 개발자 +7.5 + 사용자 +3.3 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.3 + 과열필터 -0.0"
+    "summary": "총점 64.0 (기본 64.0) = VPD +16.9 + 온체인 +20.8 + 개발자 +7.5 + 사용자 +3.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -98,25 +98,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 71.7,
+    "score": 73.6,
     "coverage": 0.714,
-    "freshness": 0.438,
+    "freshness": 0.5,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -8.386521994029662,
-    "return_90d_pct": -53.31629867363111,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -10.36200794719139,
+    "return_90d_pct": -54.32295182357297,
+    "rsi_14": 60.86,
+    "ma_200d_deviation_pct": -69.73558232936621,
+    "high_90d_position_pct": -53.48677617491452
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.0234867,
-  "market_cap_usd": 91258790,
+  "price_usd": 0.02298025,
+  "market_cap_usd": 89283273,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 11,
   "coin_id": "jupiter-exchange-solana",
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 14,
-  "rank_change": 2,
+  "previous_rank": 12,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.74,
-    "base_score": 65.74,
+    "final_score": 65.41,
+    "base_score": 65.41,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.4,
+        "points": 18.15,
         "fg_raw_pct": 73.33,
-        "fg_z": 0.3,
-        "pg_raw_pct": -10.96,
-        "pg_z": -0.15,
-        "vpd": 0.45,
-        "percentile": 92.02,
+        "fg_z": 0.5,
+        "pg_raw_pct": -12.61,
+        "pg_z": -0.14,
+        "vpd": 0.65,
+        "percentile": 90.76,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +73.3%, PG(가격 변화) -11.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +73.3%, PG(가격 변화) -12.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -63,25 +63,25 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.5,
+        "points": 7.43,
         "raw_value": 47.38,
-        "percentile": 75.0,
+        "percentile": 74.32,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +73.3%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.45,
         "raw_value": 0.0,
-        "percentile": 54.61,
+        "percentile": 54.48,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 93.8 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.7 (기본 65.7) = VPD +18.4 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.4 + 과열필터 -0.0"
+    "summary": "총점 65.4 (기본 65.4) = VPD +18.1 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.4 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 52.9,
-    "coverage": 0.571,
-    "freshness": 0.5,
+    "score": 67.9,
+    "coverage": 0.714,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.957068621973463,
-    "return_90d_pct": -22.276973652581336,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -12.607476774139318,
+    "return_90d_pct": -23.717567693114418,
+    "rsi_14": 31.17,
+    "ma_200d_deviation_pct": -6.270306723297011,
+    "high_90d_position_pct": -27.435893308949467
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.180092,
-  "market_cap_usd": 598162192,
+  "price_usd": 0.176754,
+  "market_cap_usd": 586821096,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
