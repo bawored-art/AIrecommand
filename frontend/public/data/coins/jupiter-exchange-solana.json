@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 12,
   "coin_id": "jupiter-exchange-solana",
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": -1,
+  "previous_rank": 14,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.84,
-    "base_score": 63.84,
+    "final_score": 65.74,
+    "base_score": 65.74,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.25,
-        "fg_raw_pct": 22.05,
-        "fg_z": 0.2,
-        "pg_raw_pct": -13.92,
-        "pg_z": -0.17,
-        "vpd": 0.37,
-        "percentile": 86.26,
+        "points": 18.4,
+        "fg_raw_pct": 73.33,
+        "fg_z": 0.3,
+        "pg_raw_pct": -10.96,
+        "pg_z": -0.15,
+        "vpd": 0.45,
+        "percentile": 92.02,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +22.0%, PG(가격 변화) -13.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +73.3%, PG(가격 변화) -11.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -63,11 +63,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.71,
-        "raw_value": 0.93,
-        "percentile": 67.11,
+        "points": 7.5,
+        "raw_value": 47.38,
+        "percentile": 75.0,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +22.0%"
+        "reason": "프로토콜 수수료 30일 +73.3%"
       },
       "catalyst": {
         "weight": 10,
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.46,
         "raw_value": 0.0,
-        "percentile": 54.95,
+        "percentile": 54.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 93.8 (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.8 (기본 63.8) = VPD +17.2 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.4 + 과열필터 -0.0"
+    "summary": "총점 65.7 (기본 65.7) = VPD +18.4 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.4 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,25 +105,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
+    "score": 52.9,
     "coverage": 0.571,
-    "freshness": 0.562,
+    "freshness": 0.5,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -13.91883804656553,
-    "return_90d_pct": -27.345694099900935,
-    "rsi_14": 52.79,
-    "ma_200d_deviation_pct": -4.0072504114078065,
-    "high_90d_position_pct": -25.595454675051617
+    "return_30d_pct": -10.957068621973463,
+    "return_90d_pct": -22.276973652581336,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.181237,
-  "market_cap_usd": 601785161,
+  "price_usd": 0.180092,
+  "market_cap_usd": 598162192,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -176,15 +176,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 123694
+          "value": 78885
         },
         {
           "label": "30일 전",
-          "value": 80896
+          "value": 55265
         },
         {
           "label": "현재",
-          "value": 98730
+          "value": 95792
         }
       ]
     }
