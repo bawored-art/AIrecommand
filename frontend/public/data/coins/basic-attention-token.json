@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 9,
   "coin_id": "basic-attention-token",
   "symbol": "bat",
   "name": "Basic Attention",
   "badge": null,
-  "previous_rank": 20,
-  "rank_change": 10,
+  "previous_rank": 10,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 64.36,
-    "base_score": 64.36,
+    "final_score": 64.59,
+    "base_score": 64.59,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.46,
         "fg_raw_pct": 16.3,
         "fg_z": -0.1,
-        "pg_raw_pct": -24.07,
-        "pg_z": -0.24,
-        "vpd": 0.14,
-        "percentile": 97.31,
+        "pg_raw_pct": -28.36,
+        "pg_z": -0.26,
+        "vpd": 0.16,
+        "percentile": 97.28,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +16.3%, PG(가격 변화) -24.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +16.3%, PG(가격 변화) -28.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -53,9 +53,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 11.9,
+        "points": 12.17,
         "raw_value": 16.3,
-        "percentile": 79.35,
+        "percentile": 81.11,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.16배 (가속), 릴리즈 30일 0건"
       },
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.46,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 54.62,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.4 (기본 64.4) = VPD +19.5 + 온체인 +12.5 + 개발자 +11.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 64.6 (기본 64.6) = VPD +19.5 + 온체인 +12.5 + 개발자 +12.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -24.073756432247,
-    "return_90d_pct": -40.943850654531786,
+    "return_30d_pct": -28.364371477579027,
+    "return_90d_pct": -44.281131560243,
     "rsi_14": 31.56,
-    "ma_200d_deviation_pct": -37.71905889745671,
-    "high_90d_position_pct": -48.26973423312855
+    "ma_200d_deviation_pct": -41.238573763137545,
+    "high_90d_position_pct": -51.19302723655893
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.061971,
-  "market_cap_usd": 92691226,
+  "price_usd": 0.058469,
+  "market_cap_usd": 87465136,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -3,9 +3,9 @@
   "coin_id": "rain",
   "symbol": "rain",
   "name": "Rain",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 17,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,30 +22,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.44,
-    "base_score": 58.44,
+    "final_score": 57.78,
+    "base_score": 57.78,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.73,
-        "fg_raw_pct": -9.91,
+        "points": 14.02,
+        "fg_raw_pct": -10.48,
         "fg_z": -0.1,
-        "pg_raw_pct": -10.8,
+        "pg_raw_pct": -11.71,
         "pg_z": -0.15,
         "vpd": 0.05,
-        "percentile": 73.66,
+        "percentile": 70.11,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -9.9%, PG(가격 변화) -10.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -10.5%, PG(가격 변화) -11.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 24.8,
-        "raw_value": 299.17,
-        "percentile": 99.22,
+        "raw_value": 296.67,
+        "percentile": 99.21,
         "missing": false,
-        "reason": "TVL 30일 -9.9%"
+        "reason": "TVL 30일 -10.5%"
       },
       "developer": {
         "weight": 15,
@@ -73,21 +73,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.5,
+        "points": 0.46,
         "raw_value": 2.0,
-        "percentile": 5.0,
+        "percentile": 4.62,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0031로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0032로 낮음"
       },
       "valuation": {
         "weight": 10,
-        "points": 0.91,
-        "sector_percentile": 9.1,
+        "points": 1.0,
+        "sector_percentile": 10.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 9.1, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 10.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 58.4 (기본 58.4) = VPD +14.7 + 온체인 +24.8 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +0.9 + 과열필터 -0.0"
+    "summary": "총점 57.8 (기본 57.8) = VPD +14.0 + 온체인 +24.8 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +1.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,19 +105,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.79601117005034,
-    "return_90d_pct": 72.0658143550621,
+    "return_30d_pct": -11.707273935674104,
+    "return_90d_pct": 70.30807715165743,
     "rsi_14": 37.41,
-    "ma_200d_deviation_pct": 20.79983068350262,
-    "high_90d_position_pct": -19.37486963800875
+    "ma_200d_deviation_pct": 19.565800801662043,
+    "high_90d_position_pct": -20.198495130950576
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.01291176,
-  "market_cap_usd": 9252276393,
+  "price_usd": 0.01277986,
+  "market_cap_usd": 9157527974,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -161,7 +161,7 @@
         },
         {
           "label": "현재",
-          "value": 24113212.767522436
+          "value": 23961722.338386416
         }
       ]
     },
