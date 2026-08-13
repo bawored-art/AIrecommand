@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 6,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 4,
-  "rank_change": -3,
+  "previous_rank": 7,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.51,
-    "base_score": 68.51,
+    "final_score": 68.86,
+    "base_score": 68.86,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.54,
+        "points": 11.63,
         "fg_raw_pct": -7.65,
-        "fg_z": 0.06,
-        "pg_raw_pct": -8.45,
+        "fg_z": 0.04,
+        "pg_raw_pct": -8.09,
         "pg_z": -0.11,
-        "vpd": 0.17,
-        "percentile": 57.69,
+        "vpd": 0.14,
+        "percentile": 58.15,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -7.6%, PG(가격 변화) -8.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) -7.6%, PG(가격 변화) -8.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,9 +55,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 13.21,
+        "points": 13.53,
         "raw_value": 45.35,
-        "percentile": 88.04,
+        "percentile": 90.22,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.91배 (둔화), 릴리즈 30일 2건"
       },
@@ -72,16 +72,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.55,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.47,
+        "percentile": 54.85,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.5 (기본 68.5) = VPD +11.5 + 온체인 +23.2 + 개발자 +13.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 68.9 (기본 68.9) = VPD +11.6 + 온체인 +23.2 + 개발자 +13.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
+    "score": 82.9,
+    "coverage": 0.714,
+    "freshness": 0.812,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -8.454545454545471,
-    "return_90d_pct": -32.07717161022806,
+    "return_30d_pct": -8.090909090909108,
+    "return_90d_pct": -31.807368915531846,
     "rsi_14": 30.3,
-    "ma_200d_deviation_pct": -22.963907697013326,
-    "high_90d_position_pct": -28.74117273549136
+    "ma_200d_deviation_pct": -22.657905344270578,
+    "high_90d_position_pct": -28.458118803954086
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.007,
-  "market_cap_usd": 63099585737,
+  "price_usd": 1.011,
+  "market_cap_usd": 63332907752,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
