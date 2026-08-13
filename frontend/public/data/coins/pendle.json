@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 6,
   "coin_id": "pendle",
   "symbol": "pendle",
   "name": "Pendle",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 18,
+  "rank_change": 12,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -44,46 +44,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.76,
-    "base_score": 57.76,
+    "final_score": 69.15,
+    "base_score": 69.15,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.72,
-        "fg_raw_pct": -20.56,
-        "fg_z": -0.1,
-        "pg_raw_pct": -9.59,
-        "pg_z": -0.14,
-        "vpd": 0.03,
-        "percentile": 63.59,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 17.03,
+        "fg_raw_pct": 16.34,
+        "fg_z": 0.47,
+        "pg_raw_pct": -10.6,
+        "pg_z": -0.12,
+        "vpd": 0.6,
+        "percentile": 85.16,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -20.6%, PG(가격 변화) -9.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +16.3%, PG(가격 변화) -10.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 14.09,
-        "raw_value": -2.88,
-        "percentile": 56.35,
+        "points": 14.88,
+        "raw_value": -2.82,
+        "percentile": 59.52,
         "missing": false,
-        "reason": "TVL 30일 +14.1%"
+        "reason": "TVL 30일 +12.4%"
       },
       "developer": {
         "weight": 15,
-        "points": 11.17,
+        "points": 10.92,
         "raw_value": 4.3,
-        "percentile": 74.44,
+        "percentile": 72.83,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.04배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 0.64,
-        "raw_value": -80.08,
-        "percentile": 6.41,
+        "points": 6.71,
+        "raw_value": 9.38,
+        "percentile": 67.11,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -94.0%"
+        "reason": "프로토콜 수수료 30일 +33.9%"
       },
       "catalyst": {
         "weight": 10,
@@ -95,21 +95,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.55,
         "raw_value": 0.0,
-        "percentile": 54.62,
+        "percentile": 55.47,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.68,
-        "sector_percentile": 86.75,
+        "points": 9.06,
+        "sector_percentile": 90.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 88.9, MC/Fees 백분위 84.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 88.9, MC/Fees 백분위 92.3 (높을수록 저평가)"
       }
     },
-    "summary": "총점 57.8 (기본 57.8) = VPD +12.7 + 온체인 +14.1 + 개발자 +11.2 + 사용자 +0.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.7 + 과열필터 -0.0"
+    "summary": "총점 69.2 (기본 69.2) = VPD +17.0 + 온체인 +14.9 + 개발자 +10.9 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,25 +121,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 86.2,
+    "score": 94.4,
     "coverage": 1.0,
-    "freshness": 0.875,
-    "consistency": 0.667
+    "freshness": 0.812,
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -9.589041095890405,
-    "return_90d_pct": -32.35800232936392,
-    "rsi_14": 33.3,
-    "ma_200d_deviation_pct": -16.82594724290092,
-    "high_90d_position_pct": -33.23137689436136
+    "return_30d_pct": -10.596026490066219,
+    "return_90d_pct": -33.10441978655,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.32,
-  "market_cap_usd": 227155724,
+  "price_usd": 1.35,
+  "market_cap_usd": 232653896,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,15 +175,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1486896621
+          "value": 1453106179
         },
         {
           "label": "30일 전",
-          "value": 1043887285.9681534
+          "value": 1059599065.2670997
         },
         {
           "label": "현재",
-          "value": 1191253563.135558
+          "value": 1190977953.8332927
         }
       ]
     },
@@ -192,15 +192,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 20518
+          "value": 14230
         },
         {
           "label": "30일 전",
-          "value": 115273
+          "value": 9019
         },
         {
           "label": "현재",
-          "value": 6939
+          "value": 12076
         }
       ]
     }
