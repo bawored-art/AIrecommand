@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 14,
   "coin_id": "jupiter-exchange-solana",
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": 1,
+  "previous_rank": 12,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.2,
-    "base_score": 64.2,
+    "final_score": 64.22,
+    "base_score": 64.22,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.1,
+        "points": 17.07,
         "fg_raw_pct": 11.59,
-        "fg_z": 0.47,
-        "pg_raw_pct": -21.23,
+        "fg_z": 0.4,
+        "pg_raw_pct": -20.12,
         "pg_z": -0.13,
-        "vpd": 0.6,
-        "percentile": 85.48,
+        "vpd": 0.53,
+        "percentile": 85.33,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +11.6%, PG(가격 변화) -21.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +11.6%, PG(가격 변화) -20.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.82,
+        "percentile": 55.3,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -21.228933319376107,
-    "return_90d_pct": -21.303054639336874,
+    "return_30d_pct": -20.124568198471685,
+    "return_90d_pct": -20.199728694413295,
     "rsi_14": 16.53,
-    "ma_200d_deviation_pct": -11.884825729579852,
-    "high_90d_position_pct": -32.035553013208094
+    "ma_200d_deviation_pct": -10.649456841137422,
+    "high_90d_position_pct": -31.082695982363372
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.16555,
-  "market_cap_usd": 549826326,
+  "price_usd": 0.167871,
+  "market_cap_usd": 557268378,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

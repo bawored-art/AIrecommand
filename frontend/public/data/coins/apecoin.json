@@ -1,11 +1,11 @@
 {
-  "rank": 9,
+  "rank": 6,
   "coin_id": "apecoin",
   "symbol": "ape",
   "name": "ApeCoin",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": -2,
+  "previous_rank": 9,
+  "rank_change": 3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,28 +38,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.74,
-    "base_score": 68.74,
+    "final_score": 68.73,
+    "base_score": 68.73,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.03,
+        "points": 19.02,
         "fg_raw_pct": 41.98,
-        "fg_z": 1.05,
-        "pg_raw_pct": -19.09,
+        "fg_z": 0.95,
+        "pg_raw_pct": -18.49,
         "pg_z": -0.12,
-        "vpd": 1.18,
-        "percentile": 95.16,
+        "vpd": 1.07,
+        "percentile": 95.11,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +42.0%, PG(가격 변화) -19.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +42.0%, PG(가격 변화) -18.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.73,
+        "points": 21.68,
         "raw_value": 24.44,
-        "percentile": 86.92,
+        "percentile": 86.72,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +42.0%"
       },
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.82,
+        "percentile": 55.3,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -121,19 +121,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -19.09112639770523,
-    "return_90d_pct": -15.324139755239788,
+    "return_30d_pct": -18.490876736341654,
+    "return_90d_pct": -14.695943437893636,
     "rsi_14": 27.43,
-    "ma_200d_deviation_pct": -18.349370893590404,
-    "high_90d_position_pct": -27.511197048459934
+    "ma_200d_deviation_pct": -17.74361826981571,
+    "high_90d_position_pct": -26.973414510067517
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.121852,
-  "market_cap_usd": 121817176,
+  "price_usd": 0.122756,
+  "market_cap_usd": 122820372,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

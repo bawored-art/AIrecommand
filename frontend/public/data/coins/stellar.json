@@ -1,11 +1,11 @@
 {
-  "rank": 2,
+  "rank": 1,
   "coin_id": "stellar",
   "symbol": "xlm",
   "name": "Stellar",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": 9,
+  "previous_rank": 2,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,36 +25,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 71.98,
-    "base_score": 71.98,
+    "final_score": 72.21,
+    "base_score": 72.21,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.45,
+        "points": 16.41,
         "fg_raw_pct": 9.55,
-        "fg_z": 0.43,
-        "pg_raw_pct": -15.64,
+        "fg_z": 0.37,
+        "pg_raw_pct": -15.92,
         "pg_z": -0.11,
-        "vpd": 0.54,
-        "percentile": 82.26,
+        "vpd": 0.48,
+        "percentile": 82.07,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +9.5%, PG(가격 변화) -15.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +9.5%, PG(가격 변화) -15.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 24.04,
+        "points": 24.02,
         "raw_value": 78.85,
-        "percentile": 96.15,
+        "percentile": 96.09,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +18.6%"
       },
       "developer": {
         "weight": 15,
-        "points": 11.01,
+        "points": 11.25,
         "raw_value": 2.05,
-        "percentile": 73.4,
+        "percentile": 75.0,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.04배 (가속), 릴리즈 30일 1건"
       },
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.82,
+        "percentile": 55.3,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 72.0 (기본 72.0) = VPD +16.4 + 온체인 +24.0 + 개발자 +11.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 72.2 (기본 72.2) = VPD +16.4 + 온체인 +24.0 + 개발자 +11.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -15.641813580588224,
-    "return_90d_pct": 2.6592590865815198,
+    "return_30d_pct": -15.917742381387843,
+    "return_90d_pct": 2.323468958165251,
     "rsi_14": 25.58,
-    "ma_200d_deviation_pct": -8.91451163679337,
-    "high_90d_position_pct": -38.961120864880954
+    "ma_200d_deviation_pct": -9.21244489782094,
+    "high_90d_position_pct": -39.16077409874932
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.158671,
-  "market_cap_usd": 5474282647,
+  "price_usd": 0.158152,
+  "market_cap_usd": 5459079913,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
