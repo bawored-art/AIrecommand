@@ -1,10 +1,10 @@
 {
-  "rank": 18,
+  "rank": 19,
   "coin_id": "hyperliquid",
   "symbol": "hype",
   "name": "Hyperliquid",
   "badge": null,
-  "previous_rank": 17,
+  "previous_rank": 18,
   "rank_change": -1,
   "overview": {
     "one_liner": null,
@@ -27,22 +27,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.42,
-    "base_score": 62.42,
+    "final_score": 62.26,
+    "base_score": 62.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.38,
+        "points": 15.05,
         "fg_raw_pct": -2.13,
-        "fg_z": -0.06,
-        "pg_raw_pct": -14.16,
-        "pg_z": -0.21,
-        "vpd": 0.16,
-        "percentile": 76.88,
+        "fg_z": -0.05,
+        "pg_raw_pct": -12.65,
+        "pg_z": -0.19,
+        "vpd": 0.14,
+        "percentile": 75.26,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.1%, PG(가격 변화) -14.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -2.1%, PG(가격 변화) -12.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -71,16 +71,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.59,
+        "points": 5.76,
         "raw_value": 0.0,
-        "percentile": 55.9,
+        "percentile": 57.59,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,37 +92,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.4 (기본 62.4) = VPD +15.4 + 온체인 +18.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 62.3 (기본 62.3) = VPD +15.1 + 온체인 +18.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 58.5,
-    "coverage": 0.571,
-    "freshness": 0.688,
+    "score": 45.3,
+    "coverage": 0.429,
+    "freshness": 0.438,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -14.163090128755357,
-    "return_90d_pct": 33.97475939780973,
+    "return_30d_pct": -12.645616186388708,
+    "return_90d_pct": 36.34324175144958,
     "rsi_14": 61.73,
-    "ma_200d_deviation_pct": 16.88189310459824,
-    "high_90d_position_pct": -24.83532651062698
+    "ma_200d_deviation_pct": 18.948198000554537,
+    "high_90d_position_pct": -23.50652246143985
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 56.0,
-  "market_cap_usd": 12454846226,
+  "price_usd": 56.99,
+  "market_cap_usd": 12677870291,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
