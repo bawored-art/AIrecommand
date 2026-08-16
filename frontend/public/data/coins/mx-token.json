@@ -3,9 +3,9 @@
   "coin_id": "mx-token",
   "symbol": "mx",
   "name": "MX",
-  "badge": null,
-  "previous_rank": 16,
-  "rank_change": -1,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,30 +22,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.35,
-    "base_score": 60.35,
+    "final_score": 61.87,
+    "base_score": 61.87,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.89,
-        "fg_raw_pct": -1.14,
-        "fg_z": 0.31,
-        "pg_raw_pct": -4.97,
-        "pg_z": -0.08,
-        "vpd": 0.4,
-        "percentile": 74.46,
+        "points": 14.52,
+        "fg_raw_pct": 2.42,
+        "fg_z": 0.05,
+        "pg_raw_pct": -1.81,
+        "pg_z": -0.12,
+        "vpd": 0.17,
+        "percentile": 72.58,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -1.1%, PG(가격 변화) -5.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +2.4%, PG(가격 변화) -1.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 13.51,
-        "raw_value": -2.59,
-        "percentile": 54.03,
+        "points": 14.04,
+        "raw_value": -1.18,
+        "percentile": 56.15,
         "missing": false,
-        "reason": "TVL 30일 -1.1%"
+        "reason": "TVL 30일 +2.4%"
       },
       "developer": {
         "weight": 15,
@@ -73,21 +73,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.81,
         "raw_value": 0.0,
-        "percentile": 55.61,
+        "percentile": 58.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.89,
-        "sector_percentile": 88.9,
+        "points": 10.0,
+        "sector_percentile": 100.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 88.9, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.4 (기본 60.4) = VPD +14.9 + 온체인 +13.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +8.9 + 과열필터 -0.0"
+    "summary": "총점 61.9 (기본 61.9) = VPD +14.5 + 온체인 +14.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -99,25 +99,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.3,
+    "score": 60.4,
     "coverage": 0.714,
-    "freshness": 0.625,
+    "freshness": 0.562,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -4.96650711545648,
-    "return_90d_pct": -10.27822761694681,
-    "rsi_14": 14.64,
-    "ma_200d_deviation_pct": -17.057605966681724,
-    "high_90d_position_pct": -12.287866409915663
+    "return_30d_pct": -1.8072289156626522,
+    "return_90d_pct": -8.396973551200205,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.58,
-  "market_cap_usd": 145416085,
+  "price_usd": 1.63,
+  "market_cap_usd": 149499691,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -153,15 +153,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 4864162516
+          "value": 5022540082
         },
         {
           "label": "30일 전",
-          "value": 4721745100
+          "value": 4669307120.364661
         },
         {
           "label": "현재",
-          "value": 4668024398.187933
+          "value": 4782343601.411557
         }
       ]
     },

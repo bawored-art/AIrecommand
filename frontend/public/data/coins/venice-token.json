@@ -1,11 +1,11 @@
 {
-  "rank": 18,
+  "rank": 15,
   "coin_id": "venice-token",
   "symbol": "vvv",
   "name": "Venice Token",
   "badge": null,
-  "previous_rank": 10,
-  "rank_change": -8,
+  "previous_rank": 18,
+  "rank_change": 3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,22 +25,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.39,
-    "base_score": 62.39,
+    "final_score": 62.44,
+    "base_score": 62.44,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.68,
-        "fg_raw_pct": 317.55,
-        "fg_z": 1.75,
-        "pg_raw_pct": 12.04,
-        "pg_z": 0.03,
-        "vpd": 1.72,
-        "percentile": 98.42,
+        "fg_raw_pct": 241.7,
+        "fg_z": 1.91,
+        "pg_raw_pct": 11.76,
+        "pg_z": 0.06,
+        "vpd": 1.85,
+        "percentile": 98.39,
         "quadrant": "co_movement",
         "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +317.6%, PG(가격 변화) +12.0% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +241.7%, PG(가격 변화) +11.8% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -61,10 +61,10 @@
       "user_ecosystem": {
         "weight": 10,
         "points": 9.62,
-        "raw_value": 321.73,
+        "raw_value": 262.5,
         "percentile": 96.25,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +317.6%"
+        "reason": "프로토콜 수수료 30일 +241.7%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,11 +76,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.76,
+        "points": 0.81,
         "raw_value": 2.0,
-        "percentile": 7.59,
+        "percentile": 8.07,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0099로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0098로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -102,25 +102,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 64.2,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 12.04481792717086,
-    "return_90d_pct": -8.494999121611018,
-    "rsi_14": 55.62,
-    "ma_200d_deviation_pct": 20.122420991461986,
-    "high_90d_position_pct": -42.32547225105589
+    "return_30d_pct": 11.759172154280337,
+    "return_90d_pct": -15.29221152687296,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 12.0,
-  "market_cap_usd": 571977831,
+  "price_usd": 11.88,
+  "market_cap_usd": 566034209,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -173,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 2999
+          "value": 3269
         },
         {
           "label": "30일 전",
-          "value": 3059
+          "value": 3667
         },
         {
           "label": "현재",
-          "value": 12773
+          "value": 12530
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "rank": 20,
+  "rank": 19,
   "coin_id": "beldex",
   "symbol": "bdx",
   "name": "Beldex",
@@ -32,22 +32,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 57.71,
-    "base_score": 57.71,
+    "final_score": 60.22,
+    "base_score": 60.22,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.28,
-        "fg_raw_pct": 25.0,
-        "fg_z": 0.49,
-        "pg_raw_pct": -3.95,
-        "pg_z": -0.13,
-        "vpd": 0.63,
-        "percentile": 86.41,
+        "points": 18.6,
+        "fg_raw_pct": 30.4,
+        "fg_z": 0.27,
+        "pg_raw_pct": -11.22,
+        "pg_z": -0.25,
+        "vpd": 0.52,
+        "percentile": 93.01,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +25.0%, PG(가격 변화) -4.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +30.4%, PG(가격 변화) -11.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,11 +59,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 7.17,
-        "raw_value": -37.5,
-        "percentile": 47.78,
+        "points": 8.31,
+        "raw_value": -34.8,
+        "percentile": 55.43,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.25배 (가속), 릴리즈 30일 0건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.30배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.76,
+        "points": 5.81,
         "raw_value": 0.0,
-        "percentile": 57.61,
+        "percentile": 58.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 57.7 (기본 57.7) = VPD +17.3 + 온체인 +12.5 + 개발자 +7.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.2 (기본 60.2) = VPD +18.6 + 온체인 +12.5 + 개발자 +8.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,25 +109,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.2,
+    "score": 60.4,
     "coverage": 0.571,
-    "freshness": 0.812,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -3.9539091848313492,
-    "return_90d_pct": -2.9430013392348746,
-    "rsi_14": 53.82,
-    "ma_200d_deviation_pct": 1.5633835853726477,
-    "high_90d_position_pct": -11.80652637791723
+    "return_30d_pct": -11.218256003210634,
+    "return_90d_pct": -5.244869216424696,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.083527,
-  "market_cap_usd": 657342938,
+  "price_usd": 0.079639,
+  "market_cap_usd": 627002754,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -1,11 +1,11 @@
 {
-  "rank": 17,
+  "rank": 10,
   "coin_id": "zama",
   "symbol": "zama",
   "name": "Zama",
   "badge": null,
-  "previous_rank": 20,
-  "rank_change": 3,
+  "previous_rank": 17,
+  "rank_change": 7,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,30 +26,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.78,
-    "base_score": 62.78,
+    "final_score": 65.03,
+    "base_score": 65.03,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.42,
-        "fg_raw_pct": 31.96,
-        "fg_z": 0.14,
-        "pg_raw_pct": 22.02,
-        "pg_z": 0.12,
-        "vpd": 0.02,
-        "percentile": 52.11,
+        "points": 12.58,
+        "fg_raw_pct": 33.25,
+        "fg_z": 0.29,
+        "pg_raw_pct": 18.4,
+        "pg_z": 0.15,
+        "vpd": 0.14,
+        "percentile": 62.9,
         "quadrant": "co_movement",
         "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +32.0%, PG(가격 변화) +22.0% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +33.2%, PG(가격 변화) +18.4% → 동반 상승 (펀더멘털·가격 함께 개선)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.85,
-        "raw_value": 52.63,
-        "percentile": 91.41,
+        "points": 22.89,
+        "raw_value": 53.17,
+        "percentile": 91.54,
         "missing": false,
-        "reason": "TVL 30일 +32.0%"
+        "reason": "TVL 30일 +33.2%"
       },
       "developer": {
         "weight": 15,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.76,
+        "points": 5.81,
         "raw_value": 0.0,
-        "percentile": 57.59,
+        "percentile": 58.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 62.5, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.8 (기본 62.8) = VPD +10.4 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +6.2 + 과열필터 -0.0"
+    "summary": "총점 65.0 (기본 65.0) = VPD +12.6 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +6.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 22.022156328290947,
-    "return_90d_pct": 60.24121496455553,
-    "rsi_14": 33.17,
+    "return_30d_pct": 18.401224373429294,
+    "return_90d_pct": 58.54592813372347,
+    "rsi_14": null,
     "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": -29.535708179641883
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.04276448,
-  "market_cap_usd": 94079905,
+  "price_usd": 0.0412808,
+  "market_cap_usd": 90814925,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -157,15 +157,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 32300827
+          "value": 32308014
         },
         {
           "label": "30일 전",
-          "value": 42417156
+          "value": 41969782.779526636
         },
         {
           "label": "현재",
-          "value": 55974738.02064155
+          "value": 55924560.683793314
         }
       ]
     },

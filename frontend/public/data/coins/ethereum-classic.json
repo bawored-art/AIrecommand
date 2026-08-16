@@ -1,65 +1,58 @@
 {
-  "rank": 13,
-  "coin_id": "ripple",
-  "symbol": "xrp",
-  "name": "XRP",
-  "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "rank": 7,
+  "coin_id": "ethereum-classic",
+  "symbol": "etc",
+  "name": "Ethereum Classic",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": "CoinGecko",
+    "description_source": null,
     "primary_use_case": null,
     "categories": [
       "Smart Contract Platform",
       "Layer 1 (L1)",
-      "FTX Holdings",
-      "Pantera Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "XRP Ledger Ecosystem",
-      "GMCI 30 Index",
-      "Blockchain Capital Portfolio",
-      "GMCI Index",
-      "Made in USA",
+      "Proof of Work (PoW)",
       "Coinbase 50 Index"
     ],
-    "chain": "XRP 자체 메인넷",
-    "launch_year": null
+    "chain": "Ethereum Classic 자체 메인넷",
+    "launch_year": 2015
   },
   "score": {
-    "final_score": 63.9,
-    "base_score": 63.9,
+    "final_score": 68.69,
+    "base_score": 68.69,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.94,
-        "fg_raw_pct": -13.75,
-        "fg_z": -0.08,
-        "pg_raw_pct": -7.7,
-        "pg_z": -0.2,
-        "vpd": 0.12,
-        "percentile": 59.68,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 18.39,
+        "fg_raw_pct": 31.27,
+        "fg_z": 0.27,
+        "pg_raw_pct": -10.17,
+        "pg_z": -0.24,
+        "vpd": 0.51,
+        "percentile": 91.94,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -13.7%, PG(가격 변화) -7.7% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +31.3%, PG(가격 변화) -10.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.27,
-        "raw_value": 64.68,
-        "percentile": 93.08,
+        "points": 15.96,
+        "raw_value": 0.0,
+        "percentile": 63.85,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -1.0%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.88,
-        "raw_value": 39.3,
-        "percentile": 85.87,
+        "points": 13.53,
+        "raw_value": 50.0,
+        "percentile": 90.22,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.79배 (둔화), 릴리즈 30일 2건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.50배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -72,18 +65,18 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 0.81,
-        "raw_value": 2.0,
-        "percentile": 8.07,
+        "points": 5.81,
+        "raw_value": 0.0,
+        "percentile": 58.07,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0060로 낮음"
+        "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
@@ -93,37 +86,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 63.9 (기본 63.9) = VPD +11.9 + 온체인 +23.3 + 개발자 +12.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 68.7 (기본 68.7) = VPD +18.4 + 온체인 +16.0 + 개발자 +13.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 69.7,
-    "coverage": 0.571,
-    "freshness": 0.562,
+    "score": 81.1,
+    "coverage": 0.714,
+    "freshness": 0.75,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": -7.699722991689753,
-    "return_90d_pct": -28.640553225152537,
-    "rsi_14": 23.14,
-    "ma_200d_deviation_pct": -22.713763974162767,
-    "high_90d_position_pct": -27.00174188072697
+    "return_30d_pct": -10.174418604651166,
+    "return_90d_pct": -30.268677520921273,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.999612,
-  "market_cap_usd": 62656344458,
+  "price_usd": 6.18,
+  "market_cap_usd": 975640541,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -134,8 +127,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "missing",
-      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+      "status": "not_applicable",
+      "reason": "no_coingecko_description"
     },
     "primary_use_case": {
       "status": "missing",
@@ -175,15 +168,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 409060542
+          "value": 73845
         },
         {
           "label": "30일 전",
-          "value": 951803174
+          "value": 73774
         },
         {
           "label": "현재",
-          "value": 942330412.2
+          "value": 73812.04
         }
       ]
     },
