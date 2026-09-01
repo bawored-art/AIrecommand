@@ -4,8 +4,8 @@
   "symbol": "virtual",
   "name": "Virtuals Protocol",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": 3,
+  "previous_rank": 6,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -30,22 +30,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.28,
-    "base_score": 65.28,
+    "final_score": 65.6,
+    "base_score": 65.6,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.29,
+        "points": 19.3,
         "fg_raw_pct": 299.55,
-        "fg_z": 1.66,
-        "pg_raw_pct": 24.97,
-        "pg_z": -0.09,
-        "vpd": 1.75,
-        "percentile": 96.43,
+        "fg_z": 2.34,
+        "pg_raw_pct": 21.96,
+        "pg_z": -0.1,
+        "vpd": 2.44,
+        "percentile": 96.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +299.5%, PG(가격 변화) +25.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +299.5%, PG(가격 변화) +22.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -65,9 +65,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.17,
+        "points": 8.41,
         "raw_value": 224.03,
-        "percentile": 81.71,
+        "percentile": 84.15,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +299.5%"
       },
@@ -81,9 +81,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.32,
+        "points": 5.39,
         "raw_value": 0.0,
-        "percentile": 53.24,
+        "percentile": 53.88,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -95,7 +95,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 75.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.3 (기본 65.3) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.2 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +7.5 + 과열필터 -0.0"
+    "summary": "총점 65.6 (기본 65.6) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -113,19 +113,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 24.965379784656896,
-    "return_90d_pct": -2.1673060444414833,
+    "return_30d_pct": 21.957804487924953,
+    "return_90d_pct": -4.521871717434385,
     "rsi_14": 63.16,
-    "ma_200d_deviation_pct": 5.573332811824277,
-    "high_90d_position_pct": -11.901897293757296
+    "ma_200d_deviation_pct": 3.032471108321599,
+    "high_90d_position_pct": -14.022177949446387
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.698459,
-  "market_cap_usd": 460087612,
+  "price_usd": 0.681649,
+  "market_cap_usd": 448674246,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
