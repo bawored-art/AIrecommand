@@ -1,45 +1,49 @@
 {
-  "rank": 17,
-  "coin_id": "geodnet",
-  "symbol": "geod",
-  "name": "Geodnet",
+  "rank": 15,
+  "coin_id": "decentraland",
+  "symbol": "mana",
+  "name": "Decentraland",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": "CoinGecko",
+    "description_source": null,
     "primary_use_case": null,
     "categories": [
+      "Entertainment",
       "Gaming (GameFi)",
-      "Solana Ecosystem",
+      "NFT",
+      "Metaverse",
       "Polygon Ecosystem",
       "Play To Earn",
-      "DePIN",
-      "Pantera Capital Portfolio",
-      "Robotics"
+      "Ethereum Ecosystem",
+      "Animoca Brands Portfolio",
+      "Alleged SEC Securities",
+      "Simulation Games",
+      "Coinbase 50 Index"
     ],
-    "chain": "Polygon",
-    "launch_year": null
+    "chain": "Ethereum",
+    "launch_year": 2017
   },
   "score": {
-    "final_score": 62.11,
-    "base_score": 62.11,
+    "final_score": 63.03,
+    "base_score": 63.03,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.86,
-        "fg_raw_pct": 55.52,
-        "fg_z": 0.25,
-        "pg_raw_pct": 17.9,
-        "pg_z": -0.14,
-        "vpd": 0.39,
-        "percentile": 89.29,
+        "points": 16.84,
+        "fg_raw_pct": 27.3,
+        "fg_z": 0.05,
+        "pg_raw_pct": 8.44,
+        "pg_z": -0.22,
+        "vpd": 0.28,
+        "percentile": 84.18,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +55.5%, PG(가격 변화) +17.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +27.3%, PG(가격 변화) +8.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -51,19 +55,19 @@
       },
       "developer": {
         "weight": 15,
-        "points": 7.5,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "GitHub 데이터 없음"
+        "points": 13.32,
+        "raw_value": 31.83,
+        "percentile": 88.78,
+        "missing": false,
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.27배 (가속), 릴리즈 30일 10건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.88,
-        "raw_value": 67.81,
-        "percentile": 68.75,
-        "missing": false,
-        "reason": "프로토콜 수수료 30일 +55.5%"
+        "points": 5.0,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "수수료 데이터 없음"
       },
       "catalyst": {
         "weight": 10,
@@ -83,13 +87,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 7.0,
-        "sector_percentile": 70.0,
-        "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 70.0 (높을수록 저평가)"
+        "points": 5.0,
+        "sector_percentile": null,
+        "missing": true,
+        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.1 (기본 62.1) = VPD +17.9 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.0 + 과열필터 -0.0"
+    "summary": "총점 63.0 (기본 63.0) = VPD +16.8 + 온체인 +12.5 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,14 +105,14 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
-    "coverage": 0.714,
+    "score": 60.4,
+    "coverage": 0.571,
     "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 17.90250266160837,
-    "return_90d_pct": 37.04355376005484,
+    "return_30d_pct": 8.442075230873192,
+    "return_90d_pct": -7.305166132196319,
     "rsi_14": null,
     "ma_200d_deviation_pct": null,
     "high_90d_position_pct": null
@@ -118,8 +122,8 @@
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.235884,
-  "market_cap_usd": 109091054,
+  "price_usd": 0.072217,
+  "market_cap_usd": 141434078,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -130,8 +134,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "missing",
-      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+      "status": "not_applicable",
+      "reason": "no_coingecko_description"
     },
     "primary_use_case": {
       "status": "missing",
@@ -168,21 +172,6 @@
       ]
     },
     "stablecoin_inflow_usd": null,
-    "fees_24h_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 26937
-        },
-        {
-          "label": "30일 전",
-          "value": 31195
-        },
-        {
-          "label": "현재",
-          "value": 48513
-        }
-      ]
-    }
+    "fees_24h_usd": null
   }
 }
