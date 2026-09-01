@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 16,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 13,
-  "rank_change": 1,
+  "previous_rank": 12,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,36 +28,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 64.15,
-    "base_score": 64.15,
+    "final_score": 60.69,
+    "base_score": 60.69,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.06,
-        "fg_raw_pct": 6.74,
-        "fg_z": -0.09,
-        "pg_raw_pct": 28.47,
-        "pg_z": -0.05,
-        "vpd": -0.04,
-        "percentile": 40.31,
+        "points": 7.04,
+        "fg_raw_pct": 1.21,
+        "fg_z": -0.16,
+        "pg_raw_pct": 27.54,
+        "pg_z": -0.07,
+        "vpd": -0.09,
+        "percentile": 35.2,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +6.7%, PG(가격 변화) +28.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +1.2%, PG(가격 변화) +27.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.32,
-        "raw_value": 41.73,
-        "percentile": 93.28,
+        "points": 21.92,
+        "raw_value": 25.77,
+        "percentile": 87.68,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +31.0%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +16.2%"
       },
       "developer": {
         "weight": 15,
-        "points": 12.4,
+        "points": 11.41,
         "raw_value": -3.9,
-        "percentile": 82.65,
+        "percentile": 76.04,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.92배 (둔화), 릴리즈 30일 1건"
       },
@@ -72,16 +72,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.37,
+        "points": 5.32,
         "raw_value": 0.0,
-        "percentile": 53.74,
+        "percentile": 53.24,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.2 (기본 64.2) = VPD +8.1 + 온체인 +23.3 + 개발자 +12.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.7 (기본 60.7) = VPD +7.0 + 온체인 +21.9 + 개발자 +11.4 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 67.9,
-    "coverage": 0.714,
-    "freshness": 0.812,
+    "score": 54.7,
+    "coverage": 0.571,
+    "freshness": 0.562,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 28.46580406654342,
-    "return_90d_pct": 14.854849359360198,
-    "rsi_14": 74.12,
-    "ma_200d_deviation_pct": 8.777126173359836,
-    "high_90d_position_pct": -8.58299332501338
+    "return_30d_pct": 27.541589648798503,
+    "return_90d_pct": 14.028555479077031,
+    "rsi_14": 73.75,
+    "ma_200d_deviation_pct": 7.998069221948849,
+    "high_90d_position_pct": -9.240669632027672
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.39,
-  "market_cap_usd": 86908271971,
+  "price_usd": 1.38,
+  "market_cap_usd": 86550232993,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -183,7 +183,7 @@
         },
         {
           "label": "현재",
-          "value": 1123695829.44
+          "value": 997168543.47
         }
       ]
     },

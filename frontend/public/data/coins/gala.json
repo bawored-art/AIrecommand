@@ -1,11 +1,11 @@
 {
-  "rank": 9,
+  "rank": 7,
   "coin_id": "gala",
   "symbol": "gala",
   "name": "GALA",
-  "badge": null,
-  "previous_rank": 9,
-  "rank_change": 0,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 67.28,
-    "base_score": 67.28,
+    "final_score": 64.9,
+    "base_score": 64.9,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.46,
-        "fg_raw_pct": 108.7,
-        "fg_z": 0.88,
-        "pg_raw_pct": -17.29,
-        "pg_z": -0.33,
-        "vpd": 1.21,
-        "percentile": 97.31,
+        "points": 17.86,
+        "fg_raw_pct": 61.5,
+        "fg_z": 0.21,
+        "pg_raw_pct": -1.01,
+        "pg_z": -0.3,
+        "vpd": 0.51,
+        "percentile": 89.29,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +108.7%, PG(가격 변화) -17.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +61.5%, PG(가격 변화) -1.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,11 +56,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.51,
-        "raw_value": 104.35,
-        "percentile": 96.74,
+        "points": 14.22,
+        "raw_value": 110.75,
+        "percentile": 94.79,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 2.09배 (가속), 릴리즈 30일 6건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.61배 (가속), 릴리즈 30일 13건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -73,16 +73,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "LLM 미가용으로 촉매 분석 결측"
+        "raw_value": 0,
+        "percentile": 50.0,
+        "missing": false,
+        "reason": "향후 촉매 없음"
       },
       "risk": {
         "weight": 10,
-        "points": 5.81,
+        "points": 5.32,
         "raw_value": 0.0,
-        "percentile": 58.07,
+        "percentile": 53.24,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,37 +94,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 67.3 (기본 67.3) = VPD +19.5 + 온체인 +12.5 + 개발자 +14.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.8 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 64.9 (기본 64.9) = VPD +17.9 + 온체인 +12.5 + 개발자 +14.2 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": null,
+    "catalysts": [],
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 47.1,
-    "coverage": 0.429,
-    "freshness": 0.5,
+    "score": 62.2,
+    "coverage": 0.571,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -17.294982779484318,
-    "return_90d_pct": -48.91297364955788,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -1.010288621729934,
+    "return_90d_pct": -38.13271577745708,
+    "rsi_14": 61.61,
+    "ma_200d_deviation_pct": -46.44416602230958,
+    "high_90d_position_pct": -35.857597031407195
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00168815,
-  "market_cap_usd": 83476835,
+  "price_usd": 0.00175877,
+  "market_cap_usd": 87549176,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
