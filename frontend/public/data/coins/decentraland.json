@@ -4,8 +4,8 @@
   "symbol": "mana",
   "name": "Decentraland",
   "badge": null,
-  "previous_rank": 15,
-  "rank_change": 2,
+  "previous_rank": 13,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 62.68,
-    "base_score": 62.68,
+    "final_score": 63.25,
+    "base_score": 63.25,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.46,
+        "points": 16.63,
         "fg_raw_pct": 27.3,
-        "fg_z": 0.08,
-        "pg_raw_pct": 10.07,
-        "pg_z": -0.22,
-        "vpd": 0.3,
-        "percentile": 82.32,
+        "fg_z": 0.09,
+        "pg_raw_pct": 9.43,
+        "pg_z": -0.23,
+        "vpd": 0.32,
+        "percentile": 83.16,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +27.3%, PG(가격 변화) +10.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +27.3%, PG(가격 변화) +9.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,9 +55,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 13.28,
+        "points": 13.59,
         "raw_value": 38.65,
-        "percentile": 88.54,
+        "percentile": 90.62,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.27배 (가속), 릴리즈 30일 10건"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.38,
+        "percentile": 55.32,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.7 (기본 62.7) = VPD +16.5 + 온체인 +12.5 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.2 (기본 63.2) = VPD +16.6 + 온체인 +12.5 + 개발자 +13.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 10.072532983105495,
-    "return_90d_pct": -4.885706916605144,
+    "return_30d_pct": 9.42779535550117,
+    "return_90d_pct": -5.442828316575676,
     "rsi_14": 64.46,
-    "ma_200d_deviation_pct": -10.707491731761378,
-    "high_90d_position_pct": -5.133936878086183
+    "ma_200d_deviation_pct": -11.230512674256996,
+    "high_90d_position_pct": -5.689604298647611
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.073753,
-  "market_cap_usd": 144433799,
+  "price_usd": 0.073321,
+  "market_cap_usd": 143561272,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

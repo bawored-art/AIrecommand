@@ -1,10 +1,10 @@
 {
-  "rank": 7,
+  "rank": 6,
   "coin_id": "gala",
   "symbol": "gala",
   "name": "GALA",
   "badge": null,
-  "previous_rank": 8,
+  "previous_rank": 7,
   "rank_change": 1,
   "overview": {
     "one_liner": null,
@@ -29,22 +29,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.75,
-    "base_score": 65.75,
+    "final_score": 66.03,
+    "base_score": 66.03,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.28,
+        "points": 18.47,
         "fg_raw_pct": 65.0,
-        "fg_z": 0.4,
-        "pg_raw_pct": -3.01,
+        "fg_z": 0.41,
+        "pg_raw_pct": -4.07,
         "pg_z": -0.36,
-        "vpd": 0.76,
-        "percentile": 91.41,
+        "vpd": 0.77,
+        "percentile": 92.35,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +65.0%, PG(가격 변화) -3.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +65.0%, PG(가격 변화) -4.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -80,9 +80,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.53,
         "raw_value": 0.0,
-        "percentile": 54.38,
+        "percentile": 55.32,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -94,7 +94,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.8 (기본 65.8) = VPD +18.3 + 온체인 +12.5 + 개발자 +14.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.0 (기본 66.0) = VPD +18.5 + 온체인 +12.5 + 개발자 +14.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,25 +106,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -3.0103925583051456,
-    "return_90d_pct": -39.10280534618106,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -4.07245860779776,
+    "return_90d_pct": -39.769648368409435,
+    "rsi_14": 59.38,
+    "ma_200d_deviation_pct": -47.06880667052558,
+    "high_90d_position_pct": -37.116907330369266
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00174333,
-  "market_cap_usd": 86799176,
+  "price_usd": 0.00172424,
+  "market_cap_usd": 86000562,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
