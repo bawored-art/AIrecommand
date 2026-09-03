@@ -1,8 +1,8 @@
 {
-  "rank": 14,
-  "coin_id": "axie-infinity",
-  "symbol": "axs",
-  "name": "Axie Infinity",
+  "rank": 17,
+  "coin_id": "floki",
+  "symbol": "floki",
+  "name": "FLOKI",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
@@ -15,54 +15,47 @@
       "Gaming (GameFi)",
       "NFT",
       "BNB Chain Ecosystem",
-      "Axie Infinity Ecosystem",
       "Metaverse",
+      "Meme",
       "Play To Earn",
-      "Harmony Ecosystem",
       "Ethereum Ecosystem",
-      "Animoca Brands Portfolio",
-      "Alleged SEC Securities",
-      "Binance Launchpad",
-      "Ronin Ecosystem",
-      "Card Games",
-      "Breeding",
-      "Paradigm Portfolio",
-      "Gaming Governance Token",
-      "Gaming Utility Token",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "Energi Ecosystem",
-      "YZi Labs (Prev. Binance Labs) Portfolio",
-      "Consensys Portfolio",
-      "Coinbase 50 Index"
+      "Telegram Apps",
+      "Dog-Themed",
+      "DWF Labs Portfolio",
+      "RPG",
+      "On-chain Gaming",
+      "TokenFi Launchpad",
+      "GMCI Meme Index",
+      "GMCI Index"
     ],
     "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 62.04,
-    "base_score": 62.04,
+    "final_score": 60.96,
+    "base_score": 60.96,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.58,
-        "fg_raw_pct": 50.95,
-        "fg_z": 0.54,
-        "pg_raw_pct": 12.17,
+        "points": 15.68,
+        "fg_raw_pct": 24.08,
+        "fg_z": 0.2,
+        "pg_raw_pct": 18.85,
         "pg_z": -0.09,
-        "vpd": 0.63,
-        "percentile": 87.89,
+        "vpd": 0.28,
+        "percentile": 78.42,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +51.0%, PG(가격 변화) +12.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +24.1%, PG(가격 변화) +18.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 12.5,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "TVL 30일 N/A"
+        "points": 21.02,
+        "raw_value": 20.53,
+        "percentile": 84.09,
+        "missing": false,
+        "reason": "TVL 30일 +24.1%"
       },
       "developer": {
         "weight": 15,
@@ -74,11 +67,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.49,
-        "raw_value": 25.03,
-        "percentile": 54.88,
-        "missing": false,
-        "reason": "프로토콜 수수료 30일 +51.0%"
+        "points": 5.0,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "수수료 데이터 없음"
       },
       "catalyst": {
         "weight": 10,
@@ -98,13 +91,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 8.46,
-        "sector_percentile": 84.6,
+        "points": 1.25,
+        "sector_percentile": 12.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 84.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 12.5, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.0 (기본 62.0) = VPD +17.6 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.5 + 과열필터 -0.0"
+    "summary": "총점 61.0 (기본 61.0) = VPD +15.7 + 온체인 +21.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +1.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -116,25 +109,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 60.4,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.562,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 12.169890817384351,
-    "return_90d_pct": -9.551608387354312,
-    "rsi_14": 45.39,
-    "ma_200d_deviation_pct": -15.537344884165865,
-    "high_90d_position_pct": -20.249332106138308
+    "return_30d_pct": 18.84689922480621,
+    "return_90d_pct": -1.7725995302927,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.925138,
-  "market_cap_usd": 161384219,
+  "price_usd": 2.453e-05,
+  "market_cap_usd": 236684903,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -170,34 +163,19 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 10125831
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 9546027.778310103
         },
         {
           "label": "현재",
-          "value": null
+          "value": 11844498.324416194
         }
       ]
     },
     "stablecoin_inflow_usd": null,
-    "fees_24h_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 3841
-        },
-        {
-          "label": "30일 전",
-          "value": 2522
-        },
-        {
-          "label": "현재",
-          "value": 3807
-        }
-      ]
-    }
+    "fees_24h_usd": null
   }
 }

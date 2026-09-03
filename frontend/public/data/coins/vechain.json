@@ -1,11 +1,11 @@
 {
-  "rank": 19,
+  "rank": 13,
   "coin_id": "vechain",
   "symbol": "vet",
   "name": "VeChain",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 19,
+  "rank_change": 6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -22,38 +22,38 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 60.71,
-    "base_score": 60.71,
+    "final_score": 63.26,
+    "base_score": 63.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.59,
-        "fg_raw_pct": 44.06,
-        "fg_z": 0.23,
-        "pg_raw_pct": 37.6,
-        "pg_z": 0.05,
-        "vpd": 0.19,
-        "percentile": 72.96,
-        "quadrant": "co_movement",
-        "quadrant_label": "동반 상승 (펀더멘털·가격 함께 개선)",
+        "points": 17.37,
+        "fg_raw_pct": 45.81,
+        "fg_z": 0.48,
+        "pg_raw_pct": 42.95,
+        "pg_z": -0.06,
+        "vpd": 0.54,
+        "percentile": 86.84,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +44.1%, PG(가격 변화) +37.6% → 동반 상승 (펀더멘털·가격 함께 개선)"
+        "reason": "FG(펀더멘털 성장) +45.8%, PG(가격 변화) +43.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 12.31,
+        "points": 11.55,
         "raw_value": 0.0,
-        "percentile": 49.26,
+        "percentile": 46.21,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 13.28,
-        "raw_value": 35.25,
-        "percentile": 88.54,
+        "points": 13.83,
+        "raw_value": 61.65,
+        "percentile": 92.22,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.71배 (가속), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.73배 (가속), 릴리즈 30일 2건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -73,9 +73,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.53,
+        "points": 5.51,
         "raw_value": 0.0,
-        "percentile": 55.32,
+        "percentile": 55.14,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -87,7 +87,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 60.7 (기본 60.7) = VPD +14.6 + 온체인 +12.3 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.3 (기본 63.3) = VPD +17.4 + 온체인 +11.6 + 개발자 +13.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -105,19 +105,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 37.59743984286867,
-    "return_90d_pct": 16.29258304144004,
-    "rsi_14": 72.92,
-    "ma_200d_deviation_pct": -1.3250211492677753,
-    "high_90d_position_pct": -8.918841825449718
+    "return_30d_pct": 42.950985238012706,
+    "return_90d_pct": 25.30865418597998,
+    "rsi_14": 72.05,
+    "ma_200d_deviation_pct": 1.6625644901742116,
+    "high_90d_position_pct": -6.400936224052699
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00650108,
-  "market_cap_usd": 558965956,
+  "price_usd": 0.0066808,
+  "market_cap_usd": 574807477,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
