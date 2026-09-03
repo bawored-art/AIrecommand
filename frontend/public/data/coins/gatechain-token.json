@@ -1,54 +1,53 @@
 {
-  "rank": 6,
-  "coin_id": "venice-token",
-  "symbol": "vvv",
-  "name": "Venice Token",
-  "badge": null,
-  "previous_rank": 8,
-  "rank_change": 2,
+  "rank": 11,
+  "coin_id": "gatechain-token",
+  "symbol": "gt",
+  "name": "Gate",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": "CoinGecko",
+    "description_source": null,
     "primary_use_case": null,
     "categories": [
-      "Artificial Intelligence (AI)",
-      "Base Ecosystem",
-      "AI Agents",
-      "AI Applications",
-      "Binance Alpha Spotlight",
-      "Made in USA",
-      "Base Native",
-      "Venice Ecosystem"
+      "Smart Contract Platform",
+      "Exchange-based Tokens",
+      "Centralized Exchange (CEX) Token",
+      "Ethereum Ecosystem",
+      "Proof of Stake (PoS)",
+      "Made in China",
+      "GateLayer Ecosystem"
     ],
-    "chain": "Base",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 65.75,
-    "base_score": 65.75,
+    "final_score": 62.49,
+    "base_score": 65.49,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.29,
-        "fg_raw_pct": 104.99,
-        "fg_z": 2.0,
-        "pg_raw_pct": 44.24,
-        "pg_z": -0.07,
-        "vpd": 2.07,
-        "percentile": 96.43,
+        "points": 16.22,
+        "fg_raw_pct": 31.46,
+        "fg_z": 0.58,
+        "pg_raw_pct": 31.14,
+        "pg_z": -0.08,
+        "vpd": 0.67,
+        "percentile": 81.12,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +105.0%, PG(가격 변화) +44.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +31.5%, PG(가격 변화) +31.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 12.5,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "TVL 30일 N/A"
+        "points": 22.61,
+        "raw_value": 33.62,
+        "percentile": 90.44,
+        "missing": false,
+        "reason": "TVL 30일 +31.5%"
       },
       "developer": {
         "weight": 15,
@@ -60,11 +59,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.62,
-        "raw_value": 262.4,
-        "percentile": 96.25,
-        "missing": false,
-        "reason": "프로토콜 수수료 30일 +105.0%"
+        "points": 5.0,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "수수료 데이터 없음"
       },
       "catalyst": {
         "weight": 10,
@@ -76,21 +75,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
-        "raw_value": 0.0,
-        "percentile": 54.13,
+        "points": 0.41,
+        "raw_value": 2.0,
+        "percentile": 4.13,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0034로 낮음"
       },
       "valuation": {
         "weight": 10,
-        "points": 6.43,
-        "sector_percentile": 64.3,
+        "points": 8.75,
+        "sector_percentile": 87.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 64.3 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 87.5, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.8 (기본 65.8) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +6.4 + 과열필터 -0.0"
+    "summary": "총점 62.5 (기본 65.5) = VPD +16.2 + 온체인 +22.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.4 + 밸류에이션 +8.8 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -102,25 +101,27 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 62.3,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.625,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 44.237288135593204,
-    "return_90d_pct": 1.9728469697610056,
-    "rsi_14": 63.97,
-    "ma_200d_deviation_pct": 51.03107395359204,
-    "high_90d_position_pct": -5.75540610771564
+    "return_30d_pct": 31.142581943642718,
+    "return_90d_pct": 30.37656728636722,
+    "rsi_14": 73.14,
+    "ma_200d_deviation_pct": 22.222900897277015,
+    "high_90d_position_pct": -0.18760076688247068
   },
   "overheat": {
     "excluded": false,
-    "penalty": 0.0,
-    "reasons": []
+    "penalty": 3.0,
+    "reasons": [
+      "90일 고점 대비 -0.2% (-5% 이내) (-3)"
+    ]
   },
-  "price_usd": 17.02,
-  "market_cap_usd": 813105181,
+  "price_usd": 8.47,
+  "market_cap_usd": 904295346,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -131,8 +132,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "missing",
-      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
+      "status": "not_applicable",
+      "reason": "no_coingecko_description"
     },
     "primary_use_case": {
       "status": "missing",
@@ -156,34 +157,19 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 0
+          "value": 5067797227
         },
         {
           "label": "30일 전",
-          "value": 0
+          "value": 5234503866
         },
         {
           "label": "현재",
-          "value": 0
+          "value": 6881243698.86586
         }
       ]
     },
     "stablecoin_inflow_usd": null,
-    "fees_24h_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 2884
-        },
-        {
-          "label": "30일 전",
-          "value": 7313
-        },
-        {
-          "label": "현재",
-          "value": 14991
-        }
-      ]
-    }
+    "fees_24h_usd": null
   }
 }

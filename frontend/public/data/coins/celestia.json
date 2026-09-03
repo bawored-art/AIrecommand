@@ -1,83 +1,78 @@
 {
-  "rank": 8,
-  "coin_id": "lido-dao",
-  "symbol": "ldo",
-  "name": "Lido DAO",
-  "badge": null,
-  "previous_rank": 7,
-  "rank_change": -1,
+  "rank": 19,
+  "coin_id": "celestia",
+  "symbol": "tia",
+  "name": "Celestia",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
-    "description_source": null,
+    "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Infrastructure",
-      "Decentralized Finance (DeFi)",
-      "Polygon Ecosystem",
-      "Arbitrum Ecosystem",
-      "Ethereum Ecosystem",
-      "Optimism Ecosystem",
-      "Liquid Staking Governance Tokens",
+      "Smart Contract Platform",
+      "Cosmos Ecosystem",
+      "Layer 1 (L1)",
+      "Data Availability",
+      "Modular Blockchain",
+      "Osmosis Ecosystem",
       "eGirl Capital Portfolio",
-      "Paradigm Portfolio",
       "Coinbase Ventures Portfolio",
-      "Multicoin Capital Portfolio",
-      "Index Coop Defi Index",
-      "Alameda Research Portfolio",
-      "DragonFly Capital Portfolio",
-      "Andreessen Horowitz (a16z) Portfolio",
-      "GMCI DeFi Index",
+      "Proof of Stake (PoS)",
+      "Secret Ecosystem",
+      "YZi Labs (Prev. Binance Labs) Portfolio",
       "Delphi Ventures Portfolio",
-      "Liquid Staking",
-      "GMCI Index",
-      "Coinbase 50 Index",
-      "Governance"
+      "Galaxy Digital Portfolio",
+      "Blockchain Capital Portfolio",
+      "OKX Ventures Portfolio",
+      "Polychain Capital Portfolio"
     ],
-    "chain": "Ethereum",
+    "chain": null,
     "launch_year": null
   },
   "score": {
-    "final_score": 64.94,
-    "base_score": 67.94,
+    "final_score": 60.0,
+    "base_score": 60.0,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.47,
-        "fg_raw_pct": -3.2,
-        "fg_z": -0.08,
-        "pg_raw_pct": 40.12,
-        "pg_z": -0.07,
-        "vpd": -0.01,
-        "percentile": 42.35,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 15.0,
+        "fg_raw_pct": 22.94,
+        "fg_z": 0.42,
+        "pg_raw_pct": 8.16,
+        "pg_z": -0.11,
+        "vpd": 0.53,
+        "percentile": 75.0,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -3.2%, PG(가격 변화) +40.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +22.9%, PG(가격 변화) +8.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.71,
-        "raw_value": 46.18,
-        "percentile": 94.85,
-        "missing": false,
-        "reason": "TVL 30일 +37.4%"
+        "points": 12.5,
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "TVL 30일 N/A"
       },
       "developer": {
         "weight": 15,
-        "points": 9.73,
-        "raw_value": -21.65,
-        "percentile": 64.89,
+        "points": 12.61,
+        "raw_value": 15.8,
+        "percentile": 84.04,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 0.07배 (둔화), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 0.82배 (둔화), 릴리즈 30일 9건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.62,
-        "raw_value": 27.63,
-        "percentile": 56.25,
+        "points": 6.62,
+        "raw_value": 51.84,
+        "percentile": 66.25,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +30.1%"
+        "reason": "프로토콜 수수료 30일 +64.3%"
       },
       "catalyst": {
         "weight": 10,
@@ -97,13 +92,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 10.0,
-        "sector_percentile": 100.0,
+        "points": 2.86,
+        "sector_percentile": 28.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 28.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 64.9 (기본 67.9) = VPD +8.5 + 온체인 +23.7 + 개발자 +9.7 + 사용자 +5.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -3.0"
+    "summary": "총점 60.0 (기본 60.0) = VPD +15.0 + 온체인 +12.5 + 개발자 +12.6 + 사용자 +6.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +2.9 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,27 +110,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 86.2,
-    "coverage": 1.0,
+    "score": 75.5,
+    "coverage": 0.857,
     "freshness": 0.875,
-    "consistency": 0.667
+    "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 40.12434156942109,
-    "return_90d_pct": 42.569823494868515,
-    "rsi_14": 66.76,
-    "ma_200d_deviation_pct": 8.025655742374996,
-    "high_90d_position_pct": -1.3922956166393485
+    "return_30d_pct": 8.161995973387796,
+    "return_90d_pct": 8.898873234962494,
+    "rsi_14": 56.22,
+    "ma_200d_deviation_pct": -8.204758486254331,
+    "high_90d_position_pct": -11.82500444962086
   },
   "overheat": {
     "excluded": false,
-    "penalty": 3.0,
-    "reasons": [
-      "90일 고점 대비 -1.4% (-5% 이내) (-3)"
-    ]
+    "penalty": 0.0,
+    "reasons": []
   },
-  "price_usd": 0.393975,
-  "market_cap_usd": 328494179,
+  "price_usd": 0.366932,
+  "market_cap_usd": 353540062,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -146,8 +139,8 @@
       "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "description_summary": {
-      "status": "not_applicable",
-      "reason": "no_coingecko_description"
+      "status": "missing",
+      "reason": "llm_unavailable: no LLM provider configured (missing API key or SDK)"
     },
     "primary_use_case": {
       "status": "missing",
@@ -171,15 +164,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 15697048335
+          "value": null
         },
         {
           "label": "30일 전",
-          "value": 17699668610.027714
+          "value": null
         },
         {
           "label": "현재",
-          "value": 24321426879.779514
+          "value": null
         }
       ]
     },
@@ -188,15 +181,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1221088
+          "value": 66
         },
         {
           "label": "30일 전",
-          "value": 1175583
+          "value": 56
         },
         {
           "label": "현재",
-          "value": 1528939
+          "value": 92
         }
       ]
     }
