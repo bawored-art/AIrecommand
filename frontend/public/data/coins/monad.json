@@ -26,30 +26,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 77.7,
-    "base_score": 77.7,
+    "final_score": 75.88,
+    "base_score": 75.88,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.08,
-        "fg_raw_pct": 97.53,
-        "fg_z": 1.86,
-        "pg_raw_pct": 28.87,
-        "pg_z": -0.08,
-        "vpd": 1.94,
-        "percentile": 95.41,
+        "points": 18.45,
+        "fg_raw_pct": 65.75,
+        "fg_z": 0.81,
+        "pg_raw_pct": 21.56,
+        "pg_z": -0.1,
+        "vpd": 0.9,
+        "percentile": 92.27,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +97.5%, PG(가격 변화) +28.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +65.7%, PG(가격 변화) +21.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 24.08,
-        "raw_value": 52.11,
-        "percentile": 96.32,
+        "points": 22.98,
+        "raw_value": 52.48,
+        "percentile": 91.91,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +24.4%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +27.6%"
       },
       "developer": {
         "weight": 15,
@@ -61,11 +61,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.88,
-        "raw_value": 101.4,
-        "percentile": 78.75,
+        "points": 7.82,
+        "raw_value": 127.03,
+        "percentile": 78.21,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +141.4%"
+        "reason": "프로토콜 수수료 30일 +88.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.38,
         "raw_value": 0.0,
-        "percentile": 54.13,
+        "percentile": 53.85,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 87.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 77.7 (기본 77.7) = VPD +19.1 + 온체인 +24.1 + 개발자 +7.5 + 사용자 +7.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.8 + 과열필터 -0.0"
+    "summary": "총점 75.9 (기본 75.9) = VPD +18.4 + 온체인 +23.0 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 28.870210865898198,
-    "return_90d_pct": 23.39700623366942,
-    "rsi_14": 50.39,
-    "ma_200d_deviation_pct": 8.673320813265514,
-    "high_90d_position_pct": -15.717944393199346
+    "return_30d_pct": 21.559383197413975,
+    "return_90d_pct": 21.384231038157235,
+    "rsi_14": 40.03,
+    "ma_200d_deviation_pct": 4.166740258359339,
+    "high_90d_position_pct": -19.171512309619175
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02662465,
-  "market_cap_usd": 314771854,
+  "price_usd": 0.02553367,
+  "market_cap_usd": 301750405,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -173,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 423598956
+          "value": 425403297
         },
         {
           "label": "30일 전",
-          "value": 612103259
+          "value": 591089624
         },
         {
           "label": "현재",
-          "value": 761611397.22
+          "value": 754396261.98
         }
       ]
     },
@@ -189,15 +189,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 9697
+          "value": 5171
         },
         {
           "label": "30일 전",
-          "value": 6484
+          "value": 7277
         },
         {
           "label": "현재",
-          "value": 15652
+          "value": 13726
         }
       ]
     }

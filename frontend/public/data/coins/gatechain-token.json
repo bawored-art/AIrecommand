@@ -1,11 +1,11 @@
 {
-  "rank": 11,
+  "rank": 14,
   "coin_id": "gatechain-token",
   "symbol": "gt",
   "name": "Gate",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 11,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,30 +24,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.49,
-    "base_score": 65.49,
+    "final_score": 62.32,
+    "base_score": 65.32,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.22,
-        "fg_raw_pct": 31.46,
-        "fg_z": 0.58,
-        "pg_raw_pct": 31.14,
-        "pg_z": -0.08,
-        "vpd": 0.67,
-        "percentile": 81.12,
+        "points": 16.8,
+        "fg_raw_pct": 32.38,
+        "fg_z": 0.34,
+        "pg_raw_pct": 28.7,
+        "pg_z": -0.09,
+        "vpd": 0.43,
+        "percentile": 84.02,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +31.5%, PG(가격 변화) +31.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) +28.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.61,
-        "raw_value": 33.62,
-        "percentile": 90.44,
+        "points": 21.88,
+        "raw_value": 39.23,
+        "percentile": 87.5,
         "missing": false,
-        "reason": "TVL 30일 +31.5%"
+        "reason": "TVL 30일 +32.4%"
       },
       "developer": {
         "weight": 15,
@@ -75,11 +75,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.41,
+        "points": 0.39,
         "raw_value": 2.0,
-        "percentile": 4.13,
+        "percentile": 3.85,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0034로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0038로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -89,7 +89,7 @@
         "reason": "MC/TVL 백분위 87.5, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.5 (기본 65.5) = VPD +16.2 + 온체인 +22.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.4 + 밸류에이션 +8.8 + 과열필터 -3.0"
+    "summary": "총점 62.3 (기본 65.3) = VPD +16.8 + 온체인 +21.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.4 + 밸류에이션 +8.8 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -107,21 +107,21 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 31.142581943642718,
-    "return_90d_pct": 30.37656728636722,
-    "rsi_14": 73.14,
-    "ma_200d_deviation_pct": 22.222900897277015,
-    "high_90d_position_pct": -0.18760076688247068
+    "return_30d_pct": 28.699602918069424,
+    "return_90d_pct": 34.30993328164861,
+    "rsi_14": 65.93,
+    "ma_200d_deviation_pct": 19.962808078846937,
+    "high_90d_position_pct": -2.02345169771063
   },
   "overheat": {
     "excluded": false,
     "penalty": 3.0,
     "reasons": [
-      "90일 고점 대비 -0.2% (-5% 이내) (-3)"
+      "90일 고점 대비 -2.0% (-5% 이내) (-3)"
     ]
   },
-  "price_usd": 8.47,
-  "market_cap_usd": 904295346,
+  "price_usd": 8.32,
+  "market_cap_usd": 886819692,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -157,15 +157,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 5067797227
+          "value": 4763770079
         },
         {
           "label": "30일 전",
-          "value": 5234503866
+          "value": 5256762204
         },
         {
           "label": "현재",
-          "value": 6881243698.86586
+          "value": 6958841331.146514
         }
       ]
     },
