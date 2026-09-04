@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 4,
   "coin_id": "gnosis",
   "symbol": "gno",
   "name": "Gnosis",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": -3,
+  "previous_rank": 10,
+  "rank_change": 6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,36 +28,36 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 64.18,
-    "base_score": 64.18,
+    "final_score": 69.65,
+    "base_score": 69.65,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.07,
+        "points": 19.28,
         "fg_raw_pct": 129.62,
-        "fg_z": 1.7,
-        "pg_raw_pct": 12.94,
+        "fg_z": 1.66,
+        "pg_raw_pct": 12.36,
         "pg_z": -0.11,
-        "vpd": 1.81,
-        "percentile": 95.36,
+        "vpd": 1.78,
+        "percentile": 96.39,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +129.6%, PG(가격 변화) +12.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +129.6%, PG(가격 변화) +12.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 14.89,
+        "points": 15.11,
         "raw_value": 7.32,
-        "percentile": 59.56,
+        "percentile": 60.45,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +12.3%"
       },
       "developer": {
         "weight": 15,
-        "points": 14.83,
+        "points": 14.84,
         "raw_value": 200.0,
-        "percentile": 98.89,
+        "percentile": 98.94,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -79,11 +79,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.39,
-        "raw_value": 2.0,
-        "percentile": 3.85,
+        "points": 5.42,
+        "raw_value": 0.0,
+        "percentile": 54.15,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0073로 낮음"
+        "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 64.2 (기본 64.2) = VPD +19.1 + 온체인 +14.9 + 개발자 +14.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 69.7 (기본 69.7) = VPD +19.3 + 온체인 +15.1 + 개발자 +14.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 12.943918401279056,
-    "return_90d_pct": 29.473688791204488,
+    "return_30d_pct": 12.355467852724392,
+    "return_90d_pct": 28.79911627529541,
     "rsi_14": 34.72,
-    "ma_200d_deviation_pct": -0.2538340221769267,
-    "high_90d_position_pct": -34.55292417668549
+    "ma_200d_deviation_pct": -0.7735227926455979,
+    "high_90d_position_pct": -34.89391082045233
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 117.08,
-  "market_cap_usd": 309040727,
+  "price_usd": 116.47,
+  "market_cap_usd": 307473812,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
