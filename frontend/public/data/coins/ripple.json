@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 17,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 8,
-  "rank_change": -6,
+  "previous_rank": 14,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.82,
-    "base_score": 63.82,
+    "final_score": 60.51,
+    "base_score": 60.51,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 11.53,
+        "points": 12.19,
         "fg_raw_pct": 8.42,
-        "fg_z": 0.0,
+        "fg_z": -0.02,
         "pg_raw_pct": 34.41,
         "pg_z": -0.09,
-        "vpd": 0.1,
-        "percentile": 57.65,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "vpd": 0.08,
+        "percentile": 60.94,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +8.4%, PG(가격 변화) +34.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +8.4%, PG(가격 변화) +34.4% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,11 +55,11 @@
       },
       "developer": {
         "weight": 15,
-        "points": 10.87,
-        "raw_value": 1.25,
-        "percentile": 72.45,
+        "points": 6.86,
+        "raw_value": -48.75,
+        "percentile": 45.74,
         "missing": false,
-        "reason": "커밋 페이스(30일/90일 평균 대비) 1.02배 (가속), 릴리즈 30일 1건"
+        "reason": "커밋 페이스(30일/90일 평균 대비) 1.02배 (가속), 릴리즈 30일 0건"
       },
       "user_ecosystem": {
         "weight": 10,
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 54.61,
+        "percentile": 54.98,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 63.8 (기본 63.8) = VPD +11.5 + 온체인 +21.0 + 개발자 +10.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.5 (기본 60.5) = VPD +12.2 + 온체인 +21.0 + 개발자 +6.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -123,7 +123,7 @@
     "reasons": []
   },
   "price_usd": 1.41,
-  "market_cap_usd": 88738902078,
+  "market_cap_usd": 88848481647,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

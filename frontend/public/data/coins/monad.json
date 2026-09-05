@@ -4,8 +4,8 @@
   "symbol": "mon",
   "name": "Monad",
   "badge": null,
-  "previous_rank": 1,
-  "rank_change": -1,
+  "previous_rank": 2,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 72.74,
-    "base_score": 72.74,
+    "final_score": 73.12,
+    "base_score": 73.12,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.43,
+        "points": 16.77,
         "fg_raw_pct": 36.22,
-        "fg_z": 0.43,
-        "pg_raw_pct": 19.91,
+        "fg_z": 0.35,
+        "pg_raw_pct": 20.12,
         "pg_z": -0.11,
-        "vpd": 0.54,
-        "percentile": 82.14,
+        "vpd": 0.46,
+        "percentile": 83.85,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +36.2%, PG(가격 변화) +19.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +36.2%, PG(가격 변화) +20.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.46,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 54.61,
+        "percentile": 54.98,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 87.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 72.7 (기본 72.7) = VPD +16.4 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.8 + 과열필터 -0.0"
+    "summary": "총점 73.1 (기본 73.1) = VPD +16.8 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +6.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 19.912134300811086,
-    "return_90d_pct": 18.946574662602227,
+    "return_30d_pct": 20.123250744351417,
+    "return_90d_pct": 19.155991148769328,
     "rsi_14": 40.19,
-    "ma_200d_deviation_pct": 2.3956615596906334,
-    "high_90d_position_pct": -20.509944774688638
+    "ma_200d_deviation_pct": 2.5759386269656774,
+    "high_90d_position_pct": -20.36999515362782
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02511086,
-  "market_cap_usd": 296847552,
+  "price_usd": 0.02515507,
+  "market_cap_usd": 297453813,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
