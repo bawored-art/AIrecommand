@@ -1,11 +1,11 @@
 {
-  "rank": 8,
+  "rank": 14,
   "coin_id": "ripple",
   "symbol": "xrp",
   "name": "XRP",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": 1,
+  "previous_rank": 8,
+  "rank_change": -6,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,36 +28,36 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.77,
-    "base_score": 65.77,
+    "final_score": 63.82,
+    "base_score": 63.82,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.89,
-        "fg_raw_pct": 8.13,
-        "fg_z": 0.01,
-        "pg_raw_pct": 31.7,
+        "points": 11.53,
+        "fg_raw_pct": 8.42,
+        "fg_z": 0.0,
+        "pg_raw_pct": 34.41,
         "pg_z": -0.09,
         "vpd": 0.1,
-        "percentile": 64.43,
+        "percentile": 57.65,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +8.1%, PG(가격 변화) +31.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +8.4%, PG(가격 변화) +34.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.45,
-        "raw_value": 32.49,
-        "percentile": 85.82,
+        "points": 20.96,
+        "raw_value": 32.36,
+        "percentile": 83.85,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +18.2%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +18.3%"
       },
       "developer": {
         "weight": 15,
-        "points": 11.01,
-        "raw_value": 1.05,
-        "percentile": 73.4,
+        "points": 10.87,
+        "raw_value": 1.25,
+        "percentile": 72.45,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.02배 (가속), 릴리즈 30일 1건"
       },
@@ -72,16 +72,16 @@
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.46,
         "raw_value": 0.0,
-        "percentile": 54.15,
+        "percentile": 54.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,37 +93,37 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.8 (기본 65.8) = VPD +12.9 + 온체인 +21.4 + 개발자 +11.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.8 (기본 63.8) = VPD +11.5 + 온체인 +21.0 + 개발자 +10.9 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 82.9,
-    "coverage": 0.714,
-    "freshness": 0.812,
+    "score": 69.7,
+    "coverage": 0.571,
+    "freshness": 0.562,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 31.70272812793979,
-    "return_90d_pct": 27.58770709890423,
-    "rsi_14": 46.22,
-    "ma_200d_deviation_pct": 9.701119930217232,
-    "high_90d_position_pct": -7.925317017999086
+    "return_30d_pct": 34.413727359389895,
+    "return_90d_pct": 29.00572717153095,
+    "rsi_14": 45.32,
+    "ma_200d_deviation_pct": 10.524349335359139,
+    "high_90d_position_pct": -7.267640710984794
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 1.4,
-  "market_cap_usd": 87653742429,
+  "price_usd": 1.41,
+  "market_cap_usd": 88738902078,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -179,11 +179,11 @@
         },
         {
           "label": "30일 전",
-          "value": 944835573
+          "value": 941578370
         },
         {
           "label": "현재",
-          "value": 1116696757.91
+          "value": 1113881301.37
         }
       ]
     },

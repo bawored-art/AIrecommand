@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 13,
   "coin_id": "gatechain-token",
   "symbol": "gt",
   "name": "Gate",
   "badge": null,
   "previous_rank": 14,
-  "rank_change": 0,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -24,30 +24,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.25,
-    "base_score": 65.25,
+    "final_score": 63.87,
+    "base_score": 63.87,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.39,
-        "fg_raw_pct": 29.97,
-        "fg_z": 0.31,
-        "pg_raw_pct": 29.63,
+        "points": 15.61,
+        "fg_raw_pct": 31.17,
+        "fg_z": 0.35,
+        "pg_raw_pct": 37.42,
         "pg_z": -0.09,
-        "vpd": 0.4,
-        "percentile": 81.96,
+        "vpd": 0.44,
+        "percentile": 78.06,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +30.0%, PG(가격 변화) +29.6% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +31.2%, PG(가격 변화) +37.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.2,
-        "raw_value": 36.7,
-        "percentile": 88.81,
+        "points": 21.73,
+        "raw_value": 37.12,
+        "percentile": 86.92,
         "missing": false,
-        "reason": "TVL 30일 +30.0%"
+        "reason": "TVL 30일 +31.2%"
       },
       "developer": {
         "weight": 15,
@@ -75,21 +75,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 0.41,
+        "points": 0.46,
         "raw_value": 2.0,
-        "percentile": 4.15,
+        "percentile": 4.61,
         "missing": false,
-        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0029로 낮음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0028로 낮음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.75,
-        "sector_percentile": 87.5,
+        "points": 8.57,
+        "sector_percentile": 85.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 87.5, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 85.7, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.2 (기본 65.2) = VPD +16.4 + 온체인 +22.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.4 + 밸류에이션 +8.8 + 과열필터 -3.0"
+    "summary": "총점 63.9 (기본 63.9) = VPD +15.6 + 온체인 +21.7 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -101,27 +101,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.3,
+    "score": 60.4,
     "coverage": 0.714,
-    "freshness": 0.625,
+    "freshness": 0.562,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 29.627725054497816,
-    "return_90d_pct": 35.278514531275896,
-    "rsi_14": 65.93,
-    "ma_200d_deviation_pct": 20.827924483261704,
-    "high_90d_position_pct": -1.3168900512998833
+    "return_30d_pct": 37.42181297138057,
+    "return_90d_pct": 46.11672592555572,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
-    "penalty": 3.0,
-    "reasons": [
-      "90일 고점 대비 -1.3% (-5% 이내) (-3)"
-    ]
+    "penalty": 0.0,
+    "reasons": []
   },
-  "price_usd": 8.38,
-  "market_cap_usd": 893631218,
+  "price_usd": 8.99,
+  "market_cap_usd": 958621240,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -157,15 +155,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 4763770079
+          "value": 4866850277
         },
         {
           "label": "30일 전",
-          "value": 5256762204
+          "value": 5308480022
         },
         {
           "label": "현재",
-          "value": 6832352926.185703
+          "value": 6963105528.020203
         }
       ]
     },

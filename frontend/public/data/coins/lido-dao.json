@@ -38,46 +38,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.48,
-    "base_score": 65.48,
+    "final_score": 63.88,
+    "base_score": 66.88,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.14,
-        "fg_raw_pct": -5.23,
+        "points": 7.86,
+        "fg_raw_pct": -2.93,
         "fg_z": -0.17,
-        "pg_raw_pct": 32.66,
-        "pg_z": -0.09,
-        "vpd": -0.08,
-        "percentile": 40.72,
+        "pg_raw_pct": 28.71,
+        "pg_z": -0.1,
+        "vpd": -0.07,
+        "percentile": 39.29,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -5.2%, PG(가격 변화) +32.7% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -2.9%, PG(가격 변화) +28.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.95,
-        "raw_value": 49.52,
-        "percentile": 91.79,
+        "points": 23.66,
+        "raw_value": 51.66,
+        "percentile": 94.62,
         "missing": false,
-        "reason": "TVL 30일 +31.9%"
+        "reason": "TVL 30일 +32.0%"
       },
       "developer": {
         "weight": 15,
-        "points": 9.1,
+        "points": 8.72,
         "raw_value": -21.65,
-        "percentile": 60.64,
+        "percentile": 58.16,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.07배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 4.87,
-        "raw_value": 24.17,
-        "percentile": 48.68,
+        "points": 6.18,
+        "raw_value": 49.87,
+        "percentile": 61.84,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +30.8%"
+        "reason": "프로토콜 수수료 30일 +38.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.42,
+        "points": 5.46,
         "raw_value": 0.0,
-        "percentile": 54.15,
+        "percentile": 54.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.5 (기본 65.5) = VPD +8.1 + 온체인 +22.9 + 개발자 +9.1 + 사용자 +4.9 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -3.0"
+    "summary": "총점 63.9 (기본 66.9) = VPD +7.9 + 온체인 +23.7 + 개발자 +8.7 + 사용자 +6.2 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,21 +121,21 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 32.661810742530776,
-    "return_90d_pct": 49.942001618247296,
-    "rsi_14": 55.81,
-    "ma_200d_deviation_pct": 6.1947887207132215,
-    "high_90d_position_pct": -3.2679632012548816
+    "return_30d_pct": 28.71003626269109,
+    "return_90d_pct": 49.128189654837854,
+    "rsi_14": 54.57,
+    "ma_200d_deviation_pct": 5.47205206008869,
+    "high_90d_position_pct": -4.144726418349661
   },
   "overheat": {
     "excluded": false,
     "penalty": 3.0,
     "reasons": [
-      "90일 고점 대비 -3.3% (-5% 이내) (-3)"
+      "90일 고점 대비 -4.1% (-5% 이내) (-3)"
     ]
   },
-  "price_usd": 0.386481,
-  "market_cap_usd": 321864935,
+  "price_usd": 0.382978,
+  "market_cap_usd": 319416210,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,15 +171,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 14231325135
+          "value": 13901377303
         },
         {
           "label": "30일 전",
-          "value": 18026283809.400913
+          "value": 18046614049.222145
         },
         {
           "label": "현재",
-          "value": 23782599120.060356
+          "value": 23819087470.719864
         }
       ]
     },
@@ -188,15 +188,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1315233
+          "value": 1033540
         },
         {
           "label": "30일 전",
-          "value": 1181585
+          "value": 1202269
         },
         {
           "label": "현재",
-          "value": 1545756
+          "value": 1665913
         }
       ]
     }
