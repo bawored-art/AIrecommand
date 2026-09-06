@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 4,
   "coin_id": "okb",
   "symbol": "okb",
   "name": "OKB",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": 8,
+  "previous_rank": 3,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,30 +27,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 69.51,
-    "base_score": 72.51,
+    "final_score": 69.67,
+    "base_score": 72.67,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.4,
-        "fg_raw_pct": 44.02,
-        "fg_z": 0.45,
-        "pg_raw_pct": 31.99,
-        "pg_z": -0.1,
-        "vpd": 0.54,
-        "percentile": 86.98,
+        "points": 17.58,
+        "fg_raw_pct": 42.47,
+        "fg_z": 0.3,
+        "pg_raw_pct": 25.8,
+        "pg_z": -0.14,
+        "vpd": 0.44,
+        "percentile": 87.89,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +44.0%, PG(가격 변화) +32.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +42.5%, PG(가격 변화) +25.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.11,
-        "raw_value": 41.58,
-        "percentile": 88.46,
+        "points": 22.07,
+        "raw_value": 38.5,
+        "percentile": 88.28,
         "missing": false,
-        "reason": "TVL 30일 +44.0%"
+        "reason": "TVL 30일 +42.5%"
       },
       "developer": {
         "weight": 15,
@@ -78,9 +78,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 54.98,
+        "percentile": 55.21,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -92,7 +92,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 69.5 (기본 72.5) = VPD +17.4 + 온체인 +22.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -3.0"
+    "summary": "총점 69.7 (기본 72.7) = VPD +17.6 + 온체인 +22.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,21 +110,21 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 31.994878957169455,
-    "return_90d_pct": 64.34158605751152,
-    "rsi_14": 55.06,
-    "ma_200d_deviation_pct": 31.069201539541403,
-    "high_90d_position_pct": -2.0901814240954626
+    "return_30d_pct": 25.796460176991143,
+    "return_90d_pct": 56.56010165130895,
+    "rsi_14": 52.44,
+    "ma_200d_deviation_pct": 31.159943887574215,
+    "high_90d_position_pct": -1.8225503178567657
   },
   "overheat": {
     "excluded": false,
     "penalty": 3.0,
     "reasons": [
-      "90일 고점 대비 -2.1% (-5% 이내) (-3)"
+      "90일 고점 대비 -1.8% (-5% 이내) (-3)"
     ]
   },
-  "price_usd": 113.41,
-  "market_cap_usd": 2381495461,
+  "price_usd": 113.72,
+  "market_cap_usd": 2387850142,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -160,15 +160,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 21883935497
+          "value": 22483445800
         },
         {
           "label": "30일 전",
-          "value": 21143197350.582226
+          "value": 21229967017.154617
         },
         {
           "label": "현재",
-          "value": 30449627663.49542
+          "value": 30246022331.739395
         }
       ]
     },

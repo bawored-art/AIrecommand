@@ -1,11 +1,11 @@
 {
-  "rank": 16,
+  "rank": 14,
   "coin_id": "aethir",
   "symbol": "ath",
   "name": "Aethir",
-  "badge": null,
-  "previous_rank": 17,
-  "rank_change": 1,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,22 +26,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 58.96,
-    "base_score": 58.96,
+    "final_score": 63.33,
+    "base_score": 63.33,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.0,
-        "fg_raw_pct": null,
-        "fg_z": null,
-        "pg_raw_pct": -7.33,
-        "pg_z": -0.33,
-        "vpd": null,
-        "percentile": null,
-        "quadrant": "unknown",
-        "quadrant_label": "판단 불가 (FG 또는 PG 데이터 부족)",
-        "missing": true,
-        "reason": "FG 또는 PG 계산 불가로 VPD 결측"
+        "points": 19.26,
+        "fg_raw_pct": 100.0,
+        "fg_z": 0.8,
+        "pg_raw_pct": 16.49,
+        "pg_z": -0.16,
+        "vpd": 0.96,
+        "percentile": 96.32,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "missing": false,
+        "reason": "FG(펀더멘털 성장) +100.0%, PG(가격 변화) +16.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -61,11 +61,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.56,
-        "raw_value": 128.49,
-        "percentile": 85.56,
+        "points": 8.55,
+        "raw_value": 100.0,
+        "percentile": 85.53,
         "missing": false,
-        "reason": "수수료 데이터 없음"
+        "reason": "프로토콜 수수료 30일 +100.0%"
       },
       "catalyst": {
         "weight": 10,
@@ -77,21 +77,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.4,
+        "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 54.03,
+        "percentile": 55.21,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 10.0,
-        "sector_percentile": 100.0,
-        "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
+        "points": 5.0,
+        "sector_percentile": null,
+        "missing": true,
+        "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 59.0 (기본 59.0) = VPD +10.0 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 63.3 (기본 63.3) = VPD +19.3 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -7.328708910220081,
-    "return_90d_pct": -30.625099623352938,
-    "rsi_14": 52.56,
-    "ma_200d_deviation_pct": -36.14577031606752,
-    "high_90d_position_pct": -43.12095017308546
+    "return_30d_pct": 16.491159933563594,
+    "return_90d_pct": 6.6915911079453005,
+    "rsi_14": 47.06,
+    "ma_200d_deviation_pct": -13.751861671479734,
+    "high_90d_position_pct": -8.211689938939912
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.00421132,
-  "market_cap_usd": 84766271,
+  "price_usd": 0.00473733,
+  "market_cap_usd": 95296388,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -174,15 +174,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 329659
-        },
-        {
-          "label": "30일 전",
           "value": 0
         },
         {
+          "label": "30일 전",
+          "value": -3.68
+        },
+        {
           "label": "현재",
-          "value": 753245
+          "value": 0
         }
       ]
     }
