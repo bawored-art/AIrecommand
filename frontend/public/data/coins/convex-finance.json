@@ -4,8 +4,8 @@
   "symbol": "cvx",
   "name": "Convex Finance",
   "badge": null,
-  "previous_rank": 1,
-  "rank_change": -1,
+  "previous_rank": 2,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,28 +25,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 76.14,
-    "base_score": 76.14,
+    "final_score": 76.23,
+    "base_score": 76.23,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.89,
+        "points": 19.9,
         "fg_raw_pct": 939.24,
-        "fg_z": 8.04,
-        "pg_raw_pct": 59.18,
+        "fg_z": 8.12,
+        "pg_raw_pct": 59.86,
         "pg_z": -0.07,
-        "vpd": 8.11,
-        "percentile": 99.47,
+        "vpd": 8.19,
+        "percentile": 99.48,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +939.2%, PG(가격 변화) +59.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +939.2%, PG(가격 변화) +59.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.73,
+        "points": 19.81,
         "raw_value": 21.91,
-        "percentile": 78.91,
+        "percentile": 79.23,
         "missing": false,
         "reason": "TVL 30일 +28.7%"
       },
@@ -78,7 +78,7 @@
         "weight": 10,
         "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 55.21,
+        "percentile": 55.16,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 72.7, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 76.1 (기본 76.1) = VPD +19.9 + 온체인 +19.7 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 76.2 (기본 76.2) = VPD +19.9 + 온체인 +19.8 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -102,25 +102,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 88.7,
+    "score": 90.5,
     "coverage": 0.857,
-    "freshness": 0.812,
+    "freshness": 0.875,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 59.18367346938774,
-    "return_90d_pct": 85.29402791987276,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 59.8639455782313,
+    "return_90d_pct": 86.08588274004317,
+    "rsi_14": 56.81,
+    "ma_200d_deviation_pct": 40.2847975774784,
+    "high_90d_position_pct": -5.381111972855876
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.34,
-  "market_cap_usd": 217834324,
+  "price_usd": 2.35,
+  "market_cap_usd": 219394741,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -4,8 +4,8 @@
   "symbol": "mon",
   "name": "Monad",
   "badge": null,
-  "previous_rank": 2,
-  "rank_change": 1,
+  "previous_rank": 1,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,28 +26,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 78.06,
-    "base_score": 78.06,
+    "final_score": 78.12,
+    "base_score": 78.12,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.84,
+        "points": 18.87,
         "fg_raw_pct": 74.34,
-        "fg_z": 0.58,
-        "pg_raw_pct": 29.47,
+        "fg_z": 0.59,
+        "pg_raw_pct": 29.2,
         "pg_z": -0.13,
-        "vpd": 0.71,
-        "percentile": 94.21,
+        "vpd": 0.72,
+        "percentile": 94.33,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +74.3%, PG(가격 변화) +29.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +74.3%, PG(가격 변화) +29.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.63,
+        "points": 23.66,
         "raw_value": 49.36,
-        "percentile": 94.53,
+        "percentile": 94.62,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.3%"
       },
@@ -79,7 +79,7 @@
         "weight": 10,
         "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 55.21,
+        "percentile": 55.16,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 87.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 78.1 (기본 78.1) = VPD +18.8 + 온체인 +23.6 + 개발자 +7.5 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.8 + 과열필터 -0.0"
+    "summary": "총점 78.1 (기본 78.1) = VPD +18.9 + 온체인 +23.7 + 개발자 +7.5 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 84.9,
+    "score": 86.8,
     "coverage": 0.857,
-    "freshness": 0.688,
+    "freshness": 0.75,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 29.46712892553644,
-    "return_90d_pct": 21.82815444340015,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 29.199143715898195,
+    "return_90d_pct": 21.57598121781536,
+    "rsi_14": 38.46,
+    "ma_200d_deviation_pct": 9.49520696502593,
+    "high_90d_position_pct": -14.886065611960491
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02694321,
-  "market_cap_usd": 319528809,
+  "price_usd": 0.02688744,
+  "market_cap_usd": 318180864,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

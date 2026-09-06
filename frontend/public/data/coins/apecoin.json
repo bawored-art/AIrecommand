@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 8,
   "coin_id": "apecoin",
   "symbol": "ape",
   "name": "ApeCoin",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": -4,
+  "previous_rank": 10,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,28 +38,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.74,
-    "base_score": 65.74,
+    "final_score": 65.88,
+    "base_score": 65.88,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.26,
+        "points": 15.36,
         "fg_raw_pct": 19.04,
         "fg_z": 0.1,
-        "pg_raw_pct": 8.83,
+        "pg_raw_pct": 7.28,
         "pg_z": -0.18,
         "vpd": 0.28,
-        "percentile": 76.32,
+        "percentile": 76.8,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +19.0%, PG(가격 변화) +8.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +19.0%, PG(가격 변화) +7.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.46,
+        "points": 22.5,
         "raw_value": 46.43,
-        "percentile": 89.84,
+        "percentile": 90.0,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.0%"
       },
@@ -91,7 +91,7 @@
         "weight": 10,
         "points": 5.52,
         "raw_value": 0.0,
-        "percentile": 55.21,
+        "percentile": 55.16,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.7 (기본 65.7) = VPD +15.3 + 온체인 +22.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 65.9 (기본 65.9) = VPD +15.4 + 온체인 +22.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,19 +121,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 8.826106000876042,
-    "return_90d_pct": 18.853994526158825,
+    "return_30d_pct": 7.27944175087227,
+    "return_90d_pct": 17.16481137830022,
     "rsi_14": 44.9,
-    "ma_200d_deviation_pct": 1.3944854243214089,
-    "high_90d_position_pct": -14.275440746808624
+    "ma_200d_deviation_pct": -0.046558747120910404,
+    "high_90d_position_pct": -15.493779948830369
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.144101,
-  "market_cap_usd": 143927359,
+  "price_usd": 0.142053,
+  "market_cap_usd": 142050163,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
