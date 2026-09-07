@@ -1,11 +1,11 @@
 {
-  "rank": 9,
+  "rank": 7,
   "coin_id": "lido-dao",
   "symbol": "ldo",
   "name": "Lido DAO",
   "badge": null,
-  "previous_rank": 5,
-  "rank_change": -4,
+  "previous_rank": 9,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,46 +38,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.61,
-    "base_score": 66.61,
+    "final_score": 67.8,
+    "base_score": 67.8,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 6.91,
-        "fg_raw_pct": -2.53,
-        "fg_z": -0.12,
-        "pg_raw_pct": 39.83,
-        "pg_z": -0.08,
-        "vpd": -0.04,
-        "percentile": 34.54,
+        "points": 8.97,
+        "fg_raw_pct": -1.98,
+        "fg_z": -0.17,
+        "pg_raw_pct": 35.9,
+        "pg_z": -0.1,
+        "vpd": -0.07,
+        "percentile": 44.85,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.5%, PG(가격 변화) +39.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -2.0%, PG(가격 변화) +35.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.32,
-        "raw_value": 48.62,
-        "percentile": 93.28,
+        "points": 23.3,
+        "raw_value": 47.77,
+        "percentile": 93.18,
         "missing": false,
-        "reason": "TVL 30일 +33.6%"
+        "reason": "TVL 30일 +32.9%"
       },
       "developer": {
         "weight": 15,
-        "points": 9.1,
+        "points": 9.29,
         "raw_value": -20.95,
-        "percentile": 60.64,
+        "percentile": 61.96,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.08배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.79,
-        "raw_value": 36.67,
-        "percentile": 67.95,
+        "points": 5.77,
+        "raw_value": 39.6,
+        "percentile": 57.69,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +36.2%"
+        "reason": "프로토콜 수수료 30일 +39.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.47,
         "raw_value": 0.0,
-        "percentile": 54.91,
+        "percentile": 54.69,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.6 (기본 66.6) = VPD +6.9 + 온체인 +23.3 + 개발자 +9.1 + 사용자 +6.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 67.8 (기본 67.8) = VPD +9.0 + 온체인 +23.3 + 개발자 +9.3 + 사용자 +5.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,25 +115,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 84.4,
+    "score": 86.2,
     "coverage": 1.0,
-    "freshness": 0.812,
+    "freshness": 0.875,
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 39.83039449316647,
-    "return_90d_pct": 52.40460088482924,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 35.89891263488606,
+    "return_90d_pct": 48.119581696626526,
+    "rsi_14": 58.26,
+    "ma_200d_deviation_pct": 8.957341428621797,
+    "high_90d_position_pct": -5.442117497512488
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.405462,
-  "market_cap_usd": 337917136,
+  "price_usd": 0.394062,
+  "market_cap_usd": 328635681,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -177,7 +177,7 @@
         },
         {
           "label": "현재",
-          "value": 24260650933.327316
+          "value": 24123438420.300003
         }
       ]
     },
@@ -194,7 +194,7 @@
         },
         {
           "label": "현재",
-          "value": 1603892
+          "value": 1638217
         }
       ]
     }

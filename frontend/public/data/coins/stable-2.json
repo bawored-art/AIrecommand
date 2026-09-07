@@ -1,11 +1,11 @@
 {
-  "rank": 6,
+  "rank": 9,
   "coin_id": "stable-2",
   "symbol": "stable",
   "name": "​​Stable",
   "badge": null,
-  "previous_rank": 4,
-  "rank_change": -2,
+  "previous_rank": 6,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,28 +25,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.4,
-    "base_score": 68.4,
+    "final_score": 66.08,
+    "base_score": 66.08,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.84,
+        "points": 15.57,
         "fg_raw_pct": 20.84,
-        "fg_z": -0.07,
-        "pg_raw_pct": -10.83,
-        "pg_z": -0.21,
-        "vpd": 0.14,
-        "percentile": 89.18,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "fg_z": 0.14,
+        "pg_raw_pct": -11.36,
+        "pg_z": -0.2,
+        "vpd": 0.34,
+        "percentile": 77.84,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +20.8%, PG(가격 변화) -10.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +20.8%, PG(가격 변화) -11.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.57,
+        "points": 22.54,
         "raw_value": 44.16,
-        "percentile": 90.3,
+        "percentile": 90.15,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +20.8%"
       },
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.47,
         "raw_value": 0.0,
-        "percentile": 54.91,
+        "percentile": 54.69,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 68.4 (기본 68.4) = VPD +17.8 + 온체인 +22.6 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.1 (기본 66.1) = VPD +15.6 + 온체인 +22.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -10.825153939862954,
-    "return_90d_pct": -10.82561017372546,
+    "return_30d_pct": -11.356635662054769,
+    "return_90d_pct": -11.357089176765298,
     "rsi_14": 50.56,
-    "ma_200d_deviation_pct": -8.076536160677648,
-    "high_90d_position_pct": -25.53000270757722
+    "ma_200d_deviation_pct": -8.624399633727137,
+    "high_90d_position_pct": -25.973843590530983
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.02950002,
-  "market_cap_usd": 770086269,
+  "price_usd": 0.0293242,
+  "market_cap_usd": 765382303,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
