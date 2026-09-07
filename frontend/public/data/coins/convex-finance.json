@@ -25,30 +25,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 76.23,
-    "base_score": 76.23,
+    "final_score": 74.68,
+    "base_score": 74.68,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.9,
-        "fg_raw_pct": 939.24,
-        "fg_z": 8.12,
-        "pg_raw_pct": 59.86,
-        "pg_z": -0.07,
-        "vpd": 8.19,
-        "percentile": 99.48,
+        "points": 19.48,
+        "fg_raw_pct": 448.69,
+        "fg_z": 0.9,
+        "pg_raw_pct": 47.37,
+        "pg_z": -0.06,
+        "vpd": 0.96,
+        "percentile": 97.42,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +939.2%, PG(가격 변화) +59.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +448.7%, PG(가격 변화) +47.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.81,
-        "raw_value": 21.91,
-        "percentile": 79.23,
+        "points": 19.22,
+        "raw_value": 21.38,
+        "percentile": 76.87,
         "missing": false,
-        "reason": "TVL 30일 +28.7%"
+        "reason": "TVL 30일 +26.2%"
       },
       "developer": {
         "weight": 15,
@@ -60,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.87,
-        "raw_value": 1471.96,
-        "percentile": 98.68,
+        "points": 9.36,
+        "raw_value": 714.92,
+        "percentile": 93.59,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +2214.0%"
+        "reason": "프로토콜 수수료 30일 +1040.2%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.52,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.16,
+        "percentile": 54.91,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 72.7, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 76.2 (기본 76.2) = VPD +19.9 + 온체인 +19.8 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
+    "summary": "총점 74.7 (기본 74.7) = VPD +19.5 + 온체인 +19.2 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 59.8639455782313,
-    "return_90d_pct": 86.08588274004317,
-    "rsi_14": 56.81,
-    "ma_200d_deviation_pct": 40.2847975774784,
-    "high_90d_position_pct": -5.381111972855876
+    "return_30d_pct": 47.36842105263159,
+    "return_90d_pct": 78.57906069156945,
+    "rsi_14": 50.76,
+    "ma_200d_deviation_pct": 33.689865108701426,
+    "high_90d_position_pct": -9.81008119965836
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.35,
-  "market_cap_usd": 219394741,
+  "price_usd": 2.24,
+  "market_cap_usd": 209055522,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -156,11 +156,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 520775955
+          "value": 514299399
         },
         {
           "label": "30일 전",
-          "value": 465714066.2446462
+          "value": 474952285.40512234
         },
         {
           "label": "현재",
@@ -173,11 +173,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 12937
+          "value": 21926
         },
         {
           "label": "30일 전",
-          "value": 4640
+          "value": 9417
         },
         {
           "label": "현재",

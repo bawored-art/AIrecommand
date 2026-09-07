@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 4,
   "coin_id": "plasma",
   "symbol": "xpl",
   "name": "Plasma",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": 2,
+  "previous_rank": 7,
+  "rank_change": 3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,30 +23,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.21,
-    "base_score": 66.21,
+    "final_score": 69.65,
+    "base_score": 69.65,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.66,
-        "fg_raw_pct": 68.11,
-        "fg_z": 0.53,
-        "pg_raw_pct": 17.4,
-        "pg_z": -0.16,
-        "vpd": 0.69,
-        "percentile": 93.3,
+        "points": 19.69,
+        "fg_raw_pct": 425.67,
+        "fg_z": 0.85,
+        "pg_raw_pct": 20.14,
+        "pg_z": -0.13,
+        "vpd": 0.97,
+        "percentile": 98.45,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +68.1%, PG(가격 변화) +17.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +425.7%, PG(가격 변화) +20.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 15.19,
-        "raw_value": 7.48,
-        "percentile": 60.77,
+        "points": 17.35,
+        "raw_value": 12.24,
+        "percentile": 69.4,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +18.6%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +20.8%"
       },
       "developer": {
         "weight": 15,
@@ -58,11 +58,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.34,
-        "raw_value": 610.26,
-        "percentile": 93.42,
+        "points": 9.62,
+        "raw_value": 924.76,
+        "percentile": 96.15,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +97.8%"
+        "reason": "프로토콜 수수료 30일 +668.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.52,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 55.16,
+        "percentile": 54.91,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -88,7 +88,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 50.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.2 (기본 66.2) = VPD +18.7 + 온체인 +15.2 + 개발자 +7.5 + 사용자 +9.3 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 69.7 (기본 69.7) = VPD +19.7 + 온체인 +17.4 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +106,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 17.395358610998006,
-    "return_90d_pct": 28.977637734646628,
-    "rsi_14": 37.53,
-    "ma_200d_deviation_pct": -4.9746593891414514,
-    "high_90d_position_pct": -20.687195407631894
+    "return_30d_pct": 20.13871589463885,
+    "return_90d_pct": 30.84997737078428,
+    "rsi_14": 43.65,
+    "ma_200d_deviation_pct": -2.5773141180952885,
+    "high_90d_position_pct": -18.695191667562227
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.089386,
-  "market_cap_usd": 248400597,
+  "price_usd": 0.091631,
+  "market_cap_usd": 254284461,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -170,15 +170,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1004434123
+          "value": 957014819
         },
         {
           "label": "30일 전",
-          "value": 815423370
+          "value": 820975775
         },
         {
           "label": "현재",
-          "value": 967397387.35
+          "value": 991972564.08
         }
       ]
     },
@@ -186,11 +186,11 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 22
+          "value": 21
         },
         {
           "label": "30일 전",
-          "value": 136
+          "value": 35
         },
         {
           "label": "현재",
