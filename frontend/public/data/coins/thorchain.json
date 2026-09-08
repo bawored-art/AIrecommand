@@ -1,8 +1,8 @@
 {
-  "rank": 18,
-  "coin_id": "1inch",
-  "symbol": "1inch",
-  "name": "1INCH",
+  "rank": 8,
+  "coin_id": "thorchain",
+  "symbol": "rune",
+  "name": "THORChain",
   "badge": "NEW",
   "previous_rank": null,
   "rank_change": null,
@@ -13,61 +13,44 @@
     "primary_use_case": null,
     "categories": [
       "Decentralized Exchange (DEX)",
+      "Infrastructure",
+      "Smart Contract Platform",
       "Exchange-based Tokens",
       "Decentralized Finance (DeFi)",
-      "Automated Market Maker (AMM)",
-      "BNB Chain Ecosystem",
-      "Avalanche Ecosystem",
-      "Arbitrum Ecosystem",
-      "Ethereum Ecosystem",
-      "Optimism Ecosystem",
-      "ZkSync Ecosystem",
-      "Linea Ecosystem",
-      "Base Ecosystem",
-      "FTX Holdings",
-      "Alameda Research Portfolio",
-      "DragonFly Capital Portfolio",
-      "Pantera Capital Portfolio",
-      "YZi Labs (Prev. Binance Labs) Portfolio",
-      "GMCI DeFi Index",
-      "Galaxy Digital Portfolio",
-      "Blockchain Capital Portfolio",
-      "Dex Aggregator",
-      "GMCI Index",
-      "Unichain Ecosystem",
-      "Coinbase 50 Index",
-      "Governance",
-      "Base Native",
-      "Robinhood Ecosystem"
+      "Layer 1 (L1)",
+      "Bridge Governance Tokens",
+      "Multicoin Capital Portfolio",
+      "Proof of Stake (PoS)",
+      "Delphi Ventures Portfolio"
     ],
-    "chain": "Ethereum",
+    "chain": "Thorchain",
     "launch_year": null
   },
   "score": {
-    "final_score": 61.71,
-    "base_score": 61.71,
+    "final_score": 64.83,
+    "base_score": 64.83,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.1,
-        "fg_raw_pct": 21.77,
-        "fg_z": 0.12,
-        "pg_raw_pct": 8.12,
+        "points": 18.1,
+        "fg_raw_pct": 74.86,
+        "fg_z": 0.68,
+        "pg_raw_pct": 9.65,
         "pg_z": -0.15,
-        "vpd": 0.26,
-        "percentile": 75.5,
+        "vpd": 0.83,
+        "percentile": 90.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +21.8%, PG(가격 변화) +8.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +74.9%, PG(가격 변화) +9.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.45,
-        "raw_value": 27.72,
-        "percentile": 85.82,
+        "points": 13.25,
+        "raw_value": 3.02,
+        "percentile": 52.99,
         "missing": false,
-        "reason": "TVL 30일 +21.8%"
+        "reason": "TVL 30일 -1.2%"
       },
       "developer": {
         "weight": 15,
@@ -79,11 +62,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": null,
-        "percentile": null,
-        "missing": true,
-        "reason": "수수료 데이터 없음"
+        "points": 8.12,
+        "raw_value": 181.38,
+        "percentile": 81.25,
+        "missing": false,
+        "reason": "프로토콜 수수료 30일 +181.4%"
       },
       "catalyst": {
         "weight": 10,
@@ -103,13 +86,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 2.22,
-        "sector_percentile": 22.2,
+        "points": 7.42,
+        "sector_percentile": 74.25,
         "missing": false,
-        "reason": "MC/TVL 백분위 22.2, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 55.6, MC/Fees 백분위 92.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.7 (기본 61.7) = VPD +15.1 + 온체인 +21.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +2.2 + 과열필터 -0.0"
+    "summary": "총점 64.8 (기본 64.8) = VPD +18.1 + 온체인 +13.2 + 개발자 +7.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.4 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,14 +104,14 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.3,
-    "coverage": 0.714,
-    "freshness": 0.625,
+    "score": 71.8,
+    "coverage": 0.857,
+    "freshness": 0.75,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 8.124335184966306,
-    "return_90d_pct": 29.75353307019824,
+    "return_30d_pct": 9.650584657538017,
+    "return_90d_pct": 22.00468340638962,
     "rsi_14": null,
     "ma_200d_deviation_pct": null,
     "high_90d_position_pct": null
@@ -138,8 +121,8 @@
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.091484,
-  "market_cap_usd": 128584921,
+  "price_usd": 0.477025,
+  "market_cap_usd": 156877408,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,19 +158,34 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 2394024
+          "value": 50800986
         },
         {
           "label": "30일 전",
-          "value": 2627754.432842756
+          "value": 55171021.71400067
         },
         {
           "label": "현재",
-          "value": 3199857.925542858
+          "value": 54493652.95003211
         }
       ]
     },
     "stablecoin_inflow_usd": null,
-    "fees_24h_usd": null
+    "fees_24h_usd": {
+      "points": [
+        {
+          "label": "90일 전",
+          "value": 0
+        },
+        {
+          "label": "30일 전",
+          "value": 13212
+        },
+        {
+          "label": "현재",
+          "value": 37176
+        }
+      ]
+    }
   }
 }

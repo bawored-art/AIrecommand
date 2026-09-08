@@ -1,10 +1,10 @@
 {
-  "rank": 7,
+  "rank": 5,
   "coin_id": "lido-dao",
   "symbol": "ldo",
   "name": "Lido DAO",
   "badge": null,
-  "previous_rank": 9,
+  "previous_rank": 7,
   "rank_change": 2,
   "overview": {
     "one_liner": null,
@@ -38,46 +38,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 67.8,
-    "base_score": 67.8,
+    "final_score": 67.56,
+    "base_score": 67.56,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.97,
-        "fg_raw_pct": -1.98,
-        "fg_z": -0.17,
-        "pg_raw_pct": 35.9,
+        "points": 8.9,
+        "fg_raw_pct": -3.55,
+        "fg_z": -0.15,
+        "pg_raw_pct": 33.08,
         "pg_z": -0.1,
-        "vpd": -0.07,
-        "percentile": 44.85,
+        "vpd": -0.05,
+        "percentile": 44.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.0%, PG(가격 변화) +35.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) +33.1% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.3,
-        "raw_value": 47.77,
-        "percentile": 93.18,
+        "points": 22.95,
+        "raw_value": 48.0,
+        "percentile": 91.79,
         "missing": false,
-        "reason": "TVL 30일 +32.9%"
+        "reason": "TVL 30일 +31.9%"
       },
       "developer": {
         "weight": 15,
-        "points": 9.29,
+        "points": 9.15,
         "raw_value": -20.95,
-        "percentile": 61.96,
+        "percentile": 61.0,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.08배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.77,
-        "raw_value": 39.6,
-        "percentile": 57.69,
+        "points": 6.12,
+        "raw_value": 45.55,
+        "percentile": 61.25,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +39.1%"
+        "reason": "프로토콜 수수료 30일 +35.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.47,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.69,
+        "percentile": 54.4,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 67.8 (기본 67.8) = VPD +9.0 + 온체인 +23.3 + 개발자 +9.3 + 사용자 +5.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 67.6 (기본 67.6) = VPD +8.9 + 온체인 +22.9 + 개발자 +9.2 + 사용자 +6.1 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,19 +121,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 35.89891263488606,
-    "return_90d_pct": 48.119581696626526,
-    "rsi_14": 58.26,
-    "ma_200d_deviation_pct": 8.957341428621797,
-    "high_90d_position_pct": -5.442117497512488
+    "return_30d_pct": 33.08222349696942,
+    "return_90d_pct": 47.97871139810509,
+    "rsi_14": 59.92,
+    "ma_200d_deviation_pct": 6.670287762109564,
+    "high_90d_position_pct": -7.588771620130894
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.394062,
-  "market_cap_usd": 328635681,
+  "price_usd": 0.385116,
+  "market_cap_usd": 321159795,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -169,15 +169,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 14829323500
+          "value": 14612225997
         },
         {
           "label": "30일 전",
-          "value": 18154890691.65982
+          "value": 18174635783.314625
         },
         {
           "label": "현재",
-          "value": 24123438420.300003
+          "value": 23976630045.14672
         }
       ]
     },
@@ -186,15 +186,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1169688
+          "value": 1051359
         },
         {
           "label": "30일 전",
-          "value": 1177411
+          "value": 1213433
         },
         {
           "label": "현재",
-          "value": 1638217
+          "value": 1639816
         }
       ]
     }
