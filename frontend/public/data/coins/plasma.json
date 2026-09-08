@@ -1,11 +1,11 @@
 {
-  "rank": 4,
+  "rank": 5,
   "coin_id": "plasma",
   "symbol": "xpl",
   "name": "Plasma",
   "badge": null,
   "previous_rank": 4,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,28 +23,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 68.61,
-    "base_score": 68.61,
+    "final_score": 68.2,
+    "base_score": 68.2,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.7,
+        "points": 19.49,
         "fg_raw_pct": 392.3,
-        "fg_z": 4.05,
-        "pg_raw_pct": 19.71,
-        "pg_z": -0.13,
-        "vpd": 4.18,
-        "percentile": 98.5,
+        "fg_z": 3.74,
+        "pg_raw_pct": 26.03,
+        "pg_z": -0.12,
+        "vpd": 3.85,
+        "percentile": 97.45,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +392.3%, PG(가격 변화) +19.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +392.3%, PG(가격 변화) +26.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.35,
+        "points": 16.86,
         "raw_value": 15.4,
-        "percentile": 69.4,
+        "percentile": 67.42,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +23.9%"
       },
@@ -58,9 +58,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.62,
+        "points": 9.87,
         "raw_value": 1187.1,
-        "percentile": 96.25,
+        "percentile": 98.72,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +613.3%"
       },
@@ -74,9 +74,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.4,
+        "percentile": 54.79,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -88,7 +88,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 40.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 68.6 (기본 68.6) = VPD +19.7 + 온체인 +17.4 + 개발자 +7.5 + 사용자 +9.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +4.0 + 과열필터 -0.0"
+    "summary": "총점 68.2 (기본 68.2) = VPD +19.5 + 온체인 +16.9 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +4.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +106,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 19.708596777483177,
-    "return_90d_pct": 41.86514452594833,
+    "return_30d_pct": 26.03125637364878,
+    "return_90d_pct": 49.35804847390543,
     "rsi_14": 55.45,
-    "ma_200d_deviation_pct": -0.16317810976152822,
-    "high_90d_position_pct": -16.673906803473727
+    "ma_200d_deviation_pct": 5.109912185903232,
+    "high_90d_position_pct": -12.272865132763041
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.093909,
-  "market_cap_usd": 261102678,
+  "price_usd": 0.098869,
+  "market_cap_usd": 274711360,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

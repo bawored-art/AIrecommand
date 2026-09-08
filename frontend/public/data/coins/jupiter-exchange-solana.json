@@ -4,8 +4,8 @@
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": -3,
+  "previous_rank": 9,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.79,
-    "base_score": 63.79,
+    "final_score": 64.16,
+    "base_score": 64.16,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.5,
+        "points": 16.63,
         "fg_raw_pct": 39.07,
-        "fg_z": 0.3,
-        "pg_raw_pct": 27.74,
+        "fg_z": 0.23,
+        "pg_raw_pct": 30.13,
         "pg_z": -0.11,
-        "vpd": 0.41,
-        "percentile": 82.5,
+        "vpd": 0.34,
+        "percentile": 83.16,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +39.1%, PG(가격 변화) +27.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +39.1%, PG(가격 변화) +30.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -63,9 +63,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.62,
+        "points": 7.82,
         "raw_value": 109.99,
-        "percentile": 76.25,
+        "percentile": 78.21,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +39.1%"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.4,
+        "percentile": 54.79,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 92.3 (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.8 (기본 63.8) = VPD +16.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +9.2 + 과열필터 -0.0"
+    "summary": "총점 64.2 (기본 64.2) = VPD +16.6 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +7.8 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 27.736073553272035,
-    "return_90d_pct": 52.38014814256894,
+    "return_30d_pct": 30.133044889129252,
+    "return_90d_pct": 55.23956629353541,
     "rsi_14": 56.11,
-    "ma_200d_deviation_pct": 23.128196985391934,
-    "high_90d_position_pct": -14.225038977961123
+    "ma_200d_deviation_pct": 25.438701376202722,
+    "high_90d_position_pct": -12.615469205031223
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.236184,
-  "market_cap_usd": 784899849,
+  "price_usd": 0.240616,
+  "market_cap_usd": 798924484,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

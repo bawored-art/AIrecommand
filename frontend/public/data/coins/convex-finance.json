@@ -1,11 +1,11 @@
 {
-  "rank": 2,
+  "rank": 3,
   "coin_id": "convex-finance",
   "symbol": "cvx",
   "name": "Convex Finance",
   "badge": null,
   "previous_rank": 2,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,30 +25,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 75.53,
-    "base_score": 75.53,
+    "final_score": 75.46,
+    "base_score": 75.46,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.9,
-        "fg_raw_pct": 654.01,
-        "fg_z": 6.83,
-        "pg_raw_pct": 37.04,
-        "pg_z": -0.09,
-        "vpd": 6.92,
-        "percentile": 99.5,
+        "fg_raw_pct": 634.16,
+        "fg_z": 6.14,
+        "pg_raw_pct": 36.42,
+        "pg_z": -0.1,
+        "vpd": 6.24,
+        "percentile": 99.49,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +654.0%, PG(가격 변화) +37.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +634.2%, PG(가격 변화) +36.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 19.22,
-        "raw_value": 20.92,
-        "percentile": 76.87,
+        "points": 19.13,
+        "raw_value": 20.82,
+        "percentile": 76.52,
         "missing": false,
-        "reason": "TVL 30일 +23.4%"
+        "reason": "TVL 30일 +23.3%"
       },
       "developer": {
         "weight": 15,
@@ -60,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.38,
-        "raw_value": 757.72,
-        "percentile": 93.75,
+        "points": 9.36,
+        "raw_value": 732.83,
+        "percentile": 93.59,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +1536.9%"
+        "reason": "프로토콜 수수료 30일 +1489.4%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,9 +76,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.4,
+        "percentile": 54.79,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -90,7 +90,7 @@
         "reason": "MC/TVL 백분위 81.8, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 75.5 (기본 75.5) = VPD +19.9 + 온체인 +19.2 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +9.1 + 과열필터 -0.0"
+    "summary": "총점 75.5 (기본 75.5) = VPD +19.9 + 온체인 +19.1 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.1 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -102,25 +102,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 88.7,
+    "score": 90.5,
     "coverage": 0.857,
-    "freshness": 0.812,
+    "freshness": 0.875,
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 37.03703703703704,
-    "return_90d_pct": 83.44564328473157,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 36.419753086419746,
+    "return_90d_pct": 82.61931155822376,
+    "rsi_14": 55.17,
+    "ma_200d_deviation_pct": 31.884141573674906,
+    "high_90d_position_pct": -11.017981897877231
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.22,
-  "market_cap_usd": 207372227,
+  "price_usd": 2.21,
+  "market_cap_usd": 206057794,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -164,7 +164,7 @@
         },
         {
           "label": "현재",
-          "value": 594980733.7859175
+          "value": 594489101.0705031
         }
       ]
     },
@@ -181,7 +181,7 @@
         },
         {
           "label": "현재",
-          "value": 150020
+          "value": 145666
         }
       ]
     }

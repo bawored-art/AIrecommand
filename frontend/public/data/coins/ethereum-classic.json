@@ -1,11 +1,11 @@
 {
-  "rank": 19,
+  "rank": 18,
   "coin_id": "ethereum-classic",
   "symbol": "etc",
   "name": "Ethereum Classic",
   "badge": null,
-  "previous_rank": 16,
-  "rank_change": -3,
+  "previous_rank": 19,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -21,36 +21,36 @@
     "launch_year": 2015
   },
   "score": {
-    "final_score": 61.7,
-    "base_score": 64.7,
+    "final_score": 61.26,
+    "base_score": 64.26,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.7,
+        "points": 18.47,
         "fg_raw_pct": 101.58,
-        "fg_z": 0.96,
-        "pg_raw_pct": 25.35,
-        "pg_z": -0.12,
-        "vpd": 1.08,
-        "percentile": 93.5,
+        "fg_z": 0.85,
+        "pg_raw_pct": 32.1,
+        "pg_z": -0.11,
+        "vpd": 0.96,
+        "percentile": 92.35,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +101.6%, PG(가격 변화) +25.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +101.6%, PG(가격 변화) +32.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 11.01,
+        "points": 10.79,
         "raw_value": 0.02,
-        "percentile": 44.03,
+        "percentile": 43.18,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.1%"
       },
       "developer": {
         "weight": 15,
-        "points": 14.55,
+        "points": 14.52,
         "raw_value": 162.5,
-        "percentile": 97.0,
+        "percentile": 96.81,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 2.62배 (가속), 릴리즈 30일 0건"
       },
@@ -72,9 +72,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.4,
+        "percentile": 54.79,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -86,7 +86,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 61.7 (기본 64.7) = VPD +18.7 + 온체인 +11.0 + 개발자 +14.6 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -3.0"
+    "summary": "총점 61.3 (기본 64.3) = VPD +18.5 + 온체인 +10.8 + 개발자 +14.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -104,21 +104,21 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 25.345622119815676,
-    "return_90d_pct": 16.525093650515633,
+    "return_30d_pct": 32.104454685099846,
+    "return_90d_pct": 22.808309484612053,
     "rsi_14": 62.33,
-    "ma_200d_deviation_pct": 1.1779371917079138,
-    "high_90d_position_pct": -2.190308497965768
+    "ma_200d_deviation_pct": 6.633610275574512,
+    "high_90d_position_pct": 3.0837434947909736
   },
   "overheat": {
     "excluded": false,
     "penalty": 3.0,
     "reasons": [
-      "90일 고점 대비 -2.2% (-5% 이내) (-3)"
+      "90일 고점 대비 +3.1% (-5% 이내) (-3)"
     ]
   },
-  "price_usd": 8.16,
-  "market_cap_usd": 1292391220,
+  "price_usd": 8.6,
+  "market_cap_usd": 1360449233,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
