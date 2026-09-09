@@ -1,11 +1,11 @@
 {
-  "rank": 16,
+  "rank": 13,
   "coin_id": "cardano",
   "symbol": "ada",
   "name": "Cardano",
-  "badge": null,
-  "previous_rank": 20,
-  "rank_change": 4,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,30 +26,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.08,
-    "base_score": 65.08,
+    "final_score": 63.67,
+    "base_score": 63.67,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.66,
-        "fg_raw_pct": 65.37,
-        "fg_z": 0.03,
-        "pg_raw_pct": 10.2,
-        "pg_z": -0.15,
-        "vpd": 0.18,
-        "percentile": 93.3,
+        "points": 17.7,
+        "fg_raw_pct": 41.19,
+        "fg_z": 0.59,
+        "pg_raw_pct": 9.94,
+        "pg_z": -0.19,
+        "vpd": 0.78,
+        "percentile": 88.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +65.4%, PG(가격 변화) +10.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +41.2%, PG(가격 변화) +9.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.47,
-        "raw_value": 19.27,
-        "percentile": 73.88,
+        "points": 19.96,
+        "raw_value": 23.81,
+        "percentile": 79.85,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 -1.6%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +0.2%"
       },
       "developer": {
         "weight": 15,
@@ -61,11 +61,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.08,
-        "raw_value": 66.46,
-        "percentile": 80.77,
+        "points": 6.03,
+        "raw_value": 35.11,
+        "percentile": 60.26,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +105.5%"
+        "reason": "프로토콜 수수료 30일 +65.8%"
       },
       "catalyst": {
         "weight": 10,
@@ -77,21 +77,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.91,
+        "percentile": 54.82,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 1.88,
-        "sector_percentile": 18.8,
+        "points": 2.0,
+        "sector_percentile": 20.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 18.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 20.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.1 (기본 65.1) = VPD +18.7 + 온체인 +18.5 + 개발자 +7.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +1.9 + 과열필터 -3.0"
+    "summary": "총점 63.7 (기본 63.7) = VPD +17.7 + 온체인 +20.0 + 개발자 +7.5 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +2.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,27 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 75.5,
+    "score": 90.5,
     "coverage": 0.857,
     "freshness": 0.875,
-    "consistency": 0.5
+    "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 10.202874726860863,
-    "return_90d_pct": 29.09921274544478,
-    "rsi_14": 48.78,
-    "ma_200d_deviation_pct": -0.6653521156119486,
-    "high_90d_position_pct": -4.022066662186901
+    "return_30d_pct": 9.943909089016998,
+    "return_90d_pct": 31.576114786845505,
+    "rsi_14": 53.87,
+    "ma_200d_deviation_pct": -4.190737503459049,
+    "high_90d_position_pct": -7.771879865630231
   },
   "overheat": {
     "excluded": false,
-    "penalty": 3.0,
-    "reasons": [
-      "90일 고점 대비 -4.0% (-5% 이내) (-3)"
-    ]
+    "penalty": 0.0,
+    "reasons": []
   },
-  "price_usd": 0.21989,
-  "market_cap_usd": 8243966136,
+  "price_usd": 0.211299,
+  "market_cap_usd": 7925733229,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -175,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 46098878
+          "value": 45924028
         },
         {
           "label": "30일 전",
-          "value": 65606358
+          "value": 67580349
         },
         {
           "label": "현재",
-          "value": 64584828.5
+          "value": 67704405.98
         }
       ]
     },
@@ -191,15 +189,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1662
+          "value": 1402
         },
         {
           "label": "30일 전",
-          "value": 1030
+          "value": 883
         },
         {
           "label": "현재",
-          "value": 2117
+          "value": 1464
         }
       ]
     }
