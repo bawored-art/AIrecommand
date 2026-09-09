@@ -1,11 +1,11 @@
 {
-  "rank": 11,
+  "rank": 20,
   "coin_id": "okb",
   "symbol": "okb",
   "name": "OKB",
   "badge": null,
   "previous_rank": 11,
-  "rank_change": 0,
+  "rank_change": -9,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,30 +27,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.58,
-    "base_score": 66.58,
+    "final_score": 59.53,
+    "base_score": 62.53,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.61,
-        "fg_raw_pct": 24.11,
-        "fg_z": 0.08,
-        "pg_raw_pct": 20.86,
-        "pg_z": -0.13,
-        "vpd": 0.21,
-        "percentile": 78.06,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "points": 15.45,
+        "fg_raw_pct": 24.82,
+        "fg_z": -0.04,
+        "pg_raw_pct": 20.77,
+        "pg_z": -0.16,
+        "vpd": 0.13,
+        "percentile": 77.27,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +24.1%, PG(가격 변화) +20.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +24.8%, PG(가격 변화) +20.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 17.99,
-        "raw_value": 18.76,
-        "percentile": 71.97,
+        "points": 19.04,
+        "raw_value": 19.14,
+        "percentile": 76.15,
         "missing": false,
-        "reason": "TVL 30일 +42.0%, 스테이블코인 유입 30일 -17.6%"
+        "reason": "TVL 30일 +43.1%, 스테이블코인 유입 30일 -17.8%"
       },
       "developer": {
         "weight": 15,
@@ -78,11 +78,11 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
-        "raw_value": 0.0,
-        "percentile": 54.79,
+        "points": 0.54,
+        "raw_value": 2.0,
+        "percentile": 5.41,
         "missing": false,
-        "reason": "감지된 리스크 플래그 없음"
+        "reason": "low_liquidity(medium): 24h 거래량/시총 비율이 0.0078로 낮음"
       },
       "valuation": {
         "weight": 10,
@@ -92,7 +92,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.6 (기본 66.6) = VPD +15.6 + 온체인 +18.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -3.0"
+    "summary": "총점 59.5 (기본 62.5) = VPD +15.4 + 온체인 +19.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +0.5 + 밸류에이션 +10.0 + 과열필터 -3.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,21 +110,21 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 20.859872611464958,
-    "return_90d_pct": 59.16142372163644,
-    "rsi_14": 51.77,
-    "ma_200d_deviation_pct": 30.779681474799997,
-    "high_90d_position_pct": -1.7103179184663493
+    "return_30d_pct": 20.768091409225573,
+    "return_90d_pct": 62.278920998094,
+    "rsi_14": 51.32,
+    "ma_200d_deviation_pct": 30.86242622080697,
+    "high_90d_position_pct": -1.451320073719215
   },
   "overheat": {
     "excluded": false,
     "penalty": 3.0,
     "reasons": [
-      "90일 고점 대비 -1.7% (-5% 이내) (-3)"
+      "90일 고점 대비 -1.5% (-5% 이내) (-3)"
     ]
   },
-  "price_usd": 113.85,
-  "market_cap_usd": 2390843231,
+  "price_usd": 114.15,
+  "market_cap_usd": 2397455672,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -160,15 +160,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 21994742574
+          "value": 21627231747
         },
         {
           "label": "30일 전",
-          "value": 21275670478.939507
+          "value": 21100405690.555473
         },
         {
           "label": "현재",
-          "value": 30207567715.414677
+          "value": 30195490705.2941
         }
       ]
     },
@@ -176,15 +176,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1521279834
+          "value": 1539718072
         },
         {
           "label": "30일 전",
-          "value": 2092124083
+          "value": 2092495919
         },
         {
           "label": "현재",
-          "value": 1724073816.27
+          "value": 1719342829.32
         }
       ]
     },
