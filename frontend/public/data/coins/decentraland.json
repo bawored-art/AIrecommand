@@ -1,11 +1,11 @@
 {
-  "rank": 14,
+  "rank": 13,
   "coin_id": "decentraland",
   "symbol": "mana",
   "name": "Decentraland",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": -3,
+  "previous_rank": 14,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 62.9,
-    "base_score": 62.9,
+    "final_score": 62.96,
+    "base_score": 62.96,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.63,
+        "points": 17.68,
         "fg_raw_pct": 50.0,
-        "fg_z": 0.78,
-        "pg_raw_pct": 8.23,
-        "pg_z": -0.18,
-        "vpd": 0.96,
-        "percentile": 88.14,
+        "fg_z": 0.29,
+        "pg_raw_pct": 5.98,
+        "pg_z": -0.17,
+        "vpd": 0.46,
+        "percentile": 88.38,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +50.0%, PG(가격 변화) +8.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +50.0%, PG(가격 변화) +6.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -55,9 +55,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.29,
+        "points": 12.34,
         "raw_value": 53.95,
-        "percentile": 81.91,
+        "percentile": 82.29,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.50배 (가속), 릴리즈 30일 10건"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.79,
+        "percentile": 54.38,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.9 (기본 62.9) = VPD +17.6 + 온체인 +12.5 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 63.0 (기본 63.0) = VPD +17.7 + 온체인 +12.5 + 개발자 +12.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 8.23043399309969,
-    "return_90d_pct": 6.257453075649195,
+    "return_30d_pct": 5.981780763876276,
+    "return_90d_pct": 4.049791550399768,
     "rsi_14": 41.27,
-    "ma_200d_deviation_pct": -11.998364207879089,
-    "high_90d_position_pct": -8.002312683299088
+    "ma_200d_deviation_pct": -13.826733135176486,
+    "high_90d_position_pct": -9.913705708656213
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.071523,
-  "market_cap_usd": 140150796,
+  "price_usd": 0.070037,
+  "market_cap_usd": 137238728,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

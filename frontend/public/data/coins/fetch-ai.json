@@ -1,11 +1,11 @@
 {
-  "rank": 6,
+  "rank": 4,
   "coin_id": "fetch-ai",
   "symbol": "fet",
   "name": "Artificial Superintelligence Alliance",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 6,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,22 +31,22 @@
     "launch_year": 2019
   },
   "score": {
-    "final_score": 67.56,
-    "base_score": 67.56,
+    "final_score": 67.33,
+    "base_score": 67.33,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.9,
+        "points": 19.7,
         "fg_raw_pct": 200.0,
-        "fg_z": 3.62,
-        "pg_raw_pct": 22.36,
-        "pg_z": -0.13,
-        "vpd": 3.74,
-        "percentile": 99.48,
+        "fg_z": 1.56,
+        "pg_raw_pct": 21.29,
+        "pg_z": -0.12,
+        "vpd": 1.69,
+        "percentile": 98.48,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +22.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +21.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,9 +58,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.68,
+        "points": 14.69,
         "raw_value": 200.0,
-        "percentile": 97.87,
+        "percentile": 97.92,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -82,9 +82,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.79,
+        "percentile": 54.38,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -96,7 +96,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 67.6 (기본 67.6) = VPD +19.9 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 67.3 (기본 67.3) = VPD +19.7 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,25 +108,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.2,
     "coverage": 0.571,
-    "freshness": 0.75,
+    "freshness": 0.812,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 22.360276240621673,
-    "return_90d_pct": -14.847010288190067,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 21.291559148606108,
+    "return_90d_pct": -15.590752116316347,
+    "rsi_14": 49.04,
+    "ma_200d_deviation_pct": -15.928790688669325,
+    "high_90d_position_pct": -23.762490947358856
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.164068,
-  "market_cap_usd": 379613620,
+  "price_usd": 0.162635,
+  "market_cap_usd": 375950969,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

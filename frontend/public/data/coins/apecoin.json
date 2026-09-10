@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 8,
   "coin_id": "apecoin",
   "symbol": "ape",
   "name": "ApeCoin",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": -3,
+  "previous_rank": 10,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,28 +38,28 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.5,
-    "base_score": 65.5,
+    "final_score": 66.11,
+    "base_score": 66.11,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 14.54,
+        "points": 15.25,
         "fg_raw_pct": 18.97,
-        "fg_z": 0.2,
-        "pg_raw_pct": 5.06,
-        "pg_z": -0.19,
-        "vpd": 0.39,
-        "percentile": 72.68,
+        "fg_z": 0.02,
+        "pg_raw_pct": 1.67,
+        "pg_z": -0.18,
+        "vpd": 0.21,
+        "percentile": 76.26,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +19.0%, PG(가격 변화) +5.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +19.0%, PG(가격 변화) +1.7% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 22.98,
+        "points": 22.92,
         "raw_value": 45.77,
-        "percentile": 91.91,
+        "percentile": 91.67,
         "missing": false,
         "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +19.0%"
       },
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.44,
         "raw_value": 0.0,
-        "percentile": 54.79,
+        "percentile": 54.38,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 65.5 (기본 65.5) = VPD +14.5 + 온체인 +23.0 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.1 (기본 66.1) = VPD +15.2 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,19 +121,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 5.059247571313671,
-    "return_90d_pct": 3.4887055002729186,
+    "return_30d_pct": 1.6668213600643664,
+    "return_90d_pct": 0.1469930358934626,
     "rsi_14": 42.76,
-    "ma_200d_deviation_pct": -3.9143369137199993,
-    "high_90d_position_pct": -19.196388929974592
+    "ma_200d_deviation_pct": -7.017000691679229,
+    "high_90d_position_pct": -21.805586068679368
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.135829,
-  "market_cap_usd": 135915997,
+  "price_usd": 0.131443,
+  "market_cap_usd": 131463503,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
