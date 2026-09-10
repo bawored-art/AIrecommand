@@ -1,11 +1,11 @@
 {
-  "rank": 12,
+  "rank": 16,
   "coin_id": "zama",
   "symbol": "zama",
   "name": "Zama",
   "badge": null,
-  "previous_rank": 7,
-  "rank_change": -5,
+  "previous_rank": 12,
+  "rank_change": -4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,30 +26,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 63.72,
-    "base_score": 63.72,
+    "final_score": 61.61,
+    "base_score": 61.61,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 10.3,
-        "fg_raw_pct": -3.46,
-        "fg_z": -0.11,
-        "pg_raw_pct": 7.65,
-        "pg_z": -0.2,
-        "vpd": 0.09,
-        "percentile": 51.5,
+        "points": 9.18,
+        "fg_raw_pct": -5.29,
+        "fg_z": -0.26,
+        "pg_raw_pct": 0.22,
+        "pg_z": -0.21,
+        "vpd": -0.05,
+        "percentile": 45.88,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -3.5%, PG(가격 변화) +7.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -5.3%, PG(가격 변화) +0.2% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 24.44,
-        "raw_value": 103.61,
-        "percentile": 97.76,
+        "points": 24.45,
+        "raw_value": 100.5,
+        "percentile": 97.79,
         "missing": false,
-        "reason": "TVL 30일 -3.5%"
+        "reason": "TVL 30일 -5.3%"
       },
       "developer": {
         "weight": 15,
@@ -79,19 +79,19 @@
         "weight": 10,
         "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.82,
+        "percentile": 54.79,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 6.0,
-        "sector_percentile": 60.0,
+        "points": 5.0,
+        "sector_percentile": 50.0,
         "missing": false,
-        "reason": "MC/TVL 백분위 60.0, MC/Fees 백분위 None (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 50.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 63.7 (기본 63.7) = VPD +10.3 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +6.0 + 과열필터 -0.0"
+    "summary": "총점 61.6 (기본 61.6) = VPD +9.2 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,19 +109,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 7.647272325585062,
-    "return_90d_pct": 62.976947433739106,
-    "rsi_14": 43.16,
-    "ma_200d_deviation_pct": 46.72920649499357,
-    "high_90d_position_pct": -17.83786672381501
+    "return_30d_pct": 0.22468247317374404,
+    "return_90d_pct": 44.01818134676645,
+    "rsi_14": 39.19,
+    "ma_200d_deviation_pct": 36.6324019602127,
+    "high_90d_position_pct": -23.19899378905982
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.04979695,
-  "market_cap_usd": 124202299,
+  "price_usd": 0.04654767,
+  "market_cap_usd": 115996966,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -157,15 +157,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 18431988
+          "value": 18453010
         },
         {
           "label": "30일 전",
-          "value": 59314676.5131118
+          "value": 59674091.54422219
         },
         {
           "label": "현재",
-          "value": 57263012.90166703
+          "value": 56518758.49444386
         }
       ]
     },
