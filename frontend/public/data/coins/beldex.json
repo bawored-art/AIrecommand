@@ -1,11 +1,11 @@
 {
-  "rank": 15,
+  "rank": 17,
   "coin_id": "beldex",
   "symbol": "bdx",
   "name": "Beldex",
-  "badge": null,
-  "previous_rank": 17,
-  "rank_change": 2,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,22 +32,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.04,
-    "base_score": 62.04,
+    "final_score": 62.11,
+    "base_score": 62.11,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.07,
+        "points": 17.52,
         "fg_raw_pct": 32.4,
-        "fg_z": 0.14,
-        "pg_raw_pct": -12.94,
-        "pg_z": -0.23,
-        "vpd": 0.36,
-        "percentile": 85.35,
+        "fg_z": 0.02,
+        "pg_raw_pct": -11.06,
+        "pg_z": -0.25,
+        "vpd": 0.27,
+        "percentile": 87.62,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) -12.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) -11.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,9 +59,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.03,
+        "points": 11.79,
         "raw_value": 41.2,
-        "percentile": 80.21,
+        "percentile": 78.57,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.32배 (가속), 릴리즈 30일 1건"
       },
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.3,
         "raw_value": 0.0,
-        "percentile": 54.38,
+        "percentile": 53.01,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.0 (기본 62.0) = VPD +17.1 + 온체인 +12.5 + 개발자 +12.0 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 62.1 (기본 62.1) = VPD +17.5 + 온체인 +12.5 + 개발자 +11.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,19 +115,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -12.941403632316028,
-    "return_90d_pct": 40.07484522719003,
-    "rsi_14": 21.08,
-    "ma_200d_deviation_pct": -6.888378876368644,
-    "high_90d_position_pct": -19.068785426759952
+    "return_30d_pct": -11.055956678700355,
+    "return_90d_pct": 4.219087268658513,
+    "rsi_14": 28.22,
+    "ma_200d_deviation_pct": -6.60074797213898,
+    "high_90d_position_pct": -18.836494500510245
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.076649,
-  "market_cap_usd": 603340396,
+  "price_usd": 0.076869,
+  "market_cap_usd": 605002934,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

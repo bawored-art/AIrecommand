@@ -4,8 +4,8 @@
   "symbol": "ape",
   "name": "ApeCoin",
   "badge": null,
-  "previous_rank": 8,
-  "rank_change": 1,
+  "previous_rank": 7,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,30 +38,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.74,
-    "base_score": 66.74,
+    "final_score": 66.49,
+    "base_score": 66.49,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.9,
-        "fg_raw_pct": 16.93,
-        "fg_z": -0.05,
-        "pg_raw_pct": 8.17,
+        "points": 15.74,
+        "fg_raw_pct": 16.67,
+        "fg_z": -0.06,
+        "pg_raw_pct": 5.5,
         "pg_z": -0.2,
-        "vpd": 0.15,
-        "percentile": 79.5,
+        "vpd": 0.13,
+        "percentile": 78.71,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +16.9%, PG(가격 변화) +8.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +16.7%, PG(가격 변화) +5.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 22.95,
-        "raw_value": 43.68,
+        "raw_value": 43.55,
         "percentile": 91.79,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +16.9%"
+        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +16.7%"
       },
       "developer": {
         "weight": 15,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.39,
+        "points": 5.3,
         "raw_value": 0.0,
-        "percentile": 53.88,
+        "percentile": 53.01,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 66.7 (기본 66.7) = VPD +15.9 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 66.5 (기본 66.5) = VPD +15.7 + 온체인 +22.9 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,25 +115,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 54.7,
+    "score": 56.6,
     "coverage": 0.571,
-    "freshness": 0.562,
+    "freshness": 0.625,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 8.170220975378403,
-    "return_90d_pct": 4.654822663605691,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 5.496652009999757,
+    "return_90d_pct": 2.068141380830924,
+    "rsi_14": 43.96,
+    "ma_200d_deviation_pct": -6.90954386791605,
+    "high_90d_position_pct": -21.925754290753787
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.134567,
-  "market_cap_usd": 134171446,
+  "price_usd": 0.131241,
+  "market_cap_usd": 131240880,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -189,7 +189,7 @@
         },
         {
           "label": "30일 전",
-          "value": 338534
+          "value": 339294
         },
         {
           "label": "현재",

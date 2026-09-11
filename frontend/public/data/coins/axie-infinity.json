@@ -1,11 +1,11 @@
 {
-  "rank": 16,
+  "rank": 18,
   "coin_id": "axie-infinity",
   "symbol": "axs",
   "name": "Axie Infinity",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 16,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -39,22 +39,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.54,
-    "base_score": 62.54,
+    "final_score": 62.03,
+    "base_score": 62.03,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.7,
+        "points": 16.53,
         "fg_raw_pct": 27.21,
-        "fg_z": 0.01,
-        "pg_raw_pct": 7.93,
-        "pg_z": -0.2,
-        "vpd": 0.21,
-        "percentile": 83.5,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.01,
+        "pg_raw_pct": 6.83,
+        "pg_z": -0.19,
+        "vpd": 0.18,
+        "percentile": 82.67,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +27.2%, PG(가격 변화) +7.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +27.2%, PG(가격 변화) +6.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -74,9 +74,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.28,
+        "points": 6.03,
         "raw_value": 56.89,
-        "percentile": 62.82,
+        "percentile": 60.26,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +27.2%"
       },
@@ -90,9 +90,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.39,
+        "points": 5.3,
         "raw_value": 0.0,
-        "percentile": 53.88,
+        "percentile": 53.01,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -104,7 +104,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 91.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 62.5 (기본 62.5) = VPD +16.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +9.2 + 과열필터 -0.0"
+    "summary": "총점 62.0 (기본 62.0) = VPD +16.5 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +9.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -122,19 +122,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 7.93340528581188,
-    "return_90d_pct": -2.789493412893132,
+    "return_30d_pct": 6.831618309679241,
+    "return_90d_pct": -3.7818207634229473,
     "rsi_14": 53.64,
-    "ma_200d_deviation_pct": -14.69730761454743,
-    "high_90d_position_pct": -20.602596415926737
+    "ma_200d_deviation_pct": -15.568079691556058,
+    "high_90d_position_pct": -21.413087153025515
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.92104,
-  "market_cap_usd": 159980527,
+  "price_usd": 0.911638,
+  "market_cap_usd": 159013767,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 2,
   "coin_id": "plasma",
   "symbol": "xpl",
   "name": "Plasma",
   "badge": null,
-  "previous_rank": 2,
-  "rank_change": -1,
+  "previous_rank": 3,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -23,22 +23,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 70.46,
-    "base_score": 70.46,
+    "final_score": 70.0,
+    "base_score": 70.0,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.5,
         "fg_raw_pct": 137.9,
-        "fg_z": 0.57,
-        "pg_raw_pct": 18.14,
+        "fg_z": 0.56,
+        "pg_raw_pct": 12.22,
         "pg_z": -0.17,
         "vpd": 0.73,
-        "percentile": 97.5,
+        "percentile": 97.52,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +137.9%, PG(가격 변화) +18.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +137.9%, PG(가격 변화) +12.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,9 +58,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.1,
+        "points": 9.36,
         "raw_value": 275.77,
-        "percentile": 91.03,
+        "percentile": 93.59,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +195.6%"
       },
@@ -74,21 +74,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.39,
+        "points": 5.3,
         "raw_value": 0.0,
-        "percentile": 53.88,
+        "percentile": 53.01,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 4.38,
-        "sector_percentile": 43.8,
+        "points": 3.75,
+        "sector_percentile": 37.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 43.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 37.5 (높을수록 저평가)"
       }
     },
-    "summary": "총점 70.5 (기본 70.5) = VPD +19.5 + 온체인 +19.6 + 개발자 +7.5 + 사용자 +9.1 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +4.4 + 과열필터 -0.0"
+    "summary": "총점 70.0 (기본 70.0) = VPD +19.5 + 온체인 +19.6 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +3.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +106,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 18.13730183698315,
-    "return_90d_pct": 4.697105354204122,
+    "return_30d_pct": 12.22421316117031,
+    "return_90d_pct": -0.5432654553018953,
     "rsi_14": 52.89,
-    "ma_200d_deviation_pct": -8.16414833038093,
-    "high_90d_position_pct": -23.36419998838474
+    "ma_200d_deviation_pct": -12.760778912739923,
+    "high_90d_position_pct": -27.200027234852957
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.086369,
-  "market_cap_usd": 238831406,
+  "price_usd": 0.082046,
+  "market_cap_usd": 227904296,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

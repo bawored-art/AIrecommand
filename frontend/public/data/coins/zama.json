@@ -4,8 +4,8 @@
   "symbol": "zama",
   "name": "Zama",
   "badge": null,
-  "previous_rank": 16,
-  "rank_change": 5,
+  "previous_rank": 11,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -26,30 +26,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.23,
-    "base_score": 65.23,
+    "final_score": 64.62,
+    "base_score": 64.62,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 12.9,
-        "fg_raw_pct": -7.46,
-        "fg_z": -0.17,
-        "pg_raw_pct": 1.18,
+        "points": 12.38,
+        "fg_raw_pct": -7.63,
+        "fg_z": -0.19,
+        "pg_raw_pct": -2.26,
         "pg_z": -0.22,
-        "vpd": 0.05,
-        "percentile": 64.5,
+        "vpd": 0.03,
+        "percentile": 61.88,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -7.5%, PG(가격 변화) +1.2% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -7.6%, PG(가격 변화) -2.3% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
         "points": 24.44,
-        "raw_value": 96.2,
+        "raw_value": 95.83,
         "percentile": 97.76,
         "missing": false,
-        "reason": "TVL 30일 -7.5%"
+        "reason": "TVL 30일 -7.6%"
       },
       "developer": {
         "weight": 15,
@@ -77,9 +77,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.39,
+        "points": 5.3,
         "raw_value": 0.0,
-        "percentile": 53.88,
+        "percentile": 53.01,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -91,7 +91,7 @@
         "reason": "MC/TVL 백분위 50.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.2 (기본 65.2) = VPD +12.9 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 64.6 (기본 64.6) = VPD +12.4 + 온체인 +24.4 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -103,25 +103,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 62.3,
+    "score": 64.2,
     "coverage": 0.714,
-    "freshness": 0.625,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 1.1807842036511762,
-    "return_90d_pct": 53.08691543771845,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": -2.2556786586647846,
+    "return_90d_pct": 47.887533917316674,
+    "rsi_14": 43.76,
+    "ma_200d_deviation_pct": 34.73899375971009,
+    "high_90d_position_pct": -23.985901144297657
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.04769048,
-  "market_cap_usd": 118653426,
+  "price_usd": 0.04607074,
+  "market_cap_usd": 114896719,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -165,7 +165,7 @@
         },
         {
           "label": "현재",
-          "value": 55335067.91584672
+          "value": 55230243.0754262
         }
       ]
     },
