@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 10,
   "coin_id": "lido-dao",
   "symbol": "ldo",
   "name": "Lido DAO",
   "badge": null,
   "previous_rank": 7,
-  "rank_change": 0,
+  "rank_change": -3,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,46 +38,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.35,
-    "base_score": 66.35,
+    "final_score": 66.49,
+    "base_score": 66.49,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.99,
-        "fg_raw_pct": -0.16,
-        "fg_z": -0.14,
-        "pg_raw_pct": 26.07,
-        "pg_z": -0.11,
-        "vpd": -0.03,
-        "percentile": 44.95,
+        "points": 9.1,
+        "fg_raw_pct": -2.75,
+        "fg_z": -0.15,
+        "pg_raw_pct": 31.53,
+        "pg_z": -0.12,
+        "vpd": -0.02,
+        "percentile": 45.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -0.2%, PG(가격 변화) +26.1% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -2.7%, PG(가격 변화) +31.5% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.3,
-        "raw_value": 46.75,
-        "percentile": 93.18,
+        "points": 23.32,
+        "raw_value": 47.02,
+        "percentile": 93.28,
         "missing": false,
-        "reason": "TVL 30일 +34.0%"
+        "reason": "TVL 30일 +33.6%"
       },
       "developer": {
         "weight": 15,
-        "points": 7.34,
+        "points": 7.65,
         "raw_value": -20.95,
-        "percentile": 48.96,
+        "percentile": 51.0,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.08배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 6.28,
-        "raw_value": 51.08,
-        "percentile": 62.82,
+        "points": 6.03,
+        "raw_value": 43.77,
+        "percentile": 60.26,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +43.8%"
+        "reason": "프로토콜 수수료 30일 +35.5%"
       },
       "catalyst": {
         "weight": 10,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.39,
         "raw_value": 0.0,
-        "percentile": 54.38,
+        "percentile": 53.88,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.3 (기본 66.3) = VPD +9.0 + 온체인 +23.3 + 개발자 +7.3 + 사용자 +6.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 66.5 (기본 66.5) = VPD +9.1 + 온체인 +23.3 + 개발자 +7.7 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,19 +121,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 26.06996166484119,
-    "return_90d_pct": 38.03935743971319,
-    "rsi_14": 50.47,
-    "ma_200d_deviation_pct": 2.193256034204772,
-    "high_90d_position_pct": -11.617647399111783
+    "return_30d_pct": 31.529473929382156,
+    "return_90d_pct": 44.89981580757161,
+    "rsi_14": 56.79,
+    "ma_200d_deviation_pct": 5.175519236637629,
+    "high_90d_position_pct": -9.21016016322642
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.368326,
-  "market_cap_usd": 307264256,
+  "price_usd": 0.378359,
+  "market_cap_usd": 314197122,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -169,15 +169,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 14955044735
+          "value": 14853574590
         },
         {
           "label": "30일 전",
-          "value": 17799577550.014477
+          "value": 17839450510.255966
         },
         {
           "label": "현재",
-          "value": 23852250946.286476
+          "value": 23832218296.366528
         }
       ]
     },
@@ -186,15 +186,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 1079171
+          "value": 1067986
         },
         {
           "label": "30일 전",
-          "value": 1189095
+          "value": 1197895
         },
         {
           "label": "현재",
-          "value": 1709435
+          "value": 1623459
         }
       ]
     }

@@ -1,333 +1,446 @@
 {
   "date": "2026-09-11",
-  "generated_at_kst": "2026-09-11T08:31:41.955196+09:00",
-  "count": 29,
+  "generated_at_kst": "2026-09-11T22:57:44.713184+09:00",
+  "count": 39,
   "items": [
-    {
-      "coin_id": "chip-2",
-      "symbol": "chip",
-      "name": "USD.AI",
-      "base_score": 71.45,
-      "excluded_reasons": [
-        "30일 수익률 +106.4% > 60% (제외)"
-      ],
-      "return_30d_pct": 106.3765047080008,
-      "return_90d_pct": 47.172103990352056
-    },
-    {
-      "coin_id": "stonk-3",
-      "symbol": "stonk",
-      "name": "STONK",
-      "base_score": 68.53,
-      "excluded_reasons": [
-        "30일 수익률 +1364.8% > 60% (제외)"
-      ],
-      "return_30d_pct": 1364.7584681249386,
-      "return_90d_pct": null
-    },
     {
       "coin_id": "arbitrum",
       "symbol": "arb",
       "name": "Arbitrum",
-      "base_score": 65.81,
+      "base_score": 64.47,
       "excluded_reasons": [
-        "30일 수익률 +81.3% > 60% (제외)"
+        "30일 수익률 +93.5% > 60% (제외)"
       ],
-      "return_30d_pct": 81.27525990696729,
-      "return_90d_pct": 70.98924268079517
+      "return_30d_pct": 93.48708093102712,
+      "return_90d_pct": 72.88927335439351
     },
     {
       "coin_id": "vechain",
       "symbol": "vet",
       "name": "VeChain",
-      "base_score": 58.52,
+      "base_score": 57.55,
       "excluded_reasons": [
-        "30일 수익률 +64.4% > 60% (제외)"
+        "30일 수익률 +67.6% > 60% (제외)"
       ],
-      "return_30d_pct": 64.44927066450569,
-      "return_90d_pct": 52.970797040598804
+      "return_30d_pct": 67.64650712902301,
+      "return_90d_pct": 48.3193273028129
     },
     {
-      "coin_id": "pump-fun",
-      "symbol": "pump",
-      "name": "Pump.fun",
-      "base_score": 50.44,
+      "coin_id": "chip-2",
+      "symbol": "chip",
+      "name": "USD.AI",
+      "base_score": 53.79,
       "excluded_reasons": [
-        "90일 수익률 +151.2% > 150% (제외)"
+        "30일 수익률 +107.9% > 60% (제외)"
       ],
-      "return_30d_pct": 34.30263332010056,
-      "return_90d_pct": 151.20992528286953
+      "return_30d_pct": 107.90979976302609,
+      "return_90d_pct": 50.91075899491677
+    },
+    {
+      "coin_id": "bitway",
+      "symbol": "btw",
+      "name": "Bitway",
+      "base_score": 52.36,
+      "excluded_reasons": [
+        "30일 수익률 +90.5% > 60% (제외)",
+        "90일 수익률 +615.3% > 150% (제외)"
+      ],
+      "return_30d_pct": 90.51490308713599,
+      "return_90d_pct": 615.3498268446606
+    },
+    {
+      "coin_id": "uniswap",
+      "symbol": "uni",
+      "name": "Uniswap",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +78.0% > 60% (제외)",
+        "90일 수익률 +152.1% > 150% (제외)"
+      ],
+      "return_30d_pct": 77.96610169491525,
+      "return_90d_pct": 152.12150883582137
     },
     {
       "coin_id": "ethena",
       "symbol": "ena",
       "name": "Ethena",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +61.3% > 60% (제외)"
+        "30일 수익률 +73.7% > 60% (제외)"
       ],
-      "return_30d_pct": 61.306060334795454,
-      "return_90d_pct": 80.95231412951797
+      "return_30d_pct": 73.73397845960595,
+      "return_90d_pct": 90.64018315867669
     },
     {
       "coin_id": "lighter",
       "symbol": "lit",
       "name": "Lighter",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +85.2% > 60% (제외)",
-        "90일 수익률 +188.6% > 150% (제외)"
+        "30일 수익률 +102.2% > 60% (제외)",
+        "90일 수익률 +205.3% > 150% (제외)"
       ],
-      "return_30d_pct": 85.18518518518518,
-      "return_90d_pct": 188.5686499610909
+      "return_30d_pct": 102.15517241379312,
+      "return_90d_pct": 205.25953446793378
     },
     {
       "coin_id": "ether-fi",
       "symbol": "ethfi",
       "name": "Ether.fi",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +72.5% > 60% (제외)"
+        "30일 수익률 +76.0% > 60% (제외)"
       ],
-      "return_30d_pct": 72.50593994590801,
-      "return_90d_pct": 117.2375354573564
+      "return_30d_pct": 75.96631843413468,
+      "return_90d_pct": 110.50168604410409
+    },
+    {
+      "coin_id": "spx6900",
+      "symbol": "spx",
+      "name": "SPX6900",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +60.8% > 60% (제외)"
+      ],
+      "return_30d_pct": 60.77529251039021,
+      "return_90d_pct": 57.459781101522324
     },
     {
       "coin_id": "pons",
       "symbol": "pons",
       "name": "Pons",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +1494.1% > 60% (제외)"
+        "30일 수익률 +1325.7% > 60% (제외)"
       ],
-      "return_30d_pct": 1494.060890060333,
+      "return_30d_pct": 1325.7316150693593,
       "return_90d_pct": null
     },
     {
       "coin_id": "raydium",
       "symbol": "ray",
       "name": "Raydium",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +129.6% > 60% (제외)"
+        "30일 수익률 +154.7% > 60% (제외)",
+        "90일 수익률 +173.4% > 150% (제외)"
       ],
-      "return_30d_pct": 129.55974842767296,
-      "return_90d_pct": 148.49737936729906
+      "return_30d_pct": 154.7013626522902,
+      "return_90d_pct": 173.3550352402462
+    },
+    {
+      "coin_id": "ape-and-pepe",
+      "symbol": "apepe",
+      "name": "Ape and Pepe",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +81.6% > 60% (제외)"
+      ],
+      "return_30d_pct": 81.57068427141229,
+      "return_90d_pct": 49.61604482196076
+    },
+    {
+      "coin_id": "pieverse",
+      "symbol": "pieverse",
+      "name": "Pieverse",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +69.4% > 60% (제외)"
+      ],
+      "return_30d_pct": 69.39299462526455,
+      "return_90d_pct": 82.93071401842627
     },
     {
       "coin_id": "akedo",
       "symbol": "ake",
       "name": "Akedo",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +253.5% > 60% (제외)",
-        "90일 수익률 +5478.8% > 150% (제외)"
+        "30일 수익률 +258.6% > 60% (제외)",
+        "90일 수익률 +5278.1% > 150% (제외)"
       ],
-      "return_30d_pct": 253.53476475703957,
-      "return_90d_pct": 5478.77277427745
+      "return_30d_pct": 258.64937310851707,
+      "return_90d_pct": 5278.077632333025
     },
     {
       "coin_id": "artificial-inu-3",
       "symbol": "ai",
       "name": "Artificial Inu",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +4509.3% > 60% (제외)"
+        "30일 수익률 +3344.7% > 60% (제외)"
       ],
-      "return_30d_pct": 4509.334214236736,
+      "return_30d_pct": 3344.704318968628,
       "return_90d_pct": null
     },
     {
       "coin_id": "useless-3",
       "symbol": "useless",
       "name": "Useless Coin",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +542.6% > 60% (제외)",
-        "90일 수익률 +274.8% > 150% (제외)"
+        "30일 수익률 +569.2% > 60% (제외)",
+        "90일 수익률 +273.1% > 150% (제외)"
       ],
-      "return_30d_pct": 542.5916586628907,
-      "return_90d_pct": 274.7696654676628
+      "return_30d_pct": 569.1926466777276,
+      "return_90d_pct": 273.1484132949773
+    },
+    {
+      "coin_id": "edgex",
+      "symbol": "edge",
+      "name": "edgeX",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +72.7% > 60% (제외)"
+      ],
+      "return_30d_pct": 72.70353541732139,
+      "return_90d_pct": 44.264538789060786
     },
     {
       "coin_id": "unifai-network",
       "symbol": "uai",
       "name": "UnifAI Network",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +150.4% > 60% (제외)"
+        "30일 수익률 +164.9% > 60% (제외)"
       ],
-      "return_30d_pct": 150.4124131075105,
-      "return_90d_pct": 87.2314233828061
+      "return_30d_pct": 164.88555541288684,
+      "return_90d_pct": 146.19688761501664
     },
     {
       "coin_id": "non-playable-coin",
       "symbol": "npc",
       "name": "Non-Playable Coin",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +246.9% > 60% (제외)",
-        "90일 수익률 +259.3% > 150% (제외)"
+        "30일 수익률 +274.1% > 60% (제외)",
+        "90일 수익률 +293.6% > 150% (제외)"
       ],
-      "return_30d_pct": 246.88048915589448,
-      "return_90d_pct": 259.2913700927508
+      "return_30d_pct": 274.05747223464203,
+      "return_90d_pct": 293.6279957688789
     },
     {
       "coin_id": "antfun",
       "symbol": "antfun",
       "name": "AntFun",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +83.7% > 60% (제외)"
+        "30일 수익률 +83.3% > 60% (제외)"
       ],
-      "return_30d_pct": 83.66391073319342,
+      "return_30d_pct": 83.30094369181784,
+      "return_90d_pct": null
+    },
+    {
+      "coin_id": "meteora",
+      "symbol": "met",
+      "name": "Meteora",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +66.9% > 60% (제외)",
+        "90일 수익률 +152.8% > 150% (제외)"
+      ],
+      "return_30d_pct": 66.87771380477821,
+      "return_90d_pct": 152.8181210410457
+    },
+    {
+      "coin_id": "marscoin-4",
+      "symbol": "marscoin",
+      "name": "MarsCoin",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +138.5% > 60% (제외)"
+      ],
+      "return_30d_pct": 138.51461441273347,
       "return_90d_pct": null
     },
     {
       "coin_id": "seeker",
       "symbol": "skr",
       "name": "Seeker",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +138.9% > 60% (제외)"
+        "30일 수익률 +151.3% > 60% (제외)"
       ],
-      "return_30d_pct": 138.8682012412977,
-      "return_90d_pct": 102.8028315768637
+      "return_30d_pct": 151.27445467611446,
+      "return_90d_pct": 106.72129008601729
     },
     {
-      "coin_id": "marscoin-4",
-      "symbol": "marscoin",
-      "name": "MarsCoin",
-      "base_score": 50.44,
+      "coin_id": "zencash",
+      "symbol": "zen",
+      "name": "Horizen",
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +122.6% > 60% (제외)"
+        "30일 수익률 +64.5% > 60% (제외)"
       ],
-      "return_30d_pct": 122.61587289573212,
-      "return_90d_pct": null
+      "return_30d_pct": 64.51234731120616,
+      "return_90d_pct": 56.95389798796518
     },
     {
-      "coin_id": "prometeus",
-      "symbol": "prom",
-      "name": "Prom",
-      "base_score": 50.44,
+      "coin_id": "celium",
+      "symbol": "sn51",
+      "name": "lium",
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +131.9% > 60% (제외)",
-        "90일 수익률 +398.9% > 150% (제외)"
+        "90일 수익률 +288.7% > 150% (제외)"
       ],
-      "return_30d_pct": 131.8781045583272,
-      "return_90d_pct": 398.85267721770174
+      "return_30d_pct": 56.9278535805104,
+      "return_90d_pct": 288.67070748742407
     },
     {
       "coin_id": "chutes",
       "symbol": "sn64",
       "name": "Chutes",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "90일 수익률 +256.8% > 150% (제외)"
+        "90일 수익률 +1623.1% > 150% (제외)"
       ],
-      "return_30d_pct": -3.6490059088466262,
-      "return_90d_pct": 256.7807192926304
+      "return_30d_pct": -3.146045991981613,
+      "return_90d_pct": 1623.0789919412232
     },
     {
       "coin_id": "helium",
       "symbol": "hnt",
       "name": "Helium",
-      "base_score": 50.44,
+      "base_score": 50.39,
       "excluded_reasons": [
-        "30일 수익률 +160.6% > 60% (제외)"
+        "30일 수익률 +184.8% > 60% (제외)"
       ],
-      "return_30d_pct": 160.6004169295651,
-      "return_90d_pct": 49.28508165499919
+      "return_30d_pct": 184.8255690900566,
+      "return_90d_pct": 72.09680172414893
+    },
+    {
+      "coin_id": "prometeus",
+      "symbol": "prom",
+      "name": "Prom",
+      "base_score": 50.39,
+      "excluded_reasons": [
+        "30일 수익률 +186.0% > 60% (제외)",
+        "90일 수익률 +396.2% > 150% (제외)"
+      ],
+      "return_30d_pct": 185.9602845451405,
+      "return_90d_pct": 396.203809447972
     },
     {
       "coin_id": "dash",
       "symbol": "dash",
       "name": "Dash",
-      "base_score": 50.25,
+      "base_score": 49.34,
       "excluded_reasons": [
-        "30일 수익률 +78.5% > 60% (제외)"
+        "30일 수익률 +91.7% > 60% (제외)"
       ],
-      "return_30d_pct": 78.53642600457367,
-      "return_90d_pct": 53.3178409498485
+      "return_30d_pct": 91.67221852098601,
+      "return_90d_pct": 67.44755762802332
     },
     {
       "coin_id": "venice-token",
       "symbol": "vvv",
       "name": "Venice Token",
-      "base_score": 49.17,
+      "base_score": 49.01,
       "excluded_reasons": [
-        "30일 수익률 +115.4% > 60% (제외)"
+        "30일 수익률 +129.3% > 60% (제외)"
       ],
-      "return_30d_pct": 115.35087719298245,
-      "return_90d_pct": 67.83802216861613
+      "return_30d_pct": 129.2894280762565,
+      "return_90d_pct": 85.5143263161124
+    },
+    {
+      "coin_id": "stonk-3",
+      "symbol": "stonk",
+      "name": "STONK",
+      "base_score": 48.44,
+      "excluded_reasons": [
+        "30일 수익률 +2539.9% > 60% (제외)"
+      ],
+      "return_30d_pct": 2539.937654330732,
+      "return_90d_pct": null
     },
     {
       "coin_id": "mina-protocol",
       "symbol": "mina",
       "name": "Mina Protocol",
-      "base_score": 48.65,
+      "base_score": 47.64,
       "excluded_reasons": [
-        "30일 수익률 +128.6% > 60% (제외)"
+        "30일 수익률 +149.2% > 60% (제외)"
       ],
-      "return_30d_pct": 128.6415819069102,
-      "return_90d_pct": 114.73064827365663
+      "return_30d_pct": 149.17924733549197,
+      "return_90d_pct": 129.80041684724634
     },
     {
-      "coin_id": "bitway",
-      "symbol": "btw",
-      "name": "Bitway",
-      "base_score": 48.63,
+      "coin_id": "pearl-2",
+      "symbol": "prl",
+      "name": "Pearl",
+      "base_score": 40.34,
       "excluded_reasons": [
-        "30일 수익률 +145.7% > 60% (제외)",
-        "90일 수익률 +504.1% > 150% (제외)"
+        "30일 수익률 +125.7% > 60% (제외)"
       ],
-      "return_30d_pct": 145.68545270792464,
-      "return_90d_pct": 504.08575204866963
-    },
-    {
-      "coin_id": "falcon-finance-ff",
-      "symbol": "ff",
-      "name": "Falcon Finance",
-      "base_score": 39.36,
-      "excluded_reasons": [
-        "30일 수익률 +156.7% > 60% (제외)"
-      ],
-      "return_30d_pct": 156.71928913859963,
-      "return_90d_pct": 114.73591240136192
+      "return_30d_pct": 125.68103245183917,
+      "return_90d_pct": null
     },
     {
       "coin_id": "elrond-erd-2",
       "symbol": "egld",
       "name": "MultiversX",
-      "base_score": 38.49,
+      "base_score": 39.21,
       "excluded_reasons": [
-        "30일 수익률 +73.1% > 60% (제외)"
+        "30일 수익률 +72.1% > 60% (제외)"
       ],
-      "return_30d_pct": 73.0703831499771,
-      "return_90d_pct": 65.97506514174948
+      "return_30d_pct": 72.07434157244069,
+      "return_90d_pct": 62.14758028137653
+    },
+    {
+      "coin_id": "near",
+      "symbol": "near",
+      "name": "NEAR Protocol",
+      "base_score": 35.71,
+      "excluded_reasons": [
+        "30일 수익률 +62.3% > 60% (제외)"
+      ],
+      "return_30d_pct": 62.34567901234567,
+      "return_90d_pct": 30.91524166809317
+    },
+    {
+      "coin_id": "theta-fuel",
+      "symbol": "tfuel",
+      "name": "Theta Fuel",
+      "base_score": 34.89,
+      "excluded_reasons": [
+        "30일 수익률 +67.8% > 60% (제외)"
+      ],
+      "return_30d_pct": 67.75612860594919,
+      "return_90d_pct": 46.02681481588311
     },
     {
       "coin_id": "zcash",
       "symbol": "zec",
       "name": "Zcash",
-      "base_score": 34.6,
+      "base_score": 34.69,
       "excluded_reasons": [
-        "30일 수익률 +124.1% > 60% (제외)",
-        "90일 수익률 +151.5% > 150% (제외)"
+        "30일 수익률 +140.0% > 60% (제외)",
+        "90일 수익률 +185.9% > 150% (제외)"
       ],
-      "return_30d_pct": 124.06528437005578,
-      "return_90d_pct": 151.48066713860212
+      "return_30d_pct": 140.01509156911536,
+      "return_90d_pct": 185.863193457448
+    },
+    {
+      "coin_id": "falcon-finance-ff",
+      "symbol": "ff",
+      "name": "Falcon Finance",
+      "base_score": 31.01,
+      "excluded_reasons": [
+        "30일 수익률 +153.9% > 60% (제외)"
+      ],
+      "return_30d_pct": 153.9419410070823,
+      "return_90d_pct": 104.57432969685219
     },
     {
       "coin_id": "blockstack",
       "symbol": "stx",
       "name": "Stacks",
-      "base_score": 32.02,
+      "base_score": 30.28,
       "excluded_reasons": [
-        "30일 수익률 +100.5% > 60% (제외)"
+        "30일 수익률 +114.8% > 60% (제외)"
       ],
-      "return_30d_pct": 100.48742783228693,
-      "return_90d_pct": 38.73172207914691
+      "return_30d_pct": 114.80698695702233,
+      "return_90d_pct": 46.09704714955187
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "rank": 13,
+  "rank": 16,
   "coin_id": "axie-infinity",
   "symbol": "axs",
   "name": "Axie Infinity",
-  "badge": null,
-  "previous_rank": 14,
-  "rank_change": 1,
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -39,22 +39,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.9,
-    "base_score": 61.9,
+    "final_score": 62.54,
+    "base_score": 62.54,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.65,
-        "fg_raw_pct": 50.95,
-        "fg_z": 0.96,
-        "pg_raw_pct": 15.91,
-        "pg_z": -0.1,
-        "vpd": 1.06,
-        "percentile": 88.27,
+        "points": 16.7,
+        "fg_raw_pct": 27.21,
+        "fg_z": 0.01,
+        "pg_raw_pct": 7.93,
+        "pg_z": -0.2,
+        "vpd": 0.21,
+        "percentile": 83.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +51.0%, PG(가격 변화) +15.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +27.2%, PG(가격 변화) +7.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -74,11 +74,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.38,
-        "raw_value": 25.03,
-        "percentile": 53.75,
+        "points": 6.28,
+        "raw_value": 56.89,
+        "percentile": 62.82,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +51.0%"
+        "reason": "프로토콜 수수료 30일 +27.2%"
       },
       "catalyst": {
         "weight": 10,
@@ -90,21 +90,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.41,
+        "points": 5.39,
         "raw_value": 0.0,
-        "percentile": 54.13,
+        "percentile": 53.88,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 8.46,
-        "sector_percentile": 84.6,
+        "points": 9.17,
+        "sector_percentile": 91.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 84.6 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 91.7 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.9 (기본 61.9) = VPD +17.6 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.5 + 과열필터 -0.0"
+    "summary": "총점 62.5 (기본 62.5) = VPD +16.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +6.3 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +9.2 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -122,19 +122,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 15.907440301176706,
-    "return_90d_pct": -6.537828691945177,
-    "rsi_14": 45.39,
-    "ma_200d_deviation_pct": -12.723012528775962,
-    "high_90d_position_pct": -17.59200521166831
+    "return_30d_pct": 7.93340528581188,
+    "return_90d_pct": -2.789493412893132,
+    "rsi_14": 53.64,
+    "ma_200d_deviation_pct": -14.69730761454743,
+    "high_90d_position_pct": -20.602596415926737
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.955964,
-  "market_cap_usd": 166737901,
+  "price_usd": 0.92104,
+  "market_cap_usd": 159980527,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -187,15 +187,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 3841
+          "value": 3140
         },
         {
           "label": "30일 전",
-          "value": 2522
+          "value": 4605
         },
         {
           "label": "현재",
-          "value": 3807
+          "value": 5858
         }
       ]
     }

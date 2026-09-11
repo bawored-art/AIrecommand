@@ -1,11 +1,11 @@
 {
-  "rank": 4,
+  "rank": 6,
   "coin_id": "fetch-ai",
   "symbol": "fet",
   "name": "Artificial Superintelligence Alliance",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": 2,
+  "previous_rank": 4,
+  "rank_change": -2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,22 +31,22 @@
     "launch_year": 2019
   },
   "score": {
-    "final_score": 67.33,
-    "base_score": 67.33,
+    "final_score": 67.29,
+    "base_score": 67.29,
     "breakdown": {
       "vpd": {
         "weight": 20,
         "points": 19.7,
         "fg_raw_pct": 200.0,
-        "fg_z": 1.56,
-        "pg_raw_pct": 21.29,
-        "pg_z": -0.12,
-        "vpd": 1.69,
-        "percentile": 98.48,
+        "fg_z": 0.88,
+        "pg_raw_pct": 27.39,
+        "pg_z": -0.14,
+        "vpd": 1.02,
+        "percentile": 98.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +21.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +27.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -58,9 +58,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 14.69,
+        "points": 14.7,
         "raw_value": 200.0,
-        "percentile": 97.92,
+        "percentile": 98.0,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 3.00배 (가속), 릴리즈 30일 0건"
       },
@@ -82,9 +82,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.44,
+        "points": 5.39,
         "raw_value": 0.0,
-        "percentile": 54.38,
+        "percentile": 53.88,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -114,19 +114,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 21.291559148606108,
-    "return_90d_pct": -15.590752116316347,
-    "rsi_14": 49.04,
-    "ma_200d_deviation_pct": -15.928790688669325,
-    "high_90d_position_pct": -23.762490947358856
+    "return_30d_pct": 27.392687163061368,
+    "return_90d_pct": -8.876933839692262,
+    "rsi_14": 64.35,
+    "ma_200d_deviation_pct": -12.291448300047806,
+    "high_90d_position_pct": -20.57676763121074
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.162635,
-  "market_cap_usd": 375950969,
+  "price_usd": 0.169431,
+  "market_cap_usd": 390533362,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
