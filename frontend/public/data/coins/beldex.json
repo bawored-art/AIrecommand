@@ -1,5 +1,5 @@
 {
-  "rank": 17,
+  "rank": 15,
   "coin_id": "beldex",
   "symbol": "bdx",
   "name": "Beldex",
@@ -32,22 +32,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 62.11,
-    "base_score": 62.11,
+    "final_score": 62.6,
+    "base_score": 62.6,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.52,
+        "points": 17.45,
         "fg_raw_pct": 32.4,
-        "fg_z": 0.02,
-        "pg_raw_pct": -11.06,
-        "pg_z": -0.25,
-        "vpd": 0.27,
-        "percentile": 87.62,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "fg_z": -0.05,
+        "pg_raw_pct": -12.85,
+        "pg_z": -0.27,
+        "vpd": 0.23,
+        "percentile": 87.24,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) -11.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +32.4%, PG(가격 변화) -12.8% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -59,9 +59,9 @@
       },
       "developer": {
         "weight": 15,
-        "points": 11.79,
+        "points": 12.09,
         "raw_value": 41.2,
-        "percentile": 78.57,
+        "percentile": 80.61,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.32배 (가속), 릴리즈 30일 1건"
       },
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.3,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 53.01,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 62.1 (기본 62.1) = VPD +17.5 + 온체인 +12.5 + 개발자 +11.8 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.3 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 62.6 (기본 62.6) = VPD +17.4 + 온체인 +12.5 + 개발자 +12.1 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -115,19 +115,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -11.055956678700355,
-    "return_90d_pct": 4.219087268658513,
-    "rsi_14": 28.22,
-    "ma_200d_deviation_pct": -6.60074797213898,
-    "high_90d_position_pct": -18.836494500510245
+    "return_30d_pct": -12.847123225181042,
+    "return_90d_pct": -4.515571806293277,
+    "rsi_14": 22.91,
+    "ma_200d_deviation_pct": -7.122702504294754,
+    "high_90d_position_pct": -19.310579163628944
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.076869,
-  "market_cap_usd": 605002934,
+  "price_usd": 0.07642,
+  "market_cap_usd": 601506804,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

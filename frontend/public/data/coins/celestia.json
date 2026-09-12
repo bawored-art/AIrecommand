@@ -1,11 +1,11 @@
 {
-  "rank": 19,
+  "rank": 17,
   "coin_id": "celestia",
   "symbol": "tia",
   "name": "Celestia",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 19,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -33,22 +33,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 60.06,
-    "base_score": 60.06,
+    "final_score": 61.64,
+    "base_score": 61.64,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 15.9,
+        "points": 16.43,
         "fg_raw_pct": 29.87,
-        "fg_z": -0.09,
-        "pg_raw_pct": 15.89,
-        "pg_z": -0.17,
-        "vpd": 0.07,
-        "percentile": 79.5,
+        "fg_z": -0.05,
+        "pg_raw_pct": 12.87,
+        "pg_z": -0.19,
+        "vpd": 0.14,
+        "percentile": 82.14,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +29.9%, PG(가격 변화) +15.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +29.9%, PG(가격 변화) +12.9% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -60,17 +60,17 @@
       },
       "developer": {
         "weight": 15,
-        "points": 12.7,
+        "points": 13.01,
         "raw_value": 60.93,
-        "percentile": 84.69,
+        "percentile": 86.73,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 1.05배 (가속), 릴리즈 30일 13건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.51,
+        "points": 6.28,
         "raw_value": 44.73,
-        "percentile": 55.13,
+        "percentile": 62.82,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +54.5%"
       },
@@ -84,21 +84,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.37,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 53.67,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 3.08,
-        "sector_percentile": 30.8,
+        "points": 2.86,
+        "sector_percentile": 28.6,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 30.8 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 28.6 (높을수록 저평가)"
       }
     },
-    "summary": "총점 60.1 (기본 60.1) = VPD +15.9 + 온체인 +12.5 + 개발자 +12.7 + 사용자 +5.5 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +3.1 + 과열필터 -0.0"
+    "summary": "총점 61.6 (기본 61.6) = VPD +16.4 + 온체인 +12.5 + 개발자 +13.0 + 사용자 +6.3 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +2.9 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -116,19 +116,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 15.888073542456253,
-    "return_90d_pct": 3.756873359664792,
+    "return_30d_pct": 12.871865172163535,
+    "return_90d_pct": 1.056402635313933,
     "rsi_14": 53.94,
-    "ma_200d_deviation_pct": -7.917221330708012,
-    "high_90d_position_pct": -18.885313904411234
+    "ma_200d_deviation_pct": -10.313851452274218,
+    "high_90d_position_pct": -20.99647847619565
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.359282,
-  "market_cap_usd": 347403026,
+  "price_usd": 0.349931,
+  "market_cap_usd": 338453856,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",

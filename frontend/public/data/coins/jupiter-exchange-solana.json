@@ -4,8 +4,8 @@
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
-  "previous_rank": 9,
-  "rank_change": 3,
+  "previous_rank": 6,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 67.92,
-    "base_score": 67.92,
+    "final_score": 68.54,
+    "base_score": 68.54,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.7,
+        "points": 18.88,
         "fg_raw_pct": 202.25,
-        "fg_z": 0.38,
-        "pg_raw_pct": 44.33,
-        "pg_z": -0.08,
-        "vpd": 0.47,
-        "percentile": 93.5,
+        "fg_z": 0.47,
+        "pg_raw_pct": 42.81,
+        "pg_z": -0.09,
+        "vpd": 0.56,
+        "percentile": 94.39,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +202.2%, PG(가격 변화) +44.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +202.2%, PG(가격 변화) +42.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -63,9 +63,9 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 8.85,
+        "points": 9.1,
         "raw_value": 409.88,
-        "percentile": 88.46,
+        "percentile": 91.03,
         "missing": false,
         "reason": "프로토콜 수수료 30일 +202.2%"
       },
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.37,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 53.67,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 67.9 (기본 67.9) = VPD +18.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.8 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 68.5 (기본 68.5) = VPD +18.9 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +9.1 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 44.33140047752908,
-    "return_90d_pct": 41.3010887895048,
+    "return_30d_pct": 42.81412827419109,
+    "return_90d_pct": 39.815672493311595,
     "rsi_14": 56.32,
-    "ma_200d_deviation_pct": 27.09768431346339,
-    "high_90d_position_pct": -10.869347483856364
+    "ma_200d_deviation_pct": 25.76158016094067,
+    "high_90d_position_pct": -11.806326277664835
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.245424,
-  "market_cap_usd": 814663856,
+  "price_usd": 0.242844,
+  "market_cap_usd": 806088194,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
