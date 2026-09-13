@@ -1,11 +1,11 @@
 {
-  "rank": 3,
+  "rank": 1,
   "coin_id": "convex-finance",
   "symbol": "cvx",
   "name": "Convex Finance",
   "badge": null,
   "previous_rank": 3,
-  "rank_change": 0,
+  "rank_change": 2,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -25,30 +25,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 74.46,
-    "base_score": 74.46,
+    "final_score": 76.66,
+    "base_score": 76.66,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.49,
-        "fg_raw_pct": 354.93,
-        "fg_z": 0.93,
-        "pg_raw_pct": 22.16,
-        "pg_z": -0.16,
-        "vpd": 1.09,
-        "percentile": 97.45,
+        "points": 19.9,
+        "fg_raw_pct": 700.84,
+        "fg_z": 4.77,
+        "pg_raw_pct": 35.9,
+        "pg_z": -0.13,
+        "vpd": 4.9,
+        "percentile": 99.48,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +354.9%, PG(가격 변화) +22.2% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +700.8%, PG(가격 변화) +35.9% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 18.05,
-        "raw_value": 14.57,
-        "percentile": 72.22,
+        "points": 19.34,
+        "raw_value": 16.13,
+        "percentile": 77.34,
         "missing": false,
-        "reason": "TVL 30일 +18.1%"
+        "reason": "TVL 30일 +20.6%"
       },
       "developer": {
         "weight": 15,
@@ -60,11 +60,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 9.36,
-        "raw_value": 944.02,
-        "percentile": 93.59,
+        "points": 9.87,
+        "raw_value": 1225.47,
+        "percentile": 98.72,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +826.5%"
+        "reason": "프로토콜 수수료 30일 +1653.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -76,21 +76,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.56,
+        "points": 5.51,
         "raw_value": 0.0,
-        "percentile": 55.61,
+        "percentile": 55.15,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 9.5,
-        "sector_percentile": 95.0,
+        "points": 9.54,
+        "sector_percentile": 95.45,
         "missing": false,
-        "reason": "MC/TVL 백분위 90.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 90.9, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 74.5 (기본 74.5) = VPD +19.5 + 온체인 +18.1 + 개발자 +7.5 + 사용자 +9.4 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +9.5 + 과열필터 -0.0"
+    "summary": "총점 76.7 (기본 76.7) = VPD +19.9 + 온체인 +19.3 + 개발자 +7.5 + 사용자 +9.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -108,19 +108,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 22.1556886227545,
-    "return_90d_pct": 52.84780054162466,
-    "rsi_14": 43.01,
-    "ma_200d_deviation_pct": 21.65310560703838,
-    "high_90d_position_pct": -17.862752521117443
+    "return_30d_pct": 35.8974358974359,
+    "return_90d_pct": 57.556161428177276,
+    "rsi_14": 46.78,
+    "ma_200d_deviation_pct": 26.423279785376668,
+    "high_90d_position_pct": -14.64168399253381
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.04,
-  "market_cap_usd": 190495974,
+  "price_usd": 2.12,
+  "market_cap_usd": 197506587,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -156,15 +156,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 523550211
+          "value": 525082104
         },
         {
           "label": "30일 전",
-          "value": 492351097.6987686
+          "value": 485911070.5292616
         },
         {
           "label": "현재",
-          "value": 581432613.2420498
+          "value": 586133727.2641889
         }
       ]
     },
@@ -173,15 +173,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 7352
+          "value": 6270
         },
         {
           "label": "30일 전",
-          "value": 9217
+          "value": 3211
         },
         {
           "label": "현재",
-          "value": 85396
+          "value": 56293
         }
       ]
     }
