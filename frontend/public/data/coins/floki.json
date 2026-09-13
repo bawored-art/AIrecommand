@@ -1,11 +1,11 @@
 {
-  "rank": 16,
+  "rank": 17,
   "coin_id": "floki",
   "symbol": "floki",
   "name": "FLOKI",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 16,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -32,30 +32,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.82,
-    "base_score": 61.82,
+    "final_score": 62.25,
+    "base_score": 62.25,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.19,
-        "fg_raw_pct": 23.64,
-        "fg_z": -0.01,
-        "pg_raw_pct": 21.45,
+        "points": 16.5,
+        "fg_raw_pct": 23.92,
+        "fg_z": 0.03,
+        "pg_raw_pct": 20.07,
         "pg_z": -0.18,
-        "vpd": 0.17,
-        "percentile": 80.93,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "vpd": 0.21,
+        "percentile": 82.5,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +23.6%, PG(가격 변화) +21.5% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +23.9%, PG(가격 변화) +20.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.12,
-        "raw_value": 23.11,
-        "percentile": 80.47,
+        "points": 20.19,
+        "raw_value": 23.39,
+        "percentile": 80.77,
         "missing": false,
-        "reason": "TVL 30일 +23.6%"
+        "reason": "TVL 30일 +23.9%"
       },
       "developer": {
         "weight": 15,
@@ -83,9 +83,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.51,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 55.15,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -97,7 +97,7 @@
         "reason": "MC/TVL 백분위 25.0, MC/Fees 백분위 None (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.8 (기본 61.8) = VPD +16.2 + 온체인 +20.1 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +2.5 + 과열필터 -0.0"
+    "summary": "총점 62.2 (기본 62.2) = VPD +16.5 + 온체인 +20.2 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +2.5 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -109,25 +109,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 60.4,
+    "score": 62.3,
     "coverage": 0.714,
-    "freshness": 0.562,
+    "freshness": 0.625,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 21.45328719723183,
-    "return_90d_pct": -3.546734192016146,
-    "rsi_14": null,
-    "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "return_30d_pct": 20.069204152249124,
+    "return_90d_pct": -4.64591670834645,
+    "rsi_14": 52.39,
+    "ma_200d_deviation_pct": -10.81698576190709,
+    "high_90d_position_pct": -16.588763405596154
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 2.457e-05,
-  "market_cap_usd": 237046310,
+  "price_usd": 2.429e-05,
+  "market_cap_usd": 234380463,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -171,7 +171,7 @@
         },
         {
           "label": "현재",
-          "value": 12393352.168809723
+          "value": 12421488.808996521
         }
       ]
     },

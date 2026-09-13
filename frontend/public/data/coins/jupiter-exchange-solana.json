@@ -1,11 +1,11 @@
 {
-  "rank": 6,
+  "rank": 7,
   "coin_id": "jupiter-exchange-solana",
   "symbol": "jup",
   "name": "Jupiter",
   "badge": null,
   "previous_rank": 6,
-  "rank_change": 0,
+  "rank_change": -1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 66.75,
-    "base_score": 66.75,
+    "final_score": 66.83,
+    "base_score": 66.83,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 18.87,
+        "points": 18.9,
         "fg_raw_pct": 124.32,
-        "fg_z": 0.7,
-        "pg_raw_pct": 40.11,
+        "fg_z": 0.81,
+        "pg_raw_pct": 37.4,
         "pg_z": -0.12,
-        "vpd": 0.82,
-        "percentile": 94.33,
+        "vpd": 0.92,
+        "percentile": 94.5,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +124.3%, PG(가격 변화) +40.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +124.3%, PG(가격 변화) +37.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.51,
+        "points": 5.56,
         "raw_value": 0.0,
-        "percentile": 55.15,
+        "percentile": 55.61,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 92.9 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.8 (기본 66.8) = VPD +18.9 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +9.3 + 과열필터 -0.0"
+    "summary": "총점 66.8 (기본 66.8) = VPD +18.9 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +8.1 + 촉매 +5.0 + 리스크 +5.6 + 밸류에이션 +9.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 40.11353956311692,
-    "return_90d_pct": 31.05003981859047,
+    "return_30d_pct": 37.39597667256405,
+    "return_90d_pct": 28.508267437941644,
     "rsi_14": 57.64,
-    "ma_200d_deviation_pct": 21.6335300882475,
-    "high_90d_position_pct": -14.578766631127582
+    "ma_200d_deviation_pct": 19.274394999337222,
+    "high_90d_position_pct": -16.23554851382303
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.23521,
-  "market_cap_usd": 780525631,
+  "price_usd": 0.230648,
+  "market_cap_usd": 766188566,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
