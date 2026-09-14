@@ -1,5 +1,5 @@
 {
-  "rank": 16,
+  "rank": 14,
   "coin_id": "collector-crypt",
   "symbol": "cards",
   "name": "Collector Crypt",
@@ -21,22 +21,22 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 61.4,
-    "base_score": 61.4,
+    "final_score": 63.62,
+    "base_score": 63.62,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 17.7,
-        "fg_raw_pct": 67.75,
-        "fg_z": 0.01,
-        "pg_raw_pct": -1.54,
-        "pg_z": -0.22,
-        "vpd": 0.23,
-        "percentile": 88.5,
+        "points": 18.92,
+        "fg_raw_pct": 92.09,
+        "fg_z": 0.54,
+        "pg_raw_pct": -20.99,
+        "pg_z": -0.35,
+        "vpd": 0.89,
+        "percentile": 94.61,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +67.7%, PG(가격 변화) -1.5% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +92.1%, PG(가격 변화) -21.0% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -56,11 +56,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.0,
-        "raw_value": 38.87,
-        "percentile": 50.0,
+        "points": 5.88,
+        "raw_value": 19.4,
+        "percentile": 58.75,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +67.7%"
+        "reason": "프로토콜 수수료 30일 +92.1%"
       },
       "catalyst": {
         "weight": 10,
@@ -72,9 +72,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.37,
+        "points": 5.49,
         "raw_value": 0.0,
-        "percentile": 53.67,
+        "percentile": 54.86,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -86,7 +86,7 @@
         "reason": "MC/TVL 백분위 None, MC/Fees 백분위 83.3 (높을수록 저평가)"
       }
     },
-    "summary": "총점 61.4 (기본 61.4) = VPD +17.7 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.3 + 과열필터 -0.0"
+    "summary": "총점 63.6 (기본 63.6) = VPD +18.9 + 온체인 +12.5 + 개발자 +7.5 + 사용자 +5.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +8.3 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -98,25 +98,25 @@
   },
   "ai_summary": null,
   "confidence": {
-    "score": 66.1,
+    "score": 64.2,
     "coverage": 0.714,
-    "freshness": 0.75,
+    "freshness": 0.688,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -1.5351025181077143,
-    "return_90d_pct": -48.83542870254951,
-    "rsi_14": 19.59,
-    "ma_200d_deviation_pct": 9.3229367462339,
-    "high_90d_position_pct": -54.58081862983367
+    "return_30d_pct": -20.98887930987742,
+    "return_90d_pct": -40.72810332383152,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.144713,
-  "market_cap_usd": 137225001,
+  "price_usd": 0.145721,
+  "market_cap_usd": 138506560,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -169,15 +169,15 @@
       "points": [
         {
           "label": "90일 전",
-          "value": 441099
+          "value": 851461
         },
         {
           "label": "30일 전",
-          "value": 289234
+          "value": 207068
         },
         {
           "label": "현재",
-          "value": 485179
+          "value": 397759
         }
       ]
     }

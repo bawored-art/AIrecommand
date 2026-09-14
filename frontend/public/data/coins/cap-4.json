@@ -1,52 +1,50 @@
 {
-  "rank": 8,
-  "coin_id": "plasma",
-  "symbol": "xpl",
-  "name": "Plasma",
-  "badge": null,
-  "previous_rank": 9,
-  "rank_change": 1,
+  "rank": 11,
+  "coin_id": "cap-4",
+  "symbol": "cap",
+  "name": "Cap",
+  "badge": "NEW",
+  "previous_rank": null,
+  "rank_change": null,
   "overview": {
     "one_liner": null,
     "description_summary": null,
     "description_source": "CoinGecko",
     "primary_use_case": null,
     "categories": [
-      "Smart Contract Platform",
+      "Decentralized Finance (DeFi)",
       "BNB Chain Ecosystem",
-      "Layer 1 (L1)",
-      "Binance HODLer Airdrops",
-      "Neobank",
-      "Echo Launchpad"
+      "Lending/Borrowing Protocols",
+      "Ethereum Ecosystem"
     ],
-    "chain": "Plasma 자체 메인넷",
+    "chain": "Ethereum",
     "launch_year": null
   },
   "score": {
-    "final_score": 66.65,
-    "base_score": 66.65,
+    "final_score": 66.3,
+    "base_score": 66.3,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.76,
-        "fg_raw_pct": 48.15,
-        "fg_z": 0.22,
-        "pg_raw_pct": 7.14,
-        "pg_z": -0.23,
-        "vpd": 0.45,
-        "percentile": 83.82,
-        "quadrant": "leading_opportunity",
-        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
+        "points": 15.78,
+        "fg_raw_pct": 13.88,
+        "fg_z": -0.04,
+        "pg_raw_pct": -1.08,
+        "pg_z": -0.27,
+        "vpd": 0.23,
+        "percentile": 78.92,
+        "quadrant": "stagnation",
+        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +48.2%, PG(가격 변화) +7.1% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +13.9%, PG(가격 변화) -1.1% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.45,
-        "raw_value": 25.44,
-        "percentile": 85.82,
+        "points": 21.08,
+        "raw_value": 24.84,
+        "percentile": 84.33,
         "missing": false,
-        "reason": "TVL 30일 N/A, 스테이블코인 유입 30일 +41.9%"
+        "reason": "TVL 30일 +19.1%"
       },
       "developer": {
         "weight": 15,
@@ -58,11 +56,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 7.12,
-        "raw_value": 46.54,
-        "percentile": 71.25,
+        "points": 3.88,
+        "raw_value": 5.65,
+        "percentile": 38.75,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +51.9%"
+        "reason": "프로토콜 수수료 30일 +6.6%"
       },
       "catalyst": {
         "weight": 10,
@@ -82,13 +80,13 @@
       },
       "valuation": {
         "weight": 10,
-        "points": 3.33,
-        "sector_percentile": 33.3,
+        "points": 7.57,
+        "sector_percentile": 75.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 None, MC/Fees 백분위 33.3 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 80.0, MC/Fees 백분위 71.4 (높을수록 저평가)"
       }
     },
-    "summary": "총점 66.7 (기본 66.7) = VPD +16.8 + 온체인 +21.4 + 개발자 +7.5 + 사용자 +7.1 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +3.3 + 과열필터 -0.0"
+    "summary": "총점 66.3 (기본 66.3) = VPD +15.8 + 온체인 +21.1 + 개발자 +7.5 + 사용자 +3.9 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -106,19 +104,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 7.141448276768914,
-    "return_90d_pct": -9.598382692631635,
-    "rsi_14": 47.66,
-    "ma_200d_deviation_pct": -13.127818233061769,
-    "high_90d_position_pct": -27.702242877115506
+    "return_30d_pct": -1.0799865001687463,
+    "return_90d_pct": null,
+    "rsi_14": null,
+    "ma_200d_deviation_pct": null,
+    "high_90d_position_pct": null
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.08148,
-  "market_cap_usd": 226401137,
+  "price_usd": 0.061551,
+  "market_cap_usd": 96198205,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -154,47 +152,32 @@
       "points": [
         {
           "label": "90일 전",
-          "value": null
+          "value": 258684182
         },
         {
           "label": "30일 전",
-          "value": null
+          "value": 283501700.5675373
         },
         {
           "label": "현재",
-          "value": null
+          "value": 337713784.2020747
         }
       ]
     },
-    "stablecoin_inflow_usd": {
-      "points": [
-        {
-          "label": "90일 전",
-          "value": 1043654930
-        },
-        {
-          "label": "30일 전",
-          "value": 801410461
-        },
-        {
-          "label": "현재",
-          "value": 1137282785.72
-        }
-      ]
-    },
+    "stablecoin_inflow_usd": null,
     "fees_24h_usd": {
       "points": [
         {
           "label": "90일 전",
-          "value": 85
+          "value": 11178
         },
         {
           "label": "30일 전",
-          "value": 79
+          "value": 10989
         },
         {
           "label": "현재",
-          "value": 120
+          "value": 11709
         }
       ]
     }
