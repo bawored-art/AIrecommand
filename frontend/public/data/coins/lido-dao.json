@@ -1,11 +1,11 @@
 {
-  "rank": 10,
+  "rank": 9,
   "coin_id": "lido-dao",
   "symbol": "ldo",
   "name": "Lido DAO",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": -4,
+  "previous_rank": 10,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -38,46 +38,46 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.94,
-    "base_score": 65.94,
+    "final_score": 65.31,
+    "base_score": 65.31,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 8.81,
-        "fg_raw_pct": -2.19,
+        "points": 9.21,
+        "fg_raw_pct": -3.12,
         "fg_z": -0.17,
-        "pg_raw_pct": 24.38,
+        "pg_raw_pct": 18.72,
         "pg_z": -0.17,
-        "vpd": -0.0,
-        "percentile": 44.06,
+        "vpd": 0.01,
+        "percentile": 46.04,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) -2.2%, PG(가격 변화) +24.4% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) -3.1%, PG(가격 변화) +18.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 23.32,
-        "raw_value": 46.16,
-        "percentile": 93.28,
+        "points": 22.98,
+        "raw_value": 42.03,
+        "percentile": 91.91,
         "missing": false,
-        "reason": "TVL 30일 +38.5%"
+        "reason": "TVL 30일 +34.6%"
       },
       "developer": {
         "weight": 15,
-        "points": 7.35,
+        "points": 6.89,
         "raw_value": -25.0,
-        "percentile": 49.0,
+        "percentile": 45.92,
         "missing": false,
         "reason": "커밋 페이스(30일/90일 평균 대비) 0.00배 (둔화), 릴리즈 30일 1건"
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 5.98,
-        "raw_value": 39.96,
-        "percentile": 59.76,
+        "points": 5.73,
+        "raw_value": 42.3,
+        "percentile": 57.32,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +38.6%"
+        "reason": "프로토콜 수수료 30일 +40.9%"
       },
       "catalyst": {
         "weight": 10,
@@ -89,9 +89,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.48,
+        "points": 5.5,
         "raw_value": 0.0,
-        "percentile": 54.82,
+        "percentile": 55.0,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -103,7 +103,7 @@
         "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 100.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.9 (기본 65.9) = VPD +8.8 + 온체인 +23.3 + 개발자 +7.3 + 사용자 +6.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
+    "summary": "총점 65.3 (기본 65.3) = VPD +9.2 + 온체인 +23.0 + 개발자 +6.9 + 사용자 +5.7 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +10.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -121,19 +121,19 @@
     "consistency": 0.667
   },
   "technical_reference": {
-    "return_30d_pct": 24.377363828332598,
-    "return_90d_pct": 33.272942035622236,
-    "rsi_14": 52.27,
-    "ma_200d_deviation_pct": 3.4030400734426265,
-    "high_90d_position_pct": -11.38272962736537
+    "return_30d_pct": 18.723035938610348,
+    "return_90d_pct": 27.21421165332018,
+    "rsi_14": 44.71,
+    "ma_200d_deviation_pct": -1.086618351974727,
+    "high_90d_position_pct": -15.411365449480321
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.369305,
-  "market_cap_usd": 308137397,
+  "price_usd": 0.352516,
+  "market_cap_usd": 294051839,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -177,7 +177,7 @@
         },
         {
           "label": "현재",
-          "value": 24764637136.16336
+          "value": 24064893138.514095
         }
       ]
     },
@@ -194,7 +194,7 @@
         },
         {
           "label": "현재",
-          "value": 1614709
+          "value": 1641690
         }
       ]
     }
