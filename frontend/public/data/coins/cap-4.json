@@ -4,8 +4,8 @@
   "symbol": "cap",
   "name": "Cap",
   "badge": null,
-  "previous_rank": 3,
-  "rank_change": -5,
+  "previous_rank": 8,
+  "rank_change": 0,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -21,30 +21,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 65.89,
-    "base_score": 65.89,
+    "final_score": 65.45,
+    "base_score": 65.45,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.53,
-        "fg_raw_pct": 1.8,
-        "fg_z": -0.16,
-        "pg_raw_pct": -7.89,
-        "pg_z": -0.27,
-        "vpd": 0.11,
-        "percentile": 82.67,
+        "points": 16.7,
+        "fg_raw_pct": 0.7,
+        "fg_z": -0.17,
+        "pg_raw_pct": -13.71,
+        "pg_z": -0.3,
+        "vpd": 0.13,
+        "percentile": 83.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +1.8%, PG(가격 변화) -7.9% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +0.7%, PG(가격 변화) -13.7% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 20.41,
-        "raw_value": 22.62,
-        "percentile": 81.62,
+        "points": 19.89,
+        "raw_value": 20.47,
+        "percentile": 79.55,
         "missing": false,
-        "reason": "TVL 30일 +17.1%"
+        "reason": "TVL 30일 +15.0%"
       },
       "developer": {
         "weight": 15,
@@ -56,67 +56,67 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.29,
-        "raw_value": 11.67,
-        "percentile": 32.93,
+        "points": 3.38,
+        "raw_value": 12.0,
+        "percentile": 33.75,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 -19.6%"
+        "reason": "프로토콜 수수료 30일 -19.3%"
       },
       "catalyst": {
         "weight": 10,
         "points": 5.0,
-        "raw_value": 0,
-        "percentile": 50.0,
-        "missing": false,
-        "reason": "향후 촉매 없음"
+        "raw_value": null,
+        "percentile": null,
+        "missing": true,
+        "reason": "LLM 미가용으로 촉매 분석 결측"
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.66,
-        "sector_percentile": 76.6,
+        "points": 7.57,
+        "sector_percentile": 75.7,
         "missing": false,
-        "reason": "MC/TVL 백분위 81.8, MC/Fees 백분위 71.4 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 80.0, MC/Fees 백분위 71.4 (높을수록 저평가)"
       }
     },
-    "summary": "총점 65.9 (기본 65.9) = VPD +16.5 + 온체인 +20.4 + 개발자 +7.5 + 사용자 +3.3 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.7 + 과열필터 -0.0"
+    "summary": "총점 65.5 (기본 65.5) = VPD +16.7 + 온체인 +19.9 + 개발자 +7.5 + 사용자 +3.4 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +7.6 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
   "risk_summary": null,
   "upcoming_catalysts": {
-    "catalysts": [],
+    "catalysts": null,
     "token_unlock_schedule": null,
     "token_unlock_note": "무료 언락 일정 API 미연동으로 결측 (Stage2 RiskAnalyzer와 동일 사유)"
   },
   "ai_summary": null,
   "confidence": {
-    "score": 71.8,
-    "coverage": 0.857,
-    "freshness": 0.75,
+    "score": 58.6,
+    "coverage": 0.714,
+    "freshness": 0.5,
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": -7.891117821160572,
+    "return_30d_pct": -13.714909264850972,
     "return_90d_pct": null,
-    "rsi_14": null,
+    "rsi_14": 39.91,
     "ma_200d_deviation_pct": null,
-    "high_90d_position_pct": null
+    "high_90d_position_pct": -20.617388275139874
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.061619,
-  "market_cap_usd": 96223161,
+  "price_usd": 0.057723,
+  "market_cap_usd": 90154322,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -160,7 +160,7 @@
         },
         {
           "label": "현재",
-          "value": 331574032.0671577
+          "value": 325766146.31487024
         }
       ]
     },
@@ -177,7 +177,7 @@
         },
         {
           "label": "현재",
-          "value": 11982
+          "value": 12017
         }
       ]
     }

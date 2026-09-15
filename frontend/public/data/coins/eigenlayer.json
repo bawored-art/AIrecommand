@@ -1,11 +1,11 @@
 {
-  "rank": 5,
+  "rank": 1,
   "coin_id": "eigenlayer",
   "symbol": "eigen",
   "name": "EigenCloud (prev. EigenLayer)",
   "badge": null,
-  "previous_rank": 11,
-  "rank_change": 6,
+  "previous_rank": 5,
+  "rank_change": 4,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -27,30 +27,30 @@
     "launch_year": null
   },
   "score": {
-    "final_score": 67.46,
-    "base_score": 67.46,
+    "final_score": 76.56,
+    "base_score": 76.56,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 16.73,
-        "fg_raw_pct": 68.88,
-        "fg_z": -0.05,
-        "pg_raw_pct": 17.64,
-        "pg_z": -0.18,
-        "vpd": 0.12,
-        "percentile": 83.66,
-        "quadrant": "stagnation",
-        "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
+        "points": 19.5,
+        "fg_raw_pct": 627.98,
+        "fg_z": 0.84,
+        "pg_raw_pct": 13.76,
+        "pg_z": -0.19,
+        "vpd": 1.02,
+        "percentile": 97.5,
+        "quadrant": "leading_opportunity",
+        "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +68.9%, PG(가격 변화) +17.6% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +628.0%, PG(가격 변화) +13.8% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
-        "points": 21.88,
-        "raw_value": 30.23,
-        "percentile": 87.5,
+        "points": 21.78,
+        "raw_value": 25.89,
+        "percentile": 87.12,
         "missing": false,
-        "reason": "TVL 30일 +29.9%"
+        "reason": "TVL 30일 +25.6%"
       },
       "developer": {
         "weight": 15,
@@ -62,11 +62,11 @@
       },
       "user_ecosystem": {
         "weight": 10,
-        "points": 3.54,
-        "raw_value": 12.58,
-        "percentile": 35.37,
+        "points": 8.62,
+        "raw_value": 691.73,
+        "percentile": 86.25,
         "missing": false,
-        "reason": "프로토콜 수수료 30일 +123.4%"
+        "reason": "프로토콜 수수료 30일 +1471.3%"
       },
       "catalyst": {
         "weight": 10,
@@ -78,21 +78,21 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
       "valuation": {
         "weight": 10,
-        "points": 7.31,
-        "sector_percentile": 73.1,
+        "points": 8.75,
+        "sector_percentile": 87.5,
         "missing": false,
-        "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 46.2 (높을수록 저평가)"
+        "reason": "MC/TVL 백분위 100.0, MC/Fees 백분위 75.0 (높을수록 저평가)"
       }
     },
-    "summary": "총점 67.5 (기본 67.5) = VPD +16.7 + 온체인 +21.9 + 개발자 +7.5 + 사용자 +3.5 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +7.3 + 과열필터 -0.0"
+    "summary": "총점 76.6 (기본 76.6) = VPD +19.5 + 온체인 +21.8 + 개발자 +7.5 + 사용자 +8.6 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +8.8 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -110,19 +110,19 @@
     "consistency": 1.0
   },
   "technical_reference": {
-    "return_30d_pct": 17.640061782825086,
-    "return_90d_pct": -5.354964858989288,
+    "return_30d_pct": 13.76028974014524,
+    "return_90d_pct": -8.476360374714483,
     "rsi_14": 50.79,
-    "ma_200d_deviation_pct": -12.63160098417162,
-    "high_90d_position_pct": -30.195498868705872
+    "ma_200d_deviation_pct": -15.513012866979697,
+    "high_90d_position_pct": -32.49765298047758
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.198787,
-  "market_cap_usd": 183466216,
+  "price_usd": 0.192231,
+  "market_cap_usd": 177428759,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
@@ -166,7 +166,7 @@
         },
         {
           "label": "현재",
-          "value": 6507631316.489161
+          "value": 6290814735.637696
         }
       ]
     },
@@ -183,7 +183,7 @@
         },
         {
           "label": "현재",
-          "value": 639
+          "value": 4494
         }
       ]
     }

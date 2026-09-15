@@ -1,11 +1,11 @@
 {
-  "rank": 20,
+  "rank": 15,
   "coin_id": "decentraland",
   "symbol": "mana",
   "name": "Decentraland",
-  "badge": "NEW",
-  "previous_rank": null,
-  "rank_change": null,
+  "badge": null,
+  "previous_rank": 20,
+  "rank_change": 5,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -28,22 +28,22 @@
     "launch_year": 2017
   },
   "score": {
-    "final_score": 59.88,
-    "base_score": 59.88,
+    "final_score": 60.13,
+    "base_score": 60.13,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 13.56,
+        "points": 13.9,
         "fg_raw_pct": 29.7,
         "fg_z": -0.12,
-        "pg_raw_pct": 14.82,
+        "pg_raw_pct": 12.63,
         "pg_z": -0.19,
         "vpd": 0.07,
-        "percentile": 67.82,
+        "percentile": 69.5,
         "quadrant": "stagnation",
         "quadrant_label": "침체 (펀더멘털·가격 모두 부진)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +29.7%, PG(가격 변화) +14.8% → 침체 (펀더멘털·가격 모두 부진)"
+        "reason": "FG(펀더멘털 성장) +29.7%, PG(가격 변화) +12.6% → 침체 (펀더멘털·가격 모두 부진)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -79,9 +79,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.5,
+        "points": 5.41,
         "raw_value": 0.0,
-        "percentile": 55.0,
+        "percentile": 54.07,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -93,7 +93,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 59.9 (기본 59.9) = VPD +13.6 + 온체인 +12.5 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 60.1 (기본 60.1) = VPD +13.9 + 온체인 +12.5 + 개발자 +13.3 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.4 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -111,19 +111,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 14.820164214955161,
-    "return_90d_pct": 5.889094710553104,
+    "return_30d_pct": 12.62853823570968,
+    "return_90d_pct": 3.867940216713713,
     "rsi_14": 49.76,
-    "ma_200d_deviation_pct": -9.155404387820857,
-    "high_90d_position_pct": -5.92627745925711
+    "ma_200d_deviation_pct": -10.889397516806207,
+    "high_90d_position_pct": -7.721906438663931
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.073137,
-  "market_cap_usd": 143228131,
+  "price_usd": 0.071741,
+  "market_cap_usd": 140482273,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
