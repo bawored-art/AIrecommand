@@ -1,11 +1,11 @@
 {
-  "rank": 7,
+  "rank": 6,
   "coin_id": "fetch-ai",
   "symbol": "fet",
   "name": "Artificial Superintelligence Alliance",
   "badge": null,
-  "previous_rank": 6,
-  "rank_change": -1,
+  "previous_rank": 7,
+  "rank_change": 1,
   "overview": {
     "one_liner": null,
     "description_summary": null,
@@ -31,22 +31,22 @@
     "launch_year": 2019
   },
   "score": {
-    "final_score": 67.4,
-    "base_score": 67.4,
+    "final_score": 66.99,
+    "base_score": 66.99,
     "breakdown": {
       "vpd": {
         "weight": 20,
-        "points": 19.71,
+        "points": 19.31,
         "fg_raw_pct": 200.0,
-        "fg_z": 1.34,
-        "pg_raw_pct": 31.42,
-        "pg_z": -0.14,
-        "vpd": 1.48,
-        "percentile": 98.53,
+        "fg_z": 0.88,
+        "pg_raw_pct": 30.35,
+        "pg_z": -0.15,
+        "vpd": 1.02,
+        "percentile": 96.53,
         "quadrant": "leading_opportunity",
         "quadrant_label": "선행 기회 (펀더멘털 개선, 가격 미반영)",
         "missing": false,
-        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +31.4% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
+        "reason": "FG(펀더멘털 성장) +200.0%, PG(가격 변화) +30.3% → 선행 기회 (펀더멘털 개선, 가격 미반영)"
       },
       "onchain_growth": {
         "weight": 25,
@@ -82,9 +82,9 @@
       },
       "risk": {
         "weight": 10,
-        "points": 5.49,
+        "points": 5.48,
         "raw_value": 0.0,
-        "percentile": 54.86,
+        "percentile": 54.82,
         "missing": false,
         "reason": "감지된 리스크 플래그 없음"
       },
@@ -96,7 +96,7 @@
         "reason": "섹터 동료 표본 부족으로 밸류에이션 백분위 결측"
       }
     },
-    "summary": "총점 67.4 (기본 67.4) = VPD +19.7 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
+    "summary": "총점 67.0 (기본 67.0) = VPD +19.3 + 온체인 +12.5 + 개발자 +14.7 + 사용자 +5.0 + 촉매 +5.0 + 리스크 +5.5 + 밸류에이션 +5.0 + 과열필터 -0.0"
   },
   "leading_evidence_summary": null,
   "detailed_reasons": null,
@@ -114,19 +114,19 @@
     "consistency": 0.5
   },
   "technical_reference": {
-    "return_30d_pct": 31.423378163322628,
-    "return_90d_pct": -21.02771904824053,
+    "return_30d_pct": 30.34689713119673,
+    "return_90d_pct": -20.56580038233704,
     "rsi_14": 60.83,
-    "ma_200d_deviation_pct": -12.43130672083736,
-    "high_90d_position_pct": -15.652823418538725
+    "ma_200d_deviation_pct": -15.332261063719473,
+    "high_90d_position_pct": -18.447056140886072
   },
   "overheat": {
     "excluded": false,
     "penalty": 0.0,
     "reasons": []
   },
-  "price_usd": 0.168469,
-  "market_cap_usd": 389842898,
+  "price_usd": 0.162888,
+  "market_cap_usd": 376555294,
   "field_status": {
     "leading_evidence_summary": {
       "status": "missing",
